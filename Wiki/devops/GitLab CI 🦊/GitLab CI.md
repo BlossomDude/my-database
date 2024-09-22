@@ -5,9 +5,6 @@ Created time: 2023-10-24T09:59
 ---
 [[Pipeline’s]]
 
-  
-
-  
 
 > [!important]  
 > Переменные GITLAB  

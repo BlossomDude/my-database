@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Markdown help/help.md",
+                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Markdown help/help.md",
+                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Markdown help/help.md",
+                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Markdown help/help.md"
+                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md"
               }
             }
           },
@@ -157,17 +157,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f137473116299043",
+  "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
-    "Wiki/Linux/Inode/stat. форматирование вывода.md",
     "Wiki/Markdown help/help.md",
+    "Wiki/Linux/Inode/stat. форматирование вывода.md",
     "Wiki/devops/HELM⛑️/HELM.md",
     "Wiki/Markdown help",
     "Wiki/devops/HELM⛑️/Команды.md",
     "Wiki/devops/HELM/example.md",
     "Структура.md",
-    "Wiki/devops/GitLab CI/Pipeline’s.md",
-    "Wiki/devops/GitLab CI/GitLab CI.md",
+    "Wiki/devops/GitLab CI 🦊/Pipeline’s.md",
+    "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
     "Wiki/devops/Ansible/Modules.md",
     "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
     "Wiki/devops/Ansible/Условия.md",
