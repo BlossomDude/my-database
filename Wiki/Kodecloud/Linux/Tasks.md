@@ -32,3 +32,7 @@ b. Add the user `kano` into the `nautilus_sftp_users` group on all App serve
 
 ### Solution:
 
+ssh user@hostname
+sudo groupadd nautilus_sftp_users
+sudo useradd kano 
+sudo usermod -a -G nautilus_sftp_users kano
