@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker/Security Docker.md",
+                "file": "Wiki/Docker 🐋/Security Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Docker/Security Docker.md",
+                "file": "Wiki/Docker 🐋/Security Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Docker/Security Docker.md",
+                "file": "Wiki/Docker 🐋/Security Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Docker/Security Docker.md"
+                "file": "Wiki/Docker 🐋/Security Docker.md"
               }
             }
           },
@@ -161,7 +161,7 @@
   "lastOpenFiles": [
     "Wiki/Windows/Отчистка диска.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
-    "Wiki/Docker/Основные компоненты Docker/Основные компоненты Docker.md",
+    "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Не подтверждено 272920.~",
     "Wiki/Windows/Активация винды.md",
     "Wiki/IT English voculabury.md",
@@ -186,8 +186,8 @@
     "Wiki/Собес Богдана.md",
     "Wiki/курсовая.md",
     "Wiki/Work/76323/76323.md",
-    "Wiki/Docker/Compose Docker/Compose Docker.md",
-    "Wiki/Docker/Compose Docker/Команды.md",
+    "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
+    "Wiki/Docker 🐋/Compose Docker/Команды.md",
     "Wiki/devops ♻️/Terraform 🏭",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/devops ♻️/devops.md",
@@ -196,7 +196,7 @@
     "Wiki/devops ♻️/YAML✏️/YAML.md",
     "Wiki/devops ♻️/Vagrant 🔷/Vagrant.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
-    "Wiki/Markdown help",
+    "Wiki/Markdown help 🆘",
     "жизнь",
     "Wiki/Windows",
     "ansible-4eto-tam.pdf",
