@@ -29,22 +29,44 @@ The system admin team at `xFusionCorp Industries` has streamlined access manag
 a. Create a group named `nautilus_sftp_users` across all App servers within the `Stratos Datacenter`.  
   
 b. Add the user `kano` into the `nautilus_sftp_users` group on all App servers. If the user doesn't exist, create it as well.
+
+---
+
+Команда системных администраторов "xFusionCorp Industries" упростила управление доступом, внедрив групповой контроль доступа. Вот что вам нужно сделать: 
+
+
+a. Создайте группу с именем "nautilus_sftp_users" на всех серверах приложений в "Центре обработки данных Stratos`. 
+
+б. Добавьте пользователя "kano" в группу "nautilus_sftp_users" на всех серверах приложений. Если пользователь не существует, создайте его.
 ```
 
 ### Solution:
 
+``` bash
 ssh user@hostname
 sudo groupadd nautilus_sftp_users
-id kano
+id kano                                     # Узнает существует ли пользователь
 sudo useradd kano 
 sudo usermod -a -G nautilus_sftp_users kano
+```
+
 
 
 # 3: Linux User Setup with Non-Interactive Shell
-
+### Problem
+``` text
 To accommodate the backup agent tool's specifications, the system admin team at `xFusionCorp Industries` requires the creation of a user with a non-interactive shell. Here's your task:  
-  
-
-  
 
 Create a user named `kareem` with a non-interactive shell on `App Server 2`.
+
+___
+
+
+Чтобы соответствовать спецификациям инструмента backup agent, команде системных администраторов `xFusionCorp Industries` требуется создать пользователя с неинтерактивной оболочкой. Вот ваша задача: 
+
+Создайте пользователя с именем "Карим" с неинтерактивной оболочкой на "Сервере приложений 2`.
+
+```
+
+>**Non-interactive shell** – это оболочка, которая используется для выполнения автоматизированных сценариев или команд, не требующих взаимодействия с пользователем. В отличие от интерактивной оболочки, где пользователь вводит команды напрямую, неинтерактивная оболочка работает без обычной среды и настроек интерактивного сеанса, позволяя выполнять команды без прерываний. Это особенно полезно при автоматизации задач, таких как ежедневное резервное копирование данных через cron-задания, где скрипт запускается автоматически в заданное время без участия человека.
+### Solution:
