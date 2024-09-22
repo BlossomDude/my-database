@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9057bed7de787422",
+        "id": "5fcd68436ddac042",
         "type": "tabs",
         "children": [
           {
-            "id": "27eb512c5cb72109",
+            "id": "f137473116299043",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
+                "file": "Wiki/devops/HELM/HELM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
+                "file": "Wiki/devops/HELM/HELM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
+                "file": "Wiki/devops/HELM/HELM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md"
+                "file": "Wiki/devops/HELM/HELM.md"
               }
             }
           },
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,35 +155,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9c7a60249b38cf4",
+  "active": "f137473116299043",
   "lastOpenFiles": [
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Какой номер порта используется для PING-коммуникации.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Как ты можешь ускорить чтение по большой таблице в БД.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Задача про дебаг приложения.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/1. Расскажи о стеке TCP-IP.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/1. Опиши этапы загрузки Linux.md",
+    "Wiki/devops/HELM/Команды.md",
+    "Структура.md",
+    "Wiki/devops/HELM/HELM.md",
+    "Wiki/devops/GitLab CI/Pipeline’s.md",
+    "Wiki/devops/GitLab CI/GitLab CI.md",
+    "Wiki/devops/Ansible/Modules.md",
+    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
+    "Wiki/devops/Ansible/Условия.md",
+    "Wiki/devops/Ansible/Команды.md",
+    "Wiki/devops/Ansible/Playbook.md",
+    "Wiki/devops/Ansible/Roles.md",
+    "Wiki/devops/ЮниКредит/Pipelines.md",
+    "Wiki/devops/ЮниКредит/ЮниКредит.md",
+    "Wiki/devops/ЮниКредит/Романов Передача Дел.md",
+    "Wiki/devops/ЮниКредит/Передача дел Романова.md",
+    "Wiki/devops/ЮниКредит/Ошибка- Podman load.md",
+    "Wiki/devops/ЮниКредит/Зачем root в podman.md",
+    "Wiki/devops/РСХБ/РСХБ.md",
+    "Wiki/devops/РСХБ/Деплой в банк.md",
+    "Wiki/devops/Вопросы с собесов/Топ вопросов инженеру.md",
+    "Wiki/devops/Вопросы с собесов/конспект собеса Васи.md",
+    "Wiki/devops/Вопросы с собесов/Газп.md",
+    "Wiki/devops/Вопросы с собесов/Вопросы с собесов.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Какими могут быть ключи словарей в Python.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Какие основные принципы объектно-ориентированного программирования.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
     "Untitled 30.png",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/3. Что такое SRE.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/Собеседование у Антона Павленко. Часть I.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/2. Какие практики DevOps ты знаешь.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/1. Что такое DevOps.md",
-    "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
-    "Wiki/devops/Вопросы для изучения/VIRT RAM.md",
-    "Wiki/ЯП для OPS/Go.md",
-    "Wiki/ЯП для OPS/Java.md",
-    "Wiki/ЯП для OPS/JS.md",
-    "Wiki/ЯП для OPS/Python.md",
-    "Wiki/ЯП для OPS/ЯП для OPS.md",
-    "Wiki/Черновик/Черновик.md",
-    "Wiki/Черновик/28.01.md",
-    "Wiki/Ссылки.md",
-    "Wiki/Ссылки на статьи/Ссылки на статьи/Факты и отличия CMD и ENTRYPOINT.md",
-    "Wiki/Ссылки на статьи/Ссылки на статьи/Руководство для создания вм в hyper-v с помощью Vagrant и Ansible.md",
-    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled.md",
-    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled 2.md",
-    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled 3.md",
-    "Wiki/Мониторинг/Мониторинг.md",
-    "Wiki/Мониторинг/Prometheus.md",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
     "whale-in-world-wide-web.png",
