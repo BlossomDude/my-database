@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md"
+                "file": "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/В чем отличие git merge от git rebase.md"
               }
             }
           },
@@ -155,8 +155,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27eb512c5cb72109",
+  "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Какой номер порта используется для PING-коммуникации.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Как ты можешь ускорить чтение по большой таблице в БД.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/3. Задача про дебаг приложения.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/1. Расскажи о стеке TCP-IP.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть II/1. Опиши этапы загрузки Linux.md",
+    "Untitled 30.png",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/3. Что такое SRE.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/Собеседование у Антона Павленко. Часть I.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/2. Какие практики DevOps ты знаешь.md",
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть I/1. Что такое DevOps.md",
+    "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+    "Wiki/devops/Вопросы для изучения/VIRT RAM.md",
     "Wiki/ЯП для OPS/Go.md",
     "Wiki/ЯП для OPS/Java.md",
     "Wiki/ЯП для OPS/JS.md",
@@ -172,17 +184,6 @@
     "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled 3.md",
     "Wiki/Мониторинг/Мониторинг.md",
     "Wiki/Мониторинг/Prometheus.md",
-    "Wiki/Мониторинг/Zabbix.md",
-    "Wiki/Задачник deusOps/1.md",
-    "Wiki/Задачник deusOps/2.md",
-    "Wiki/Задачник/Задачник.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта)/Задание Пукегу.md",
-    "Задачи Bash (~90 шт.) и другие ЯП.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/полезные ссылки.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания/Большая база знаний по теории DevOps, много знаний по темам Linux, bash, ci-cd etc.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания/База вопросов с собесов.md",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
     "whale-in-world-wide-web.png",
@@ -190,7 +191,6 @@
     "Wiki/Windows",
     "mqdefault.jpg",
     "osi.png",
-    "Untitled 30.png",
     "free-icon-devops-11245676.png",
     "free-icon-database-storage-5732810.png",
     "folder_type_kubernetes_opened_icon_129928.png",
