@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/HELM/Команды.md",
+                "file": "Wiki/devops/HELM/HELM⛑️.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops/HELM/Команды.md",
+                "file": "Wiki/devops/HELM/HELM⛑️.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops/HELM/Команды.md",
+                "file": "Wiki/devops/HELM/HELM⛑️.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops/HELM/Команды.md"
+                "file": "Wiki/devops/HELM/HELM⛑️.md"
               }
             }
           },
@@ -157,9 +157,9 @@
   },
   "active": "f137473116299043",
   "lastOpenFiles": [
-    "Wiki/devops/HELM/HELM.md",
-    "Wiki/devops/HELM/example.md",
     "Wiki/devops/HELM/Команды.md",
+    "Wiki/devops/HELM/HELM⛑️.md",
+    "Wiki/devops/HELM/example.md",
     "Структура.md",
     "Wiki/devops/GitLab CI/Pipeline’s.md",
     "Wiki/devops/GitLab CI/GitLab CI.md",
