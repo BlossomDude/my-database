@@ -152,13 +152,16 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "f137473116299043",
   "lastOpenFiles": [
-    "Wiki/devops/HELM⛑️/HELM.md",
+    "Wiki/Linux/Inode/stat. форматирование вывода.md",
     "Wiki/Markdown help/help.md",
+    "Wiki/devops/HELM⛑️/HELM.md",
     "Wiki/Markdown help",
     "Wiki/devops/HELM⛑️/Команды.md",
     "Wiki/devops/HELM/example.md",
@@ -183,7 +186,6 @@
     "Wiki/devops/Вопросы с собесов/конспект собеса Васи.md",
     "Wiki/devops/Вопросы с собесов/Газп.md",
     "Wiki/devops/Вопросы с собесов/Вопросы с собесов.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Какими могут быть ключи словарей в Python.md",
     "Untitled 30.png",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
