@@ -4,8 +4,9 @@
 - [[#2:|2:Group Creation and User Assignment]]
 	- [[#Problem:|Problem]]
 	- [[#Solution:|Solution]]
-- [[#3:|3]]
-
+- [[#3: Linux User Setup with Non-Interactive Shell:|3: Linux User Setup with Non-Interactive Shell]]
+	- [[#Problem3:|Problem]]
+	- [[#Solution3:|Solution]]
 # STRATUS DC:
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
@@ -53,7 +54,7 @@ sudo usermod -a -G nautilus_sftp_users kano
 
 
 # 3: Linux User Setup with Non-Interactive Shell
-### Problem
+### Problem3
 ``` text
 To accommodate the backup agent tool's specifications, the system admin team at `xFusionCorp Industries` requires the creation of a user with a non-interactive shell. Here's your task:  
 
@@ -69,4 +70,18 @@ ___
 ```
 
 >**Non-interactive shell** – это оболочка, которая используется для выполнения автоматизированных сценариев или команд, не требующих взаимодействия с пользователем. В отличие от интерактивной оболочки, где пользователь вводит команды напрямую, неинтерактивная оболочка работает без обычной среды и настроек интерактивного сеанса, позволяя выполнять команды без прерываний. Это особенно полезно при автоматизации задач, таких как ежедневное резервное копирование данных через cron-задания, где скрипт запускается автоматически в заданное время без участия человека.
-### Solution:
+### Solution3:
+
+``` bash
+ssh user@hostname 
+sudo adduser kareem -s /sbin/login   #выбрать оболчку новому пользователю
+```
+
+# 4
+### Problem4
+```text
+```
+
+### Solution4
+```bash
+```
