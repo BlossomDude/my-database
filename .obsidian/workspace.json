@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5fcd68436ddac042",
+        "id": "336429157b6b6d5f",
         "type": "tabs",
         "children": [
           {
-            "id": "f137473116299043",
+            "id": "1229064b810c4371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker 🐋/Security Docker.md",
+                "file": "Wiki/Kodecloud/Linux/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Docker 🐋/Security Docker.md",
+                "file": "Wiki/Kodecloud/Linux/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Docker 🐋/Security Docker.md",
+                "file": "Wiki/Kodecloud/Linux/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Docker 🐋/Security Docker.md"
+                "file": "Wiki/Kodecloud/Linux/Tasks.md"
               }
             }
           },
@@ -157,8 +157,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f137473116299043",
+  "active": "1229064b810c4371",
   "lastOpenFiles": [
+    "Wiki/Kodecloud/Linux/Tasks.md",
+    "Wiki/Kodecloud/Linux",
+    "Wiki/Kodecloud/Без названия.md",
+    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+    "Wiki/Kodecloud",
+    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
+    "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/Windows 🟩/Отчистка диска.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
@@ -189,13 +196,9 @@
     "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
     "Wiki/Docker 🐋/Compose Docker/Команды.md",
     "Wiki/devops ♻️/Terraform 🏭",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/devops ♻️/devops.md",
     "Wiki/devops ♻️/Задачи.md",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/devops ♻️/YAML✏️/YAML.md",
-    "Wiki/devops ♻️/Vagrant 🔷/Vagrant.md",
-    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Markdown help 🆘",
     "жизнь",
     "Wiki/Windows 🟩",
