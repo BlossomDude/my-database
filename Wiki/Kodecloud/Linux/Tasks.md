@@ -1,6 +1,7 @@
 
 - [[#STRATUS DC:|STRATUS DC - Данные об инфраструктуре]]
-- [[#2:|2]]
+
+- [[#2:|2:Group Creation and User Assignment]]
 	- [[#Problem:|Problem]]
 	- [[#Solution:|Solution]]
 - [[#3:|3]]
@@ -19,7 +20,7 @@
 | jump_host | Dynamic       | jump_host.stratos.xfusioncorp.com | thor    | mjolnir123 | Jump Server to Access Stork DC |
 | jenkins   | 172.16.238.19 | jenkins.stratos.xfusioncorp.com   | jenkins | j@rv!s     | Jenkins Server for CI/CD       |
 
-# 2
+# 2: Group Creation and User Assignment
 ### Problem
 
 ```text
