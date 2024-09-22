@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Docker/Security Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Docker/Security Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Docker/Security Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/IT English voculabury.md"
+                "file": "Wiki/Docker/Security Docker.md"
               }
             }
           },
@@ -159,6 +159,12 @@
   },
   "active": "f137473116299043",
   "lastOpenFiles": [
+    "Wiki/Windows/Отчистка диска.md",
+    "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
+    "Wiki/Docker/Основные компоненты Docker/Основные компоненты Docker.md",
+    "Не подтверждено 272920.~",
+    "Wiki/Windows/Активация винды.md",
+    "Wiki/IT English voculabury.md",
     "Wiki/Ссылки на статьи.md",
     "README.md",
     "Задачи Bash (~90 шт.) и другие ЯП.md",
@@ -172,8 +178,6 @@
     "ten-whale-s-with-a-database.png",
     "31638f953e7a82daba91e51f13ccecc4.png",
     "9576f91d2353ad868a0e365994e14ade.jpg",
-    "243a011ed04f455099a4ba64a87736f6.png",
-    "Wiki/IT English voculabury.md",
     "Wiki/Podman.md",
     "Wiki/Wiki.md",
     "Untitled 2.md",
@@ -192,10 +196,6 @@
     "Wiki/devops ♻️/YAML✏️/YAML.md",
     "Wiki/devops ♻️/Vagrant 🔷/Vagrant.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/devops ♻️/GitLab CI 🦊/GitLab CI.md",
-    "Wiki/Markdown help/help.md",
-    "Wiki/Linux/Inode/stat. форматирование вывода.md",
     "Wiki/Markdown help",
     "жизнь",
     "Wiki/Windows",

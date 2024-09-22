@@ -26,3 +26,5 @@ Created time: 2024-07-11T15:47
 `--tlscacert=cert`
 
 `--tlsverify-true`
+
+![lol](obsidian://open?vault=my-database&file=ooTKTJlEM6YuD1ViQnM0_g.jpeg)
