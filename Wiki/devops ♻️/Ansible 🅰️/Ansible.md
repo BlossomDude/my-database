@@ -3,7 +3,7 @@ Owner: Blossom Dude
 Last edited time: 2024-02-20T20:24
 Created time: 2023-06-30T11:26
 ---
-[[Wiki/devops/Ansible/Команды|Команды]]
+[[Wiki/devops ♻️/Ansible 🅰️/Команды|Команды]]
 
 [[Roles]]
 

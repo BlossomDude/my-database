@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 323.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops/GitLab CI 🦊/GitLab CI.md"
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md"
               }
             }
           },
@@ -157,23 +157,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c9c7a60249b38cf4",
+  "active": "f137473116299043",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/GitLab CI 🦊/GitLab CI.md",
     "Wiki/Markdown help/help.md",
     "Wiki/Linux/Inode/stat. форматирование вывода.md",
-    "Wiki/devops/HELM⛑️/HELM.md",
+    "Wiki/devops ♻️/HELM⛑️/HELM.md",
     "Wiki/Markdown help",
-    "Wiki/devops/HELM⛑️/Команды.md",
+    "Wiki/devops ♻️/HELM⛑️/Команды.md",
     "Wiki/devops/HELM/example.md",
     "Структура.md",
-    "Wiki/devops/GitLab CI 🦊/Pipeline’s.md",
-    "Wiki/devops/GitLab CI 🦊/GitLab CI.md",
-    "Wiki/devops/Ansible/Modules.md",
-    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
-    "Wiki/devops/Ansible/Условия.md",
-    "Wiki/devops/Ansible/Команды.md",
-    "Wiki/devops/Ansible/Playbook.md",
-    "Wiki/devops/Ansible/Roles.md",
+    "Wiki/devops ♻️/GitLab CI 🦊/Pipeline’s.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Условия.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Roles.md",
     "Wiki/devops/ЮниКредит/Pipelines.md",
     "Wiki/devops/ЮниКредит/ЮниКредит.md",
     "Wiki/devops/ЮниКредит/Романов Передача Дел.md",
@@ -182,8 +182,8 @@
     "Wiki/devops/ЮниКредит/Зачем root в podman.md",
     "Wiki/devops/РСХБ/РСХБ.md",
     "Wiki/devops/РСХБ/Деплой в банк.md",
-    "Wiki/devops/Вопросы с собесов/Топ вопросов инженеру.md",
-    "Wiki/devops/Вопросы с собесов/конспект собеса Васи.md",
+    "Wiki/devops ♻️/Вопросы с собесов ❓/Топ вопросов инженеру.md",
+    "Wiki/devops ♻️/Вопросы с собесов ❓/конспект собеса Васи.md",
     "Wiki/devops/Вопросы с собесов/Газп.md",
     "Wiki/devops/Вопросы с собесов/Вопросы с собесов.md",
     "Untitled 30.png",

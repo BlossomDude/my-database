@@ -3,7 +3,7 @@ Owner: Blossom Dude
 Last edited time: 2024-06-10T16:05
 Created time: 2023-06-30T11:21
 ---
-[[Wiki/devops/Ansible/Ansible|Ansible]]
+[[Wiki/devops ♻️/Ansible 🅰️/Ansible|Ansible]]
 
 [[Задачи]]
 
