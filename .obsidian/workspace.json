@@ -13,32 +13,11 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "44740_database_icon.png"
-              }
-            }
-          },
-          {
-            "id": "918fe21591d8e48f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "44810_design_web_icon.png"
-              }
-            }
-          },
-          {
-            "id": "66c1680394260a20",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "44740_database_icon.png"
+                "file": "whale-in-world-wide-web.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "44740_database_icon.png",
+                "file": "whale-in-world-wide-web.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "44740_database_icon.png",
+                "file": "whale-in-world-wide-web.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "44740_database_icon.png"
+                "file": "whale-in-world-wide-web.png"
               }
             }
           },
@@ -176,11 +155,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "66c1680394260a20",
+  "active": "f137473116299043",
   "lastOpenFiles": [
+    "44740_database_icon.png",
     "63722_documents_file_folder_icon.png",
     "44810_design_web_icon.png",
-    "44740_database_icon.png",
     "whale-in-world-wide-web.png",
     "Untitled 1 7.png",
     "Untitled 30.png",
