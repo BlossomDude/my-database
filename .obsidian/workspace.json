@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#example",
+                "query": "tag:#STRATUS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,7 +158,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1229064b810c4371",
+  "active": "336cb05006216236",
   "lastOpenFiles": [
     "Wiki/Kodecloud/Linux/Tasks.md",
     "Wiki/Kodecloud/Linux",
