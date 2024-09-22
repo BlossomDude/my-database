@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/HELM⛑️/HELM.md",
+                "file": "Wiki/Markdown help/help.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops/HELM⛑️/HELM.md",
+                "file": "Wiki/Markdown help/help.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops/HELM⛑️/HELM.md",
+                "file": "Wiki/Markdown help/help.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops/HELM⛑️/HELM.md"
+                "file": "Wiki/Markdown help/help.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "f137473116299043",
   "lastOpenFiles": [
-    "Wiki/devops/HELM⛑️/Команды.md",
     "Wiki/devops/HELM⛑️/HELM.md",
+    "Wiki/Markdown help/help.md",
+    "Wiki/Markdown help",
+    "Wiki/devops/HELM⛑️/Команды.md",
     "Wiki/devops/HELM/example.md",
     "Структура.md",
     "Wiki/devops/GitLab CI/Pipeline’s.md",
@@ -182,7 +184,6 @@
     "Wiki/devops/Вопросы с собесов/Газп.md",
     "Wiki/devops/Вопросы с собесов/Вопросы с собесов.md",
     "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Какими могут быть ключи словарей в Python.md",
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Какие основные принципы объектно-ориентированного программирования.md",
     "Untitled 30.png",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
