@@ -11,15 +11,34 @@
             "id": "f137473116299043",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-                "mode": "source",
-                "source": false
+                "file": "44740_database_icon.png"
+              }
+            }
+          },
+          {
+            "id": "918fe21591d8e48f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "44810_design_web_icon.png"
+              }
+            }
+          },
+          {
+            "id": "66c1680394260a20",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "44740_database_icon.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
+                "file": "44740_database_icon.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
+                "file": "44740_database_icon.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md"
+                "file": "44740_database_icon.png"
               }
             }
           },
@@ -157,47 +176,48 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f137473116299043",
+  "active": "66c1680394260a20",
   "lastOpenFiles": [
+    "63722_documents_file_folder_icon.png",
+    "44810_design_web_icon.png",
+    "44740_database_icon.png",
+    "whale-in-world-wide-web.png",
+    "Untitled 1 7.png",
+    "Untitled 30.png",
+    "ten-whale-s-with-a-database.png",
+    "31638f953e7a82daba91e51f13ccecc4.png",
+    "9576f91d2353ad868a0e365994e14ade.jpg",
+    "243a011ed04f455099a4ba64a87736f6.png",
+    "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
+    "Wiki/IT English voculabury.md",
+    "Wiki/Podman.md",
+    "Wiki/Wiki.md",
+    "Wiki/Ссылки на статьи.md",
+    "Untitled 2.md",
+    "Wiki/Ссылки.md",
+    "Wiki/devops ♻️/Terraform 🏭/Terraform.md",
+    "Wiki/Собес Богдана.md",
+    "Wiki/курсовая.md",
+    "Wiki/Work/76323/76323.md",
+    "Wiki/Docker/Compose Docker/Compose Docker.md",
+    "Wiki/Docker/Compose Docker/Команды.md",
+    "Wiki/devops ♻️/Terraform 🏭",
+    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+    "Wiki/devops ♻️/devops.md",
+    "Wiki/devops ♻️/Задачи.md",
+    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
+    "Wiki/devops ♻️/YAML✏️/YAML.md",
+    "Wiki/devops ♻️/Vagrant 🔷/Vagrant.md",
+    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
     "Wiki/devops ♻️/GitLab CI 🦊/GitLab CI.md",
     "Wiki/Markdown help/help.md",
     "Wiki/Linux/Inode/stat. форматирование вывода.md",
     "Wiki/devops ♻️/HELM⛑️/HELM.md",
     "Wiki/Markdown help",
     "Wiki/devops ♻️/HELM⛑️/Команды.md",
-    "Wiki/devops/HELM/example.md",
-    "Структура.md",
-    "Wiki/devops ♻️/GitLab CI 🦊/Pipeline’s.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Условия.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Roles.md",
-    "Wiki/devops/ЮниКредит/Pipelines.md",
-    "Wiki/devops/ЮниКредит/ЮниКредит.md",
-    "Wiki/devops/ЮниКредит/Романов Передача Дел.md",
-    "Wiki/devops/ЮниКредит/Передача дел Романова.md",
-    "Wiki/devops/ЮниКредит/Ошибка- Podman load.md",
-    "Wiki/devops/ЮниКредит/Зачем root в podman.md",
-    "Wiki/devops/РСХБ/РСХБ.md",
-    "Wiki/devops/РСХБ/Деплой в банк.md",
-    "Wiki/devops ♻️/Вопросы с собесов ❓/Топ вопросов инженеру.md",
-    "Wiki/devops ♻️/Вопросы с собесов ❓/конспект собеса Васи.md",
-    "Wiki/devops/Вопросы с собесов/Газп.md",
-    "Wiki/devops/Вопросы с собесов/Вопросы с собесов.md",
-    "Untitled 30.png",
-    "9576f91d2353ad868a0e365994e14ade.jpg",
-    "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
-    "whale-in-world-wide-web.png",
     "жизнь",
     "Wiki/Windows",
-    "mqdefault.jpg",
-    "osi.png",
-    "free-icon-devops-11245676.png",
-    "free-icon-database-storage-5732810.png",
-    "folder_type_kubernetes_opened_icon_129928.png",
-    "fire-torch.png",
     "ansible-4eto-tam.pdf",
     "devops.pdf"
   ]

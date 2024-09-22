@@ -3,31 +3,21 @@ Owner: Blossom Dude
 Last edited time: 2024-01-11T14:27
 Created time: 2023-08-07T20:11
 ---
-Jenkinsfile
-
-Agent
-
-  
-
-```Bash
-docker run --name jenkins-docker --rm --detach \
-  --volume jenkins-data:/var/jenkins_home \
-  --publish 8081:80 jenkins/jenkins:lts-jdk17
-```
+- [[#Jenkinsfile|Jenkinsfile]]
+- [[#Agent|Agent]]
+- [[#Триггеры|Триггеры]]
 
 `/lib/systemd/system/jenkins.service` - файл конфигурации
 
-- ==Jenkins CLI==
+Jenkins CLI
     
     ```Bash
     java -jar jenkins-cli.jar -auth admin:*token* -s *URL* help
     # Подключение к Jenkins CLI через jar-ник, токен и запуск команды help
     ```
-    
-
   
 
-### ==Jenkinsfile==
+### Jenkinsfile
 
 Структура такова:  
 pipeline → stages → stage → steps  
@@ -297,7 +287,7 @@ pipeline → stages → stage → steps
 
   
 
-### ==Agent==
+### Agent
 
   
 
@@ -342,7 +332,7 @@ pipeline → stages → stage → steps
     
       
     
-    ### ==Триггеры==
+### Триггеры
     
       
     
