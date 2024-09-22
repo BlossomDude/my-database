@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "141812b8bf5db40f",
+        "id": "de6bd61b849fda85",
         "type": "tabs",
         "children": [
           {
-            "id": "ad5b79d3d2cc1251",
+            "id": "4fe8d43b3687fbd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,13 +128,21 @@
                 "file": "Database/Wiki/винда.md"
               }
             }
+          },
+          {
+            "id": "5184fbe79846e653",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +155,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad5b79d3d2cc1251",
+  "active": "4fe8d43b3687fbd2",
   "lastOpenFiles": [
-    "Database/Wiki/курсовая.md",
-    "Database/Wiki/винда.md",
+    "Database/Wiki/Work/Work.md",
     "Database/Wiki/Wiki.md",
+    "Database/Wiki/винда.md",
+    "Database/Wiki/курсовая.md",
     "Database/Wiki/Базы данных/MySQL/MySQL.md",
     "Database/жизнь/жизнь.md",
     "Database/жизнь/Настя.md"
