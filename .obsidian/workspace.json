@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Secrets/Secrets.md",
+                "file": "Database/Wiki/Network/OSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Secrets/Secrets.md",
+                "file": "Database/Wiki/Network/OSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Secrets/Secrets.md",
+                "file": "Database/Wiki/Network/OSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Secrets/Secrets.md"
+                "file": "Database/Wiki/Network/OSI.md"
               }
             }
           },
@@ -157,7 +157,19 @@
   },
   "active": "4fe8d43b3687fbd2",
   "lastOpenFiles": [
+    "Untitled 30.png",
+    "Untitled 28.png",
+    "Untitled 31.png",
+    "1785681c-80f7-4452-b325-a13b6c54545c.avif",
+    "63722_documents_file_folder_icon.png",
+    "44810_design_web_icon.png",
+    "31638f953e7a82daba91e51f13ccecc4.png",
+    "44740_database_icon.png",
+    "9576f91d2353ad868a0e365994e14ade.jpg",
+    "243a011ed04f455099a4ba64a87736f6.png",
+    "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
     "Database/Wiki/винда.md",
+    "Database/Secrets/Secrets.md",
     "Database/Secrets/коды гитлаб.гпбдев.md",
     "Database/Wiki/Work/Work.md",
     "Database/Wiki/Wiki.md",
