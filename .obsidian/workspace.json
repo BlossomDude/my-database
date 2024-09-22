@@ -11,9 +11,11 @@
             "id": "f137473116299043",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "whale-in-world-wide-web.png"
+                "file": "Wiki/IT English voculabury.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "whale-in-world-wide-web.png",
+                "file": "Wiki/IT English voculabury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "whale-in-world-wide-web.png",
+                "file": "Wiki/IT English voculabury.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "whale-in-world-wide-web.png"
+                "file": "Wiki/IT English voculabury.md"
               }
             }
           },
@@ -157,21 +159,23 @@
   },
   "active": "f137473116299043",
   "lastOpenFiles": [
+    "Wiki/Ссылки на статьи.md",
+    "README.md",
+    "Задачи Bash (~90 шт.) и другие ЯП.md",
+    "untitled.md",
+    "Untitled 1 7.png",
+    "whale-in-world-wide-web.png",
     "44740_database_icon.png",
     "63722_documents_file_folder_icon.png",
     "44810_design_web_icon.png",
-    "whale-in-world-wide-web.png",
-    "Untitled 1 7.png",
     "Untitled 30.png",
     "ten-whale-s-with-a-database.png",
     "31638f953e7a82daba91e51f13ccecc4.png",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "243a011ed04f455099a4ba64a87736f6.png",
-    "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
     "Wiki/IT English voculabury.md",
     "Wiki/Podman.md",
     "Wiki/Wiki.md",
-    "Wiki/Ссылки на статьи.md",
     "Untitled 2.md",
     "Wiki/Ссылки.md",
     "Wiki/devops ♻️/Terraform 🏭/Terraform.md",
@@ -192,9 +196,7 @@
     "Wiki/devops ♻️/GitLab CI 🦊/GitLab CI.md",
     "Wiki/Markdown help/help.md",
     "Wiki/Linux/Inode/stat. форматирование вывода.md",
-    "Wiki/devops ♻️/HELM⛑️/HELM.md",
     "Wiki/Markdown help",
-    "Wiki/devops ♻️/HELM⛑️/Команды.md",
     "жизнь",
     "Wiki/Windows",
     "ansible-4eto-tam.pdf",
