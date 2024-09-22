@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e9d351ffaa07860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/жизнь/Work/Отчистка диска/Отчистка диска.md",
+                "file": "Wiki/Базы данных/MySQL/MySQL.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/жизнь/Work/Отчистка диска/Отчистка диска.md",
+                "file": "Wiki/Базы данных/MySQL/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/жизнь/Work/Отчистка диска/Отчистка диска.md",
+                "file": "Wiki/Базы данных/MySQL/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/жизнь/Work/Отчистка диска/Отчистка диска.md"
+                "file": "Wiki/Базы данных/MySQL/MySQL.md"
               }
             }
           },
@@ -168,13 +155,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e9d351ffaa07860",
+  "active": "4fe8d43b3687fbd2",
   "lastOpenFiles": [
-    "Database/Wiki/Linux/Rosa проблема с репой.md",
+    "Wiki/Базы данных/MongoDB/Replica Set.md",
+    "Wiki/Базы данных/MongoDB/MongoDB.md",
+    "9576f91d2353ad868a0e365994e14ade.jpg",
+    "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
+    "whale-in-world-wide-web.png",
+    "Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
+    "Welcome.md",
+    "().md",
+    "жизнь/Untitled.md",
+    "Database/жизнь/жизнь.md",
+    "Database/жизнь/Настя.md",
+    "жизнь",
+    "Database/жизнь/Untitled.md",
+    "Wiki/Windows/Активация винды.md",
+    "Database/жизнь/Work/Шаблоны ВМ.md",
+    "Database/жизнь/Work/Linux. Настройка Стенда/Linux. Настройка Стенда.md",
+    "Database/жизнь/Work/Avaya. Переадресация/Avaya. Переадресация.md",
+    "Wiki/Windows",
+    "Database/Wiki/Без названия.md",
+    "Wiki/Windows/Отчистка диска.md",
+    "Wiki/Linux/Rosa проблема с репой.md",
     "Database/жизнь/Work/Континент АП не работает/Континент АП не работает.md",
     "Database/жизнь/Work/Активация Windows и Office через KMS/Активация Windows и Office через KMS.md",
-    "Database/жизнь/Work/Linux. Настройка Стенда/Linux. Настройка Стенда.md",
-    "Database/жизнь/Work/Шаблоны ВМ.md",
     "Database/жизнь/Work/Zabbix/Zabbix.md",
     "Database/жизнь/Work/Выход сотрудника.md",
     "Database/жизнь/Work/ВыходУход сотрудника.md",
@@ -182,31 +187,15 @@
     "Database/жизнь/Work/LDM.md",
     "Database/жизнь/Work/test LDM.md",
     "Database/жизнь/Work/Work.md",
-    "Database/Wiki/Network/Динамическая маршрутизация/Динамическая маршрутизация.md",
-    "Database/Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-/IGP — Interior Gateway Protocol - Доменная маршрутизация-.md",
-    "Database/Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-/OSPF - Open Shortest Path First.md",
-    "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
-    "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-.md",
-    "Database/Wiki/Network/OSI.md",
+    "Wiki/Network/Динамическая маршрутизация/Динамическая маршрутизация.md",
     "mqdefault.jpg",
-    "osi.md",
     "osi.png",
-    "untitled.md",
-    "().md",
     "Untitled 30.png",
     "free-icon-devops-11245676.png",
     "free-icon-database-storage-5732810.png",
     "folder_type_kubernetes_opened_icon_129928.png",
     "fire-torch.png",
-    "file-extensions_8760366.png",
-    "file_type_git_icon_130581.png",
-    "docker-compose.jpg",
     "ansible-4eto-tam.pdf",
-    "devops.pdf",
-    "Database/Wiki/винда.md",
-    "Database/Secrets/Secrets.md",
-    "Database/Secrets/коды гитлаб.гпбдев.md",
-    "Database/Wiki/Work/Work.md",
-    "Database/Wiki/Wiki.md"
+    "devops.pdf"
   ]
 }
