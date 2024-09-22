@@ -16,8 +16,6 @@ Created time: 2023-12-18T16:02
 `CREATE USER “username”@”host” IDENTIFIED BY “password”` - создать юзера
 
 `localhost` как указано в команде. **_% - для любых хостов  
-  
-_**
 
 `CREATE DATABASE *name*;` - создать БД
 

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "de6bd61b849fda85",
+        "id": "9057bed7de787422",
         "type": "tabs",
         "children": [
           {
-            "id": "4fe8d43b3687fbd2",
+            "id": "27eb512c5cb72109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Базы данных/MySQL/MySQL.md",
-                "mode": "preview",
+                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Базы данных/MySQL/MySQL.md",
+                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Базы данных/MySQL/MySQL.md",
+                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Базы данных/MySQL/MySQL.md"
+                "file": "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md"
               }
             }
           },
@@ -155,39 +155,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fe8d43b3687fbd2",
+  "active": "27eb512c5cb72109",
   "lastOpenFiles": [
-    "Wiki/Базы данных/MongoDB/Replica Set.md",
-    "Wiki/Базы данных/MongoDB/MongoDB.md",
+    "Wiki/ЯП для OPS/Go.md",
+    "Wiki/ЯП для OPS/Java.md",
+    "Wiki/ЯП для OPS/JS.md",
+    "Wiki/ЯП для OPS/Python.md",
+    "Wiki/ЯП для OPS/ЯП для OPS.md",
+    "Wiki/Черновик/Черновик.md",
+    "Wiki/Черновик/28.01.md",
+    "Wiki/Ссылки.md",
+    "Wiki/Ссылки на статьи/Ссылки на статьи/Факты и отличия CMD и ENTRYPOINT.md",
+    "Wiki/Ссылки на статьи/Ссылки на статьи/Руководство для создания вм в hyper-v с помощью Vagrant и Ansible.md",
+    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled.md",
+    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled 2.md",
+    "Wiki/Ссылки на статьи/Ссылки на статьи/Untitled 3.md",
+    "Wiki/Мониторинг/Мониторинг.md",
+    "Wiki/Мониторинг/Prometheus.md",
+    "Wiki/Мониторинг/Zabbix.md",
+    "Wiki/Задачник deusOps/1.md",
+    "Wiki/Задачник deusOps/2.md",
+    "Wiki/Задачник/Задачник.md",
+    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания.md",
+    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
+    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта)/Задание Пукегу.md",
+    "Задачи Bash (~90 шт.) и другие ЯП.md",
+    "Wiki/Веб-ресурсы, ссылки на задания/полезные ссылки.md",
+    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания/Большая база знаний по теории DevOps, много знаний по темам Linux, bash, ci-cd etc.md",
+    "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания/База вопросов с собесов.md",
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "17c86d4f862234bbc3a2f0a432a9f850.jpeg",
     "whale-in-world-wide-web.png",
-    "Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
-    "Welcome.md",
-    "().md",
-    "жизнь/Untitled.md",
-    "Database/жизнь/жизнь.md",
-    "Database/жизнь/Настя.md",
     "жизнь",
-    "Database/жизнь/Untitled.md",
-    "Wiki/Windows/Активация винды.md",
-    "Database/жизнь/Work/Шаблоны ВМ.md",
-    "Database/жизнь/Work/Linux. Настройка Стенда/Linux. Настройка Стенда.md",
-    "Database/жизнь/Work/Avaya. Переадресация/Avaya. Переадресация.md",
     "Wiki/Windows",
-    "Database/Wiki/Без названия.md",
-    "Wiki/Windows/Отчистка диска.md",
-    "Wiki/Linux/Rosa проблема с репой.md",
-    "Database/жизнь/Work/Континент АП не работает/Континент АП не работает.md",
-    "Database/жизнь/Work/Активация Windows и Office через KMS/Активация Windows и Office через KMS.md",
-    "Database/жизнь/Work/Zabbix/Zabbix.md",
-    "Database/жизнь/Work/Выход сотрудника.md",
-    "Database/жизнь/Work/ВыходУход сотрудника.md",
-    "Database/жизнь/Work/Иди для автоматизации.md",
-    "Database/жизнь/Work/LDM.md",
-    "Database/жизнь/Work/test LDM.md",
-    "Database/жизнь/Work/Work.md",
-    "Wiki/Network/Динамическая маршрутизация/Динамическая маршрутизация.md",
     "mqdefault.jpg",
     "osi.png",
     "Untitled 30.png",

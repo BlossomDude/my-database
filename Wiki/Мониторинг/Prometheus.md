@@ -3,6 +3,26 @@ Owner: Blossom Dude
 Last edited time: 2024-02-02T14:54
 Created time: 2024-02-01T16:06
 ---
+## Prometheus
+
+
+- Приложение написано на Go, можно скачать архив с оф сайта.  
+    Конфигурация находится по пути  
+    `/etc/prometheus/prometheus.yml`
+    
+    ```Bash
+    - job_name: 'Jenkins'
+     metrics_path: /prometheus/
+     static_configs:
+     - targets: ['localhost:8085']
+    ```
+    
+
+
+
+### Типы метрик
+
+
 ### ==Counter==
 
 Считает элементы за период времени. Например:
