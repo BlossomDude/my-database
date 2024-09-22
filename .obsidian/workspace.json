@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Wiki/Network/OSI.md",
+                "file": "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "9e9d351ffaa07860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/жизнь/Work/Work.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Wiki/Network/OSI.md",
+                "file": "Database/жизнь/Work/Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Wiki/Network/OSI.md",
+                "file": "Database/жизнь/Work/Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Wiki/Network/OSI.md"
+                "file": "Database/жизнь/Work/Work.md"
               }
             }
           },
@@ -155,12 +168,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fe8d43b3687fbd2",
+  "active": "9e9d351ffaa07860",
   "lastOpenFiles": [
-    "().md",
+    "Database/жизнь/Work/Активация Windows и Office через KMS/Активация Windows и Office через KMS.md",
+    "Database/Wiki/Network/Динамическая маршрутизация/Динамическая маршрутизация.md",
+    "Database/Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-/IGP — Interior Gateway Protocol - Доменная маршрутизация-.md",
+    "Database/Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-/OSPF - Open Shortest Path First.md",
+    "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/(e)BGP - между автономными системами.md",
+    "Database/Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-.md",
     "Database/Wiki/Network/OSI.md",
+    "mqdefault.jpg",
+    "osi.md",
+    "osi.png",
+    "untitled.md",
+    "().md",
     "Untitled 30.png",
-    "Untitled 31.png",
     "free-icon-devops-11245676.png",
     "free-icon-database-storage-5732810.png",
     "folder_type_kubernetes_opened_icon_129928.png",
@@ -168,7 +190,6 @@
     "file-extensions_8760366.png",
     "file_type_git_icon_130581.png",
     "docker-compose.jpg",
-    "31638f953e7a82daba91e51f13ccecc4.png",
     "ansible-4eto-tam.pdf",
     "devops.pdf",
     "Database/Wiki/винда.md",
