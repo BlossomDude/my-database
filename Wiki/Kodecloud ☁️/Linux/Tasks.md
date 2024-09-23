@@ -80,8 +80,48 @@ sudo adduser kareem -s /sbin/login   #выбрать оболчку новому
 # 4
 ### Problem4
 ```text
+In response to the latest tool implementation at `xFusionCorp Industries`, the system admins require the creation of a service user account. Here are the specifics:  
+
+Create a user named `anita` in `App Server 3` without a home directory.
+
+---
+
+В связи с последним внедрением инструмента в xFusionCorp Industries системные администраторы требуют создания учетной записи пользователя сервиса. Вот подробности:  
+
+Создайте пользователя с именем anita в App Server 3 без домашнего каталога
+```
+### Solution4
+```bash
+
 ```
 
-### Solution4
+
+# 5
+### Problem
+```text
+```
+
+### Solution
+```bash
+```
+
+
+
+# 6
+### Problem
+```text
+```
+
+### Solution
+```bash
+```
+
+
+# 7
+### Problem
+```text
+```
+
+### Solution
 ```bash
 ```
