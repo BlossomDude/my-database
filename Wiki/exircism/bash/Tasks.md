@@ -4,6 +4,11 @@
 # 1: error-handling
 ### Problem
 ```text
+The goal of this exercise is to consider the number of arguments passed to your program. If there is exactly one argument, print a greeting message. Otherwise print an error message and exit with a non-zero status.
+
+---
+
+Цель этого упражнения - подсчитать количество аргументов, переданных вашей программе. Если есть только один аргумент, выведите приветствие. В противном случае выведите сообщение об ошибке и завершите работу с ненулевым статусом.
 ```
 
 ### Solution
