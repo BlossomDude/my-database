@@ -60,7 +60,8 @@ The DevOps team established a new Git repository last week, which remains unused
 
 ### Solution2
 ```bash
-
+cd /usr/src/kodekloudrepos
+git clone /opt/official.git
 ```
 
 
