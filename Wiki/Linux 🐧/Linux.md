@@ -16,7 +16,7 @@ Created time: 2023-06-28T16:53
 
 [[Права, SUID GUID]]
 
-[[(e)BASH]]
+[[BASH]]
 
 [[Идеи]]
 

@@ -3,7 +3,14 @@ Owner: Blossom Dude
 Last edited time: 2024-04-05T10:24
 Created time: 2023-08-11T17:27
 ---
-- [https://habr.com/ru/companies/ruvds/articles/325522/](https://habr.com/ru/companies/ruvds/articles/325522/)
+> [https://habr.com/ru/companies/ruvds/articles/325522/](https://habr.com/ru/companies/ruvds/articles/325522/)
+
+- [[#Арифметические действия:|Арифметические действия:]]
+- [[#Циклы|Циклы]]
+- [[#Условия IF &&|Условия IF && ]]
+- [[#Операторы файлов|Операторы файлов]]
+- [[#Параметры|Параметры]]
+
 ### Арифметические действия:
 
 `bc` - встроенный калькулятор
