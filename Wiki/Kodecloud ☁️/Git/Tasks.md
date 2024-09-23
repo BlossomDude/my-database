@@ -66,7 +66,7 @@ git clone /opt/official.git
 
 
 
-# 3: 
+# 3: Fork a Git Repository
 ### Problem3
 ```text
 There is a Git server utilized by the Nautilus project teams. Recently, a new developer named Jon joined the team and needs to begin working on a project. To begin, he must fork an existing Git repository. Follow the steps below:   
@@ -83,12 +83,9 @@ There is a Git server utilized by the Nautilus project teams. Recently, a new de
 2)Войдите на сервер Gitea, используя имя пользователя jon и пароль Jon_pass123.  
 3)После входа в систему найдите репозиторий Git с именем sarah / story-blog и создайте его под именем пользователя jon.
 ```
->Примечание: Для задач, требующих изменения веб-интерфейса, скриншоты необходимы для ознакомления. Кроме того, рассмотрите возможность использования программного обеспечения для записи экрана, такого как loom.com, чтобы записывать процесс выполнения задачи и делиться им.
-
-
 ### Solution3
 ```bash
-
+-
 ```
 
 
