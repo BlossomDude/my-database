@@ -36,4 +36,5 @@ The Nautilus development team has provided requirements to the DevOps team for a
 
 ### Solution1
 ```bash
+sudo git init --bare ecommerce.git
 ```
