@@ -7,6 +7,10 @@
 - [[#3: Linux User Setup with Non-Interactive Shell:|3: Linux User Setup with Non-Interactive Shell]]
 	- [[#Problem3:|Problem]]
 	- [[#Solution3:|Solution]]
+- [[#4: Service User Creation without Home Directory:| 4: Service User Creation without Home Directory]]
+	- [[#Problem4:|Problem]]
+	- [[#Solution4:|Solution]]
+
 # STRATUS DC:
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
@@ -46,7 +50,7 @@ a. Создайте группу с именем "nautilus_sftp_users" на вс
 ``` bash
 ssh user@hostname
 sudo groupadd nautilus_sftp_users
-id kano                                     # Узнает существует ли пользователь
+id kano                                     # Узнать, существует ли пользователь
 sudo useradd kano 
 sudo usermod -a -G nautilus_sftp_users kano
 ```
@@ -55,6 +59,7 @@ sudo usermod -a -G nautilus_sftp_users kano
 
 # 3: Linux User Setup with Non-Interactive Shell
 ### Problem3
+
 ``` text
 To accommodate the backup agent tool's specifications, the system admin team at `xFusionCorp Industries` requires the creation of a user with a non-interactive shell. Here's your task:  
 
@@ -77,8 +82,9 @@ ssh user@hostname
 sudo adduser kareem -s /sbin/login   #выбрать оболчку новому пользователю
 ```
 
-# 4
+# 4: Service User Creation without Home Directory
 ### Problem4
+
 ```text
 In response to the latest tool implementation at `xFusionCorp Industries`, the system admins require the creation of a service user account. Here are the specifics:  
 
@@ -91,8 +97,10 @@ Create a user named `anita` in `App Server 3` without a home directory.
 Создайте пользователя с именем anita в App Server 3 без домашнего каталога
 ```
 ### Solution4
-```bash
 
+```bash
+ssh user@hostname
+sudo adduser --no-create-home anita
 ```
 
 
