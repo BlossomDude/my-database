@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
+                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md"
               }
             }
           },
@@ -169,10 +170,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1229064b810c4371",
+  "active": "f7f5997eee35831e",
   "lastOpenFiles": [
-    "Wiki/exircism/bash/Tasks.md",
     "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+    "Wiki/Kodecloud ☁️/Git/Tasks.md",
+    "Wiki/Kodecloud ☁️/Git",
+    "Wiki/exircism/bash/Tasks.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
     "Wiki/exircism",
@@ -213,9 +216,7 @@
     "Wiki/Собес Богдана.md",
     "Wiki/курсовая.md",
     "Wiki/Work/76323/76323.md",
-    "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
     "Wiki/devops ♻️/Terraform 🏭",
-    "Wiki/Markdown help 🆘",
-    "жизнь"
+    "Wiki/Markdown help 🆘"
   ]
 }
