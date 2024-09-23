@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "1229064b810c4371",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/exircism/bash/Tasks.md",
+    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
     "Wiki/exircism",

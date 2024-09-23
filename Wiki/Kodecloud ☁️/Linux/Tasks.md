@@ -1,7 +1,7 @@
 
 - [[#STRATUS DC:|STRATUS DC - Данные об инфраструктуре]]
 
-- [[#2:|2:Group Creation and User Assignment]]
+- [[#2: Group Creation and User Assignment:|2:Group Creation and User Assignment]]
 	- [[#Problem:|Problem]]
 	- [[#Solution:|Solution]]
 - [[#3: Linux User Setup with Non-Interactive Shell:|3: Linux User Setup with Non-Interactive Shell]]
