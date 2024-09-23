@@ -67,11 +67,26 @@ git clone /opt/official.git
 
 
 # 3: 
-### Problem2
+### Problem3
 ```text
-```
+There is a Git server utilized by the Nautilus project teams. Recently, a new developer named Jon joined the team and needs to begin working on a project. To begin, he must fork an existing Git repository. Follow the steps below:   
 
-### Solution2
+1. Click on the `Gitea UI` button located on the top bar to access the Gitea page.
+2. Login to `Gitea` server using username `jon` and password `Jon_pass123`.        
+3. Once logged in, locate the Git repository named `sarah/story-blog` and `fork` it under the `jon` user.  
+
+---
+
+Команды проекта Nautilus используют Git-сервер. Недавно к команде присоединился новый разработчик по имени Джон, которому необходимо начать работу над проектом. Для начала он должен разветвить существующий репозиторий Git. Выполните следующие действия.:  
+  
+1)Нажмите на кнопку пользовательского интерфейса Gitea, расположенную на верхней панели, чтобы получить доступ к странице Gitea.  
+2)Войдите на сервер Gitea, используя имя пользователя jon и пароль Jon_pass123.  
+3)После входа в систему найдите репозиторий Git с именем sarah / story-blog и создайте его под именем пользователя jon.
+```
+>Примечание: Для задач, требующих изменения веб-интерфейса, скриншоты необходимы для ознакомления. Кроме того, рассмотрите возможность использования программного обеспечения для записи экрана, такого как loom.com, чтобы записывать процесс выполнения задачи и делиться им.
+
+
+### Solution3
 ```bash
 
 ```
