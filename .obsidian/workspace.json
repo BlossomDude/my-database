@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
+                "file": "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md"
               }
             }
           },
@@ -159,7 +159,10 @@
   },
   "active": "1229064b810c4371",
   "lastOpenFiles": [
+    "Wiki/Windows 🟩/Активация винды.md",
+    "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
     "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+    "Wiki/Windows 🟩/Scripts",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud/Без названия.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
@@ -170,7 +173,6 @@
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Не подтверждено 272920.~",
-    "Wiki/Windows 🟩/Активация винды.md",
     "Wiki/IT English voculabury.md",
     "Wiki/Ссылки на статьи.md",
     "README.md",
@@ -198,7 +200,6 @@
     "Wiki/devops ♻️/Terraform 🏭",
     "Wiki/devops ♻️/devops.md",
     "Wiki/devops ♻️/Задачи.md",
-    "Wiki/devops ♻️/YAML✏️/YAML.md",
     "Wiki/Markdown help 🆘",
     "жизнь",
     "Wiki/Windows 🟩",
