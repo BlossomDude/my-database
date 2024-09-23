@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud/Linux/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud/Linux/Tasks.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
               }
             }
           },
@@ -160,11 +159,11 @@
   },
   "active": "1229064b810c4371",
   "lastOpenFiles": [
-    "Wiki/Kodecloud/Linux/Tasks.md",
-    "Wiki/Kodecloud/Linux",
+    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+    "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud/Без названия.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
-    "Wiki/Kodecloud",
+    "Wiki/Kodecloud ☁️",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/Windows 🟩/Отчистка диска.md",
