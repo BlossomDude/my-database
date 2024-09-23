@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
+                "file": "Wiki/Web сервера 🖥️/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
+                "file": "Wiki/Web сервера 🖥️/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md",
+                "file": "Wiki/Web сервера 🖥️/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Git/Tasks.md"
+                "file": "Wiki/Web сервера 🖥️/nginx.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "f7f5997eee35831e",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Kodecloud ☁️/Git/Tasks.md",
+    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/exircism/bash/Tasks.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
