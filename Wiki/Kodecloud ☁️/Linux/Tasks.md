@@ -10,7 +10,9 @@
 - [[#4: Service User Creation without Home Directory:| 4: Service User Creation without Home Directory]]
 	- [[#Problem4:|Problem]]
 	- [[#Solution4:|Solution]]
-
+- [[#5: Temporary User Setup with Expiry]]
+	- [[#Problem5:|Problem]]
+	- [[#Solution5:|Solution]]
 # STRATUS DC:
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
@@ -104,8 +106,8 @@ sudo adduser --no-create-home anita
 ```
 
 
-# 5: Temporary User Setup with Expiry
-### Problem
+	# 5: Temporary User Setup with Expiry
+### Problem5
 ```text
 As part of the temporary assignment to the `Nautilus` project, a developer named `siva` requires access for a limited duration. To ensure smooth access management, a temporary user account with an expiry date is needed. Here's what you need to do:  
   
@@ -118,10 +120,10 @@ Create a user named `siva` on `App Server 2` in Stratos Datacenter. Set the 
 Создайте пользователя с именем siva на App Server 2 в Stratos Datacenter. Установите дату истечения срока действия на 2024-01-28, гарантируя, что пользователь будет создан в нижнем регистре в соответствии со стандартным протоколом.
 ```
 
-### Solution
+### Solution5
 ```bash
 ssh username@hostname
-
+sudo adduser -e 2024-01-28 siva
 ```
 
 
