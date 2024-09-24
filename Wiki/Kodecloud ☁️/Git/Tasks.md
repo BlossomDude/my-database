@@ -111,7 +111,12 @@ The Nautilus development team has initiated a new project development, establish
 
 ### Solution4
 ```bash
-
+scp /tmp/index.html username@hostname:/tmp
+ssh username@hostname
+sudo mv /tmp/index.html /usr/src/kodekloudrepos/official
+sudo git add *
+sudo git commit -m "v1"
+sudo git push origin master
 ```
 
 
