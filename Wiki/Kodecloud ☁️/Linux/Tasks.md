@@ -120,6 +120,8 @@ Create a user named `siva` on `App Server 2` in Stratos Datacenter. Set the 
 
 ### Solution
 ```bash
+ssh username@hostname
+
 ```
 
 
