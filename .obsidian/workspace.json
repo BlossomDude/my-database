@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/nginx.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/nginx.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/nginx.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/nginx.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
               }
             }
           },
@@ -173,6 +173,7 @@
   "active": "f7f5997eee35831e",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Git/Tasks.md",
+    "Wiki/Web сервера 🖥️/nginx.md",
     "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/exircism/bash/Tasks.md",
@@ -215,7 +216,6 @@
     "Wiki/devops ♻️/Terraform 🏭/Terraform.md",
     "Wiki/Собес Богдана.md",
     "Wiki/курсовая.md",
-    "Wiki/Work/76323/76323.md",
     "Wiki/devops ♻️/Terraform 🏭",
     "Wiki/Markdown help 🆘"
   ]
