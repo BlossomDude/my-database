@@ -91,11 +91,25 @@ There is a Git server utilized by the Nautilus project teams. Recently, a new de
 
 
 # 4: Update Git Repository with Sample HTML File
-### Problem2
+### Problem4
 ```text
+The Nautilus development team has initiated a new project development, establishing various Git repositories to manage each project's source code. Recently, a repository named `/opt/official.git` was created. The team has provided a sample `index.html` file located on the `jump host` under the `/tmp` directory. This repository has been cloned to `/usr/src/kodekloudrepos` on the `storage server` in the `Stratos DC`.  
+  
+
+1. Copy the sample `index.html` file from the `jump host` to the `storage server` placing it within the cloned repository at `/usr/src/kodekloudrepos/official`.   
+2. Add and commit the file to the repository.    
+3. Push the changes to the `master` branch.
+
+---
+
+Команда разработчиков Nautilus приступила к разработке нового проекта, создав различные репозитории Git для управления исходным кодом каждого проекта. Недавно был создан репозиторий с именем /opt/official.git. Команда предоставила образец index.html файл находится на хосте jump в каталоге /tmp. Этот репозиторий был клонирован в /usr/src/kodekloudrepos на сервере хранения в Stratos DC.  
+  
+1)Скопируйте образец index.html файла с хоста jump на сервер хранения, поместив его в клонированный репозиторий по адресу /usr/src/kodekloudrepos/official.   
+2)Добавьте и закрепите файл в репозитории.    
+3)Внесите изменения в основную ветку.
 ```
 
-### Solution2
+### Solution4
 ```bash
 
 ```
