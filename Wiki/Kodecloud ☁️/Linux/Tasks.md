@@ -128,12 +128,12 @@ sudo adduser -e 2024-01-28 siva
 
 
 
-# 6
-### Problem
+# 6: Linux User Data Transfer
+### Problem6
 ```text
 ```
 
-### Solution
+### Solution6
 ```bash
 ```
 

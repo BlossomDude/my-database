@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f7f5997eee35831e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/exircism/bash/Tasks.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
               }
             }
           },
@@ -170,13 +157,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f7f5997eee35831e",
+  "active": "1229064b810c4371",
   "lastOpenFiles": [
+    "Wiki/exircism/bash/Tasks.md",
     "Wiki/Kodecloud ☁️/Git/Tasks.md",
     "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Web сервера 🖥️/nginx.md",
     "Wiki/Kodecloud ☁️/Git",
-    "Wiki/exircism/bash/Tasks.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
     "Wiki/exircism",
