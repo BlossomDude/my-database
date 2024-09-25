@@ -131,10 +131,20 @@ sudo adduser -e 2024-01-28 siva
 # 6: Linux User Data Transfer
 ### Problem6
 ```text
+Due to an accidental data mix-up, user data was unintentionally mingled on Nautilus `App Server 1` at the `/home/usersdata` location by the Nautilus production support team in Stratos DC. To rectify this, specific user data needs to be filtered and relocated. Here are the details:  
+  
+Locate all files (excluding directories) owned by user `james` within the `/home/usersdata` directory on `App Server 1`. Copy these files while preserving the directory structure to the `/official` directory.
+
+---
+
+Из-за случайной путаницы пользовательские данные были непреднамеренно перемешаны на сервере приложений Nautilus App Server 1 по адресу /home/usersdata командой технической поддержки Nautilus production в Stratos DC. Чтобы исправить это, необходимо отфильтровать и переместить данные конкретного пользователя. Вот подробности:  
+  
+Найдите все файлы (за исключением каталогов), принадлежащие пользователю james, в каталоге /home/usersdata на сервере приложений 1. Скопируйте эти файлы, сохранив структуру каталогов, в каталог /official.
 ```
 
 ### Solution6
 ```bash
+
 ```
 
 
