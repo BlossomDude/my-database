@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e30231a2ffc03e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Linux 🐧/BASH/BASH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc7059f1becc3c39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Linux 🐧/Команды.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Tasks.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -157,17 +182,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1229064b810c4371",
+  "active": "bc7059f1becc3c39",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/BASH/BASH.md",
+    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/exircism/bash/Tasks.md",
     "Wiki/Kodecloud ☁️/Git/Tasks.md",
-    "Wiki/Kodecloud ☁️/Linux/Tasks.md",
     "Wiki/Web сервера 🖥️/nginx.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
     "Wiki/exircism",
-    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Windows 🟩/Отчистка диска.md",
     "Wiki/Linux 🐧/Scripts",
     "Wiki/Windows 🟩/Активация винды.md",
