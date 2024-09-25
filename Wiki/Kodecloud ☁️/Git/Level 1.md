@@ -1,6 +1,19 @@
 [[#1 Set Up Git Repository on Storage Server]]
-	[[#Problem1]]
-	[[#Solution1]]
+- [[#Problem1|Problem1]]
+- [[#Solution1|Solution1]]
+[[#2 Set Up Git Repository on Storage Server]]
+- [[#Problem2|Problem2]]
+- [[#Solution2|Solution2]]
+[[#3 Fork a Git Repository]]
+- [[#Problem3|Problem3]]
+- [[#Solution3|Solution3]]
+[[#4 Update Git Repository with Sample HTML File]]
+- [[#Problem4|Problem4]]
+- [[#Solution4|Solution4]]
+[[#5 Delete Git Branch]]
+- [[#Problem5|Problem5]]
+- [[#Solution5|Solution5]]
+
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
 | --------- | ------------- | --------------------------------- | ------- | ---------- | ------------------------------ |
@@ -121,7 +134,7 @@ sudo git push origin master
 
 
 
-# 5: 
+# 5: Delete Git Branch
 ### Problem5
 ```text
 The Nautilus developers are engaged in active development on one of the project repositories located at `/usr/src/kodekloudrepos/demo`. During testing, several test branches were created, and now they require cleanup. Here are the requirements provided to the DevOps team:  
@@ -135,7 +148,9 @@ On the `Storage server` in Stratos DC, delete a branch named `xfusioncorp_dem
 На сервере хранения данных в Stratos DC удалите ветку с именем xfusioncorp_demo из репозитория Git /usr/src/kodekloudrepos/demo.
 ```
 
-### Solution2
+### Solution5
 ```bash
-
+ssh uname@hostname
+cd /usr/src/kodekloudrepos/demo
+sudo git branch --delete xfusioncorp_demo
 ```
