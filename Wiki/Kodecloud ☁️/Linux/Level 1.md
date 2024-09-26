@@ -176,6 +176,8 @@ Your task is to disable direct SSH root login on all app servers within the `St
 
 ### Solution7
 ```bash
+# Убедится что в конфиге /etc/ssh/sshd_config есть такая строка
+Permit
 ```
 
 
