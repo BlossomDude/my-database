@@ -16,7 +16,7 @@
 - [[#6 Linux User Data Transfer]]
 	- [[#Problem6:|Problem]]
 	- [[#Solution6:|Solution]]
-# STRATUS DC:
+# STRATOS DC:cd
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
 | --------- | ------------- | --------------------------------- | ------- | ---------- | ------------------------------ |
@@ -177,7 +177,7 @@ Your task is to disable direct SSH root login on all app servers within the `St
 ### Solution7
 ```bash
 # Убедится что в конфиге /etc/ssh/sshd_config есть такая строка
-Permit
+PermitRootLogin yes
 ```
 
 
