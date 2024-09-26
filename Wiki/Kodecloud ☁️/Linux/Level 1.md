@@ -162,7 +162,17 @@ find /home/usersdata -type f -user james -exec cp --parents {} /official \;
 # 7: Secure Root SSH Access
 ### Problem7
 ```text
+Following security audits, the `xFusionCorp Industries` security team has rolled out new protocols, including the restriction of direct root SSH login.  
+  
+Your task is to disable direct SSH root login on all app servers within the `Stratos Datacenter`.
+
+---
+
+После аудита безопасности команда безопасности xFusionCorp Industries внедрила новые протоколы, включая ограничение прямого входа по SSH с правами root.
+
+Ваша задача - отключить прямой вход по SSH root на всех серверах приложений в Центре обработки данных Stratos.
 ```
+
 
 ### Solution7
 ```bash
