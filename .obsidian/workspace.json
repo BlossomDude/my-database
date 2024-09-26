@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e30231a2ffc03e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc7059f1becc3c39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md"
               }
             }
           },
@@ -183,14 +159,16 @@
   },
   "active": "1229064b810c4371",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Web сервера 🖥️/Nginx",
+    "Wiki/Web сервера 🖥️/Без названия.md",
+    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+    "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/exircism/bash/Tasks.md",
-    "Wiki/Web сервера 🖥️/nginx.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
@@ -225,9 +203,6 @@
     "9576f91d2353ad868a0e365994e14ade.jpg",
     "Wiki/Podman.md",
     "Wiki/Wiki.md",
-    "Untitled 2.md",
-    "Wiki/Ссылки.md",
-    "Wiki/devops ♻️/Terraform 🏭",
-    "Wiki/Markdown help 🆘"
+    "Wiki/devops ♻️/Terraform 🏭"
   ]
 }
