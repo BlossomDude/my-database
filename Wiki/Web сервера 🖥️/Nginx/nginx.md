@@ -10,4 +10,3 @@ Created time: 2023-07-19T13:08
 
 > [!Tip]  
 > Генератор конфигов от Digital Ocean- https://www.digitalocean.com/community/tools/nginx
-
