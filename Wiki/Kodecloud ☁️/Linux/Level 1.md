@@ -13,6 +13,9 @@
 - [[#5: Temporary User Setup with Expiry]]
 	- [[#Problem5:|Problem]]
 	- [[#Solution5:|Solution]]
+- [[#6 Linux User Data Transfer]]
+	- [[#Problem6:|Problem]]
+	- [[#Solution6:|Solution]]
 # STRATUS DC:
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
@@ -153,6 +156,28 @@ find /home/usersdata -type f -user james -exec cp --parents {} /official \;
 >3. **Копирование файлов:** Для каждого найденного файла выполняется команда `cp --parents`, которая копирует файл в каталог `/blog`, сохраняя структуру каталогов. Параметр `--parents` позволяет создать родительские каталоги, если они не существуют.
 >4. **Выполнение команды:** После нахождения файла, соответствующего критериям поиска, команда `cp --parents` выполняется с использованием параметра `-exec`. Фигурные скобки `{}` заменяются на путь к файлу, который был найден.
 >5. Косая черта в конце команды `find /home/usersdata -type f -user john -exec cp --parents {} /blog \;` служит для завершения выполнения команды `cp --parents`, которая была запущена с использованием параметра `-exec` команды `find`. Без этой косой черты команда `find` будет продолжать искать файлы и пытаться выполнить команду `cp --parents` для каждого найденного файла, что может привести к нежелательным результатам или ошибкам.
+
+
+
+# 7: Secure Root SSH Access
+### Problem7
+```text
+```
+
+### Solution7
+```bash
+```
+
+
+
+# 7
+### Problem
+```text
+```
+
+### Solution
+```bash
+```
 
 
 
