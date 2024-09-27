@@ -16,7 +16,7 @@
 - [[#6 Linux User Data Transfer]]
 	- [[#Problem6:|Problem]]
 	- [[#Solution6:|Solution]]
-# STRATOS DC:cd
+# STRATOS DC
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
 | --------- | ------------- | --------------------------------- | ------- | ---------- | ------------------------------ |
