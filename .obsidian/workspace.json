@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
+                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "f1d5dabee5202b2c",
   "lastOpenFiles": [
-    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
     "Wiki/Web сервера 🖥️/Nginx",
     "Wiki/Web сервера 🖥️/Без названия.md",
     "Wiki/Kodecloud ☁️/Git/Level 1.md",
