@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "336429157b6b6d5f",
+        "id": "74f4a58586b09da6",
         "type": "tabs",
         "children": [
           {
-            "id": "1229064b810c4371",
+            "id": "6657e0995e2ba58f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/IT English voculabury.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/IT English voculabury.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
               }
             }
           },
@@ -157,8 +157,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1229064b810c4371",
+  "active": "6657e0995e2ba58f",
   "lastOpenFiles": [
+    "Wiki/IT English voculabury.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "gitignore",
     "Текстовый документ.txt",
@@ -190,7 +191,6 @@
     "Wiki/Docker 🐋/Security Docker.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
-    "Wiki/IT English voculabury.md",
     "README.md",
     "Задачи Bash (~90 шт.) и другие ЯП.md",
     "untitled.md",

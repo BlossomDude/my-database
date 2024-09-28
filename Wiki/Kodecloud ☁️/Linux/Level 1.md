@@ -218,3 +218,14 @@ mv john.tar.gz /home
 ### Solution
 ```bash
 ```
+
+
+
+# 7
+### Problem
+```text
+```
+
+### Solution
+```bash
+```
