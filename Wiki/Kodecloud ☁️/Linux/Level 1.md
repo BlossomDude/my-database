@@ -1,24 +1,14 @@
 
 - [[#STRATOS DC:|STRATOS]]
 
-- [[#2: Group Creation and User Assignment:|2:Group Creation and User Assignment]]
-	- [[#Problem:|Problem]]
-	- [[#Solution:|Solution]]
-- [[#3: Linux User Setup with Non-Interactive Shell:|3: Linux User Setup with Non-Interactive Shell]]
-	- [[#Problem3:|Problem]]
-	- [[#Solution3:|Solution]]
-- [[#4: Service User Creation without Home Directory:| 4: Service User Creation without Home Directory]]
-	- [[#Problem4:|Problem]]
-	- [[#Solution4:|Solution]]
-- [[#5: Temporary User Setup with Expiry]]
-	- [[#Problem5:|Problem]]
-	- [[#Solution5:|Solution]]
+- [[#2 Group Creation and User Assignment]]
+- [[#3 Linux User Setup with Non-Interactive Shell]]
+- [[#4 Service User Creation without Home Directory]]
+- [[#5 Temporary User Setup with Expiry]]
 - [[#6 Linux User Data Transfer]]
-	- [[#Problem6:|Problem]]
-	- [[#Solution6:|Solution]]
 - [[#7 Secure Root SSH Access]]
-	- [[#Problem7:|Problem]]
-	- [[#Solution7:|Solution]]
+- [[#8 Data Backup for Developer]]
+- [[#9 Script Execution Permissions]]
 # STRATOS DC
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
@@ -112,7 +102,7 @@ sudo adduser --no-create-home anita
 ```
 
 
-	# 5: Temporary User Setup with Expiry
+# 5: Temporary User Setup with Expiry
 ### Problem5
 ```text
 As part of the temporary assignment to the `Nautilus` project, a developer named `siva` requires access for a limited duration. To ensure smooth access management, a temporary user account with an expiry date is needed. Here's what you need to do:  
@@ -186,8 +176,8 @@ sudo systemctl start sshd
 sudo systemctl status sshd
 ```
 
-# 7
-### Problem7
+# 8: Data Backup for Developer
+### Problem8
 ```text
 Within the Stratos DC, the Nautilus storage server hosts a directory named `/data`, serving as a repository for various developers non-confidential data. Developer `john` has requested a copy of their data stored in `/data/john`. The System Admin team has provided the following steps to fulfill this request:  
   
@@ -202,7 +192,7 @@ a. Создайте сжатый архив с именем john.tar.gz из к�
 b. Перенесите архив в каталог /home на сервере хранения.
 ```
 
-### Solution7
+### Solution8
 ```bash
 tar -czf john.tar.gz ./john
 mv john.tar.gz /home
@@ -210,8 +200,8 @@ mv john.tar.gz /home
 
 
 
-# 7
-### Problem
+# 9: Script Execution Permissions
+### Problem9
 ```text
 In a bid to automate backup processes, the `xFusionCorp Industries` sysadmin team has developed a new bash script named `xfusioncorp.sh`. While the script has been distributed to all necessary servers, it lacks executable permissions on `App Server 1` within the Stratos Datacenter.  
   
@@ -224,13 +214,14 @@ Your task is to grant executable permissions to the `/tmp/xfusioncorp.sh` scri
 Ваша задача - предоставить разрешения на выполнение скрипту /tmp/xfusioncorp.sh на сервере приложений 1. Кроме того, убедитесь, что все пользователи имеют возможность его выполнить.
 ```
 
-### Solution
+### Solution9
 ```bash
+chmod 777 xfusioncorp.sh
 ```
 
 
 
-# 7
+# 10
 ### Problem
 ```text
 ```
@@ -238,3 +229,21 @@ Your task is to grant executable permissions to the `/tmp/xfusioncorp.sh` scri
 ### Solution
 ```bash
 ```
+
+
+
+# 11
+### Problem
+```text
+```
+
+### Solution
+
+
+
+# 12
+### Problem
+```text
+```
+
+### Solution
