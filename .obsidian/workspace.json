@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f1d5dabee5202b2c",
+            "id": "b76a4a14b3552d27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -170,10 +170,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f1d5dabee5202b2c",
+  "active": "b76a4a14b3552d27",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "conflict-files-obsidian-git.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Web сервера 🖥️/Nginx",
     "Wiki/Web сервера 🖥️/Без названия.md",
     "Wiki/Kodecloud ☁️/Git/Level 1.md",
@@ -194,7 +196,6 @@
     "Wiki/Windows 🟩/Scripts",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud/Без названия.md",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Kodecloud ☁️",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Docker 🐋/Security Docker.md",

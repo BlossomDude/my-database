@@ -1,5 +1,5 @@
 
-- [[#STRATUS DC:|STRATUS DC - Данные об инфраструктуре]]
+- [[#STRATOS DC:|STRATOS]]
 
 - [[#2: Group Creation and User Assignment:|2:Group Creation and User Assignment]]
 	- [[#Problem:|Problem]]
@@ -16,7 +16,10 @@
 - [[#6 Linux User Data Transfer]]
 	- [[#Problem6:|Problem]]
 	- [[#Solution6:|Solution]]
-# STRATOS DC:cd
+- [[#7 Secure Root SSH Access]]
+	- [[#Problem7:|Problem]]
+	- [[#Solution7:|Solution]]
+# STRATOS DC
 
 | stapp01   | 172.16.238.10 | stapp01.stratos.xfusioncorp.com   | tony    | Ir0nM@n    | Nautilus App 1                 |
 | --------- | ------------- | --------------------------------- | ------- | ---------- | ------------------------------ |
@@ -176,19 +179,33 @@ Your task is to disable direct SSH root login on all app servers within the `St
 
 ### Solution7
 ```bash
-# Убедится что в конфиге /etc/ssh/sshd_config есть такая строка
-PermitRootLogin yes
+sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/' /etc/ssh/sshd_config 
+sudo cat /etc/ssh/sshd_config | grep PermitRootLogin
+sudo systemctl stop sshd 
+sudo systemctl start sshd
+sudo systemctl status sshd
 ```
-
-
 
 # 7
-### Problem
+### Problem7
 ```text
+Within the Stratos DC, the Nautilus storage server hosts a directory named `/data`, serving as a repository for various developers non-confidential data. Developer `john` has requested a copy of their data stored in `/data/john`. The System Admin team has provided the following steps to fulfill this request:  
+  
+a. Create a compressed archive named `john.tar.gz` of the `/data/john` directory.
+b. Transfer the archive to the `/home` directory on the Storage Server.```
+
+---
+
+В Stratos DC на сервере Nautilus storage server размещен каталог с именем /data, который служит хранилищем различных неконфиденциальных данных разработчиков. Разработчик john запросил копию своих данных, хранящихся в /data/john. Команда системных администраторов выполнила следующие действия для выполнения этого запроса:  
+  
+a. Создайте сжатый архив с именем john.tar.gz из каталога /data/john.  
+b. Перенесите архив в каталог /home на сервере хранения.
 ```
 
-### Solution
+### Solution7
 ```bash
+tar -czf john.tar.gz ./john
+mv john.tar.gz /home
 ```
 
 
