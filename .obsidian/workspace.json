@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/IT English voculabury.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#STRATUS",
+                "query": "сли вы определили переменные окружения, как описывалось в предыду- +щем разделе, у вас должно получиться проверить работоспособность сценария:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/IT English voculabury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/IT English voculabury.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
+                "file": "Wiki/IT English voculabury.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "1229064b810c4371",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "gitignore",
+    "Текстовый документ.txt",
+    "conflict-files-obsidian-git.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Web сервера 🖥️/Nginx",
@@ -188,7 +190,6 @@
     "Wiki/Docker 🐋/Security Docker.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
-    "Не подтверждено 272920.~",
     "Wiki/IT English voculabury.md",
     "README.md",
     "Задачи Bash (~90 шт.) и другие ЯП.md",
@@ -202,8 +203,6 @@
     "ten-whale-s-with-a-database.png",
     "31638f953e7a82daba91e51f13ccecc4.png",
     "9576f91d2353ad868a0e365994e14ade.jpg",
-    "Wiki/Podman.md",
-    "Wiki/Wiki.md",
-    "Wiki/devops ♻️/Terraform 🏭"
+    "Wiki/Podman.md"
   ]
 }
