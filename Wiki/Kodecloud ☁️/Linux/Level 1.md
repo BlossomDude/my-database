@@ -213,6 +213,15 @@ mv john.tar.gz /home
 # 7
 ### Problem
 ```text
+In a bid to automate backup processes, the `xFusionCorp Industries` sysadmin team has developed a new bash script named `xfusioncorp.sh`. While the script has been distributed to all necessary servers, it lacks executable permissions on `App Server 1` within the Stratos Datacenter.  
+  
+Your task is to grant executable permissions to the `/tmp/xfusioncorp.sh` script on `App Server 1`. Additionally, ensure that all users have the capability to execute it.
+
+---
+
+В попытке автоматизировать процессы резервного копирования команда системных администраторов xFusionCorp Industries разработала новый скрипт bash под названием xfusioncorp.sh. Хотя этот скрипт был распространен на все необходимые серверы, ему не хватает разрешений на выполнение на сервере приложений 1 в центре обработки данных Stratos.  
+  
+Ваша задача - предоставить разрешения на выполнение скрипту /tmp/xfusioncorp.sh на сервере приложений 1. Кроме того, убедитесь, что все пользователи имеют возможность его выполнить.
 ```
 
 ### Solution
