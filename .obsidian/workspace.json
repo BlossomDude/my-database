@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "2024-09-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "2024-09-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "2024-09-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
+                "file": "2024-09-29.md"
               }
             }
           },
@@ -177,8 +178,10 @@
   },
   "active": "6657e0995e2ba58f",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/ACL.md",
+    "Без названия.canvas",
+    "2024-09-29.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Linux 🐧/ACL.md",
     "Wiki/Задачник deusOps/2.md",
     "Wiki/Задачник deusOps/1.md",
     "Wiki/IT English voculabury.md",
@@ -212,8 +215,6 @@
     "Wiki/Docker 🐋/Security Docker.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
-    "README.md",
-    "Задачи Bash (~90 шт.) и другие ЯП.md",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
     "44740_database_icon.png",
