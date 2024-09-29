@@ -18,7 +18,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "eb60db97109d830f",
+        "type": "tabs",
+        "children": [
           {
             "id": "063572368fe67424",
             "type": "leaf",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
               }
             }
           },
@@ -170,7 +175,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "063572368fe67424",
+  "active": "6657e0995e2ba58f",
   "lastOpenFiles": [
     "Wiki/Linux 🐧/ACL.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
