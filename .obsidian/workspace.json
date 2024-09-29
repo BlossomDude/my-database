@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Задачник deusOps/2.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Задачник deusOps/2.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Задачник deusOps/2.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Задачник deusOps/2.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
               }
             }
           },
@@ -159,6 +159,7 @@
   },
   "active": "6657e0995e2ba58f",
   "lastOpenFiles": [
+    "Wiki/Задачник deusOps/2.md",
     "Wiki/Задачник deusOps/1.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "Wiki/IT English voculabury.md",
@@ -203,7 +204,6 @@
     "Untitled 30.png",
     "ten-whale-s-with-a-database.png",
     "31638f953e7a82daba91e51f13ccecc4.png",
-    "9576f91d2353ad868a0e365994e14ade.jpg",
-    "Wiki/Podman.md"
+    "9576f91d2353ad868a0e365994e14ade.jpg"
   ]
 }

@@ -224,6 +224,21 @@ chmod 777 xfusioncorp.sh
 # 10
 ### Problem
 ```text
+After conducting a security audit within the `Stratos DC`, the Nautilus security team discovered misconfigured permissions on critical files. To address this, corrective actions are being taken by the production support team. Specifically, the file named `/etc/resolv.conf` on `Nautilus App 1` server requires adjustments to its Access Control Lists (ACLs) as follows:  
+  
+1. The file's user owner and group owner should be set to `root`.  
+2. `Others` should possess `read only` permissions on the file.  
+3. User `yousuf` must not have any permissions on the file.  
+4. User `jerome` should be granted `read only` permission on the file.
+
+---
+
+После проведения аудита безопасности в Stratos DC команда безопасности Nautilus обнаружила неправильно настроенные права доступа к критически важным файлам. Для устранения этой проблемы команда технической поддержки предпринимает корректирующие действия. В частности, для файла с именем /etc/resolv.conf на сервере Nautilus App 1 требуется внести изменения в списки контроля доступа (ACL) следующим образом: 
+
+1. Пользователь-владелец файла и владелец группы должны иметь права root. 
+2. Другие пользователи должны обладать правами доступа к файлу только для чтения. 
+3. Пользователь yousuf не должен иметь никаких прав доступа к файлу. 
+4. Пользователю jerome должно быть предоставлено разрешение на доступ к файлу только для чтения.
 ```
 
 ### Solution
