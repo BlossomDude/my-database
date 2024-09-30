@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backlog.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backlog.md",
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backlog.md"
+                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
               }
             }
           },
@@ -190,8 +190,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9bb9c66807de0504",
+  "active": "2a911e57b9483c4b",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Git/Level 1.md",
+    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Linux 🐧/Linux.md",
     "README.md",
     "backlog.md",
     "Wiki/Linux 🐧/ACL.md",
@@ -202,7 +205,6 @@
     "Calendar",
     "2024-09-29.md",
     "Без названия.canvas",
-    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "Wiki/Задачник deusOps/2.md",
     "Wiki/Задачник deusOps/1.md",
     "Wiki/IT English voculabury.md",
@@ -213,7 +215,6 @@
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Web сервера 🖥️/Nginx",
     "Wiki/Web сервера 🖥️/Без названия.md",
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/GIT 🎋/GIT.md",
@@ -226,7 +227,6 @@
     "Wiki/Linux 🐧/Scripts",
     "Wiki/Windows 🟩/Активация винды.md",
     "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
-    "Wiki/Ссылки на статьи.md",
     "Wiki/Windows 🟩/Scripts",
     "Wiki/Kodecloud ☁️/Linux",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
