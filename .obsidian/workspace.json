@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md"
               }
             }
           },
@@ -191,10 +190,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2a911e57b9483c4b",
+  "active": "acab372040174fd1",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Straros DC.md",
     "Wiki/Linux 🐧/ACL.md",
     "backlog.md",
@@ -228,7 +228,6 @@
     "Wiki/exircism",
     "Wiki/Windows 🟩/Отчистка диска.md",
     "Wiki/Linux 🐧/Scripts",
-    "Wiki/Windows 🟩/Активация винды.md",
     "Wiki/Windows 🟩/Scripts",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
