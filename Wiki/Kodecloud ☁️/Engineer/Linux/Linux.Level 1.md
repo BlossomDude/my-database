@@ -264,3 +264,5 @@ sudo sed -i 's/About/Echo-Location/g' /root/nautilus.xml
 ```
 
 ### Solution
+```bash
+```
