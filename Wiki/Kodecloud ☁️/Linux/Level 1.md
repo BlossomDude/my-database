@@ -263,8 +263,7 @@ Your task is to substitute all occurrences of the string `About` with `Echo-L
 
 ### Solution
 ```bash
-sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/'
-
+sudo sed -i 's/About/Echo-Location/g' /root/nautilus.xml
 ```
 
 
