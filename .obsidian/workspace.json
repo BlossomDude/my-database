@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,7 +191,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2a911e57b9483c4b",
+  "active": "5184fbe79846e653",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",

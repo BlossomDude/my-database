@@ -252,22 +252,26 @@ After conducting a security audit within the `Stratos DC`, the Nautilus securit
 ```text
 Within the Stratos DC, the backup server holds template XML files crucial for the Nautilus application. Before utilization, these files require valid data insertion. As part of routine maintenance, system admins at `xFusionCorp Industries` employ string and file manipulation commands.  
   
-Your task is to substitute all occurrences of the string `Random` with `Cloud` within the XML file located at `/root/nautilus.xml` on the backup server.
+Your task is to substitute all occurrences of the string `About` with `Echo-Location` within the XML file located at `/root/nautilus.xml` on the backup server.
 
 ---
 
 На сервере резервного копирования Stratos DC хранятся XML-файлы шаблонов, необходимые для работы приложения Nautilus. Перед использованием в эти файлы необходимо вставить корректные данные. В рамках планового технического обслуживания системные администраторы xFusionCorp Industries используют команды управления строками и файлами.  
   
-Ваша задача - заменить все вхождения строки Random на Cloud в XML-файле, расположенном по адресу /root/nautilus.xml на сервере резервного копирования.
+Ваша задача - заменить все вхождения строки About на Echo-Location в XML-файле, расположенном по адресу /root/nautilus.xml на сервере резервного копирования.
 ```
 
 ### Solution
+```bash
+sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/'
 
+```
 
 
 # 12
 ### Problem
 ```text
+
 ```
 
 ### Solution
