@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Linux/Level 1.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Level 1.md"
               }
             }
           },
@@ -191,14 +191,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5184fbe79846e653",
+  "active": "063572368fe67424",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
-    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Linux 🐧/ACL.md",
+    "backlog.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Level 1.md",
     "Wiki/Linux 🐧/Linux.md",
     "README.md",
-    "backlog.md",
-    "Wiki/Linux 🐧/ACL.md",
     "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes 🧊/Команды.md",
@@ -220,16 +221,14 @@
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/exircism/bash/Tasks.md",
-    "Wiki/Kodecloud ☁️/Git",
+    "Wiki/Kodecloud ☁️/Engineer/Git",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/exircism/bash",
     "Wiki/exircism",
     "Wiki/Windows 🟩/Отчистка диска.md",
     "Wiki/Linux 🐧/Scripts",
     "Wiki/Windows 🟩/Активация винды.md",
-    "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
     "Wiki/Windows 🟩/Scripts",
-    "Wiki/Kodecloud ☁️/Linux",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
