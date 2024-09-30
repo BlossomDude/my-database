@@ -8,6 +8,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "acab372040174fd1",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
             "id": "063572368fe67424",
             "type": "leaf",
             "state": {
@@ -20,15 +28,19 @@
             }
           },
           {
-            "id": "acab372040174fd1",
+            "id": "6e15aa410ac9360c",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md",
+                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md",
+                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/ACL.md"
+                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md"
               }
             }
           },
@@ -167,11 +178,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "acab372040174fd1",
+  "active": "6e15aa410ac9360c",
   "lastOpenFiles": [
+    "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
+    "Wiki/Kubernetes 🧊/Команды.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/ACL.md",
     "Без названия.md",
     "Calendar",
-    "Wiki/Linux 🐧/ACL.md",
     "2024-09-29.md",
     "Без названия.canvas",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
@@ -189,7 +203,6 @@
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/GIT 🎋/GIT.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/exircism/bash/Tasks.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
@@ -204,7 +217,6 @@
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud/Без названия.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
-    "Wiki/Docker 🐋/Security Docker.md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
