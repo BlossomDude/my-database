@@ -28,19 +28,31 @@
             }
           },
           {
-            "id": "6e15aa410ac9360c",
+            "id": "2a911e57b9483c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bb9c66807de0504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backlog.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
+                "file": "backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
+                "file": "backlog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md"
+                "file": "backlog.md"
               }
             }
           },
@@ -178,13 +190,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6e15aa410ac9360c",
+  "active": "9bb9c66807de0504",
   "lastOpenFiles": [
+    "README.md",
+    "backlog.md",
+    "Wiki/Linux 🐧/ACL.md",
+    "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Linux 🐧/ACL.md",
-    "Без названия.md",
     "Calendar",
     "2024-09-29.md",
     "Без названия.canvas",
@@ -215,8 +229,6 @@
     "Wiki/Ссылки на статьи.md",
     "Wiki/Windows 🟩/Scripts",
     "Wiki/Kodecloud ☁️/Linux",
-    "Wiki/Kodecloud/Без названия.md",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
