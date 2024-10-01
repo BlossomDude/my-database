@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7fdda6254920195c",
+  "active": "acab372040174fd1",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
