@@ -374,7 +374,7 @@ Allow all incoming connections on port `3000/tcp`. Ensure the zone is set to `
 
 ### Solution
 ```bash
-
+firewall-cmd --permanent --zone=public --add-port=3000/tcp
 ```
 
 
