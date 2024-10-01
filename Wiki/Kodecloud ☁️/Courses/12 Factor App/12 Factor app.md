@@ -9,9 +9,12 @@
   Например с этим справляется venv в Python
 3. Concurrency
 4. Processes
-5. Backing Services
-6. Processes
+>Процессы не должны иметь состояния и общего доступа
+>Липкие сессии не должны применятся
 
-7. /
-8. Concurrency - Параллелизм
+1. Backing Services
+2. Processes
+
+3. /
+4. Concurrency - Параллелизм
 > Приложение должно масштабироваться горизонтально, а не вертикально
