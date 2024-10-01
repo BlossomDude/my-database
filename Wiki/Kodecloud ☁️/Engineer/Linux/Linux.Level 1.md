@@ -315,7 +315,15 @@ sudo echo "ryan" >> /etc/cron.deny
 ### Problem
 ```text
 
+With the installation of new tools on the app servers within the `Stratos Datacenter`, certain functionalities now necessitate graphical user interface (GUI) access.  
+  
+Adjust the `default runlevel` on all App servers in `Stratos Datacenter` to enable GUI booting by default. It's imperative not to initiate a server reboot after completing this task.
 
+---
+
+После установки новых инструментов на серверах приложений в центре обработки данных Stratos для некоторых функций теперь требуется доступ к графическому интерфейсу пользователя (GUI).  
+  
+Настройте уровень запуска по умолчанию на всех серверах приложений в центре обработки данных Stratos, чтобы включить загрузку с графическим интерфейсом пользователя по умолчанию. Крайне важно не инициировать перезагрузку сервера после выполнения этой задачи.
 
 ```
 
@@ -325,3 +333,15 @@ sudo echo "ryan" >> /etc/cron.deny
 ```
 
 
+# 15: 
+### Problem
+```text
+
+
+
+```
+
+### Solution
+```bash
+
+```
