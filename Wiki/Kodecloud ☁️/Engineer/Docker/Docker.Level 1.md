@@ -73,7 +73,7 @@ Copy an encrypted file `/tmp/nautilus.txt.gpg` from the docker host to the `u
 
 ### Solution
 ```bash
-
+sudo docker cp /tmp/nautilus.txt.gpg 61bda:/tmp/nautilus.txt.gpg
 ```
 
 
