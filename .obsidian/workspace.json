@@ -42,17 +42,19 @@
           {
             "id": "7fdda6254920195c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md"
               }
             }
           },
@@ -191,11 +193,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "063572368fe67424",
+  "active": "7fdda6254920195c",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD.md",

@@ -378,7 +378,31 @@ firewall-cmd --permanent --zone=public --add-port=3000/tcp
 ```
 
 
-# 16: Firewall Configuration
+# 16: 
+### Problem
+```text
+
+In the `Stratos Datacenter`, our `Storage server` is encountering performance degradation due to excessive processes held by the `nfsuser` user. To mitigate this issue, we need to enforce limitations on its maximum processes. Please set the maximum process limits as specified below:   
+
+a. Set the soft limit to `1026`  
+b. Set the hard limit to `2024`
+
+---
+
+В центре обработки данных Stratos на нашем сервере хранения данных наблюдается снижение производительности из-за чрезмерного количества процессов, выполняемых пользователем nfsuser. Чтобы устранить эту проблему, нам необходимо ввести ограничения на максимальное количество процессов. Пожалуйста, установите максимальные ограничения на процессы, как указано ниже:  
+    
+a. Установите мягкое ограничение на 1026    
+b. Установите жесткое ограничение на 2024
+
+```
+
+### Solution
+```bash
+
+```
+
+
+# 17: Firewall Configuration
 ### Problem
 ```text
 
@@ -390,3 +414,5 @@ firewall-cmd --permanent --zone=public --add-port=3000/tcp
 ```bash
 
 ```
+
+
