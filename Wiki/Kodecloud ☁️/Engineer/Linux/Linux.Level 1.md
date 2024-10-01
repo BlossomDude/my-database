@@ -315,7 +315,11 @@ Configure crontab access on App Server 2 as follows: Allow crontab access to `k
 
 ### Solution
 ```bash
+ sudo touch /etc/cron.allow
+ sudo touch /etc/cron.deny
 
+ sudo echo "kirsty" >> /etc/cron.allow
+ sudo echo "ryan" >> /etc/cron.deny
 ```
 
 
