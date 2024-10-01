@@ -60,7 +60,15 @@ sudo docker stop kke-container && docker rm kke-container
 # 3
 ### Problem
 ```text
+The Nautilus DevOps team possesses confidential data on `App Server 1` in the `Stratos Datacenter`. A container named `ubuntu_latest` is running on the same server.  
+  
+Copy an encrypted file `/tmp/nautilus.txt.gpg` from the docker host to the `ubuntu_latest` container located at `/tmp/`. Ensure the file is not modified during this operation.
 
+---
+
+Команда Nautilus DevOps располагает конфиденциальными данными на сервере приложений 1 в центре обработки данных Stratos. На том же сервере запущен контейнер с именем ubuntu_latest.  
+  
+Скопируйте зашифрованный файл /tmp/nautilus.txt.gpg с хоста docker в контейнер ubuntu_latest, расположенный по адресу /tmp/. Убедитесь, что файл не был изменен во время этой операции.
 ```
 
 ### Solution
