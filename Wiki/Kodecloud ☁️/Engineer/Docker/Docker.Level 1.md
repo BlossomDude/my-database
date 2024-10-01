@@ -98,7 +98,7 @@ An issue has arisen with a static website running in a container named `nautilu
 
 ### Solution
 ```bash
-
+docker run -d -v /var/www/html:/usr/local/apache2/htdocs --name nautilus -p 8080:80 httpd
 ```
 
 
