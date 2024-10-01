@@ -260,6 +260,15 @@ sudo sed -i 's/About/Echo-Location/g' /root/nautilus.xml
 # 12
 ### Problem
 ```text
+A `Nautilus` developer has stored confidential data on the jump host within `Stratos DC`. To ensure security and compliance, this data must be transferred to one of the app servers. Given developers lack direct access to these servers, the system admin team has been enlisted for assistance.  
+  
+Copy `/tmp/nautilus.txt.gpg` file from jump server to `App Server 2` placing it in the directory `/home/appdata`.
+
+---
+
+Разработчик Nautilus сохранил конфиденциальные данные на сервере jump в Stratos DC. Для обеспечения безопасности и соответствия требованиям эти данные необходимо перенести на один из серверов приложений. Поскольку разработчики не имеют прямого доступа к этим серверам, была привлечена команда системных администраторов для оказания помощи.  
+  
+Скопируйте файл /tmp/nautilus.txt.gpg с jump server на App Server 2, поместив его в каталог /home/appdata.
 
 ```
 
