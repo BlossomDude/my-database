@@ -356,7 +356,21 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Hovd /etc/localtime
 ```
 
 
-# 16:
+# 16: Firewall Configuration
+### Problem
+```text
+
+
+
+```
+
+### Solution
+```bash
+
+```
+
+
+# 16: Firewall Configuration
 ### Problem
 ```text
 
