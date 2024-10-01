@@ -52,7 +52,7 @@ Delete the `kke-container` on `App Server 2` in Stratos DC.
 
 ### Solution
 ```bash
-
+sudo docker stop kke-container && docker rm kke-container 
 ```
 
 
@@ -68,3 +68,15 @@ Delete the `kke-container` on `App Server 2` in Stratos DC.
 
 ```
 
+
+
+# 3
+### Problem
+```text
+
+```
+
+### Solution
+```bash
+
+```
