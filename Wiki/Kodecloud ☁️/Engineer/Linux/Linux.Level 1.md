@@ -282,21 +282,7 @@ sudo scp /tmp/nautilus.txt.gpg steve@stapp02:/home/appdata
 ```
 
 
-# 13: 
-### Problem
-```text
-
-
-```
-
-### Solution
-```bash
-
-```
-
-
-
-# 14: 
+# 13: Restrict Cron Access
 ### Problem
 ```text
 In alignment with security compliance standards, the Nautilus project team has opted to impose restrictions on crontab access. Specifically, only designated users will be permitted to create or update cron jobs.  
@@ -311,15 +297,31 @@ Configure crontab access on App Server 2 as follows: Allow crontab access to `k
 В соответствии со стандартами безопасности команда Nautilus project решила ввести ограничения на доступ к crontab. В частности, только назначенным пользователям будет разрешено создавать или обновлять задания cron.    
   
 Настройте доступ к crontab на App Server 2 следующим образом: Разрешите доступ к crontab пользователю kirsty, отказав в доступе пользователю ryan.
+
 ```
 
 ### Solution
 ```bash
- sudo touch /etc/cron.allow
- sudo touch /etc/cron.deny
+sudo touch /etc/cron.allow
+sudo touch /etc/cron.deny
 
- sudo echo "kirsty" >> /etc/cron.allow
- sudo echo "ryan" >> /etc/cron.deny
+sudo echo "kirsty" >> /etc/cron.allow
+sudo echo "ryan" >> /etc/cron.deny
+```
+
+
+
+# 14: Default GUI Boot Configuration
+### Problem
+```text
+
+
+
+```
+
+### Solution
+```bash
+
 ```
 
 
