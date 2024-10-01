@@ -360,7 +360,15 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Hovd /etc/localtime
 ### Problem
 ```text
 
+The `Nautilus` system admins team has rolled out a web UI application for their backup utility on the `Nautilus backup server` within the `Stratos Datacenter`. This application operates on port `3000`, and `firewalld` is active on the server. To meet operational needs, the following requirements have been identified:  
+  
+Allow all incoming connections on port `3000/tcp`. Ensure the zone is set to `public`.
 
+---
+
+Команда системных администраторов Nautilus внедрила приложение с веб-интерфейсом для своей утилиты резервного копирования на сервере резервного копирования Nautilus в центре обработки данных Stratos. Это приложение работает через порт 3000, а firewalld активен на сервере. Для удовлетворения оперативных потребностей были определены следующие требования:  
+  
+Разрешить все входящие соединения через порт 3000/tcp. Убедитесь, что для зоны установлено значение public.
 
 ```
 
