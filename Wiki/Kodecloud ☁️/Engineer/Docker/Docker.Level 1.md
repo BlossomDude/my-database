@@ -13,16 +13,24 @@ sudo systemctl start docker
 ```
 
 
+
+
 # 2
 ### Problem
 ```text
 The Nautilus DevOps team is conducting application deployment tests on selected application servers. They require a nginx container deployment on `Application Server 2`. Complete the task with the following instructions:
 
 1. On `Application Server 2` create a container named `nginx_2` using the `nginx` image with the `alpine` tag. Ensure container is in a `running` state.
+
+---
+
+Команда Nautilus DevOps проводит тесты развертывания приложений на выбранных серверах приложений. Для этого требуется развертывание контейнера nginx на сервере приложений 2. Выполните задачу, следуя приведенным ниже инструкциям:  
+
+1. На сервере приложений 2 создайте контейнер с именем nginx_2, используя образ nginx с тегом alpine. Убедитесь, что контейнер находится в рабочем состоянии.
 ```
 
 ### Solution
 ```bash
-Следовал инструкции с оф. сайта по установке docker engine
+sudo docker run -d --name nginx_2 nginx:alpine
+```
 
-sudo systemctl start docker

@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Straros DC.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Straros DC.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Straros DC.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md"
               }
             }
           },
@@ -179,10 +179,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c00b3c4d461be9b4",
+  "active": "063572368fe67424",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
