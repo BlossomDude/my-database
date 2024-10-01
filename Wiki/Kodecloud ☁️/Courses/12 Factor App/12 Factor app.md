@@ -10,7 +10,8 @@
 3. Concurrency
 4. Processes
 5. Backing Services
-6. Config
+6. Processes
+
 7. /
 8. Concurrency - Параллелизм
 > Приложение должно масштабироваться горизонтально, а не вертикально
