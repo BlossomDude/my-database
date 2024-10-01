@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backlog.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backlog.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backlog.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md"
               }
             }
           },
@@ -191,8 +191,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7fdda6254920195c",
+  "active": "063572368fe67424",
   "lastOpenFiles": [
+    "backlog.md",
     "Wiki/Kodecloud ☁️/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
@@ -201,7 +202,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "Wiki/Linux 🐧/ACL.md",
-    "backlog.md",
     "Wiki/Kodecloud ☁️/Engineer",
     "Wiki/Linux 🐧/Linux.md",
     "README.md",
