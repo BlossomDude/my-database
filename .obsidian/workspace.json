@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Linux 🐧/Targets SystemD.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "сли вы определили переменные окружения, как описывалось в предыду- +щем разделе, у вас должно получиться проверить работоспособность сценария:",
+                "query": "multi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Linux 🐧/Targets SystemD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Linux 🐧/Targets SystemD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md"
+                "file": "Wiki/Linux 🐧/Targets SystemD.md"
               }
             }
           },
@@ -193,8 +194,11 @@
   },
   "active": "7fdda6254920195c",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+    "Wiki/Linux 🐧/SystemD.md",
+    "Wiki/Linux 🐧/sed.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "backlog.md",
@@ -212,7 +216,6 @@
     "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes 🧊/Команды.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Calendar",
     "2024-09-29.md",
     "Без названия.canvas",
@@ -226,8 +229,6 @@
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Web сервера 🖥️/Nginx",
     "Wiki/Web сервера 🖥️/Без названия.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Kodecloud ☁️/Engineer/Git",
     "Wiki/exircism/bash",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
