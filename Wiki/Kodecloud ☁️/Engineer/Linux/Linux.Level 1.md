@@ -9,6 +9,10 @@
 - [[#7 Secure Root SSH Access]]
 - [[#8 Data Backup for Developer]]
 - [[#9 Script Execution Permissions]]
+- [[#10 File Permission Correction]]
+- [[#11 String Replacement]]
+- [[#12 Secure Data Transfer]]
+- 
 # STRATOS DC
 
 
@@ -211,7 +215,7 @@ chmod 777 xfusioncorp.sh
 
 
 
-# 10
+# 10: File Permission Correction
 ### Problem
 ```text
 After conducting a security audit within the `Stratos DC`, the Nautilus security team discovered misconfigured permissions on critical files. To address this, corrective actions are being taken by the production support team. Specifically, the file named `/etc/resolv.conf` on `Nautilus App 1` server requires adjustments to its Access Control Lists (ACLs) as follows:  
@@ -237,7 +241,7 @@ After conducting a security audit within the `Stratos DC`, the Nautilus securit
 
 
 
-# 11
+# 11: String Replacement
 ### Problem
 ```text
 Within the Stratos DC, the backup server holds template XML files crucial for the Nautilus application. Before utilization, these files require valid data insertion. As part of routine maintenance, system admins at `xFusionCorp Industries` employ string and file manipulation commands.  
@@ -257,7 +261,7 @@ sudo sed -i 's/About/Echo-Location/g' /root/nautilus.xml
 ```
 
 
-# 12
+# 12: Secure Data Transfer
 ### Problem
 ```text
 A `Nautilus` developer has stored confidential data on the jump host within `Stratos DC`. To ensure security and compliance, this data must be transferred to one of the app servers. Given developers lack direct access to these servers, the system admin team has been enlisted for assistance.  
@@ -274,4 +278,5 @@ Copy `/tmp/nautilus.txt.gpg` file from jump server to `App Server 2` placing
 
 ### Solution
 ```bash
+sudo scp /tmp/nautilus.txt.gpg steve@stapp02:/home/appdata
 ```
