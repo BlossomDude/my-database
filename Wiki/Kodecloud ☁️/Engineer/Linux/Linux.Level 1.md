@@ -353,6 +353,8 @@ Synchronize the timezone settings to match the local datacenter's timezone (`Asi
 ### Solution
 ```bash
 
+sudo ln -sf /usr/share/zoneinfo/Asia/Hovd /etc/localtime
+
 ```
 
 
