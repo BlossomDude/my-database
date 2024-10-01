@@ -1,5 +1,5 @@
 
-# 1
+# 1: Install Docker Packages and Start Docker Service
 ### Problem
 ```text
 Установить докер и запустить службу
@@ -15,7 +15,7 @@ sudo systemctl start docker
 
 
 
-# 2
+# 2: Deploy Nginx Container on Application Server
 ### Problem
 ```text
 The Nautilus DevOps team is conducting application deployment tests on selected application servers. They require a nginx container deployment on `Application Server 2`. Complete the task with the following instructions:
@@ -36,7 +36,7 @@ sudo docker run -d --name nginx_2 nginx:alpine
 
 
 
-# 2
+# 3: Delete Docker Container
 ### Problem
 ```text
 A container named `kke-container` was created by one of the Nautilus project developers on `App Server 2`. It was solely for testing purposes and now requires deletion. Execute the following task:  
@@ -57,7 +57,7 @@ sudo docker stop kke-container && docker rm kke-container
 
 
 
-# 3
+# 4: Copy File to Docker Container
 ### Problem
 ```text
 The Nautilus DevOps team possesses confidential data on `App Server 1` in the `Stratos Datacenter`. A container named `ubuntu_latest` is running on the same server.  
@@ -78,7 +78,7 @@ sudo docker cp /tmp/nautilus.txt.gpg 61bda:/tmp/nautilus.txt.gpg
 
 
 
-# 3
+# 5: Troubleshoot Docker Container Issue
 ### Problem
 ```text
 An issue has arisen with a static website running in a container named `nautilus` on `App Server 1`. To resolve the issue, investigate the following details:  
@@ -116,13 +116,3 @@ docker run -d -v /var/www/html:/usr/local/apache2/htdocs --name nautilus -p 8080
 
 
 
-# 5
-### Problem
-```text
-
-```
-
-### Solution
-```bash
-
-```
