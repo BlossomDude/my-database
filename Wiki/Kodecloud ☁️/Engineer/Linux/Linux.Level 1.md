@@ -329,7 +329,8 @@ Adjust the `default runlevel` on all App servers in `Stratos Datacenter` to 
 
 ### Solution
 ```bash
-
+sudo systemctl set-default graphical.target
+sudo systemctl get-default
 ```
 
 
