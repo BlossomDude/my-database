@@ -334,7 +334,29 @@ sudo systemctl get-default
 ```
 
 
-# 15: 
+# 15: Timezone Alignment
+### Problem
+```text
+
+In the daily standup, it was noted that the timezone settings across the `Nautilus Application Servers` in the `Stratos Datacenter` are inconsistent with the local datacenter's timezone, currently set to `Asia/Hovd`.  
+  
+Synchronize the timezone settings to match the local datacenter's timezone (`Asia/Hovd`).
+
+--
+
+В ежедневном обзоре было отмечено, что настройки часового пояса на серверах приложений Nautilus в Центре обработки данных Stratos не соответствуют часовому поясу местного центра обработки данных, который в настоящее время установлен на Asia / Hovd.
+
+Синхронизируйте настройки часового пояса в соответствии с часовым поясом локального центра обработки данных (Asia / Hovd).
+
+```
+
+### Solution
+```bash
+
+```
+
+
+# 15:
 ### Problem
 ```text
 
