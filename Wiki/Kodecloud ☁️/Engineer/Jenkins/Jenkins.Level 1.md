@@ -26,7 +26,7 @@ The DevOps team at xFusionCorp Industries is initiating the setup of CI/CD pipel
 
 ### Solution
 ```bash
-
+# Следовал стандартной инструкции по установке Jenkins
 ```
 
 
