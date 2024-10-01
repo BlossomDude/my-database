@@ -34,3 +34,37 @@ The Nautilus DevOps team is conducting application deployment tests on selected 
 sudo docker run -d --name nginx_2 nginx:alpine
 ```
 
+
+
+# 2
+### Problem
+```text
+A container named `kke-container` was created by one of the Nautilus project developers on `App Server 2`. It was solely for testing purposes and now requires deletion. Execute the following task:  
+
+Delete the `kke-container` on `App Server 2` in Stratos DC.
+
+---
+
+Контейнер с именем kke-container был создан одним из разработчиков Nautilus project на App Server 2. Он был создан исключительно для тестирования и теперь требует удаления. Выполните следующую задачу:  
+  
+Удалите kke-контейнер на App Server 2 в Stratos DC.
+```
+
+### Solution
+```bash
+
+```
+
+
+
+# 3
+### Problem
+```text
+
+```
+
+### Solution
+```bash
+
+```
+
