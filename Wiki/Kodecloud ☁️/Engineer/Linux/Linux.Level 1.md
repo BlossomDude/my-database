@@ -378,7 +378,7 @@ firewall-cmd --permanent --zone=public --add-port=3000/tcp
 ```
 
 
-# 16: 
+# 17: Process Limit Adjustment
 ### Problem
 ```text
 
@@ -398,11 +398,13 @@ b. Установите жесткое ограничение на 2024
 
 ### Solution
 ```bash
-
+# Добавил две строки в /etc/security/limits.conf
+nfsuser soft nproc 1026
+nfsuser hard nproc 2024
 ```
 
 
-# 17: Firewall Configuration
+# 18: SElinux Installation and Configuration
 ### Problem
 ```text
 
