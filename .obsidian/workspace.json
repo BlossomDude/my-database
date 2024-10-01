@@ -4,22 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "336429157b6b6d5f",
+        "id": "eb60db97109d830f",
         "type": "tabs",
         "children": [
           {
-            "id": "1229064b810c4371",
+            "id": "acab372040174fd1",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "063572368fe67424",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md",
+                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c00b3c4d461be9b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fdda6254920195c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "00ac01377400f6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Linux 🐧/Лимиты для пользователей.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#STRATUS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 254.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -85,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md",
+                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md",
+                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md"
+                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md"
               }
             }
           },
@@ -142,59 +189,60 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1229064b810c4371",
+  "active": "063572368fe67424",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
-    "backlog.md",
-    "Wiki/Linux 🐧/Лимиты для пользователей.md",
-    "Wiki/Linux 🐧/ACL.md",
+    "keepassxc/Пароли.kdbx",
+    "keepassxc",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
+    "Wiki/Linux 🐧/Лимиты для пользователей.md",
+    "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux",
-    "Wiki/Kodecloud ☁️/Engineer/Git",
-    "Wiki/Kodecloud ☁️/Engineer/Docker",
-    "Wiki/Kodecloud ☁️/Engineer",
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App",
-    "Wiki/Kodecloud ☁️/Courses",
-    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
-    "Calendar",
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
-    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
-    "Wiki/Web сервера 🖥️/Nginx",
-    "Wiki/Web сервера 🖥️/Без названия.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Linux 🐧/BASH/BASH.md",
-    "Wiki/GIT 🎋/GIT.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/exircism/bash/Tasks.md",
-    "Wiki/Kodecloud ☁️/Git",
-    "Wiki/Linux 🐧/Scripts/check_system.sh.md",
-    "Wiki/exircism/bash",
-    "Wiki/Windows 🟩/Отчистка диска.md",
-    "Wiki/Windows 🟩/Активация винды.md",
-    "Wiki/Windows 🟩/Scripts/LogOutAllUsers.ps.md",
-    "Wiki/Ссылки на статьи.md",
-    "Wiki/Kodecloud/Без названия.md",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+    "Wiki/Linux 🐧/Targets SystemD.md",
+    "Wiki/Linux 🐧/SystemD.md",
+    "Wiki/Linux 🐧/sed.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+    "backlog.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App",
+    "Wiki/Kodecloud ☁️/Courses/Без названия.md",
+    "Wiki/Kodecloud ☁️/Courses",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker",
+    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
+    "Wiki/Linux 🐧/ACL.md",
+    "Wiki/Kodecloud ☁️/Engineer",
+    "Wiki/Linux 🐧/Linux.md",
+    "README.md",
+    "Wiki/Kubernetes 🧊/Ingress Controller/Ingress Controller.md",
+    "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
+    "Wiki/Kubernetes 🧊/Команды.md",
+    "Calendar",
+    "2024-09-29.md",
+    "Без названия.canvas",
+    "Wiki/Задачник deusOps/2.md",
+    "Wiki/Задачник deusOps/1.md",
+    "Wiki/IT English voculabury.md",
+    "gitignore",
+    "Текстовый документ.txt",
+    "Wiki/Web сервера 🖥️/Nginx",
+    "Wiki/Kodecloud ☁️/Engineer/Git",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
