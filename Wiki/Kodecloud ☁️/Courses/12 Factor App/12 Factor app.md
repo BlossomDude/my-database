@@ -7,11 +7,10 @@
 > Явно указывайте и изолируйте зависимости 
  
   Например с этим справляется venv в Python
-1. Concurrency
-2. Processes
-3. Backing Services
-4. Config
-5. /
-6. /
+3. Concurrency
+4. Processes
+5. Backing Services
+6. Config
 7. /
-8. Concurrency
+8. Concurrency - Параллелизм
+> Приложение должно масштабироваться горизонтально, а не вертикально
