@@ -5,8 +5,10 @@
 
 2. Dependencies
 > Явно указывайте и изолируйте зависимости 
-3. Concurrency
-4. Processes
-5. Backing Services
-6. Config
-7. 
+ 
+  Например с этим справляется venv в Python
+1. Concurrency
+2. Processes
+3. Backing Services
+4. Config
+5. 
