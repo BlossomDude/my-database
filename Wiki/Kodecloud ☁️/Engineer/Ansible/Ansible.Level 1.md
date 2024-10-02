@@ -32,11 +32,23 @@ An Ansible playbook needs completion on the `jump host`, where a team member le
 
 ### Problem
 ```
+The Nautilus DevOps team is testing Ansible playbooks on various servers within their stack. They've placed some playbooks under `/home/thor/playbook/` directory on the `jump host` and now intend to test them on `app server 3` in `Stratos DC`. However, an inventory file needs creation for Ansible to connect to the respective app. Here are the requirements:
 
+a. Create an ini type Ansible inventory file `/home/thor/playbook/inventory` on `jump host`.  
+b. Include `App Server 3` in this inventory along with necessary variables for proper functionality.   
+c. Ensure the inventory hostname corresponds to the `server name` as per the wiki, for example `stapp01` for `app server 1` in `Stratos DC`.  
+  
+`Note:` Validation will execute the playbook using the command `ansible-playbook -i inventory playbook.yml`. Ensure the playbook functions properly without any extra arguments.
 
 ---
 
+Команда разработчиков Nautilus тестирует сборники игр Ansible на различных серверах в своем стеке. Они разместили несколько сборников игр в каталоге /home/thor/ playbook / на хостинге jump и теперь намерены протестировать их на app server 3 в Stratos DC. Однако для подключения Ansible к соответствующему приложению необходимо создать файл инвентаря. Вот требования.
 
+a. Создайте файл инвентаря Ansible ini типа / home / thor / playbook / inventory на jump host.
+б. Включите App Server 3 в этот список вместе с необходимыми переменными для надлежащей функциональности.
+c. Убедитесь, что имя хоста инвентаря соответствует имени сервера в соответствии с wiki, например stapp01 для сервера приложений 1 в Stratos DC.
+
+Примечание: Проверка выполнит playbook с помощью команды ansible-playbook -i inventory playbook.yml. Убедитесь, что playbook функционирует должным образом без каких-либо дополнительных аргументов.
 ```
 
 ### Solution
