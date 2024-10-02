@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,26 +59,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Лимиты для пользователей.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b311702d7e68fec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 233.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -144,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md"
+                "file": "Wiki/GIT 🎋/Команды.md"
               }
             }
           },
@@ -201,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,23 +205,22 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b311702d7e68fec6",
+  "active": "00ac01377400f6f7",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/GIT 🎋/GIT.md",
+    "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
-    "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
@@ -240,9 +228,11 @@
     "Wiki/Linux 🐧/sed.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
     "backlog.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
     "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "Wiki/Linux 🐧/ACL.md",
@@ -253,7 +243,6 @@
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Calendar",
-    "2024-09-29.md",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
