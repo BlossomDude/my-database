@@ -31,7 +31,7 @@ The DevOps team at xFusionCorp Industries is initiating the setup of CI/CD pipel
 
 
 
-# 2: 
+# 2: Install plugins
 ### Problem
 ```text
 
