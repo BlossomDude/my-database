@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,8 +193,9 @@
   },
   "active": "7fdda6254920195c",
   "lastOpenFiles": [
-    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
     "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
@@ -203,7 +204,6 @@
     "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
