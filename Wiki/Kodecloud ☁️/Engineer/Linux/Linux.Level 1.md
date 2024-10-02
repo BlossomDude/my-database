@@ -1,6 +1,4 @@
 
-- [[#STRATOS DC:|STRATOS]]
-
 - [[#2 Group Creation and User Assignment]]
 - [[#3 Linux User Setup with Non-Interactive Shell]]
 - [[#4 Service User Creation without Home Directory]]
@@ -12,9 +10,12 @@
 - [[#10 File Permission Correction]]
 - [[#11 String Replacement]]
 - [[#12 Secure Data Transfer]]
-- 
-# STRATOS DC
-
+- [[#13 Restrict Cron Access]]
+- [[#14 Default GUI Boot Configuration]]
+- [[#15 Timezone Alignment]]
+- [[#16 Firewall Configuration]]
+- [[#17 Process Limit Adjustment]]
+- [[#18 SElinux Installation and Configuration]]
 
 
 # 2: Group Creation and User Assignment
@@ -430,7 +431,9 @@ Following a security audit, the xFusionCorp Industries security team has opted t
 ```bash
 sudo -s
 dnf install policycoreutils-python-utils setools setools-console setroubleshoot
-
+yum install selinux-policy-devel policycoreutils
+yum install selinux-policy-targeted
+vi /etc/selinux/config # add SELINUX: disabled
 ```
 
 
