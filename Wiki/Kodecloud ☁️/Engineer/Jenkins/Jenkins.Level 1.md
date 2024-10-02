@@ -60,7 +60,23 @@ The Nautilus DevOps team has recently setup a Jenkins server, which they want to
 # 3: 
 ### Problem
 ```text
+The Nautilus team is integrating Jenkins into their CI/CD pipelines. After setting up a new Jenkins server, they're now configuring user access for the development team, Follow these steps:  
 
+1. Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login with username `admin` and password `Adm!n321`.
+2. Create a jenkins user named `javed` with the password`LQfKeWWxWD`. Their full nme should match `Javed`.   
+3. Utilize the `Project-based Matrix Authorization Strategy` to assign `overall read` permission to the `javed` user.   
+4. Remove all permissions for `Anonymous` users (if any) ensuring that the `admin` user retains overall `Administer` permissions.   
+5. For the existing job, grant `javed` user only `read` permissions, disregarding other permissions such as Agent, SCM etc.
+
+---
+
+Команда Nautilus интегрирует Jenkins в свои конвейеры CI/CD. После настройки нового сервера Jenkins команда разработчиков приступает к настройке доступа пользователей, выполните следующие действия: 
+
+1. Нажмите на кнопку Jenkins на верхней панели, чтобы получить доступ к пользовательскому интерфейсу Jenkins. Войдите под именем admin и паролем Adm!n321. 
+2. Создайте пользователя jenkins по имени javed с паролем Qfkewwxwd. Его полное имя должно совпадать с Javed. 
+3. Используйте стратегию авторизации Matrix, основанную на проекте, для назначения общего разрешения на чтение пользователю javed. 
+4. Удалите все разрешения для анонимных пользователей (если таковые имеются), гарантируя, что пользователь admin сохранит за собой общие права администрирования. 
+5. Для существующего задания предоставьте пользователю javed только права на чтение, игнорируя другие разрешения, такие как Agent, SCM и т.д.
 ```
 
 ### Solution
