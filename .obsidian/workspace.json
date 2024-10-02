@@ -45,14 +45,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
+                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md"
               }
             }
           },
@@ -191,17 +191,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7fdda6254920195c",
+  "active": "00ac01377400f6f7",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
+    "Wiki/GIT 🎋/Команды.md",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
     "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
@@ -226,7 +227,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
-    "Wiki/Linux 🐧/ACL.md",
     "Wiki/Kodecloud ☁️/Engineer",
     "Calendar",
     "Без названия.canvas",
