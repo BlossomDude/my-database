@@ -428,6 +428,8 @@ Following a security audit, the xFusionCorp Industries security team has opted t
 
 ### Solution
 ```bash
+sudo -s
+dnf install policycoreutils-python-utils setools setools-console setroubleshoot
 
 ```
 
