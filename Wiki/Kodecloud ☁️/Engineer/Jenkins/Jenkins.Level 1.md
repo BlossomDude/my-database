@@ -34,7 +34,20 @@ The DevOps team at xFusionCorp Industries is initiating the setup of CI/CD pipel
 # 2: Install plugins
 ### Problem
 ```text
+The Nautilus DevOps team has recently setup a Jenkins server, which they want to use for some CI/CD jobs. Before that they want to install some plugins which will be used in most of the jobs. Please find below more details about the task  
+  
+1. Click on the Jenkins button on the top bar to access the Jenkins UI. Login using username `admin` and `Adm!n321` password.  
+2. Once logged in, install the `Git` and `GitLab` plugins. Note that you may need to restart Jenkins service to complete the plugins installation, If required, opt to `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`.  
+  
+---
 
+Команда разработчиков Nautilus недавно настроила сервер Jenkins, который они хотят использовать для некоторых заданий CI / CD. Перед этим они хотят установить некоторые плагины, которые будут использоваться в большинстве заданий. Пожалуйста, ознакомьтесь ниже с более подробной информацией о задаче
+
+1. Нажмите на кнопку Jenkins на верхней панели, чтобы получить доступ к пользовательскому интерфейсу Jenkins. Войдите в систему, используя имя пользователя admin и пароль Adm! n321.
+2. После входа в систему установите плагины Git и GitLab. Обратите внимание, что вам может потребоваться перезапустить службу Jenkins для завершения установки плагинов, при необходимости выберите перезапуск Jenkins, когда установка завершена и никакие задания не выполняются на странице установки / обновления плагина, т. е. в центре обновлений.
+Примечание:
+1. После перезапуска службы Jenkins дождитесь повторного появления страницы входа в Jenkins, прежде чем продолжить.
+2. Для задач, связанных с изменениями веб-интерфейса, делайте снимки экрана, чтобы поделиться ими для ознакомления, или рассмотрите возможность использования программного обеспечения для записи экрана, такого как loom.com для документирования и совместного использования.
 ```
 
 ### Solution
