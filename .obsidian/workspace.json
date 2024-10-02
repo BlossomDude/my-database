@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
               }
             }
           },
@@ -193,6 +193,7 @@
   },
   "active": "7fdda6254920195c",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/GIT 🎋/Команды.md",
@@ -203,7 +204,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "keepassxc/Пароли.kdbx",

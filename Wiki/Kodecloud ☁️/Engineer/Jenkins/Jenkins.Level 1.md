@@ -52,7 +52,7 @@ The Nautilus DevOps team has recently setup a Jenkins server, which they want to
 
 ### Solution
 ```bash
-
+# Просто установил два плагина
 ```
 
 
