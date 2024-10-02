@@ -1,6 +1,4 @@
 
-- [[#STRATOS DC:|STRATOS]]
-
 - [[#2 Group Creation and User Assignment]]
 - [[#3 Linux User Setup with Non-Interactive Shell]]
 - [[#4 Service User Creation without Home Directory]]
@@ -12,9 +10,12 @@
 - [[#10 File Permission Correction]]
 - [[#11 String Replacement]]
 - [[#12 Secure Data Transfer]]
-- 
-# STRATOS DC
-
+- [[#13 Restrict Cron Access]]
+- [[#14 Default GUI Boot Configuration]]
+- [[#15 Timezone Alignment]]
+- [[#16 Firewall Configuration]]
+- [[#17 Process Limit Adjustment]]
+- [[#18 SElinux Installation and Configuration]]
 
 
 # 2: Group Creation and User Assignment
@@ -408,13 +409,31 @@ nfsuser hard nproc 2024
 ### Problem
 ```text
 
+Following a security audit, the xFusionCorp Industries security team has opted to enhance application and server security with SELinux. To initiate testing, the following requirements have been established for `App server 2` in the `Stratos Datacenter:`
 
+1. Install the required `SELinux` packages.
+2. Permanently disable SELinux for the time being; it will be re-enabled after necessary configuration changes.
+3. No need to reboot the server, as a scheduled maintenance reboot is already planned for tonight.
+4. Disregard the current status of SELinux via the command line; the final status after the reboot should be `disabled`.
+
+---
+
+После аудита безопасности команда безопасности x Fusion Corp Industries приняла решение повысить безопасность приложений и серверов с помощью SELinux. Чтобы начать тестирование, для сервера приложений App server 2 в центре обработки данных Stratos были установлены следующие требования:
+
+1.Установите необходимые пакеты SELinux. 
+2.Временно отключите SELinux окончательно; он будет снова включен после внесения необходимых изменений в конфигурацию. 
+3.Перезагружать сервер не нужно, так как на сегодняшний вечер уже запланирована плановая перезагрузка для обслуживания. 
+4.Не обращайте внимания на текущее состояние SELinux через командную строку; окончательное состояние после перезагрузки должно быть отключено.
 
 ```
 
 ### Solution
 ```bash
-
+sudo -s
+dnf install policycoreutils-python-utils setools setools-console setroubleshoot
+yum install selinux-policy-devel policycoreutils
+yum install selinux-policy-targeted
+vi /etc/selinux/config # add SELINUX: disabled
 ```
 
 

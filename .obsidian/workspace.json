@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,9 +64,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b311702d7e68fec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md"
               }
             }
           },
@@ -204,26 +216,33 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "063572368fe67424",
+  "active": "b311702d7e68fec6",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD.md",
     "Wiki/Linux 🐧/sed.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
     "backlog.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
     "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "Wiki/Linux 🐧/ACL.md",
@@ -236,13 +255,6 @@
     "Calendar",
     "2024-09-29.md",
     "Без названия.canvas",
-    "Wiki/Задачник deusOps/2.md",
-    "Wiki/Задачник deusOps/1.md",
-    "Wiki/IT English voculabury.md",
-    "gitignore",
-    "Текстовый документ.txt",
-    "Wiki/Web сервера 🖥️/Nginx",
-    "Wiki/Kodecloud ☁️/Engineer/Git",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
     "whale-in-world-wide-web.png",
