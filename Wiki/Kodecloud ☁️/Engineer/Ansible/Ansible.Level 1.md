@@ -16,8 +16,14 @@ An Ansible playbook needs completion on the `jump host`, where a team member le
 ```
 
 ### Solution
-```bash
-
+```yaml
+# Add playbook
+-
+  name: create_file
+  hosts: stapp03
+  tasks:
+    - name: create_empty_file
+      command: touch /tmp/file.txt
 ```
 
 
