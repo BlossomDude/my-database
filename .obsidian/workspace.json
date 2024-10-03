@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,8 +193,10 @@
   },
   "active": "7fdda6254920195c",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
@@ -202,7 +204,6 @@
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
     "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/GIT 🎋/GIT.md",
@@ -225,7 +226,6 @@
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
     "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Wiki/Kodecloud ☁️/Engineer",
     "Calendar",
