@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
               }
             }
           },
@@ -191,16 +191,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7fdda6254920195c",
+  "active": "00ac01377400f6f7",
   "lastOpenFiles": [
-    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
     "Wiki/devops ♻️/Ansible 🅰️/Условия.md",
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
     "Wiki/devops ♻️/Ansible 🅰️/Roles.md",
