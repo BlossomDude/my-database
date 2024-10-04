@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Targets SystemD.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Targets SystemD.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Targets SystemD.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Targets SystemD.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -193,13 +193,13 @@
   },
   "active": "00ac01377400f6f7",
   "lastOpenFiles": [
-    "isolate.md",
+    "Wiki/Linux 🐧/Linux.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
+    "isolate.md",
     "Wiki/Linux 🐧/Системы инициализации Linux.md",
     "Wiki/Linux 🐧/Структура файловой системы/Структура файловой системы.md",
     "Wiki/Linux 🐧/Структура файловой системы/-etc-passwd.md",
     "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
-    "Wiki/Linux 🐧/Linux.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
