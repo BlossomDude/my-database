@@ -84,11 +84,21 @@ On the `jump host`, modify the default configuration of Ansible to enable the u
 
 ### Problem
 ```
+The Nautilus DevOps team needs to copy data from the `jump host` to all `application servers` in `Stratos DC` using Ansible. Execute the task with the following details:
 
+a. Create an inventory file `/home/thor/ansible/inventory` on `jump_host` and add all application servers as managed nodes.    
+b. Create a playbook `/home/thor/ansible/playbook.yml` on the `jump host` to copy the `/usr/src/data/index.html` file to all application servers, placing it at `/opt/data`.  
+
+`Note:` Validation will run the playbook using the command `ansible-playbook -i inventory playbook.yml`. Ensure the playbook functions properly without any extra arguments.
 
 ---
 
+Команде разработчиков Nautilus необходимо скопировать данные с узла jump на все серверы приложений в Stratos DC с помощью Ansible. Выполните задачу, указав следующие сведения:
 
+a. Создайте файл инвентаризации /home /thor / ansible /inventory на jump_host и добавьте все серверы приложений в качестве управляемых узлов.
+б. Создайте playbook /home/thor/ansible/playbook.yml на узле перехода, чтобы скопировать файл /usr/src/data/index.html на все серверы приложений, разместив его по адресу /opt/data.
+
+Примечание: Проверка запустит playbook с помощью команды ansible-playbook -i inventory playbook.yml. Убедитесь, что playbook функционирует должным образом без каких-либо дополнительных аргументов.
 ```
 
 ### Solution
