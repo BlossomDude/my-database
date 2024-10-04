@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -193,8 +194,9 @@
   },
   "active": "00ac01377400f6f7",
   "lastOpenFiles": [
-    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
@@ -216,7 +218,6 @@
     "keepassxc/Пароли.kdbx",
     "keepassxc",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD.md",
     "Wiki/Linux 🐧/sed.md",
