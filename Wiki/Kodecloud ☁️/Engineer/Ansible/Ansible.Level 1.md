@@ -1,4 +1,4 @@
-# 1
+# 1: Troubleshoot and Create Ansible Playbook
 
 ### Problem
 ```
@@ -28,7 +28,7 @@ An Ansible playbook needs completion on the `jump host`, where a team member le
 
 
 
-# 2
+# 2: Create Ansible Inventory for App Server Testing
 
 ### Problem
 ```
@@ -58,7 +58,7 @@ c. Убедитесь, что имя хоста инвентаря соотве�
 
 
 
-# 3
+# 3: Configure Default SSH User for Ansible
 
 ### Problem
 ```
@@ -75,12 +75,12 @@ On the `jump host`, modify the default configuration of Ansible to enable the u
 
 ### Solution
 ```bash
-
+# Add "remote_user = mariyam" to ansible.cfg
 ```
 
 
 
-# 4
+# 4: Copy Data to App Servers using Ansible
 
 ### Problem
 ```
@@ -98,7 +98,7 @@ On the `jump host`, modify the default configuration of Ansible to enable the u
 
 
 
-# 5
+# 5: Create Files on App Servers using Ansible
 
 ### Problem
 ```
