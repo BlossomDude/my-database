@@ -46,14 +46,9 @@ lrwxrwxrwx 1 root root 13 Nov 21 16:10 /lib/systemd/system/runlevel6.target -> r
 ```
 
 Таким образом можно перейти ==в другой уровень== загрузки командой:  
-  
 `systemctl isolate rescue.target` **-** перейдет в режим восстановления
 
-  
-
 `systemctl get-default` - узнать текущий таргет.
-
-  
 
 - Пример файла ==default.target== - таргета по умолчанию
     
