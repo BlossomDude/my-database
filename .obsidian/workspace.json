@@ -194,6 +194,8 @@
   },
   "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
+    "isolate.md",
+    "Wiki/Linux 🐧/Targets SystemD.md",
     "Wiki/Linux 🐧/Системы инициализации Linux.md",
     "Wiki/Linux 🐧/Структура файловой системы/Структура файловой системы.md",
     "Wiki/Linux 🐧/Структура файловой системы/-etc-passwd.md",
@@ -223,8 +225,6 @@
     "keepassxc/Пароли.kdbx",
     "keepassxc",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
-    "Wiki/Linux 🐧/Targets SystemD.md",
-    "Wiki/Linux 🐧/SystemD.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
     "Wiki/Kodecloud ☁️/Courses",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
