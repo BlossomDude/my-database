@@ -3,7 +3,7 @@ Owner: Blossom Dude
 Last edited time: 2023-12-20T11:23
 Created time: 2023-12-20T11:22
 ---
-```Bash
+```bash
 mark:x:1001:1001:mark,,,:/home/mark:/bin/bash
 [--] - [--] [--] [-----] [--------] [--------]
 |    |   |    |     |         |        |
