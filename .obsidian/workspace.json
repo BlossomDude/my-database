@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -192,7 +191,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c9c7a60249b38cf4",
+  "active": "00ac01377400f6f7",
   "lastOpenFiles": [
     "isolate.md",
     "Wiki/Linux 🐧/Targets SystemD.md",

@@ -84,6 +84,7 @@ lrwxrwxrwx 1 root root 13 Nov 21 16:10 /lib/systemd/system/runlevel6.target -> r
 | ==graphical.target==            | многопользовательский режим с поддержкой графики. Но если графика не установлена, то этот таргет работает как **multi-user.target**                                           |
 | ==reboot.target==               | перезагрузка.                                                                                                                                                                 |
 | ==default.target==              | режим, который будет загружаться по умолчанию, является символической ссылкой на один из **boot tatget**.                                                                     |
+|                                 |                                                                                                                                                                               |
 
 > [!important]  
 > После перезагрузки система загрузится именно в default.target. Если указать в качестве default.target — reboot.target, то получим постоянную перезагрузку. Не нужно так делать!!!
