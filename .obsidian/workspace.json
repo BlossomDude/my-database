@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md"
+                "file": "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md"
               }
             }
           },
@@ -192,10 +192,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "00ac01377400f6f7",
+  "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/Linux 🐧/Linux.md",
     "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
@@ -225,7 +226,6 @@
     "backlog.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
-    "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Wiki/Kodecloud ☁️/Engineer",
