@@ -16,6 +16,18 @@
             }
           },
           {
+            "id": "063572368fe67424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c00b3c4d461be9b4",
             "type": "leaf",
             "state": {
@@ -30,13 +42,15 @@
           {
             "id": "7fdda6254920195c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -45,14 +59,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/English/Links.md",
+                "file": "Wiki/Linux 🐧/Лимиты для пользователей.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b311702d7e68fec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -102,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 254.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -118,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/English/Links.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/English/Links.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/English/Links.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md"
               }
             }
           },
@@ -179,55 +205,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "00ac01377400f6f7",
+  "active": "b311702d7e68fec6",
   "lastOpenFiles": [
-    "Wiki/English/IT English voculabury.md",
-    "Wiki/English/Links.md",
-    "Untitled.md",
-    "Wiki/English",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
-    "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Условия.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Roles.md",
-    "Wiki/Linux 🐧/Системы инициализации Linux.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
-    "Wiki/Linux 🐧/Системные вызовы.md",
-    "Wiki/Linux 🐧/Структура файловой системы/Структура файловой системы.md",
-    "Wiki/Linux 🐧/Linux.md",
     "Wiki/Linux 🐧/Структура файловой системы/passwd_file.md",
-    "Wiki/Linux 🐧/Файловые системы/Файловые системы.md",
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Linux 🐧/Файловые системы/Категории файловых систем.md",
-    "Wiki/Linux 🐧/Targets SystemD.md",
-    "isolate.md",
-    "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
+    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Kodecloud ☁️/Linux",
+    "Wiki/Kodecloud ☁️/Git/Level 1.md",
+    "Wiki/Kodecloud ☁️/Git",
+    "Wiki/English/Links.md",
+    "Wiki/English/IT English voculabury.md",
+    "Wiki/English",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
+    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
+    "Wiki/Linux 🐧/Лимиты для пользователей.md",
+    "Wiki/Linux 🐧/Права, SUID GUID.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/Targets SystemD.md",
+    "Wiki/Linux 🐧/SystemD.md",
+    "Wiki/Linux 🐧/sed.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+    "backlog.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
+    "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
-    "Wiki/Kodecloud ☁️/Engineer/Docker",
-    "Wiki/Kodecloud ☁️/Engineer",
+    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
+    "Wiki/Linux 🐧/ACL.md",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
