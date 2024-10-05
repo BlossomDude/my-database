@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/English/Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/English/Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/English/Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
+                "file": "Wiki/English/Links.md"
               }
             }
           },
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,12 +192,16 @@
   },
   "active": "00ac01377400f6f7",
   "lastOpenFiles": [
+    "Wiki/English/IT English voculabury.md",
+    "Wiki/English/Links.md",
+    "Untitled.md",
+    "Wiki/English",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/devops ♻️/Ansible 🅰️/Встроенные переменные Ansible.md",
     "Wiki/devops ♻️/Ansible 🅰️/Условия.md",
@@ -216,9 +219,6 @@
     "Wiki/Linux 🐧/Targets SystemD.md",
     "isolate.md",
     "Wiki/Linux 🐧/Порядок загрузки Linux/Порядок загрузки Linux.md",
-    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
@@ -228,7 +228,6 @@
     "Wiki/Kodecloud ☁️/Courses",
     "Wiki/Kodecloud ☁️/Engineer/Docker",
     "Wiki/Kodecloud ☁️/Engineer",
-    "Calendar",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
