@@ -1,3 +1,11 @@
+
+[[#1 Troubleshoot and Create Ansible Playbook]]
+[[#2 Create Ansible Inventory for App Server Testing]]
+[[#3 Configure Default SSH User for Ansible]]
+[[#4 Copy Data to App Servers using Ansible]]
+[[#5 Create Files on App Servers using Ansible]]
+
+
 # 1: Troubleshoot and Create Ansible Playbook
 
 ### Problem
@@ -103,9 +111,11 @@ a. Создайте файл инвентаризации /home /thor / ansible 
 
 ### Solution
 ```bash
+# playbook.yml
 -
   name: "Copy file"
   hosts: app_nodes
+  become: yes
   tasks:
     -
       name: "Copy file"
@@ -113,6 +123,8 @@ a. Создайте файл инвентаризации /home /thor / ansible 
         src: /usr/src/data/index.html
         dest: /opt/data/index.html
 
+
+# inventory
 stapp01 ansible_host=172.16.238.10 ansible_user=tony ansible_ssh_pass=Ir0nM@n
 stapp02 ansible_host=172.16.238.11 ansible_user=steve ansible_ssh_pass=Am3ric@
 stapp03 ansible_host=172.16.238.12 ansible_user=banner ansible_ssh_pass=BigGr33n
@@ -122,6 +134,7 @@ stapp01
 stapp02
 stapp03
 ```
+
 
 
 
