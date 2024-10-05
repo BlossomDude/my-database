@@ -124,7 +124,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -216,7 +217,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "00ac01377400f6f7",
+  "active": "336cb05006216236",
   "lastOpenFiles": [
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
