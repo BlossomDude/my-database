@@ -17,3 +17,6 @@ Created time: 2023-12-09T13:29
     
     - Загрузка завершается запуском systemd (обычно)> [!important]  
         > Узнать систему инициализации:ls -l /sbin/init  
+        
+    
+    ![[/Untitled 4.png|Untitled 4.png]]

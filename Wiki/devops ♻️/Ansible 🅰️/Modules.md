@@ -3,7 +3,7 @@ Owner: Blossom Dude
 Last edited time: 2024-02-08T12:36
 Created time: 2024-02-08T12:18
 ---
-	### COMMAND
+### COMMAND
 
 Выполняет команду на удаленном хосте
 

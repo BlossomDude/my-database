@@ -21,7 +21,7 @@ Created time: 2023-11-17T10:17
 
 `ansible_host=172.19.91.16` - ip адресс хоста или **dns-имя**
 
-`ansible_password`  - пароль для подключения к windows
+`ansible_password` - пароль для подключения к windows
 
 `ansible_port=22/5986` - определяет на какой порт подключаться (**22 по умол.**)
 
