@@ -35,7 +35,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36b0709d7da87c4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,17 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "36b0709d7da87c4d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md"
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md"
               }
             }
           },
@@ -200,15 +204,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "36b0709d7da87c4d",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
-    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Linux 🐧/Команды.md",
@@ -228,11 +234,9 @@
     "Wiki/English/IT English voculabury.md",
     "Wiki/English",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
-    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
