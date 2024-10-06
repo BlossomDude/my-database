@@ -107,5 +107,5 @@ The Nautilus team is integrating Jenkins into their CI/CD pipelines. After setti
 
 ### Solution
 ```bash
-
+echo "Bl@kW" | sudo -S yum -y install $PACKAGE 
 ```

@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md"
               }
             }
           },
@@ -204,12 +204,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "36b0709d7da87c4d",
+  "active": "bacf6cc144bad542",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
-    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
     "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
