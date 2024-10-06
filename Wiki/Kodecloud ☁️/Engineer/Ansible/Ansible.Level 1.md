@@ -142,11 +142,25 @@ stapp03
 
 ### Problem
 ```
+The Nautilus DevOps team is testing various Ansible modules on servers in `Stratos DC`. They're currently focusing on file creation on remote hosts using Ansible. Here are the details:
 
+a. Create an inventory file `~/playbook/inventory` on `jump host` and include `all app servers`.  
+b. Create a playbook `~/playbook/playbook.yml` to create a blank file `/tmp/data.txt` on `all app servers`.  
+c. Set the permissions of the `/tmp/data.txt` file to `0655`.  
+d. Ensure the user/group owner of the `/tmp/data.txt` file is `tony` on `app server 1`, `steve` on `app server 2` and `banner` on `app server 3`.  
+  
+`Note:` Validation will execute the playbook using the command `ansible-playbook -i inventory playbook.yml`, so ensure the playbook functions correctly without any additional arguments.
 
 ---
 
+Команда Nautilus DevOps тестирует различные модули Ansible на серверах в Stratos DC. В настоящее время они сосредоточены на создании файлов на удаленных хостах с использованием Ansible. Вот подробности:
 
+a. Создайте файл инвентаризации ~/playbook/inventory на jump host и включите в него все серверы приложений.
+b. Создайте playbook ~/playbook/playbook.yml, чтобы создать пустой файл /tmp/data.txt на всех серверах приложений.
+c. Установите права доступа для файла /tmp/data.txt равными 0655.
+d. Убедитесь, что владельцем файла /tmp/data.txt является пользователь /группа tony на appserver1, Стив на app server 2 и баннер на app server 3.
+
+Примечание: При проверке playbook будет запущен с помощью команды ansible-playbook -i inventory playbook.yml, поэтому убедитесь, что playbook работает корректно без каких-либо дополнительных аргументов.
 ```
 
 ### Solution
