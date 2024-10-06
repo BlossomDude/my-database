@@ -54,24 +54,12 @@
             }
           },
           {
-            "id": "00ac01377400f6f7",
+            "id": "6d8be8066bf0bd99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Wiki/Linux 🐧/Команды.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b311702d7e68fec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,10 +204,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "00ac01377400f6f7",
+  "active": "6d8be8066bf0bd99",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/Linux 🐧/Rosa проблема с репой.md",
+    "Wiki/Linux 🐧/Проблемы и решения.md",
+    "Wiki/Linux 🐧/Права, SUID GUID.md",
+    "Wiki/Linux 🐧/Порождение процессов Linux.md",
+    "Wiki/Linux 🐧/Переменная среды.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/Linux 🐧/Структура файловой системы/passwd_file.md",
@@ -243,18 +236,12 @@
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
-    "Wiki/Linux 🐧/Права, SUID GUID.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD.md",
     "Wiki/Linux 🐧/sed.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
-    "backlog.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
-    "Wiki/Kodecloud ☁️/Courses/Без названия.md",
     "Wiki/Kodecloud ☁️/Courses",
-    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
-    "Wiki/Linux 🐧/ACL.md",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
