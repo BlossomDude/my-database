@@ -63,9 +63,20 @@ Created time: 2024-02-08T12:18
 ```YAML
 -
   name: Add DNS Server to resovl.conf
-	hosts: target1
+  hosts: target1
   tasks:
-		- lineinfile:
-				path: /etc/resolv.conf
-				line: 'nameserver 10.1.250.10'
+	- lineinfile:
+      path: /etc/resolv.conf
+	  line: 'nameserver 10.1.250.10'
+```
+
+FILE
+``` yaml
+-
+  name: "Create file"
+  hosts: app_nodes
+  file:
+    path: /tmp/data.txt
+    state: touch
+    mode: '0655'
 ```

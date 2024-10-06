@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "06c8b505488eb127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "36b0709d7da87c4d",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md"
               }
             }
           },
@@ -188,10 +200,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "06c8b505488eb127",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Linux 🐧/Команды.md",
