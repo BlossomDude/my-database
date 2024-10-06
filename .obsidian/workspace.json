@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -217,8 +217,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "336cb05006216236",
+  "active": "00ac01377400f6f7",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
@@ -234,7 +235,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
