@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md"
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md"
               }
             }
           },
@@ -202,6 +202,10 @@
   },
   "active": "06c8b505488eb127",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+    "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
+    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
@@ -214,7 +218,6 @@
     "Wiki/Linux 🐧/Переменная среды.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
-    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/Linux 🐧/Структура файловой системы/passwd_file.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "Wiki/Kodecloud ☁️/Linux",
@@ -233,9 +236,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
-    "Wiki/Linux 🐧/Targets SystemD.md",
-    "Wiki/Linux 🐧/SystemD.md",
-    "Wiki/Linux 🐧/sed.md",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
     "Wiki/Kodecloud ☁️/Courses",
     "Без названия.canvas",
