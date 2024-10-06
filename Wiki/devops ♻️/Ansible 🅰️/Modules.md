@@ -75,8 +75,11 @@ FILE
 -
   name: "Create file"
   hosts: app_nodes
-  file:
-    path: /tmp/data.txt
-    state: touch
-    mode: '0655'
+  tasks:
+    -  
+      name: "Create file"
+      file:
+        path: /tmp/data.txt
+        state: touch
+        mode: '0655'
 ```

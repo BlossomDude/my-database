@@ -165,5 +165,14 @@ d. Убедитесь, что владельцем файла /tmp/data.txt яв
 
 ### Solution
 ```bash
-
+-
+  name: "Create file"
+  hosts: app_nodes
+  tasks:
+    -  
+      name: "Create file"
+      file:
+        path: /tmp/data.txt
+        state: touch
+        mode: '0655'
 ```

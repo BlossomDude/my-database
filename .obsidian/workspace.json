@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
+                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Playbook.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md"
               }
             }
           },
@@ -200,9 +200,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "06c8b505488eb127",
+  "active": "bacf6cc144bad542",
   "lastOpenFiles": [
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
+    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
     "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
@@ -232,7 +233,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
-    "Wiki/Kodecloud ☁️/Courses/12 Factor App/12 Factor app.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
     "keepassxc",
