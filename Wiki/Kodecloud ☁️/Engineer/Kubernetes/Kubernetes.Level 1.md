@@ -56,8 +56,25 @@ Create a deployment named `httpd` to deploy the application `httpd` using th
 ```
 
 ### Solution
-```bash
-
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httpd
+  template:
+    metadata:
+      name: httpd
+      labels:
+        app: httpd
+    spec:
+      containers:
+        - name: front-end
+          image: httpd:latest
 ```
 
 

@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Команды.md",
+                "file": "Wiki/Kubernetes 🧊/manifest.md",
                 "mode": "source",
                 "source": false
               }
@@ -203,9 +203,9 @@
   },
   "active": "bacf6cc144bad542",
   "lastOpenFiles": [
+    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
