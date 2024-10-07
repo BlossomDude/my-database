@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5,
-    "collapsed": true
+    "width": 254.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md"
+                "file": "Wiki/Kubernetes 🧊/Команды.md"
               }
             }
           },
@@ -202,10 +201,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c9c7a60249b38cf4",
+  "active": "36b0709d7da87c4d",
   "lastOpenFiles": [
-    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
+    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
@@ -233,7 +233,6 @@
     "Wiki/English/IT English voculabury.md",
     "Wiki/English",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",

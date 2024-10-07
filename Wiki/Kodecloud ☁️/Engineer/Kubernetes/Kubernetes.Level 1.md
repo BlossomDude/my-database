@@ -21,8 +21,17 @@ he Nautilus DevOps team is diving into Kubernetes for application management. On
 ```
 
 ### Solution
-```bash
-
+```yaml
+apiVersion: v1
+kind: pod
+metadata:
+  name: pod-httpd
+  labels:
+    app: httpd-app
+spec:
+  containers:
+    - name: httpd-container
+      image: httpd:latest
 ```
 
 
