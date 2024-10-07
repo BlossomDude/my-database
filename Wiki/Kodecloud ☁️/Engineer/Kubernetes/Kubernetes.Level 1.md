@@ -100,7 +100,20 @@ Create a namespace named `dev` and deploy a POD within it. Name the pod `dev-
 
 ### Solution
 ```bash
+# create namespace
+kubectl create namespace dev
 
+# Crate pod yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dev-nginx-pod
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest
 ```
 
 
