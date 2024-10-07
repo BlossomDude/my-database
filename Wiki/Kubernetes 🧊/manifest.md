@@ -29,10 +29,10 @@ Created time: 2023-11-28T20:25
     		owner: NikitaNikolaev
     spec:                          # specify
     	containers:
-    		- name: container-web      # имя контейнера
-    			image: httpd:latest      # какой контейнер (можно менять на горячую)
-    			ports:
-    				- containerPort: 80    # порт открываемый на контейнере
+    	  - name: container-web      # имя контейнера
+		    image: httpd:latest      # какой контейнер (можно менять на горячую)
+    	    ports:
+    		  - containerPort: 80    # порт открываемый на контейнере
     ```
     
 - Replication Controller + Pods
