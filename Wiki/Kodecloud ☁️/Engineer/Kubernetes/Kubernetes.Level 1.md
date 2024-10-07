@@ -122,11 +122,25 @@ spec:
 
 ### Problem
 ```
+The Nautilus DevOps team has noticed performance issues in some Kubernetes-hosted applications due to resource constraints. To address this, they plan to set limits on resource utilization. Here are the details:
 
+Create a pod named `httpd-pod` with a container named `httpd-container`. Use the `httpd` image with the `latest` tag (specify as `httpd:latest`). Set the following resource limits:
+
+Requests: Memory: `15Mi`, CPU: `100m`
+Limits: Memory: `20Mi`, CPU: `100m`
+
+`Note:` The `kubectl` utility on `jump_host` is configured to operate with the Kubernetes cluster.
 
 ---
 
-
+Команда Nautilus DevOps заметила проблемы с производительностью в некоторых приложениях, размещенных на Kubernetes, из-за нехватки ресурсов. Чтобы решить эту проблему, они планируют установить ограничения на использование ресурсов. Вот подробности:  
+  
+Создайте модуль с именем httpd-pod и контейнером с именем httpd-container. Используйте httpd-образ с тегом latest (укажите как httpd:latest). Установите следующие ограничения на ресурсы:  
+  
+Запросы: Память: 15 мб, процессор: 100 мб   
+Ограничения: Память: 20 мб, процессор: 100 мб  
+  
+Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes.
 ```
 
 ### Solution
