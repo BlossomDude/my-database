@@ -32,13 +32,15 @@
           {
             "id": "bacf6cc144bad542",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -52,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "06c8b505488eb127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md"
+                "file": "Wiki/devops ♻️/Jenkins 👴/Jenkins.md"
               }
             }
           },
@@ -204,11 +194,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "36b0709d7da87c4d",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
@@ -233,7 +224,6 @@
     "Wiki/English/Links.md",
     "Wiki/English/IT English voculabury.md",
     "Wiki/English",
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
