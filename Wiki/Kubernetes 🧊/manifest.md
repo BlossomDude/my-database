@@ -72,8 +72,8 @@ Created time: 2023-11-28T20:25
     					image: nginx:latest
     	replicas: 3
     	selector:                         #Обязательное поле в Replica Set
-    		matchLabels:                    #Позволяет управлять всеми контейнерами 
-    			type: front-end               #которые имеют данную пару ключ значения
+    		matchLabels:               #Позволяет управлять всеми контейнерами 
+    			type: front-end            #которые имеют данную пару ключзначения
     ```
     
 - Deployment + Replica Set + Pods
