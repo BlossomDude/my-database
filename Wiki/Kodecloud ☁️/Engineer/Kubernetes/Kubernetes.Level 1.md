@@ -1,4 +1,4 @@
-# 1
+# 1: Deploy Pods in Kubernetes Cluster
 
 ### Problem
 ```
@@ -40,11 +40,19 @@ spec:
 
 ### Problem
 ```
+The Nautilus DevOps team is delving into Kubernetes for app management. One team member needs to create a deployment following these details: 
 
+Create a deployment named `httpd` to deploy the application `httpd` using the image `httpd:latest` (ensure to specify the tag)
+
+`Note:` The `kubectl` utility on `jump_host` is set up to interact with the Kubernetes cluster.
 
 ---
 
-
+Команда разработчиков Nautilus изучает возможности Kubernetes для управления приложениями. Одному из членов команды необходимо создать развертывание, следуя этим инструкциям:  
+  
+Создайте развертывание с именем httpd для развертывания приложения httpd с использованием образа httpd:latest (обязательно укажите тег).  
+  
+Примечание: Утилита kubectl на jump_host настроена для взаимодействия с кластером Kubernetes.
 ```
 
 ### Solution
