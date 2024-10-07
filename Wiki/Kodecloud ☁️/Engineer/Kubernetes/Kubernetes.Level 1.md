@@ -79,7 +79,7 @@ spec:
 
 
 
-# 3
+# 3: Setup Kubernetes Namespaces and PODs
 
 ### Problem
 ```
@@ -118,7 +118,7 @@ spec:
 
 
 
-# 4
+# 4: Set Resource Limits in Kubernetes Pods
 
 ### Problem
 ```
@@ -144,13 +144,27 @@ Limits: Memory: `20Mi`, CPU: `100m`
 ```
 
 ### Solution
-```bash
-
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-pod
+spec:
+  containers:
+    - name: httpd-container
+      image: httpd:latest
+      resources:
+        requests:
+          cpu: 100m
+          memory: 15Mi
+        limits:
+          cpu: 100m
+          memory: 20Mi
 ```
 
 
 
-# 5
+# 5: Execute Rolling Updates in Kubernetes
 
 ### Problem
 ```
