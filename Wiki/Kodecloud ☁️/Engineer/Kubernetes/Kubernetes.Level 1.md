@@ -23,7 +23,7 @@ he Nautilus DevOps team is diving into Kubernetes for application management. On
 ### Solution
 ```yaml
 apiVersion: v1
-kind: pod
+kind: Pod
 metadata:
   name: pod-httpd
   labels:
