@@ -168,11 +168,23 @@ spec:
 
 ### Problem
 ```
+An application currently running on the Kubernetes cluster employs the nginx web server. The Nautilus application development team has introduced some recent changes that need deployment. They've crafted an image `nginx:1.17` with the latest updates.
 
+Execute a rolling update for this application, integrating the `nginx:1.17` image. The deployment is named `nginx-deployment`.
+
+Ensure all pods are operational post-update.
+
+`Note:` The `kubectl` utility on `jump_host` is set up to operate with the Kubernetes cluster
 
 ---
 
-
+Приложение, которое в настоящее время выполняется в кластере Kubernetes, использует веб-сервер nginx. Команда разработчиков приложений Nautilus внесла некоторые изменения, которые требуют развертывания. Они создали образ nginx:1.17 с последними обновлениями.  
+  
+Выполните текущее обновление для этого приложения, интегрируя образ nginx:1.17. Развертывание называется nginx-deployment.  
+  
+Убедитесь, что все модули работают после обновления.  
+  
+Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes
 ```
 
 ### Solution
