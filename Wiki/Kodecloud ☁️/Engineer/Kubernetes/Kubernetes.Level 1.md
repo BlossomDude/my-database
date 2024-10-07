@@ -83,11 +83,19 @@ spec:
 
 ### Problem
 ```
+The Nautilus DevOps team is planning to deploy some micro services on Kubernetes platform. The team has already set up a Kubernetes cluster and now they want to set up some namespaces, deployments etc. Based on the current requirements, the team has shared some details as below:  
 
+Create a namespace named `dev` and deploy a POD within it. Name the pod `dev-nginx-pod` and use the `nginx` image with the `latest` tag. Ensure to specify the tag as `nginx:latest`.
+
+`Note:` The `kubectl` utility on `jump_host` is configured to operate with the Kubernetes cluster.
 
 ---
 
-
+Команда Nautilus DevOps планирует развернуть некоторые микросервисы на платформе Kubernetes. Команда уже настроила кластер Kubernetes и теперь хочет настроить некоторые пространства имен, развертывания и т.д. Основываясь на текущих требованиях, команда поделилась некоторыми подробностями, приведенными ниже:  
+  
+Создайте пространство имен с именем dev и разверните в нем модуль. Назовите модуль dev-nginx-pod и используйте образ nginx с тегом latest. Убедитесь, что в качестве тега указан nginx:latest.  
+  
+Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes.
 ```
 
 ### Solution
