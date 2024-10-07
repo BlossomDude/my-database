@@ -25,13 +25,13 @@ he Nautilus DevOps team is diving into Kubernetes for application management. On
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-httpd
+  name: pod-nginx
   labels:
-    app: httpd-app
+    app: nginx_app
 spec:
   containers:
-    - name: httpd-container
-      image: httpd:latest
+    - name: nginx-container
+      image: nginx:latest
 ```
 
 
