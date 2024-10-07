@@ -189,7 +189,7 @@ Ensure all pods are operational post-update.
 
 ### Solution
 ```bash
-
+kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 ```
 
 
