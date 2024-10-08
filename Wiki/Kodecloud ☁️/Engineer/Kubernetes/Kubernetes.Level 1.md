@@ -316,11 +316,16 @@ spec:
 
 
 
-# 9
+# 9: Create Countdown Job in Kubernetes
 
 ### Problem
 ```
+The Nautilus DevOps team is crafting jobs in the Kubernetes cluster. While they're developing actual scripts/commands, they're currently setting up templates and testing jobs with dummy commands. Please create a job template as per details given below:
 
+1. Create a job named `countdown-datacenter`. 
+2. The spec template should be named `countdown-datacenter` (under metadata), and the container should be named `container-countdown-datacenter`  
+3. Utilize image `centos` with `latest` tag (ensure to specify as `centos:latest`), and set the restart policy to `Never`.   
+4. Execute the command `sleep 5`
 
 ---
 
