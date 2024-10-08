@@ -339,20 +339,46 @@ The Nautilus DevOps team is crafting jobs in the Kubernetes cluster. While they'
 
 ### Solution
 ```bash
-
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: nautilus
+spec:
+  template:
+    metadata:
+      name: spec-name
+    spec:
+	  containers:
+		- name: cron-nautilus
+		  image: centos:latest
+		  args:
+			- /bin/sh
+			- -c
+			- sleep 5
+	  restartPolicy: Never
 ```
 
 
 
-# 10
+# 10: Set Up Time Check Pod in Kubernetes
 
 ### Problem
-```
+``` txt
+The Nautilus DevOps team needs a time check pod created in a specific Kubernetes namespace for logging purposes. Initially, it's for testing, but it may be integrated into an existing cluster later. Here's what's required:
 
+1. Create a pod called `time-check` in the `nautilus` namespace. The pod should contain a container named `time-check`, utilizing the `busybox` image with the `latest` tag (specify as `busybox:latest`).   
+2. Create a config map named `time-config` with the data `TIME_FREQ=10` in the same namespace.   
+3. Configure the `time-check` container to execute the command: `while true; do date; sleep $TIME_FREQ;done`. Ensure the result is written `/opt/data/time/time-check.log`. Also, add an environmental variable `TIME_FREQ` in the container, fetching its value from the config map `TIME_FREQ` key.    
+4. Create a volume `log-volume` and mount it at `/opt/data/time` within the container.
 
 ---
 
+Команде разработчиков Nautilus нужен модуль проверки времени, созданный в определенном пространстве имен Kubernetes для ведения журнала. Изначально он предназначен для тестирования, но позже может быть интегрирован в существующий кластер. Вот что требуется для этого.:
 
+1. Создайте модуль с именем time-check в пространстве имен nautilus. Модуль должен содержать контейнер с именем time-check, использующий изображение busybox с тегом latest (укажите как busybox:latest).
+2. Создайте карту конфигурации с именем time-config с данными TIME_FREQ= 10 в том же пространстве имен.
+3. Настройте контейнер проверки времени для выполнения команды: while true; do date; sleep $TIME_FREQ;готово. Убедитесь, что результат записан /opt/data/time/time-check.log. Также добавьте переменную среды TIME_FREQ в контейнер, извлекая ее значение из ключа TIME_FREQ конфигурационной карты.
+4. Создайте журнал тома-volume и смонтируйте его в /opt/data / time внутри контейнера.
 ```
 
 ### Solution
