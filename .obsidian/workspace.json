@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md"
               }
             }
           },
@@ -201,8 +201,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "36b0709d7da87c4d",
+  "active": "bacf6cc144bad542",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Kubernetes 🧊/Команды.md",
@@ -217,7 +218,6 @@
     "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Vi.Vim.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Rosa проблема с репой.md",
     "Wiki/Linux 🐧/Проблемы и решения.md",
     "Wiki/Linux 🐧/Права, SUID GUID.md",

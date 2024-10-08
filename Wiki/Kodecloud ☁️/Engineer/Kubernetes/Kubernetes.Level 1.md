@@ -270,10 +270,25 @@ spec:
 
 ### Problem
 ```
-
+The Nautilus DevOps team is setting up recurring tasks on different schedules. Currently, they're developing scripts to be executed periodically. To kickstart the process, they're creating cron jobs in the Kubernetes cluster with placeholder commands. Follow the instructions below:  
+  
+1. Create a cronjob named `nautilus`.        
+2. Set Its schedule to something like `*/2 * * * *`. You can set any schedule for now.            
+3. Name the container `cron-nautilus`.        
+4. Utilize the `nginx` image with `latest tag` (specify as `nginx:latest`).        
+5. Execute the dummy command `echo Welcome to xfusioncorp!`.           
+6. Ensure the restart policy is `OnFailure`.
 
 ---
 
+Команда разработчиков Nautilus настраивает повторяющиеся задачи по разным расписаниям. В настоящее время они разрабатывают сценарии для периодического выполнения. Чтобы запустить процесс, они создают cron-задания в кластере Kubernetes с помощью команд-заполнителей. Следуйте приведенным ниже инструкциям.:
+
+1)Создайте cronjob с именем nautilus.
+2)Установите для него расписание примерно на */2 * * * *. На данный момент вы можете установить любое расписание.
+3)Назовите контейнер cron-nautilus .
+4)Используйте образ nginx с тегом latest (укажите как nginx: latest).
+5)Выполните фиктивную команду echo Добро пожаловать в xfusioncorp!.
+6)Убедитесь, что политика перезапуска выполнена по ошибке.
 
 ```
 
