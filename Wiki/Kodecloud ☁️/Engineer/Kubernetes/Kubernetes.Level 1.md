@@ -293,8 +293,25 @@ The Nautilus DevOps team is setting up recurring tasks on different schedules. C
 ```
 
 ### Solution
-```bash
-
+```yaml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nautilus
+spec:
+  schedule: "*/2 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: cron-nautilus
+              image: nginx:latest
+              args:
+                - /bin/sh
+                - -c
+                - echo "Welcome to xfusioncorp!"
+          restartPolicy: OnFailure
 ```
 
 
