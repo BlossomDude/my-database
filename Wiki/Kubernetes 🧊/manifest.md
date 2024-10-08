@@ -55,26 +55,29 @@ Created time: 2023-11-28T20:25
     
 - Replica Set + Pods
     
-    ```YAML
-    apiVersion: apps/v1
-    kind: ReplicaSet
+```yaml
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-rs
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
     metadata:
-    	name: myapp-rc
+      labels:
+        app: nginx
     spec:
-    	template:
-    		metadata:
-    			name: myapp-pod
-    			labels:
-    				type: front-end
-    		spec:
-    			containers:
-    				- name:  nginx-container
-    					image: nginx:latest
-    	replicas: 3
-    	selector:                         #Обязательное поле в Replica Set
-    		matchLabels:               #Позволяет управлять всеми контейнерами 
-    			type: front-end            #которые имеют данную пару ключзначения
-    ```
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+```
     
 - Deployment + Replica Set + Pods
     
