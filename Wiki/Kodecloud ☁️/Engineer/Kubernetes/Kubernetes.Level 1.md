@@ -328,7 +328,12 @@ The Nautilus DevOps team is crafting jobs in the Kubernetes cluster. While they'
 4. Execute the command `sleep 5`
 
 ---
+Команда Nautilus DevOps разрабатывает задания в кластере Kubernetes. Разрабатывая реальные сценарии/команды, они в настоящее время настраивают шаблоны и тестируют задания с фиктивными командами. Пожалуйста, создайте шаблон задания в соответствии с приведенными ниже подробностями: 
 
+- Создайте задание с именем countdown-data center. 
+- Шаблон спецификации должен называться countdown-datacenter (в разделе "метаданные"), а контейнер должен называться container-countdown-datacenter 
+- Используйте centos-образ с тегом latest (обязательно укажите как centos:latest) и установите для политики перезапуска значение Never. 
+- Выполните команду sleep 5
 
 ```
 

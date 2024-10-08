@@ -277,3 +277,31 @@ spec:
     							serviceName: web1
     							servicePort: 80
     ```
+
+
+CronJob
+``` yaml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nautilus
+spec:
+  schedule: "*/2 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: cron-nautilus
+              image: nginx:latest
+              args:
+                - /bin/sh
+                - -c
+                - echo "Welcome to xfusioncorp!"
+          restartPolicy: OnFailure
+```
+
+
+Job
+```
+```
