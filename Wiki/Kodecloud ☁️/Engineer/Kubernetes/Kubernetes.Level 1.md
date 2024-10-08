@@ -198,24 +198,6 @@ kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 
 ### Problem
 ```
-
-
----
-
-
-```
-
-### Solution
-```bash
-
-```
-
-
-
-# 7: Deploy Replica Set in Kubernetes Cluster
-
-### Problem
-```
 Earlier today, the Nautilus DevOps team deployed a new release for an application. However, a customer has reported a bug related to this recent release. Consequently, the team aims to revert to the previous version.
 
 There exists a deployment named `nginx-deployment`; initiate a rollback to the previous revision.
@@ -229,6 +211,33 @@ There exists a deployment named `nginx-deployment`; initiate a rollback to the 
 Существует развертывание с именем nginx-deployment; инициируйте откат к предыдущей версии.  
 
 Примечание: Утилита kubectl на jump_host настроена для взаимодействия с кластером Kubernetes.
+```
+
+### Solution
+```bash
+kubectl get deployment
+kubectl rollout undo deployment/nginx-deployment
+```
+
+
+
+# 7: Deploy Replica Set in Kubernetes Cluster
+
+### Problem
+```
+The Nautilus DevOps team is gearing up to deploy applications on a Kubernetes cluster for migration purposes. A team member has been tasked with creating a ReplicaSet outlined below:  
+  
+1. Create a ReplicaSet using `httpd` image with `latest` tag (ensure to specify as `httpd:latest`) and name it `httpd-replicaset`.          
+2. Apply labels: `app` as `httpd_app`, `type` as `front-end`.    
+3. Name the container `httpd-container`. Ensure the replica count is `4`.
+
+---
+
+Команда Nautilus DevOps готовится к развертыванию приложений в кластере Kubernetes для целей миграции. Перед членом команды была поставлена задача создать набор реплик, описанный ниже:  
+   
+1)Создайте набор реплик, используя httpd image с тегом latest (обязательно укажите как httpd:latest) и назовите его httpd-replicaset.    
+2)Примените ярлыки: app - как httpd_app, введите как front-end.   
+3)Назовите контейнер httpd-container. Убедитесь, что количество реплик равно 4.
 ```
 
 ### Solution
