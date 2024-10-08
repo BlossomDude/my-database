@@ -241,23 +241,27 @@ The Nautilus DevOps team is gearing up to deploy applications on a Kubernetes cl
 ```
 
 ### Solution
-```bash
+```yaml
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: httpd-rs
-  labels: 
+  name: httpd-replicaset
+  labels:
     app: httpd_app
     type: front-end
 spec:
   replicas: 4
   selector:
     matchLabels:
-      select: yes
+      rsget: yos
   template:
-    containers:
-      - name: httpd-container
-        image: httpd:latest
+    metadata:
+      labels:
+        rsget: yos
+    spec:
+      containers:
+        - name: httpd-container
+          image: httpd:latest
 ```
 
 
