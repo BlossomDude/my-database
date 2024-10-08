@@ -36,7 +36,7 @@ spec:
 
 
 
-# 2
+# 2: Deploy Applications with Kubernetes Deployments
 
 ### Problem
 ```
@@ -194,7 +194,7 @@ kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 
 
 
-# 6
+# 6: Revert Deployment to Previous Version in Kubernetes
 
 ### Problem
 ```
@@ -212,15 +212,23 @@ kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 
 
 
-# 7
+# 7: Deploy Replica Set in Kubernetes Cluster
 
 ### Problem
 ```
+Earlier today, the Nautilus DevOps team deployed a new release for an application. However, a customer has reported a bug related to this recent release. Consequently, the team aims to revert to the previous version.
 
+There exists a deployment named `nginx-deployment`; initiate a rollback to the previous revision.
+
+`Note:` The `kubectl` utility on `jump_host` is configured to interact with the Kubernetes cluster.
 
 ---
 
+Ранее сегодня команда разработчиков Nautilus выпустила новую версию приложения. Однако клиент сообщил об ошибке, связанной с этим недавним выпуском. Следовательно, команда намерена вернуться к предыдущей версии.  
+  
+Существует развертывание с именем nginx-deployment; инициируйте откат к предыдущей версии.  
 
+Примечание: Утилита kubectl на jump_host настроена для взаимодействия с кластером Kubernetes.
 ```
 
 ### Solution
@@ -230,7 +238,7 @@ kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 
 
 
-# 8
+# 8: Schedule Cronjobs in Kubernetes
 
 ### Problem
 ```

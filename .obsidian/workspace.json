@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md"
+                "file": "Wiki/Kubernetes 🧊/Команды.md"
               }
             }
           },
@@ -201,10 +201,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "36b0709d7da87c4d",
   "lastOpenFiles": [
-    "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
