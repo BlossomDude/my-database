@@ -383,10 +383,55 @@ The Nautilus DevOps team needs a time check pod created in a specific Kubernetes
 
 ### Solution
 ```bash
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: time-config
+  namespace: nautilus
+data:
+  TIME_FREQ: "10"
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: time-check
+  namespace: nautilus
+spec:
+  volumes:
+    - name: config
+      configMap:
+        name: time-config
+  containers:
+    - name: time-check
+      image: busybox:latest
+      volumeMounts:
+        - mountPath: /opt/security/time
+          name: config
+      envFrom:
+        - configMapRef:
+            name: time-config
+
+      command: ["/bin/sh", "-c"]
+      args:
+        [
+        "while true; do date; sleep $TIME_FREQ;done > /opt/security/time/time-check.log",
+        ]
+
+
 
 ```
 
-
+```
+volume name is not 'log-volume'
+```
+```
+mount path is not '/opt/data/time'
+```
+```
+Output of time-check.log is incorrect
+```
 
 # 11
 
