@@ -387,9 +387,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: time-config
-  namespace: datacenter
+  namespace: devops
 data:
-  TIME_FREQ: "9"
+  TIME_FREQ: "3"
 
 ---
 
@@ -397,7 +397,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: time-check
-  namespace: datacenter
+  namespace: devops
 spec:
   volumes:
     - name: config
