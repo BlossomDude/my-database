@@ -460,11 +460,19 @@ kubectl get pods -o yaml > pod.yaml
 
 ### Problem
 ```
+An application deployed on the Kubernetes cluster requires an update with new features developed by the Nautilus application development team. The existing setup includes a deployment named `nginx-deployment` and a service named `nginx-service`. Below are the necessary changes to be implemented without deleting the deployment and service:
 
+1.) Modify the service nodeport from `30008` to `32165`
+2.) Change the replicas count from `1` to `5`
+3.) Update the image from `nginx:1.18` to `nginx:latest`
 
 ---
 
-
+Приложению, развернутому в кластере Kubernetes, требуется обновление с новыми функциями, разработанными командой разработчиков приложений Nautilus. Существующая установка включает в себя развертывание с именем nginx-deployment и службу с именем nginx-service. Ниже приведены необходимые изменения, которые необходимо внести без удаления развертывания и службы.:  
+    
+1.) Измените порт служебного узла с 30008 на 32165   
+2.) Измените количество реплик с 1 на 5    
+3.) Обновите изображение с nginx:1.18 на nginx:latest
 ```
 
 ### Solution
