@@ -477,7 +477,12 @@ An application deployed on the Kubernetes cluster requires an update with new fe
 
 ### Solution
 ```bash
+#1
 
+#2
+
+#3
+kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
 ```
 
 
