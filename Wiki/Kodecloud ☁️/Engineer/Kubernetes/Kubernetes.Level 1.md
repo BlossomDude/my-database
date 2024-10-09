@@ -387,9 +387,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: time-config
-  namespace: nautilus
+  namespace: datacenter
 data:
-  TIME_FREQ: "10"
+  TIME_FREQ: "9"
 
 ---
 
