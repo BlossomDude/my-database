@@ -401,8 +401,7 @@ metadata:
 spec:
   volumes:
     - name: config
-      configMap:
-        name: time-config
+      emptyDir: {}
   containers:
     - name: time-check
       image: busybox:latest
