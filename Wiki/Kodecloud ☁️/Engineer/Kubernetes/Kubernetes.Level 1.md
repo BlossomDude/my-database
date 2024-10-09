@@ -478,9 +478,9 @@ An application deployed on the Kubernetes cluster requires an update with new fe
 ### Solution
 ```bash
 #1
-
+kubectl edit svc nginx-service
 #2
-
+kubectl edit deploy nginx-deployment
 #3
 kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
 ```
