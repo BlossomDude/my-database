@@ -426,11 +426,27 @@ spec:
 
 ### Problem
 ```
+A junior DevOps team member encountered difficulties deploying a stack on the Kubernetes cluster. The pod fails to start, presenting errors. Let's troubleshoot and rectify the issue promptly.
 
+  
+1. There is a pod named `webserver`, and the container within it is named `httpd-container`, its utilizing the `httpd:latest` image.
+    
+2. Additionally, there's a sidecar container named `sidecar-container` using the `ubuntu:latest` image.
+    
+
+Identify and address the issue to ensure the pod is in the `running` state and the application is accessible.
+
+`Note:` The `kubectl` utility on `ju`
 
 ---
 
-
+Младший сотрудник команды DevOps столкнулся с трудностями при развертывании стека в кластере Kubernetes. Модуль не запускается, что приводит к появлению ошибок. Давайте быстро разберемся с неполадками и устраним проблему.  
+  
+Существует модуль с именем webserver, а контейнер внутри него называется httpd-container, в котором используется образ httpd:latest.  
+  
+Кроме того, есть контейнер sidecar с именем sidecar-container, использующий ubuntu:latest image.  
+  
+Определите и устраните проблему, чтобы убедиться, что модуль находится в запущенном состоянии и приложение доступно.
 ```
 
 ### Solution
