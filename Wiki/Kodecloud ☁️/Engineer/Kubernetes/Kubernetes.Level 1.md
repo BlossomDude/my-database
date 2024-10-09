@@ -397,7 +397,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: time-check
-  namespace: nautilus
+  namespace: datacenter
 spec:
   volumes:
     - name: config
@@ -407,16 +407,15 @@ spec:
     - name: time-check
       image: busybox:latest
       volumeMounts:
-        - mountPath: /opt/security/time
+        - mountPath: /opt/devops/time
           name: config
       envFrom:
         - configMapRef:
             name: time-config
-
       command: ["/bin/sh", "-c"]
       args:
         [
-        "while true; do date; sleep $TIME_FREQ;done > /opt/security/time/time-check.log",
+        "while true; do date; sleep $TIME_FREQ;done > /opt/devops/time/time-check.log",
         ]
 
 
