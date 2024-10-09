@@ -451,12 +451,12 @@ Identify and address the issue to ensure the pod is in the `running` state and
 
 ### Solution
 ```bash
-
+kubectl get pods -o yaml > pod.yaml
 ```
 
 
 
-# 12
+# 12: Update Deployment and Service in Kubernetes
 
 ### Problem
 ```
