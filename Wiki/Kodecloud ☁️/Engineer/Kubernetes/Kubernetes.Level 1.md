@@ -487,7 +487,7 @@ kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
 
 
 
-# 13
+# 13: Deploy Highly Available Pods with Replication Controller
 
 ### Problem
 ```
