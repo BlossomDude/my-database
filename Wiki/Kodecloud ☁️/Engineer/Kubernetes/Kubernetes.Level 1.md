@@ -407,7 +407,7 @@ spec:
       image: busybox:latest
       volumeMounts:
         - mountPath: /opt/devops/time
-          name: config
+          name: log-volume
       envFrom:
         - configMapRef:
             name: time-config
