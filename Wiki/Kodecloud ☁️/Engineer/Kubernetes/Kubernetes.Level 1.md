@@ -421,15 +421,6 @@ spec:
 
 ```
 
-```
-volume name is not 'log-volume'
-```
-```
-mount path is not '/opt/data/time'
-```
-```
-Output of time-check.log is incorrect
-```
 
 # 11
 
