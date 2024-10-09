@@ -400,7 +400,7 @@ metadata:
   namespace: devops
 spec:
   volumes:
-    - name: config
+    - name: log-volume
       emptyDir: {}
   containers:
     - name: time-check
