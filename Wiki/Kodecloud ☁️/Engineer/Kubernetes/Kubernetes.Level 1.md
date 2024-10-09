@@ -535,11 +535,19 @@ spec:
 
 ### Problem
 ```
+We encountered an issue with our Nginx and PHP-FPM setup on the Kubernetes cluster this morning, which halted its functionality. Investigate and rectify the issue:  
 
+The pod name is `nginx-phpfpm` and configmap name is `nginx-config`. Identify and fix the problem.  
+
+Once resolved, copy `/home/thor/index.php` file from the `jump host` to the `nginx-container` within the nginx document root. After this, you should be able to access the website using `Website` button on the top bar.
 
 ---
 
-
+Сегодня утром мы столкнулись с проблемой при настройке Nginx и PHP-FPM в кластере Kubernetes, которая привела к остановке его работы. Изучите и устраните проблему:  
+  
+Имя модуля - nginx-phpfpm, а имя configmap - nginx-config. Определите и устраните проблему.  
+  
+После устранения скопируйте файл /home/thor/index.php с хоста jump в nginx-контейнер в корневом каталоге документов nginx. После этого вы сможете получить доступ к веб-сайту, используя кнопку "Веб-сайт" на верхней панели.
 ```
 
 ### Solution
