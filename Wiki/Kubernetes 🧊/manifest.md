@@ -38,19 +38,21 @@ Created time: 2023-11-28T20:25
 - Replication Controller + Pods
     
     ```YAML
-    apiVersion: v1
-    kind: ReplicationController
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: httpd-replicationcontroller
+spec:
+  replicas: 3
+  template:
     metadata:
-      name: myapp-rc
-    spec: 
-      template:                           # ниже идет описание пода
-    		metadata:                           
-    		  name: myapp-pod
-    		spec:
-    			containers:
-    				- name:  nginx-container
-    					image: nginx:latest
-      replicas: 3                         # указывается минимальное колличество реплик
+      labels:
+        app: httpd_app
+        type: front-end
+    spec:
+      containers:
+        - name: httpd-container
+          image: httpd:latest 
     ```
     
 - Replica Set + Pods

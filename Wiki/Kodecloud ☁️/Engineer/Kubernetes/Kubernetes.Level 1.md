@@ -512,12 +512,26 @@ All `pods` should be running state post-deployment.
 
 ### Solution
 ```bash
-
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: httpd-replicationcontroller
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: httpd_app
+        type: front-end
+    spec:
+      containers:
+        - name: httpd-container
+          image: httpd:latest
 ```
 
 
 
-# 14
+# 14: Resolve Volume Mounts Issue in Kubernetes
 
 ### Problem
 ```
