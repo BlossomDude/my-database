@@ -17,7 +17,6 @@ he Nautilus DevOps team is diving into Kubernetes for application management. On
 2)Установите для метки приложения значение httpd_app и назовите контейнер httpd-container .
 
 Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes.
-
 ```
 
 ### Solution
