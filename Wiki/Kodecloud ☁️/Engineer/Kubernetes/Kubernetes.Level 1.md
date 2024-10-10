@@ -589,6 +589,27 @@ kubectl rollout undo deployment/nginx-deployment-t2q2
 5
 kubectl create namespace dev-t3q3
 ------------------------------------
-6
+6 kubectl apply -f datacenter-t3q1
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: datacenter-t3q1
+spec:
+  schedule: "*/8 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: cron-datacenter-t3q1
+              image: httpd:latest
+              args:
+               - /bin/sh
+               - -c
+               - echo "Welcome to xfusioncorp"
+---------------------------------
+7
+
 
 ```
