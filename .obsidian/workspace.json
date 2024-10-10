@@ -42,16 +42,9 @@
               },
               "pinned": true
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "5688af24b14ed07e",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "36b0709d7da87c4d",
+            "id": "8ceaf4eecd0c2ed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,13 +194,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "36b0709d7da87c4d",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes 🧊/Команды.md",
+    "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
+    "Wiki/Kubernetes ��/Выбор нод при развертывании.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Базы данных 💽/MongoDB/MongoDB.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
@@ -225,11 +222,7 @@
     "Wiki/Linux 🐧/Порождение процессов Linux.md",
     "Wiki/Linux 🐧/Переменная среды.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
-    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
-    "Wiki/Linux 🐧/Структура файловой системы/passwd_file.md",
-    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "Wiki/Kodecloud ☁️/Linux",
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/English",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
