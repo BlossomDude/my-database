@@ -579,4 +579,10 @@ spec:
   containers:
     - name: httpd-container
       image: httpd:alpine3.19
+---------------------------------------
+3 
+kubectl edit deploy blue-app-t2q5
+---------------------------------------
+4
+
 ```

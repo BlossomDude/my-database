@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/Kubernetes 🧊/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,11 +196,11 @@
   },
   "active": "bacf6cc144bad542",
   "lastOpenFiles": [
+    "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Kubernetes 🧊/Probe’s.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
-    "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes ��/Выбор нод при развертывании.md",
     "Wiki/Базы данных 💽/MongoDB/MongoDB.md",
