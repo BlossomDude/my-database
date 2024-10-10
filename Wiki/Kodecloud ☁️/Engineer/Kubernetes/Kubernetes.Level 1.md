@@ -556,3 +556,18 @@ Once resolved, copy `/home/thor/index.php` file from the `jump host` to the�
 
 
 
+```yaml
+1: /usr/official-t1q2/official-t1q2.yml
+---------------------------------------
+apiVersion: v1
+kind: Pod
+metadata:
+  name: official-nginx-t1q2
+spec:
+  containers:
+    - name: container-nginx
+      image: nginx:latest
+---------------------------------------
+2
+
+```

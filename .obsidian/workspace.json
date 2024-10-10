@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Команды.md"
+                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md"
               }
             }
           },
@@ -194,10 +194,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "bacf6cc144bad542",
   "lastOpenFiles": [
-    "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes 🧊/Команды.md",
+    "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes ��/Выбор нод при развертывании.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
