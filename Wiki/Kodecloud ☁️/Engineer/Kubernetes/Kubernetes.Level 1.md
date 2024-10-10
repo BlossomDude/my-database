@@ -584,5 +584,8 @@ spec:
 kubectl edit deploy blue-app-t2q5
 ---------------------------------------
 4
+kubectl rollout undo deployment/nginx-deployment-t2q2
+-------------------------------------
+5
 
 ```
