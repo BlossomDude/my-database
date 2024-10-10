@@ -568,6 +568,15 @@ spec:
     - name: container-nginx
       image: nginx:latest
 ---------------------------------------
-2
-
+2 ~/httpd-test-t1q4.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-test-t1q4
+  labels:
+    app: httpd
+spec:
+  containers:
+    - name: httpd-container
+      image: httpd:alpine3.19
 ```

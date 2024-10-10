@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/Команды.md",
+                "file": "Wiki/Kubernetes 🧊/manifest.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,14 +196,15 @@
   },
   "active": "bacf6cc144bad542",
   "lastOpenFiles": [
-    "Wiki/Kubernetes 🧊/Команды.md",
+    "Wiki/Kubernetes 🧊/manifest.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Kubernetes 🧊/Probe’s.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
+    "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes ��/Выбор нод при развертывании.md",
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Базы данных 💽/MongoDB/MongoDB.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
@@ -221,7 +222,6 @@
     "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Linux 🐧/Порождение процессов Linux.md",
     "Wiki/Linux 🐧/Переменная среды.md",
-    "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/English",
