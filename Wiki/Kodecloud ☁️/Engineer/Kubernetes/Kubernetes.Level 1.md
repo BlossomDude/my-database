@@ -614,4 +614,10 @@ spec:
 ----------------------------------
 8 redis-deployment-t4q2-856885fd7f-4qr4v
 Warning  FailedMount  12s (x8 over 76s)  kubelet            MountVolume.SetUp failed for volume "config" : configmap "redis-cofig-t4q2" not found
+----
+9 
+kubectl edit svc service-t5q3
+------
+10
+
 ```
