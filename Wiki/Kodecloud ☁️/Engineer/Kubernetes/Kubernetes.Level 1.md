@@ -587,5 +587,8 @@ kubectl edit deploy blue-app-t2q5
 kubectl rollout undo deployment/nginx-deployment-t2q2
 -------------------------------------
 5
+kubectl create namespace dev-t3q3
+------------------------------------
+6
 
 ```
