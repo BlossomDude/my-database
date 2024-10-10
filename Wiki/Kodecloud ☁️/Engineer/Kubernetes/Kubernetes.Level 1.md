@@ -611,5 +611,7 @@ spec:
 ---------------------------------
 7
 
-
+----------------------------------
+8 
+Warning  FailedMount  12s (x8 over 76s)  kubelet            MountVolume.SetUp failed for volume "config" : configmap "redis-cofig-t4q2" not found
 ```
