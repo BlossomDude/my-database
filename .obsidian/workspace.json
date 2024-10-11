@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -198,8 +198,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Системы инициализации Linux.md",
     "Wiki/Linux 🐧/Load Average.md",
@@ -219,7 +220,6 @@
     "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Linux 🐧/Linux.md",
-    "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Linux 🐧/Security",
     "Wiki/Kubernetes 🧊/Команды.md",
