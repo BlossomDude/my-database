@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md"
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md"
               }
             }
           },
@@ -198,15 +198,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "bacf6cc144bad542",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Системы инициализации Linux.md",
     "Wiki/Linux 🐧/Load Average.md",
     "Wiki/Linux 🐧/SystemD.md",
     "Wiki/Linux 🐧/sed.md",
     "Wiki/Linux 🐧/Rosa проблема с репой.md",
     "Wiki/Linux 🐧/OOM Killer.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Порождение процессов Linux.md",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Linux 🐧/Проблемы и решения.md",
