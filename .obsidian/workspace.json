@@ -32,15 +32,13 @@
           {
             "id": "bacf6cc144bad542",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -122,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md"
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md"
               }
             }
           },
@@ -196,8 +194,10 @@
   },
   "active": "bacf6cc144bad542",
   "lastOpenFiles": [
-    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Linux 🐧/Security/Linux Security.md",
+    "Wiki/Linux 🐧/Security",
+    "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Probe’s.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
@@ -221,7 +221,6 @@
     "Wiki/Linux 🐧/Проблемы и решения.md",
     "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Linux 🐧/Порождение процессов Linux.md",
-    "Wiki/Linux 🐧/Переменная среды.md",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/English",
@@ -231,7 +230,6 @@
     "keepassxc/Пароли.kdbx",
     "keepassxc",
     "Wiki/Kodecloud ☁️/Courses/12 Factor App",
-    "Wiki/Kodecloud ☁️/Courses",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
