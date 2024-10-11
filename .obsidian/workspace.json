@@ -40,21 +40,27 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b2f6bca79c1a1aa1",
+        "type": "tabs",
+        "children": [
           {
             "id": "8ceaf4eecd0c2ed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/Security/Linux Security.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -192,35 +198,35 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bacf6cc144bad542",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/Linux 🐧/Security/Linux Security.md",
-    "Wiki/Linux 🐧/Security",
+    "Wiki/Linux 🐧/Системы инициализации Linux.md",
+    "Wiki/Linux 🐧/Load Average.md",
+    "Wiki/Linux 🐧/SystemD.md",
+    "Wiki/Linux 🐧/sed.md",
+    "Wiki/Linux 🐧/Rosa проблема с репой.md",
+    "Wiki/Linux 🐧/OOM Killer.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/Порождение процессов Linux.md",
+    "Wiki/Linux 🐧/Права, SUID GUID.md",
+    "Wiki/Linux 🐧/Проблемы и решения.md",
+    "Wiki/Linux 🐧/Сигналы.md",
+    "Wiki/Linux 🐧/Системные вызовы.md",
+    "Wiki/Linux 🐧/Security/ACL.md",
+    "Wiki/Linux 🐧/Namespaces.md",
+    "Wiki/Linux 🐧/Targets SystemD.md",
+    "Wiki/Linux 🐧/top.md",
+    "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Kubernetes 🧊/manifest.md",
+    "Wiki/Linux 🐧/Linux.md",
+    "Wiki/Linux 🐧/Security/Linux Security.md",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes/Kubernetes.Level 1.md",
+    "Wiki/Linux 🐧/Security",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Probe’s.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
     "Wiki/Kubernetes ��/Выбор нод при развертывании.md",
-    "Wiki/Базы данных 💽/MongoDB/MongoDB.md",
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
-    "Wiki/devops ♻️/Jenkins 👴/Jenkins.md",
-    "Wiki/Kodecloud ☁️/Engineer/Jenkins/Jenkins.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/devops ♻️/Ansible 🅰️/ansible.cfg.md",
-    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Modules.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Playbook.md",
-    "Wiki/devops ♻️/Ansible 🅰️/inventory.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Ansible.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Linux 🐧/Vi.Vim.md",
-    "Wiki/Linux 🐧/Rosa проблема с репой.md",
-    "Wiki/Linux 🐧/Проблемы и решения.md",
-    "Wiki/Linux 🐧/Права, SUID GUID.md",
-    "Wiki/Linux 🐧/Порождение процессов Linux.md",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
     "Wiki/English",
