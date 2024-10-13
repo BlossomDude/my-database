@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -190,11 +190,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "00ac01377400f6f7",
+  "active": "7fdda6254920195c",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
+    "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
     "Wiki/Linux 🐧/SystemD/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD/SystemD.md",
-    "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
     "Wiki/Linux 🐧/Структура файловой системы/Структура файловой системы.md",
     "Wiki/English/IT English voculabury.md",
     "Wiki/English/Links.md",
@@ -226,7 +227,6 @@
     "Wiki/devops ♻️/Ansible ��️/inventory.md",
     "Wiki/devops ♻️/Ansible ��️/Modules.md",
     "Wiki/devops ♻️/Ansible ��️/Ansible.md",
-    "Wiki/devops ♻️/Ansible ��️/ansible.cfg.md",
     "Wiki/devops ♻️/Ansible ��️",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
