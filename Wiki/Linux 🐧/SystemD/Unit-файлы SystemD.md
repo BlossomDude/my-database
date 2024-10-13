@@ -24,15 +24,18 @@ Description=Simple Python App
 [Service]
 # определяет приложение как сервис
 ExecStart=/usr/bin/python3 /opt/web/run.py
-
 # Задание которое будет выполнено до старта службы
 ExecStartPre=/opt/web/backup_db.sh
-
 # Задание которое будет выполнено после старта
 ExecStartPost=/opt/web/send_notification.sh
 
+# Выбрать пользователя владельца сервиса
+User=root
+
 # После падения сервера, сервис будет запускаться автоматом
 Restart=Always
+# После падения сервиса, будет ждать 10 секунд, после перезапустится
+RestartSec=10 
 
          
 [Install]
