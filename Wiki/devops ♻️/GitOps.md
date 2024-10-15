@@ -6,3 +6,4 @@
 
 >Pull и Push based deployments
    Pull лучше так как это безопаснее
+
