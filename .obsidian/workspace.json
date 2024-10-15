@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Вакансия kasper cloud.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Вакансия kasper cloud.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Вакансия kasper cloud.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Вакансия kasper cloud.md"
+                "file": "Wiki/Linux 🐧/Команды.md"
               }
             }
           },
@@ -200,12 +200,12 @@
   },
   "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
     "Wiki/Linux 🐧/SystemD/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD/SystemD.md",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/devops ♻️/HELM⛑️/Команды.md",
     "Wiki/Kubernetes 🧊/Команды.md",
