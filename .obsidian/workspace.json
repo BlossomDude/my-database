@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/GitOps.md",
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/GitOps.md",
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/GitOps.md",
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/GitOps.md"
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md"
               }
             }
           },
@@ -200,8 +200,10 @@
   },
   "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/ArgoCD/GitOps.md",
+    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+    "Wiki/devops ♻️/ArgoCD",
     "Wiki/devops ♻️/YAML✏️/YAML.md",
-    "Wiki/devops ♻️/GitOps.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Команды.md",
@@ -226,7 +228,6 @@
     "Wiki/Linux 🐧/Rosa проблема с репой.md",
     "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Linux 🐧/Порождение процессов Linux.md",
-    "Wiki/Linux 🐧/Права, SUID GUID.md",
     "Wiki/Linux 🐧/Security",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
@@ -235,7 +236,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
     "keepassxc/Пароли.kdbx",
-    "keepassxc",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
