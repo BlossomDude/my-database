@@ -66,13 +66,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes 🧊/manifest.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md"
+                "file": "Wiki/GIT 🎋/Команды.md"
               }
             }
           },
@@ -210,19 +211,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "8d12c8baeee47ccf",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+    "Wiki/GIT 🎋/Команды.md",
+    "Wiki/GIT 🎋/GIT.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes 🧊/Сети в K8s.md",
-    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/devops ♻️/ArgoCD/GitOps.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/devops ♻️/YAML✏️/YAML.md",
-    "Wiki/GIT 🎋/GIT.md",
-    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kubernetes 🧊/Kubernetes.md",
     "Wiki/Kubernetes 🧊/K8s Практические занятия.md",
