@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md"
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md"
               }
             }
           },
@@ -211,10 +210,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8d12c8baeee47ccf",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
-    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/GIT 🎋/Команды.md",
+    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
