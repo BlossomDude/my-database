@@ -30,4 +30,18 @@ argocd
 			`-o yaml` - получить в формате ямл
 		`list` - вывести список проектов
 		`create`
-			
+
+
+
+You can access the `Gitea` server by using the following credentials.  
+  
+    Username: `bob`  
+  
+    Password: `bob@123`  
+  
+  
+You can access the `ArgoCD UI` and `ArgoCD CLI` by using the following credentials.  
+  
+    User: `admin`  
+  
+    Password: `admin123`
