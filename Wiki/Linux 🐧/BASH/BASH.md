@@ -103,13 +103,11 @@ done
 ```Bash
 #!/bin/bash
 
-user=dimm
-
-if grep $user /etc/passwd
+if [ $rocket_status = "failed" ] 
 then
-echo "The user $user exists"
+	echo "failed"
 else
-echo "The user $user doesn't exist"
+	echo "good"
 fi
 ```
 
