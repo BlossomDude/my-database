@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -212,7 +213,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8d12c8baeee47ccf",
+  "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
