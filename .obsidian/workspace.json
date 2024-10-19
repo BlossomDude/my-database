@@ -18,41 +18,62 @@
           {
             "id": "c00b3c4d461be9b4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "7fdda6254920195c",
+            "id": "bacf6cc144bad542",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00ac01377400f6f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
+                "file": "Wiki/Linux 🐧/Security/Linux Security.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "b2f6bca79c1a1aa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ceaf4eecd0c2ed4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d12c8baeee47ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 254.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -118,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md"
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md"
               }
             }
           },
@@ -175,59 +196,60 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7fdda6254920195c",
+  "active": "8d12c8baeee47ccf",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/devops ♻️/ArgoCD/GitOps.md",
+    "Wiki/Linux 🐧/Scripts/check_system.sh.md",
+    "Wiki/GIT 🎋/Команды.md",
     "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+    "Wiki/GIT 🎋/GIT.md",
+    "Wiki/Kubernetes 🧊/manifest.md",
+    "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
+    "Wiki/Kubernetes 🧊/Команды.md",
+    "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
+    "Wiki/Kubernetes 🧊/Сети в K8s.md",
+    "Wiki/devops ♻️/ArgoCD/GitOps.md",
     "Wiki/devops ♻️/ArgoCD",
+    "Wiki/devops ♻️/YAML✏️/YAML.md",
+    "Wiki/Kubernetes 🧊/Kubernetes.md",
+    "Wiki/Kubernetes 🧊/K8s Практические занятия.md",
+    "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
+    "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/SystemD/Unit-файлы SystemD.md",
-    "Wiki/Linux 🐧/SystemD/SystemD.md",
-    "Wiki/devops ♻️/Ansible 🅰️/Команды.md",
     "Wiki/Linux 🐧/SystemD/Targets SystemD.md",
-    "Wiki/Linux 🐧/Структура файловой системы/Структура файловой системы.md",
-    "Wiki/English/IT English voculabury.md",
-    "Wiki/English/Links.md",
-    "Wiki/Базы данных ��/Redis/Redis.md",
-    "Wiki/Базы данных ��/MySQL/MySQL.md",
-    "Wiki/Базы данных ��/MongoDB/Replica Set.md",
-    "Wiki/Базы данных ��/MongoDB/MongoDB.md",
-    "Wiki/Базы данных ��/Redis",
-    "Wiki/Базы данных ��/MySQL",
-    "Wiki/Базы данных ��/MongoDB",
-    "Wiki/Базы данных ��",
-    "Wiki/devops ♻️/Вопросы для изучения��/Вопросы для изучения.md",
-    "Wiki/devops ♻️/Вопросы для изучения��/VIRT RAM.md",
-    "Wiki/devops ♻️/Вопросы для изучения��",
-    "Wiki/devops ♻️/Vagrant ��/Vagrant.md",
-    "Wiki/devops ♻️/Vagrant ��",
-    "Wiki/devops ♻️/Terraform ��/Terraform.md",
-    "Wiki/devops ♻️/Terraform ��",
-    "Wiki/devops ♻️/Jenkins ��/Jenkins.md",
-    "Wiki/devops ♻️/Jenkins ��",
-    "Wiki/devops ♻️/GitLab CI ��/Pipeline’s.md",
-    "Wiki/devops ♻️/GitLab CI ��/GitLab CI.md",
-    "Wiki/devops ♻️/GitLab CI ��",
-    "Wiki/devops ♻️/Ansible ��️/Условия.md",
-    "Wiki/devops ♻️/Ansible ��️/Команды.md",
-    "Wiki/devops ♻️/Ansible ��️/Встроенные переменные Ansible.md",
-    "Wiki/devops ♻️/Ansible ��️/Roles.md",
-    "Wiki/devops ♻️/Ansible ��️/Playbook.md",
+    "Wiki/Linux 🐧/SystemD/SystemD.md",
+    "Wiki/Linux 🐧/SystemD",
+    "Wiki/devops ♻️/HELM⛑️/Команды.md",
+    "Wiki/Linux 🐧/Security/Linux Security.md",
+    "Wiki/Linux 🐧/Системы инициализации Linux.md",
+    "Wiki/Linux 🐧/Load Average.md",
+    "Wiki/Linux 🐧/Security",
+    "Wiki/Kodecloud ☁️/Linux",
+    "Wiki/Kodecloud ☁️/Git",
+    "Wiki/English",
+    "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible",
+    "Wiki/Kodecloud ☁️/Engineer/Jenkins",
+    "keepassxc/Пароли.kdbx",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
