@@ -45,3 +45,41 @@ http {
 3) В-третьих, если вынести настройки каждого блока server в отдельную конфигурацию, очень удобно включать и отключать сайты простым переносом или переименованием всего одного файла. 
 4) В-четвёртых, вы всегда будете видеть, какой именно сайт был изменён последним по времени модификации файла. 
 5) И в пятых, хранение настроек сайта в отдельном файле сводит к минимуму риск случайного повреждения общей конфигурации при редактировании.
+
+### Стандартный файл nginx.conf
+```
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log notice;
+pid /run/nginx.pid;
+include /usr/share/nginx/modules/*.conf; # Добавляет конфигурации из файлов
+events {
+    worker_connections 1024;
+}
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+    access_log  /var/log/nginx/access.log  main;
+    sendfile            on;
+    tcp_nopush          on;
+    keepalive_timeout   65;
+    types_hash_max_size 4096;
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+    include /etc/nginx/conf.d/*.conf;
+    server {
+        listen       80;
+        listen       [::]:80;
+        server_name  _;
+        root         /usr/share/nginx/html;
+        include /etc/nginx/default.d/*.conf;
+        error_page 404 /404.html;
+        location = /404.html {
+        }
+        error_page 500 502 503 504 /50x.html;
+        location = /50x.html {
+        }
+    }
+}
+```
