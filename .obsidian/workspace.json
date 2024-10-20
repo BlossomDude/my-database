@@ -6,7 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
-        "dimension": 21.83406113537118,
+        "dimension": 21.870604781997187,
         "children": [
           {
             "id": "acab372040174fd1",
@@ -54,7 +54,7 @@
       {
         "id": "b2f6bca79c1a1aa1",
         "type": "tabs",
-        "dimension": 78.16593886462883,
+        "dimension": 78.12939521800281,
         "children": [
           {
             "id": "8ceaf4eecd0c2ed4",
@@ -88,16 +88,18 @@
             "id": "f8c155e6b7450d64",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.4"
+                "file": "Wiki/Linux 🐧/Команды.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "Команды"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5,
-    "collapsed": true
+    "width": 254.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -170,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Straros DC"
+              "title": "Обратные ссылки для nginx"
             }
           },
           {
@@ -189,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Straros DC"
+              "title": "Исходящие ссылки из nginx"
             }
           },
           {
@@ -216,10 +217,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md"
+                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md"
               },
               "icon": "lucide-list",
-              "title": "Структура Straros DC"
+              "title": "Структура nginx"
             }
           },
           {
@@ -252,12 +253,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "8d12c8baeee47ccf",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
