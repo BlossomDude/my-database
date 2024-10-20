@@ -43,11 +43,9 @@ Created time: 2023-08-11T17:27
 
 ```Bash
 #!/bin/bash
-num=0
-
-for num in 1 2 3 4 5
+for mission in $(cat list_of_missions.txt)
 do
-echo "number for this cycle = $num"
+echo create_and_launch_rocket $mission
 done
 ```
 

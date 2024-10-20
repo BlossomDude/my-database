@@ -90,16 +90,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/BASH/BASH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "BASH"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+                "file": "Wiki/Linux 🐧/BASH/BASH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для nginx"
+              "title": "Обратные ссылки для BASH"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+                "file": "Wiki/Linux 🐧/BASH/BASH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из nginx"
+              "title": "Исходящие ссылки из BASH"
             }
           },
           {
@@ -217,10 +217,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Web сервера 🖥️/Nginx/nginx.md"
+                "file": "Wiki/Linux 🐧/BASH/BASH.md"
               },
               "icon": "lucide-list",
-              "title": "Структура nginx"
+              "title": "Структура BASH"
             }
           },
           {
@@ -253,11 +253,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8d12c8baeee47ccf",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/GIT 🎋/Команды.md",
