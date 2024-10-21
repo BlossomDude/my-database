@@ -67,12 +67,12 @@ done
 
 ```Bash
 #!/bin/bash
-x=1
+to_number=$1
+number=0
 
-while [ $x -lt 5 ]
+while [ $number -lt $to_number ]
 do
-echo "counter=$x"
-x=$(( $x + 1 ))
+echo $(( number++ ))
 done
 ```
 

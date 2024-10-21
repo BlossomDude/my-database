@@ -6,7 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
-        "dimension": 21.870604781997187,
+        "dimension": 54.289732770745424,
         "children": [
           {
             "id": "acab372040174fd1",
@@ -21,7 +21,6 @@
           {
             "id": "c00b3c4d461be9b4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -29,7 +28,6 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Straros DC"
             }
@@ -54,7 +52,7 @@
       {
         "id": "b2f6bca79c1a1aa1",
         "type": "tabs",
-        "dimension": 78.12939521800281,
+        "dimension": 45.71026722925457,
         "children": [
           {
             "id": "8ceaf4eecd0c2ed4",
@@ -255,10 +253,11 @@
   },
   "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
@@ -282,7 +281,6 @@
     "Wiki/devops ♻️/HELM⛑️/Команды.md",
     "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/Linux 🐧/Системы инициализации Linux.md",
-    "Wiki/Linux 🐧/Load Average.md",
     "Wiki/Linux 🐧/Security",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
