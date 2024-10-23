@@ -33,3 +33,5 @@ JDK - набор иснтрументов для разработке на java 
 `mvn package` - сбилдить
 `gradlew build` - сбилдить
 `gradlew run` - запустить
+`ant compile jar` - сбилдить
+`ant` - команда для запуска файла конфигурации ant
