@@ -14,5 +14,17 @@ web-server - Предназначен преимущественно для ст
   
 
 - Файл конфигурации: `/etc/httpd/conf/httpd.conf
-    
-    `DocumentRoot /var/www/html` - директория где храняться все файлы сайта.
+
+``` yaml
+# Порт на котром будет работать сервер 
+Listen 80
+
+# директория где храняться все файлы сайта.
+DocumentRoot "/var/www/html" 
+
+# DNS имя сервера
+ServerName www.dnsname.com:80 
+
+
+
+```
