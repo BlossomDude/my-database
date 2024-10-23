@@ -6,7 +6,7 @@ Created time: 2023-12-14T17:30
 ### Команды в bash
 
 - `javac *MyClass.java*` - скомпилировать исходный код и создает MyClass.class
-- `==jar cfe==` `==app.jar==` `==MyClass==` `==Myclass.class Parser.Class==` - Команда для создания jar архива, указывается класс который запустится самый первый и все остальные входячие в архив файлы
+- `jar cfe app.jar MyClass Myclass.class Parser.Class` - Команда для создания jar архива, указывается класс который запустится самый первый и все остальные входячие в архив файлы
 - `javadoc -d` `doc` `MyClass.java` - создает html с документацией кода.
 
   
@@ -17,6 +17,7 @@ JDK - набор иснтрументов для разработке на java 
 - Javadoc - документоравние кода
 - Javac - компилятор
 - jar - архивация кода и связанных библиотек
+	- `jar cf ArchiveName.jar Class1.class Class2.class...` - Создать архив ArchiveName.jar с классами которые указаны далее.
 - JRE Java Runtime Enviroment) - Среда для запуска кода
     - java - загрузчик для запуска приложений
 `jdk_ver_directory/bin` - посмотреть все бинарные файлы JDK
