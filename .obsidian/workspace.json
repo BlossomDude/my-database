@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
+                "file": "Wiki/ЯП для OPS ⌨️/Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ArgoCD"
+              "title": "Java"
             }
           },
           {
@@ -96,8 +96,7 @@
               "title": "Function"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,17 +250,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/BASH/BASH.md",
-    "Wiki/Linux 🐧/BASH/Function.md",
-    "Wiki/Linux 🐧/Vi.Vim.md",
+    "Wiki/ЯП для OPS ⌨️/ЯП для OPS.md",
+    "Wiki/ЯП для OPS ⌨️/Go.md",
+    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
+    "Wiki/Linux 🐧/BASH/Function.md",
+    "Wiki/Linux 🐧/BASH/BASH.md",
+    "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/GIT 🎋/Команды.md",
-    "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Kubernetes 🧊/manifest.md",
     "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
@@ -279,8 +280,6 @@
     "Wiki/Linux 🐧/SystemD/Targets SystemD.md",
     "Wiki/Linux 🐧/SystemD/SystemD.md",
     "Wiki/Linux 🐧/SystemD",
-    "Wiki/devops ♻️/HELM⛑️/Команды.md",
-    "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/Linux 🐧/Security",
     "Wiki/Kodecloud ☁️/Linux",
     "Wiki/Kodecloud ☁️/Git",
