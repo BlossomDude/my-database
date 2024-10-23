@@ -17,7 +17,6 @@ JDK - набор иснтрументов для разработке на java 
 - Javadoc - документоравние кода
 - Javac - компилятор
 - jar - архивация кода и связанных библиотек
-	- `jar cf ArchiveName.jar Class1.class Class2.class...` - Создать архив ArchiveName.jar с классами которые указаны далее.
 - JRE Java Runtime Enviroment) - Среда для запуска кода
     - java - загрузчик для запуска приложений
 `jdk_ver_directory/bin` - посмотреть все бинарные файлы JDK
