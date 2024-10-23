@@ -8,10 +8,11 @@ web-server - Предназначен преимущественно для ст
 `apt install apache2` - установка apache
 
 > [!important]  
-> Логи находятся по пути : /var/log/apache2/access_logЛоги ошибок доступа : /var/log/apache2/error_log  
+> Логи находятся по пути : /var/log/apache2/access_log
+> Логи ошибок доступа : /var/log/apache2/error_log  
 
   
 
-- Файл конфигурации: `/etc/apache2/apache.conf`
+- Файл конфигурации: `/etc/httpd/conf/httpd.conf
     
     `DocumentRoot /var/www/html` - директория где храняться все файлы сайта.
