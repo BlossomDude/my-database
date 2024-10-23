@@ -25,6 +25,10 @@ DocumentRoot "/var/www/html"
 # DNS имя сервера
 ServerName www.dnsname.com:80 
 
-
+# Объявить виртуальный хост
+<VirtualHost *:80>
+  ServerName www.otherdns.com
+  DocumentRoot /var/www/otherdns
+</VirtualHost>
 
 ```
