@@ -50,10 +50,14 @@
             "id": "15e71d7d15820668",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/devops ♻️/Devops.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Devops"
             }
           }
         ],
@@ -262,6 +266,7 @@
   },
   "active": "15e71d7d15820668",
   "lastOpenFiles": [
+    "Wiki/devops ♻️/Devops.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
@@ -288,7 +293,6 @@
     "Wiki/Kubernetes 🧊/Kubernetes.md",
     "Wiki/Kubernetes 🧊/K8s Практические занятия.md",
     "Wiki/Kubernetes 🧊/Выбор нод при развертывании.md",
-    "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
     "Wiki/Kodecloud ☁️/Linux",
