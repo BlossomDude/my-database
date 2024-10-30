@@ -223,8 +223,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "13db68845b58a485",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/GIT 🎋/GIT.md",
@@ -250,7 +251,6 @@
     "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
     "Wiki/Kubernetes 🧊/Команды.md",
     "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
-    "Wiki/Kubernetes 🧊/Сети в K8s.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
