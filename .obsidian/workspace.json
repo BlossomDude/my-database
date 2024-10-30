@@ -46,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "Git.Level 2"
             }
           },
           {
@@ -68,8 +68,7 @@
               "title": "Команды"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,12 +222,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
+    "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
+    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
+    "Wiki/Kodecloud ☁️/Git/Level 1.md",
+    "Wiki/GIT 🎋/GIT.md",
+    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/GIT 🎋/GIT.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Web сервера 🖥️/Apache2.md",
@@ -247,10 +250,6 @@
     "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/Linux 🐧/Vi.Vim.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
-    "Wiki/Kubernetes 🧊/manifest.md",
-    "Wiki/Kubernetes 🧊/K8s изнутри конспект.md",
-    "Wiki/Kubernetes 🧊/Команды.md",
-    "Wiki/Kubernetes 🧊/Основные объекты и компоненты K8s.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
