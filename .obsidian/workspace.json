@@ -68,8 +68,7 @@
               "title": "Команды"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,14 +222,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/GIT 🎋/Команды.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
     "Wiki/Kodecloud ☁️/Linux/Level 1.md",
     "Wiki/Kodecloud ☁️/Git/Level 1.md",
-    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
