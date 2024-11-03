@@ -6,7 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
-        "dimension": 54.289732770745424,
+        "dimension": 51.82841068917018,
         "children": [
           {
             "id": "acab372040174fd1",
@@ -38,7 +38,7 @@
       {
         "id": "b2f6bca79c1a1aa1",
         "type": "tabs",
-        "dimension": 45.71026722925457,
+        "dimension": 48.171589310829816,
         "children": [
           {
             "id": "8ceaf4eecd0c2ed4",
@@ -68,7 +68,8 @@
               "title": "Команды"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,8 +223,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
@@ -235,7 +237,6 @@
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Web сервера 🖥️/Apache2.md",
-    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Linux 🐧/BASH/Function.md",
     "Wiki/devops ♻️/Devops.md",
     "Wiki/Web сервера 🖥️/Nginx/nginx.md",
