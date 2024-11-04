@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/GIT.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "Straros DC"
             }
           }
         ],
@@ -225,9 +225,11 @@
   },
   "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/GIT 🎋/GIT.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/OOM Killer.md",
-    "Wiki/GIT 🎋/GIT.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
@@ -243,14 +245,12 @@
     "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/devops ♻️/Работа.md",
     "Wiki/Вакансия kasper cloud.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/ЯП для OPS ⌨️/Java.md",
     "Wiki/ЯП для OPS ⌨️/ЯП для OPS.md",
     "Wiki/ЯП для OPS ⌨️/Go.md",
     "Wiki/devops ♻️/ArgoCD/ArgoCD.md",
     "Wiki/Linux 🐧/Vi.Vim.md",
-    "Wiki/Linux 🐧/Scripts/check_system.sh.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
