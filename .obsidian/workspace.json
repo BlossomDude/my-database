@@ -24,12 +24,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Straros DC"
             }
           }
         ],
@@ -46,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Docker.Level 2"
             }
           },
           {
@@ -222,8 +222,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "13db68845b58a485",
   "lastOpenFiles": [
+    "Wiki/GIT 🎋/Команды.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
     "Wiki/Linux 🐧/Security/Linux Security.md",
     "Wiki/Linux 🐧/Security/ACL.md",
     "Wiki/Linux 🐧/Scripts/check_system.sh.md",
@@ -231,7 +234,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/GIT 🎋/GIT.md",
-    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
@@ -248,8 +250,6 @@
     "Wiki/Вакансия kasper cloud.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/ЯП для OPS ⌨️/Java.md",
-    "Wiki/ЯП для OPS ⌨️/ЯП для OPS.md",
-    "Wiki/ЯП для OPS ⌨️/Go.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
