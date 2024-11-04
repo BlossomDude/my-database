@@ -84,8 +84,7 @@
               "title": "Linux.Level 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,10 +238,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
