@@ -9,7 +9,8 @@ a. Pull `busybox:musl` image on `App Server 3` in Stratos DC and re-tag (cre
 
 ### Solution
 ```bash
-
+docker pull busybox:musl
+docker image tag busybox:musl busybox:blog
 ```
 
 
