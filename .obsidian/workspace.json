@@ -40,16 +40,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker 🐋/Основные команды.md",
+                "file": "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные команды"
+              "title": "docker-compose.yml"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b2f6bca79c1a1aa1",
@@ -84,8 +84,7 @@
               "title": "Linux.Level 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,8 +136,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -240,15 +238,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "13db68845b58a485",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
+    "Wiki/Docker 🐋/Compose Docker/Команды.md",
     "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Docker 🐋/Docker.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/Linux 🐧/Команды.md",
@@ -266,8 +266,6 @@
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Linux 🐧/BASH/Function.md",
-    "Wiki/devops ♻️/Devops.md",
-    "Wiki/Web сервера 🖥️/Nginx/nginx.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
