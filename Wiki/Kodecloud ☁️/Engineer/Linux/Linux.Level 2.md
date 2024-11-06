@@ -29,8 +29,9 @@ Update the `message of the day` on all application and db servers for `Nautil
 ```
 ### Solution:
 
-``` bash
+``` shell
 ssh user@hostname 
+scp thor@jump_host:/home/thor/nautilus_banner .
 
 ```
 
