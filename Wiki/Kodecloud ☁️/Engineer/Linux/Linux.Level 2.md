@@ -22,25 +22,16 @@ crontab -e
 ### Problem3
 
 ``` text
-To accommodate the backup agent tool's specifications, the system admin team at `xFusionCorp Industries` requires the creation of a user with a non-interactive shell. Here's your task:  
-
-Create a user named `kareem` with a non-interactive shell on `App Server 2`.
-
-___
-
-
-Чтобы соответствовать спецификациям инструмента backup agent, команде системных администраторов `xFusionCorp Industries` требуется создать пользователя с неинтерактивной оболочкой. Вот ваша задача: 
-
-Создайте пользователя с именем "Карим" с неинтерактивной оболочкой на "Сервере приложений 2`.
+During the monthly compliance meeting, it was pointed out that several servers in the `Stratos DC` do not have a valid banner. The security team has provided serveral approved templates which should be applied to the servers to maintain compliance. These will be displayed to the user upon a successful login.  
+  
+Update the `message of the day` on all application and db servers for `Nautilus`. Make use of the approved template located at `/home/thor/nautilus_banner` on jump host
 
 ```
-
->**Non-interactive shell** – это оболочка, которая используется для выполнения автоматизированных сценариев или команд, не требующих взаимодействия с пользователем. В отличие от интерактивной оболочки, где пользователь вводит команды напрямую, неинтерактивная оболочка работает без обычной среды и настроек интерактивного сеанса, позволяя выполнять команды без прерываний. Это особенно полезно при автоматизации задач, таких как ежедневное резервное копирование данных через cron-задания, где скрипт запускается автоматически в заданное время без участия человека.
-### Solution3:
+### Solution:
 
 ``` bash
 ssh user@hostname 
-sudo adduser kareem -s /sbin/login   #выбрать оболчку новому пользователю
+
 ```
 
 # 4: Service User Creation without Home Directory

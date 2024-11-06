@@ -47,21 +47,9 @@
               "icon": "lucide-file",
               "title": "Основные команды"
             }
-          },
-          {
-            "id": "09052b33e64ede2d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "b2f6bca79c1a1aa1",
@@ -96,7 +84,8 @@
               "title": "Linux.Level 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,17 +240,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "09052b33e64ede2d",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
-    "Wiki/Docker 🐋/Docker.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Docker 🐋/Docker.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
