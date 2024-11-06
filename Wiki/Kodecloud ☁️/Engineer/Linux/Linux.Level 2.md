@@ -32,7 +32,8 @@ Update the `message of the day` on all application and db servers for `Nautil
 ``` shell
 ssh user@hostname 
 scp thor@jump_host:/home/thor/nautilus_banner .
-
+cat nautilus_banner > /etc/motd
+systemctl restart sshd
 ```
 
 # 4: Service User Creation without Home Directory
