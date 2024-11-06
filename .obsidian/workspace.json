@@ -47,9 +47,21 @@
               "icon": "lucide-file",
               "title": "Основные команды"
             }
+          },
+          {
+            "id": "09052b33e64ede2d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "b2f6bca79c1a1aa1",
@@ -239,7 +251,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "336cb05006216236",
+  "active": "09052b33e64ede2d",
   "lastOpenFiles": [
     "Wiki/Docker 🐋/Docker.md",
     "Wiki/Docker 🐋/Основные команды.md",
