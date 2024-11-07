@@ -29,23 +29,17 @@ sudo usermod -aG docker ammar
 
 
 
-# 3: Delete Docker Container
+# 3: 
 ### Problem
 ```text
-A container named `kke-container` was created by one of the Nautilus project developers on `App Server 2`. It was solely for testing purposes and now requires deletion. Execute the following task:  
+One of the Nautilus developer was working to test new changes on a container. He wants to keep a backup of his changes to the container. A new request has been raised for the DevOps team to create a new image from this container. Below are more details about it:
 
-Delete the `kke-container` on `App Server 2` in Stratos DC.
-
----
-
-Контейнер с именем kke-container был создан одним из разработчиков Nautilus project на App Server 2. Он был создан исключительно для тестирования и теперь требует удаления. Выполните следующую задачу:  
-  
-Удалите kke-контейнер на App Server 2 в Stratos DC.
+a. Create an image `media:nautilus` on `Application Server 1` from a container `ubuntu_latest` that is running on same server.
 ```
 
 ### Solution
 ```bash
-sudo docker stop kke-container && docker rm kke-container 
+
 ```
 
 
