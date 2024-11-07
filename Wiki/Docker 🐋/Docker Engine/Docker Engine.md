@@ -24,11 +24,3 @@ Created time: 2023-11-13T17:12
 `docker run --cpus=.5 nginx` - запустит контейнер и разрешит ему использвать не более 50% cpu.
 
 `docker run --memory=100m nginx` - использование ОЗУ в пределах 100Мб
-
-  
-
-![[/Untitled 11.png|Untitled 11.png]]
-
-  
-
-![[/Untitled 1 3.png|Untitled 1 3.png]]
