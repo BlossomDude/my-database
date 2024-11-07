@@ -40,16 +40,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker 🐋/Основные команды.md",
+                "file": "Wiki/Web сервера 🖥️/Web сервера.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные команды"
+              "title": "Web сервера"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b2f6bca79c1a1aa1",
@@ -238,10 +238,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "13db68845b58a485",
   "lastOpenFiles": [
+    "Wiki/Web сервера 🖥️/Web сервера.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
@@ -264,8 +266,6 @@
     "Wiki/Linux 🐧/OOM Killer.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Git/Git.Level 1.md",
-    "Wiki/Kodecloud ☁️/Linux/Level 1.md",
-    "Wiki/Kodecloud ☁️/Git/Level 1.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
