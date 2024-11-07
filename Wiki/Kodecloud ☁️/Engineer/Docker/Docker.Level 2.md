@@ -66,10 +66,12 @@ c. Make sure Apache service is up and running inside the container. Keep the con
 docker exec -it kkloud /bin/sh
 
 apt install apache2 -y
+
 sed -i 's/Listen 80/Listen 8089/g' ports.conf
 sed -i 's/:80/:8089/g' apache2.conf
 sed -i 's/#ServerName www.example.com/ServerName localhost/g' apache2.conf
 
+service apache2 start
 
 ```
 
