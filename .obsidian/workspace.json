@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
+                "file": "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dockerfile guide"
+              "title": "Инструкции Dockerfile"
             }
           }
         ],
@@ -240,6 +240,7 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
     "Wiki/Docker 🐋/Network Docker/Network Docker.md",
     "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
@@ -253,7 +254,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
     "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
-    "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
     "Wiki/Web сервера 🖥️/Web сервера.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
