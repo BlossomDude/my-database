@@ -77,27 +77,18 @@ service apache2 start
 
 
 
-# 5: Troubleshoot Docker Container Issue
+# 5: Write Dockerfile
 ### Problem
 ```text
-An issue has arisen with a static website running in a container named `nautilus` on `App Server 1`. To resolve the issue, investigate the following details:  
+As per recent requirements shared by the Nautilus application development team, they need custom images created for one of their projects. Several of the initial testing requirements are already been shared with DevOps team. Therefore, create a docker file `/opt/docker/Dockerfile` (please keep `D` capital of Dockerfile) on `App server 2` in `Stratos DC` and configure to build an image with the following requirements:  
   
-
-1. Check if the container's volume `/usr/local/apache2/htdocs` is correctly mapped with the host's volume `/var/www/html`.      
-2. Verify that the website is accessible on host port `8080` on `App Server 1`. Confirm that the command `curl http://localhost:8080/` works on `App Server 1`.
-
----
-
-Возникла проблема со статическим веб-сайтом, запущенным в контейнере с именем nautilus на сервере приложений 1. Чтобы устранить проблему, изучите следующие сведения:  
-
-1.Проверьте, правильно ли сопоставлен том /usr/local/apache2/htdocs контейнера с томом /var/www/html хоста.  
-2.Убедитесь, что веб-сайт доступен через порт хоста 8080 на сервере приложений 1.    Убедитесь, что команда curl http://localhost:8080/ работает на сервере приложений 1.
-
+a. Use `ubuntu` as the base image.   
+b. Install `apache2` and configure it to work on `8089` port. (do not update any other Apache configuration settings like document root etc).
 ```
 
 ### Solution
 ```bash
-docker run -d -v /var/www/html:/usr/local/apache2/htdocs --name nautilus -p 8080:80 httpd
+
 ```
 
 
