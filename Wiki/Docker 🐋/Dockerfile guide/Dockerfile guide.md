@@ -8,7 +8,8 @@ Created time: 2023-08-12T16:04
   
 > [!important]  
 > При установке пакетов в любом из Linux дистрибутивов желательно очищать кэш утилиты для работы с пакетами с целью экономии места.  
-⠀Пример в нескольких дистрибутивах:Ubuntu RUN apt update && \  
+⠀Пример в нескольких дистрибутивах:Ubuntu 
+RUN apt update && \  
 apt upgrade -y && \  
 apt install ... -y; && \  
 apt clean #(или rm -rf /var/lib/apt/lists/*) && \  

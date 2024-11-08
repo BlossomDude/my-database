@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker 🐋/Основные команды.md",
+                "file": "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные команды"
+              "title": "Dockerfile guide"
             }
           }
         ],
@@ -238,34 +238,34 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8ceaf4eecd0c2ed4",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Docker 🐋/Network Docker/Network Docker.md",
+    "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
+    "Wiki/Docker 🐋/Логи.md",
+    "Wiki/Docker 🐋/Docker.md",
+    "Wiki/Docker 🐋/Containerd.md",
+    "Wiki/Docker 🐋/Buildx cache.md",
+    "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
     "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
     "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
-    "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Wiki/Web сервера 🖥️/Web сервера.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
-    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
     "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
     "Wiki/Docker 🐋/Compose Docker/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
-    "Wiki/Docker 🐋/Docker.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 1.md",
-    "Wiki/Linux 🐧/Security/Linux Security.md",
-    "Wiki/Linux 🐧/Security/ACL.md",
-    "Wiki/Linux 🐧/Scripts/check_system.sh.md",
-    "Wiki/GIT 🎋/GIT.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
