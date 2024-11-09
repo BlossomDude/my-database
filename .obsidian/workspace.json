@@ -84,7 +84,8 @@
               "title": "Linux.Level 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,8 +239,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
+    "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
     "Wiki/Docker 🐋/Dockerfile guide/Dockerfile guide.md",
     "Wiki/Docker 🐋/Network Docker/Network Docker.md",
     "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
@@ -253,7 +255,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
-    "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
     "Wiki/Web сервера 🖥️/Web сервера.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
