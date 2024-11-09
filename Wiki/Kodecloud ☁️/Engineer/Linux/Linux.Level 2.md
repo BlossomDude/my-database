@@ -40,18 +40,14 @@ chmod -R 2770 /dbadmin/data
 ### Problem4
 
 ```text
-In response to the latest tool implementation at `xFusionCorp Industries`, the system admins require the creation of a service user account. Here are the specifics:  
-
-Create a user named `anita` in `App Server 3` without a home directory.
-
----
-
-В связи с последним внедрением инструмента в xFusionCorp Industries системные администраторы требуют создания учетной записи пользователя сервиса. Вот подробности:  
-
-Создайте пользователя с именем anita в App Server 3 без домашнего каталога
+There is some data on `Nautilus App Server 3` in `Stratos DC`. Data needs to be altered in several of the files. On `Nautilus App Server 3`, alter the `/home/BSD.txt` file as per details given below:  
+  
+a. Delete all lines containing word `software` and save results in `/home/BSD_DELETE.txt` file. (Please be aware of case sensitivity)  
+   
+b. Replace all occurrence of word `and` to `them` and save results in `/home/BSD_REPLACE.txt` file.```
 ```
-### Solution4
 
+### Solution4
 ```bash
 ssh user@hostname
 sudo adduser --no-create-home anita

@@ -239,8 +239,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Linux 🐧/Переменная среды.md",
     "Wiki/Docker 🐋/Dockerfile guide/Инструкции Dockerfile.md",
@@ -266,7 +267,6 @@
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Kodecloud ☁️/Engineer/Pattern.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
