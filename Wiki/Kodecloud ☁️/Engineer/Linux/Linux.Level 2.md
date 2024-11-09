@@ -49,8 +49,8 @@ b. Replace all occurrence of word `and` to `them` and save results in `/hom
 
 ### Solution4
 ```bash
-ssh user@hostname
-sudo adduser --no-create-home anita
+sudo sed '/software/d' /home/BSD.txt > /home/BSD_DELETE.txt
+sudo sed 's/\bto\b/from/g' /home/BSD.txt > /home/BSD_REPLACE.txt
 ```
 
 
