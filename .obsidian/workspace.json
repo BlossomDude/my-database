@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Courses/LFCS.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LFCS"
+              "title": "Linux.Level 2"
             }
           }
         ],
@@ -241,8 +241,8 @@
   },
   "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Courses/LFCS.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Linux 🐧/Переменная среды.md",

@@ -36,8 +36,8 @@ chgrp -R dbadmin /dbadmin/data
 chmod -R 2770 /dbadmin/data
 ```
 
-# 4: Service User Creation without Home Directory
-### Problem4
+# 4: 
+### Problem
 
 ```text
 There is some data on `Nautilus App Server 3` in `Stratos DC`. Data needs to be altered in several of the files. On `Nautilus App Server 3`, alter the `/home/BSD.txt` file as per details given below:  
@@ -47,31 +47,24 @@ a. Delete all lines containing word `software` and save results in `/home/BSD
 b. Replace all occurrence of word `and` to `them` and save results in `/home/BSD_REPLACE.txt` file.```
 ```
 
-### Solution4
+### Solution
 ```bash
 sudo sed '/software/d' /home/BSD.txt > /home/BSD_DELETE.txt
 sudo sed 's/\bto\b/from/g' /home/BSD.txt > /home/BSD_REPLACE.txt
 ```
 
 
-# 5: Temporary User Setup with Expiry
-### Problem5
+# 5: 
+### Problem
 ```text
-As part of the temporary assignment to the `Nautilus` project, a developer named `siva` requires access for a limited duration. To ensure smooth access management, a temporary user account with an expiry date is needed. Here's what you need to do:  
+The system admins team of `xFusionCorp Industries` has set up some scripts on `jump host` that run on regular intervals and perform operations on all app servers in `Stratos Datacenter`. To make these scripts work properly we need to make sure the `thor` user on jump host has password-less SSH access to all app servers through their respective sudo users (i.e `tony` for app server 1). Based on the requirements, perform the following:  
   
-Create a user named `siva` on `App Server 2` in Stratos Datacenter. Set the expiry date to `2024-01-28`, ensuring the user is created in lowercase as per standard protocol.
-
----
-
-В рамках временного назначения в проект Nautilus разработчику по имени siva требуется доступ на ограниченный срок. Для обеспечения бесперебойного управления доступом необходима временная учетная запись пользователя с истекшим сроком действия. Вот что вам нужно сделать:
-
-Создайте пользователя с именем siva на App Server 2 в Stratos Datacenter. Установите дату истечения срока действия на 2024-01-28, гарантируя, что пользователь будет создан в нижнем регистре в соответствии со стандартным протоколом.
+Set up a password-less authentication from user `thor` on jump host to all app servers through their respective sudo users.
 ```
 
-### Solution5
+### Solution
 ```bash
-ssh username@hostname
-sudo adduser -e 2024-01-28 siva
+
 ```
 
 
