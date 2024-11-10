@@ -65,6 +65,7 @@ Set up a password-less authentication from user `thor` on jump host to all app
 ### Solution
 ```bash
 ssh-keygen 
+ssh-copy-id banner@stapp03
 ```
 
 
