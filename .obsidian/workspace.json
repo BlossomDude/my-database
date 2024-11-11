@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Linux.Level 2"
             }
           },
           {
@@ -253,12 +253,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Linux 🐧/Inode/Inode.md",
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Courses/LFCS.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/Linux 🐧/Переменная среды.md",
@@ -274,7 +275,6 @@
     "Wiki/Docker 🐋/Основные команды.md",
     "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
     "Wiki/Web сервера 🖥️/Web сервера.md",
     "Wiki/Web сервера 🖥️/Apache2.md",

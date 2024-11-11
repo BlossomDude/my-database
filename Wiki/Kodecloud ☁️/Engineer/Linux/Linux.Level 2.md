@@ -36,7 +36,7 @@ chgrp -R dbadmin /dbadmin/data
 chmod -R 2770 /dbadmin/data
 ```
 
-# 4: 
+# 4: Linux String Substitute (sed)
 ### Problem
 
 ```text
@@ -54,7 +54,7 @@ sudo sed 's/\bto\b/from/g' /home/BSD.txt > /home/BSD_REPLACE.txt
 ```
 
 
-# 5: 
+# 5: Linux SSH Authentication
 ### Problem
 ```text
 The system admins team of `xFusionCorp Industries` has set up some scripts on `jump host` that run on regular intervals and perform operations on all app servers in `Stratos Datacenter`. To make these scripts work properly we need to make sure the `thor` user on jump host has password-less SSH access to all app servers through their respective sudo users (i.e `tony` for app server 1). Based on the requirements, perform the following:  
@@ -70,18 +70,14 @@ ssh-copy-id banner@stapp03
 
 
 
-# 6: Linux User Data Transfer
+# 6: Linux Find Command
 ### Problem6
 ```text
-Due to an accidental data mix-up, user data was unintentionally mingled on Nautilus `App Server 1` at the `/home/usersdata` location by the Nautilus production support team in Stratos DC. To rectify this, specific user data needs to be filtered and relocated. Here are the details:  
+During a routine security audit, the team identified an issue on the Nautilus App Server. Some malicious content was identified within the website code. After digging into the issue they found that there might be more infected files. Before doing a cleanup they would like to find all similar files and copy them to a safe location for further investigation. Accomplish the task as per the following requirements:  
   
-Locate all files (excluding directories) owned by user `james` within the `/home/usersdata` directory on `App Server 1`. Copy these files while preserving the directory structure to the `/official` directory.
-
----
-
-Из-за случайной путаницы пользовательские данные были непреднамеренно перемешаны на сервере приложений Nautilus App Server 1 по адресу /home/usersdata командой технической поддержки Nautilus production в Stratos DC. Чтобы исправить это, необходимо отфильтровать и переместить данные конкретного пользователя. Вот подробности:  
-  
-Найдите все файлы (за исключением каталогов), принадлежащие пользователю james, в каталоге /home/usersdata на сервере приложений 1. Скопируйте эти файлы, сохранив структуру каталогов, в каталог /official.
+a. On `App Server 3` at location `/var/www/html/ecommerce` find out all files (not directories) having `.php` extension.  
+b. Copy all those files along with their `parent directory structure` to location `/ecommerce` on same server.  
+c. Please make sure not to copy the entire `/var/www/html/ecommerce` directory content.
 ```
 
 ### Solution6
