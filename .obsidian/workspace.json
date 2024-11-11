@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux.Level 2"
+              "title": "Linux.Level 1"
             }
           },
           {
@@ -253,7 +253,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Linux 🐧/Команды.md",

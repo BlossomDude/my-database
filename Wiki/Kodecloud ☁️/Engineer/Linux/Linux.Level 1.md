@@ -119,7 +119,7 @@ sudo adduser -e 2024-01-28 siva
 
 
 
-# 6: Linux User Data Transfer
+# 6: Linux Find Command
 ### Problem6
 ```text
 Due to an accidental data mix-up, user data was unintentionally mingled on Nautilus `App Server 1` at the `/home/usersdata` location by the Nautilus production support team in Stratos DC. To rectify this, specific user data needs to be filtered and relocated. Here are the details:  
@@ -135,7 +135,7 @@ Locate all files (excluding directories) owned by user `james` within the `/h
 
 ### Solution6
 ```bash
-find /home/usersdata -type f -user james -exec cp --parents {} /official \;
+sudo find /var/www/html/ecommerce -type f -name "*.php" -exec cp --parents {} /ecommerce \;
 ```
 
 >Команда `find /home/usersdata -type f -user john -exec cp --parents {} /blog \;` выполняет следующие действия:
