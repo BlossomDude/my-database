@@ -256,8 +256,9 @@
   },
   "active": "f8c155e6b7450d64",
   "lastOpenFiles": [
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
@@ -281,7 +282,6 @@
     "Wiki/Docker 🐋/Docker Engine/Docker Engine.md",
     "Wiki/Web сервера 🖥️/Web сервера.md",
     "Wiki/Web сервера 🖥️/Apache2.md",
-    "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
