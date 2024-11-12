@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 200
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -238,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,12 +254,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b1e85d0fedff168a",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/GIT 🎋/Команды.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/Inode/Inode.md",
