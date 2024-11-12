@@ -90,16 +90,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stat. форматирование вывода"
+              "title": "Команды"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,12 +253,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f8c155e6b7450d64",
+  "active": "b1e85d0fedff168a",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
+    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
-    "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Linux 🐧/Inode/Inode.md",
     "Wiki/Kodecloud ☁️/Courses/LFCS.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
@@ -280,7 +281,6 @@
     "Wiki/Web сервера 🖥️/Apache2.md",
     "Wiki/Docker 🐋/Compose Docker/docker-compose.yml.md",
     "Wiki/Docker 🐋/Compose Docker/Compose Docker.md",
-    "Wiki/Docker 🐋/Compose Docker/Команды.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
