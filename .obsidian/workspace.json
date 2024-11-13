@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Мониторинг 🔍/Zabbix.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zabbix"
+              "title": "Команды"
             }
           },
           {
@@ -268,6 +268,9 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/GIT 🎋/GIT.md",
+    "Wiki/GIT 🎋/Команды.md",
+    "Wiki/Мониторинг 🔍/Zabbix.md",
     "Wiki/Мониторинг 🔍/Prometheus.md",
     "Wiki/Мониторинг 🔍/Мониторинг.md",
     "backlog.md",
@@ -277,7 +280,6 @@
     "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
@@ -292,8 +294,6 @@
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
     "Wiki/Docker 🐋/Логи.md",
     "Wiki/Docker 🐋/Docker.md",
-    "Wiki/Docker 🐋/Containerd.md",
-    "Wiki/Docker 🐋/Buildx cache.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
