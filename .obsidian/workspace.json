@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/GIT 🎋/Команды.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -268,8 +268,8 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/GIT 🎋/GIT.md",
     "Wiki/GIT 🎋/Команды.md",
+    "Wiki/GIT 🎋/GIT.md",
     "Wiki/Мониторинг 🔍/Zabbix.md",
     "Wiki/Мониторинг 🔍/Prometheus.md",
     "Wiki/Мониторинг 🔍/Мониторинг.md",
