@@ -14,8 +14,8 @@
             "state": {
               "type": "full-calendar-view",
               "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
             }
           },
           {
@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Вакансия kasper cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Вакансия kasper cloud"
             }
           },
           {
@@ -241,8 +241,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
             }
           }
         ],
@@ -268,8 +268,8 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
