@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "regex"
             }
           },
           {
@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cp ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -268,6 +268,8 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/regex.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/GIT 🎋/GIT.md",
     "Wiki/Мониторинг 🔍/Zabbix.md",
@@ -276,7 +278,6 @@
     "backlog.md",
     "Wiki/IT English voculabury.md",
     "Wiki/Ссылки на статьи.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Вакансия kasper cloud.md",
     "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
@@ -293,7 +294,6 @@
     "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
     "Wiki/Docker 🐋/Логи.md",
-    "Wiki/Docker 🐋/Docker.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
