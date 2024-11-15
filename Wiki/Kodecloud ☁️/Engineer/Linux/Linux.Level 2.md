@@ -97,6 +97,9 @@ find /home/usersdata -type f -user james -exec cp --parents {} /official \;
 # 7: Install a package
 ### Problem
 ```text
+As per new application requirements shared by the `Nautilus` project development team, serveral new packages need to be installed on all app servers in `Stratos Datacenter`. Most of them are completed except for `telnet`.  
+
+Therefore, install the `telnet` package on all `app-servers`.
 
 ```
 
