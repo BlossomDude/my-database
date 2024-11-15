@@ -62,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
+                "file": "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker.Level 2"
+              "title": "Linux.Level 2"
             }
           },
           {
@@ -98,8 +98,7 @@
               "title": "Команды"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,12 +252,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "8ceaf4eecd0c2ed4",
   "lastOpenFiles": [
+    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
+    "Wiki/Linux 🐧/regex.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
-    "Wiki/Linux 🐧/regex.md",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "backlog.md",
     "README.md",
@@ -266,7 +266,6 @@
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
-    "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/Inode/Inode.md",
     "Wiki/Kodecloud ☁️/Courses/LFCS.md",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
