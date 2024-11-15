@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/BASH/BASH.md",
+                "file": "Wiki/Linux 🐧/regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BASH"
+              "title": "regex"
             }
           }
         ],
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUID, GUID, Sticky Bit"
+              "title": "Команды"
             }
           },
           {
@@ -255,12 +255,13 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/BASH/BASH.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Linux 🐧/regex.md",
     "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "backlog.md",
     "README.md",
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
@@ -280,7 +281,6 @@
     "Wiki/Docker 🐋/Containerd.md",
     "Wiki/Docker 🐋/Buildx cache.md",
     "Wiki/Docker 🐋/Основные команды.md",
-    "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
