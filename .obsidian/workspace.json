@@ -14,8 +14,8 @@
             "state": {
               "type": "full-calendar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           },
           {
@@ -46,18 +46,6 @@
               },
               "icon": "lucide-file",
               "title": "regex"
-            }
-          },
-          {
-            "id": "545fccf710953806",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
             }
           }
         ],
@@ -102,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/GIT 🎋/Команды.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +121,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -150,7 +138,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -241,8 +229,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -250,17 +238,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false
@@ -268,19 +255,14 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Linux 🐧/regex.md",
-    "Wiki/GIT 🎋/Команды.md",
-    "Wiki/GIT 🎋/GIT.md",
-    "Wiki/Мониторинг 🔍/Zabbix.md",
-    "Wiki/Мониторинг 🔍/Prometheus.md",
-    "Wiki/Мониторинг 🔍/Мониторинг.md",
+    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
     "backlog.md",
-    "Wiki/IT English voculabury.md",
-    "Wiki/Ссылки на статьи.md",
-    "Wiki/Вакансия kasper cloud.md",
+    "README.md",
+    "Wiki/Linux 🐧/regex.md",
+    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
+    "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Inode/stat. форматирование вывода.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
@@ -294,6 +276,11 @@
     "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
     "Wiki/Docker 🐋/Логи.md",
+    "Wiki/Docker 🐋/Docker.md",
+    "Wiki/Docker 🐋/Containerd.md",
+    "Wiki/Docker 🐋/Buildx cache.md",
+    "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Docker 🐋/Основные компоненты Docker/Основные компоненты Docker.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
