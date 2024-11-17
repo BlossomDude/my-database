@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/regex.md",
+                "file": "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "regex"
+              "title": "Веб-ресурсы, ссылки на задания"
             }
           }
         ],
@@ -204,9 +204,14 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Базы данных 💽/Redis/Redis.md",
+    "Wiki/Базы данных 💽/MySQL/MySQL.md",
+    "Wiki/Базы данных 💽/MongoDB/Replica Set.md",
+    "Wiki/Базы данных 💽/MongoDB/MongoDB.md",
+    "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Linux 🐧/regex.md",
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Linux 🐧/Команды.md",
-    "Wiki/Linux 🐧/regex.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
@@ -225,11 +230,6 @@
     "Wiki/Docker 🐋/Network Docker/Network Docker.md",
     "Wiki/Docker 🐋/Registry Docker/Registry Docker.md",
     "Wiki/Docker 🐋/Storage Docker/Storage Docker.md",
-    "Wiki/Docker 🐋/Логи.md",
-    "Wiki/Docker 🐋/Docker.md",
-    "Wiki/Docker 🐋/Containerd.md",
-    "Wiki/Docker 🐋/Buildx cache.md",
-    "Wiki/Docker 🐋/Основные команды.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",

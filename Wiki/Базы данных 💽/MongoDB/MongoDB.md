@@ -11,14 +11,11 @@ Created time: 2023-12-18T16:47
 
 `/etc/mongod.conf` - Конфигурационный файл БД
 
+## Команды
 `mongosh` - подключиться к БД
-
 `show dbs` - вывести БД
-
 `show collections` - вывести коллекции
-
 `use *db_name*` - создать бд и переключится на нее
-
 `db.createCollection(”collection_name”)` - Создать коллекцию и присвоить имя
 
 ```Bash
