@@ -6,7 +6,7 @@ Created time: 2023-12-14T17:30
 ### Команды в bash
 
 - `javac *MyClass.java*` - скомпилировать исходный код и создает MyClass.class
-- `jar cfe app.jar MyClass Myclass.class Parser.Class` - Команда для создания jar архива, указывается класс который запустится самый первый и все остальные входячие в архив файлы
+- `jar cfe <app.jar> <some_class> <Myclass.class> <Parser.Class>` - Команда для создания jar архива, указывается класс который запустится самый первый и все остальные входячие в архив файлы
 - `javadoc -d` `doc` `MyClass.java` - создает html с документацией кода.
 
   
