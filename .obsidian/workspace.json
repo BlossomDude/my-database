@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/SSL & certificate's/SSL&TLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "SSL&TLS"
             }
           }
         ],
@@ -204,6 +204,13 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Docker 🐋/Security Docker.md",
+    "Wiki/SSL & certificate's/SSL&TLS.md",
+    "Wiki/devops ♻️/Вопросы с собесов ❓/Собеседование у Антона Павленко. Часть III/Что за протокол HTTP и для чего он нужен.md",
+    "Wiki/Docker 🐋/Основные команды.md",
+    "Wiki/Задачник deusOps/1.md",
+    "Wiki/Linux 🐧/Команды.md",
+    "Wiki/SSL & certificate's",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/ЯП для OPS ⌨️/Java.md",
     "Wiki/ЯП для OPS ⌨️/Go.md",
@@ -211,7 +218,6 @@
     "Wiki/Мониторинг 🔍/Мониторинг.md",
     "Wiki/Мониторинг 🔍/Zabbix.md",
     "Wiki/Мониторинг 🔍/Prometheus.md",
-    "Wiki/Задачник deusOps/1.md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Веб-ресурсы, ссылки на задания 🔗/Веб-ресурсы, ссылки на задания.md",
     "Wiki/Базы данных 💽/Redis/Redis.md",
@@ -221,15 +227,10 @@
     "Wiki/Kodecloud ☁️/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Linux 🐧/regex.md",
     "Wiki/GIT 🎋/Команды.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
-    "Calendar/2024-10-06 Done Linux, Ansible, Docker, jenkins 1'st level.md",
-    "backlog.md",
-    "README.md",
-    "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 1.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
@@ -239,7 +240,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Kubernetes",
     "Wiki/Kodecloud ☁️/Engineer/Ansible",
     "Wiki/Kodecloud ☁️/Engineer/Jenkins",
-    "keepassxc/Пароли.kdbx",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
