@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/SSL & certificate's/SSL&TLS.md",
+                "file": "Wiki/Linux 🐧/Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSL&TLS"
+              "title": "Команды"
             }
           }
         ],
@@ -204,8 +204,8 @@
   },
   "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/SSL & certificate's/SSL&TLS.md",
+    "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/devops ♻️/Вопросы с собесов ❓/Собеседование у Антона Павленко. Часть III/Что за протокол HTTP и для чего он нужен.md",
     "Wiki/Docker 🐋/Основные команды.md",
     "Wiki/Задачник deusOps/1.md",
