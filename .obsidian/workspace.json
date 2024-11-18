@@ -39,16 +39,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux 🐧/Команды.md",
+                "file": "Wiki/Linux 🐧/Linux Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Linux Команды"
+            }
+          },
+          {
+            "id": "48296085fa24a4e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/SSL & certificate's/SSL&TLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSL&TLS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,14 +216,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "48296085fa24a4e4",
   "lastOpenFiles": [
+    "Wiki/Linux 🐧/Linux Команды.md",
     "Wiki/SSL & certificate's/SSL&TLS.md",
+    "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/devops ♻️/Вопросы с собесов ❓/Собеседование у Антона Павленко. Часть III/Что за протокол HTTP и для чего он нужен.md",
     "Wiki/Docker 🐋/Основные команды.md",
     "Wiki/Задачник deusOps/1.md",
-    "Wiki/Linux 🐧/Команды.md",
     "Wiki/SSL & certificate's",
     "Wiki/Linux 🐧/Лимиты для пользователей.md",
     "Wiki/ЯП для OPS ⌨️/Java.md",
@@ -230,7 +245,6 @@
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
     "Wiki/Linux 🐧/BASH/BASH.md",
-    "Wiki/Linux 🐧/SUID, GUID, Sticky Bit.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
