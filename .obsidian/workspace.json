@@ -60,9 +60,21 @@
               "icon": "lucide-file",
               "title": "SSL&TLS"
             }
+          },
+          {
+            "id": "1a0a438b7294bc07",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -216,7 +228,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "48296085fa24a4e4",
+  "active": "1a0a438b7294bc07",
   "lastOpenFiles": [
     "Wiki/Linux 🐧/Linux Команды.md",
     "Wiki/SSL & certificate's/SSL&TLS.md",
