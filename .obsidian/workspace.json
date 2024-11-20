@@ -60,21 +60,9 @@
               "icon": "lucide-file",
               "title": "SSL&TLS"
             }
-          },
-          {
-            "id": "1a0a438b7294bc07",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,10 +216,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1a0a438b7294bc07",
+  "active": "48296085fa24a4e4",
   "lastOpenFiles": [
-    "Wiki/Linux 🐧/Linux Команды.md",
+    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/SSL & certificate's/SSL&TLS.md",
+    "Wiki/Linux 🐧/Linux Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
     "Wiki/Docker 🐋/Security Docker.md",
     "Wiki/devops ♻️/Вопросы с собесов ❓/Собеседование у Антона Павленко. Часть III/Что за протокол HTTP и для чего он нужен.md",
@@ -256,7 +245,6 @@
     "Wiki/GIT 🎋/Команды.md",
     "Wiki/Kodecloud ☁️/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Kodecloud ☁️/Engineer/Docker/Docker.Level 2.md",
-    "Wiki/Linux 🐧/BASH/BASH.md",
     "Wiki/devops ♻️/ArgoCD",
     "Wiki/Linux 🐧/SystemD",
     "Wiki/Linux 🐧/Security",
