@@ -119,14 +119,12 @@ fi
 
 user=dimm
 
-if grep $user /etc/passwd
-	then
-		echo "The user $user exists"
-	elif ls /home
-	then
-		echo "The user doesn't exist, but there is a directory under /home"
-	else 
-		echo "The user $user doesn't exist"
+if grep $user /etc/passwd; then
+	echo "The user $user exists"
+elif ls /home; then
+	echo "The user doesn't exist, but there is a directory under /home"
+else 
+	echo "The user $user doesn't exist"
 fi
 ```
 
