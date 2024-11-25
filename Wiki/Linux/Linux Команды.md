@@ -244,6 +244,9 @@ yum update # обновить пакеты или один пакет
 | `systemctl enable` `_*demon*_`           | Включить автозагрузку сервиса (disable-выключить)                     |
 | `systemctl daemon-reload`                | Прикажет systemd прочитать заново unit-файлы и определить новые       |
 | `systemctl edit name.service --full`     | Открыть файл конфигурации сервиса в текстовом редакторе               |
+|                                          |                                                                       |
+
+`systemctl cat <service>` - вывести unit-файл сервиса 
 
 `journalctl` - получить все логи
 	`-b` - логи текущего сеанса (boot'a)
