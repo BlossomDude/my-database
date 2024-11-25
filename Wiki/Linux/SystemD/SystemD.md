@@ -3,6 +3,9 @@ Owner: Blossom Dude
 Last edited time: 2023-11-28T10:40
 Created time: 2023-07-18T09:52
 ---
+Местонахождение всех сервисов systemd:
+`/lib/systemd/system` 
+
 # Unit - элемент SystemD
 
 - .service - службы
