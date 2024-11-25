@@ -25,12 +25,15 @@ Documentation=man:systemd-sysv-generator(8)
 After=postgresql.service
 
 [Service]
-# определяет приложение как сервис
-ExecStart=/usr/bin/python3 /opt/web/run.py
 # Задание которое будет выполнено до старта службы
 ExecStartPre=/opt/web/backup_db.sh
+# определяет приложение как сервис
+ExecStart=/usr/bin/python3 /opt/web/run.py
 # Задание которое будет выполнено после старта
 ExecStartPost=/opt/web/send_notification.sh
+# Задание которое будет выполнено во время reload
+ExecReload=/opt/web/reload.sh
+#
 
 # Выбрать пользователя владельца сервиса
 User=root
