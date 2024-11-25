@@ -250,7 +250,9 @@ yum update # обновить пакеты или один пакет
 `systemctl mask <service>` - маскировать сервис. После этого он не сможет быть запущен никаким образом.
 `systemctl unmask <service>` - размаскировать сервис.
 
-
+`systemd-cat` - Принимает строку на вход и отправляет в журнал systemd.
+	`-t <service>` - Добавляет идентификатор к записи.
+	`-p info` -  вешает "тег" на запись. `info` / `err`
 
 `systemctl cat <service>` - вывести unit-файл сервиса 
 `systemctl edit --full <service>` - отредактировать unit-файл
