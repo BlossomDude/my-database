@@ -243,6 +243,13 @@ yum update # обновить пакеты или один пакет
 | `systemctl enable` `_*demon*_`           | Включить автозагрузку сервиса (disable-выключить)                     |
 | `systemctl daemon-reload`                | Прикажет systemd прочитать заново unit-файлы и определить новые       |
 | `systemctl edit name.service --full`     | Открыть файл конфигурации сервиса в текстовом редакторе               |
+`systemctl list-units --all` - Показывает весь список юнитов systemd
+	`--type service` - выводит список сервисов. 
+		Список типов сервисов: `automount/device/mount/path/scope/service/slice/socket/swap/target/timer`
+
+`systemctl mask <service>` - маскировать сервис. После этого он не сможет быть запущен никаким образом.
+`systemctl unmask <service>` - размаскировать сервис.
+
 
 
 `systemctl cat <service>` - вывести unit-файл сервиса 

@@ -3,13 +3,19 @@ Owner: Blossom Dude
 Last edited time: 2023-11-28T10:40
 Created time: 2023-07-18T09:52
 ---
-# Unit - необходимый элемент SystemD
+# Unit - элемент SystemD
 
 - .service - службы
 - .mount - точки монтирования
 - .device - устройства
 - .socket - сокеты
 - .target - цели.
+- .automount
+- .path
+- .scope
+- .slice
+- .swap
+- .timer`
 
 `/usr/lib/systemd/user/` где находятся службы, относящиеся к установленным пакетам.
 
