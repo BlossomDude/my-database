@@ -30,14 +30,7 @@
               "icon": "lucide-file",
               "title": "Unit-файлы SystemD"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "7070d089c56d8e43",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "c9787d7718e6d2c4",
             "type": "leaf",
@@ -52,7 +45,8 @@
               "title": "Linux Команды"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
