@@ -45,7 +45,8 @@ RestartSec=10
 [Install]
 # ждет загрузки 3 уровня загрузки (non-graphic)
 WantendBy=multi-user.target 
-#
+# Создаст алиас к этому приложению
+Alias=app.service
 ```
 
 
