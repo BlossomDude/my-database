@@ -44,3 +44,7 @@ RestartSec=10
 # ждет загрузки 3 уровня загрузки (non-graphic)
 WantendBy=multi-user.target 
 ```
+
+```
+
+```

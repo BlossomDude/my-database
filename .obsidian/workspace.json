@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/SystemD/SystemD.md",
+                "file": "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SystemD"
+              "title": "Unit-файлы SystemD"
             }
           }
         ],
@@ -214,6 +214,8 @@
   },
   "active": "e64ee6a511f2f527",
   "lastOpenFiles": [
+    "Wiki/Linux/SystemD/Targets SystemD.md",
+    "Wiki/Linux/SystemD/SystemD.md",
     "Wiki/Linux/Linux Команды.md",
     "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
     "Wiki/Задачник deusOps/2.md",
@@ -239,8 +241,6 @@
     "Wiki/Мониторинг/Prometheus.md",
     "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Веб-ресурсы, ссылки на задания/Веб-ресурсы, ссылки на задания.md",
-    "Wiki/Базы данных/Redis/Redis.md",
-    "Wiki/Базы данных/MySQL/MySQL.md",
     "Wiki/devops/ArgoCD",
     "Wiki/Linux/SystemD",
     "Wiki/Linux/Security",
