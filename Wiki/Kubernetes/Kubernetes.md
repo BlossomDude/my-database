@@ -15,7 +15,7 @@ Created time: 2023-11-15T14:58
 
 [[manifest]]
 
-[[Wiki/Kubernetes 🧊/Команды|Команды]]
+[[Wiki/Kubernetes/Команды|Команды]]
 
 [[HPA - Autoscaler]]
 

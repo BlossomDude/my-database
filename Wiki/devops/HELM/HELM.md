@@ -20,7 +20,7 @@ Created time: 2024-06-10T16:05
 - [[#Тесты чарта|Тесты чарта]]
 - [[#Best practies|Best practies]]
 
-[[Wiki/devops ♻️/HELM⛑️/Команды|Команды]]
+[[Wiki/devops/HELM/Команды|Команды]]
 
 ### Структура чарта
 
