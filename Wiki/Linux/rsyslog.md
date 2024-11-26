@@ -4,4 +4,4 @@ Rocket Fast System for Log Processing
 
 Хранит все логи в `/var/log`
 
-Для того чтобы rsyslog хранил логи syst нужно создать директорию `/var/log/journal`
+Для того чтобы rsyslog хранил логи systemd нужно создать директорию `/var/log/journal`
