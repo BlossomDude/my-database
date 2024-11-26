@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Сигналы.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сигналы"
+              "title": "Linux Команды"
             }
           }
         ],
@@ -239,10 +239,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "48296085fa24a4e4",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Сигналы.md",
     "Wiki/Linux/rsyslog.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Network/Network.md",
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Linux/Load Average.md",
@@ -251,7 +252,6 @@
     "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
     "Wiki/Linux/SystemD/Targets SystemD.md",
     "Wiki/Linux/Порождение процессов Linux.md",
-    "Wiki/Linux/Сигналы.md",
     "Wiki/Linux/Vi.Vim.md",
     "Wiki/Linux/SUID, GUID, Sticky Bit.md",
     "Wiki/Linux/Namespaces.md",

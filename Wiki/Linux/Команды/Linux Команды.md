@@ -104,8 +104,7 @@ Created time: 2023-07-04T14:13
 	`unzip` - извлечь архив
 
 
-`groupadd -g 1011 groupname` - создать группу и выбрать GID 1011.
-`groupdel groupname` - удалить группу
+
 
 `stat some_file` -  команда для вывода метаданных файлов
 	`stat --printf "File %n has been modified %y\n" /etc/passwd /etc/group` - выведет информацию о файле. 
@@ -124,7 +123,7 @@ Created time: 2023-07-04T14:13
 	`-B2` - вывести две строчки перед нахождением слова
 	`-E` - включить расширенный regex
 		`egrep` - либо можно использовать эту команду
-			
+
 
 tee
 	`echo "text" | tee text.txt` - перенаправляет вывод в файл
@@ -379,6 +378,9 @@ yum update # обновить пакеты или один пакет
 
 `chgrp -R <group> <some_dir/>` - Поменять группу директории
 `chown <user> <some_file>` - Поменять владельца файла
+
+`groupadd -g 1011 groupname` - создать группу и выбрать GID 1011.
+`groupdel groupname` - удалить группу
 
 `chmod <rights> <some_file>`  - Поменять права у файла
 	`u/g/o+r/w/x` - добавить права user, group, other + read, write, execute
