@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
+                "file": "Wiki/Linux/Команды/ps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit-файлы SystemD"
+              "title": "ps"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Linux Команды.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
                 "mode": "source",
                 "source": false
               },
@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,10 +200,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c9787d7718e6d2c4",
+  "active": "e64ee6a511f2f527",
   "lastOpenFiles": [
+    "Wiki/Linux/Лимиты для пользователей.md",
+    "Wiki/Linux/Команды/ps.md",
+    "Wiki/Linux/Команды",
+    "Wiki/Linux/О.md",
     "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
-    "Wiki/Linux/Linux Команды.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/SystemD/Targets SystemD.md",
     "Wiki/Linux/SystemD/SystemD.md",
     "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
@@ -221,14 +225,11 @@
     "Wiki/Docker/Основные команды.md",
     "Wiki/Задачник deusOps/1.md",
     "Wiki/SSL & certificate's",
-    "Wiki/Linux/Лимиты для пользователей.md",
     "Wiki/ЯП для OPS/Java.md",
     "Wiki/ЯП для OPS/Go.md",
     "Wiki/ЯП для OPS/ЯП для OPS.md",
     "Wiki/Мониторинг/Мониторинг.md",
     "Wiki/Мониторинг/Zabbix.md",
-    "Wiki/Мониторинг/Prometheus.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/devops/ArgoCD",
     "Wiki/Linux/SystemD",
     "Wiki/Linux/Security",
@@ -237,7 +238,6 @@
     "Wiki/English",
     "Wiki/Kodecloud/Engineer/Kubernetes",
     "Wiki/Kodecloud/Engineer/Ansible",
-    "Wiki/Kodecloud/Engineer/Jenkins",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
