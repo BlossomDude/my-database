@@ -225,7 +225,11 @@ tee
 	`search ` - Искать пакет в репозитории
 	`list ` - Вывод всех доступных пакетов
 	`show <package>` -  Посмотреть информацию о пакете
-`add-apt-repository ppa:<user/repo_name>`
+
+`add-apt-repository` - для работы с PPA-репозиторием (Personal Package Archive)
+	`ppa:<user/repo_name>` - создать PPA-репозиторий
+	`--list` - вывести список ppa репозиториев
+	`--remove <repo_name>` - удалить ppa-репозиторий 
 
 
 `dpkg`
