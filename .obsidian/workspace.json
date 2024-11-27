@@ -158,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Linux/Пакетные менеджеры.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Пакетные менеджеры"
+              "title": "Исходящие ссылки из Linux Команды"
             }
           },
           {
@@ -221,10 +221,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "b5fa6f061c95385c",
   "lastOpenFiles": [
-    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/Пакетные менеджеры.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/Пакетные менеджеры/APT.md",
     "Wiki/Linux/Пакетные менеджеры",
     "Wiki/Linux/Переменная среды.md",

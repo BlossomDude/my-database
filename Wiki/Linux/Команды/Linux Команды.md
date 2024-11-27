@@ -225,6 +225,8 @@ tee
 	`search ` - Искать пакет в репозитории
 	`list ` - Вывод всех доступных пакетов
 	`show <package>` -  Посмотреть информацию о пакете
+`add-apt-repository ppa:<user/repo_name>`
+
 
 `dpkg`
 
