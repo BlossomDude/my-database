@@ -242,6 +242,7 @@ apk cache clean #очистка кэша
 
 apt
 ```bash
+apt autoremove <package> #Удалит пакет и все зависимости
 apt purge Удаляет приложение и полностью все настройки 
 apt update #Обновить репозиторий
 apt upgrade #Обновить пакеты
