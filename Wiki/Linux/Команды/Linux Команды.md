@@ -235,7 +235,7 @@ apk
 apk add *pkg_name* #установить пакет их реп
 apk del *pkg_name* #удалить пакет
 apk upgrade #Обновление всех пакетов и их установка
-apk serach *pkg_name* #поиск
+apk search *pkg_name* #поиск
 apk cache clean #очистка кэша 
 
 ```
