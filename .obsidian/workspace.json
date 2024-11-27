@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/SSL & certificate's/SSL&TLS.md",
+                "file": "Wiki/Linux/Schedule Tasks (Cron).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSL&TLS"
+              "title": "Schedule Tasks (Cron)"
             }
           }
         ],
@@ -137,8 +137,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -241,10 +240,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "47df47049fefc8cb",
+  "active": "f5e584ce432ae6f8",
   "lastOpenFiles": [
-    "Wiki/SSL & certificate's/SSL&TLS.md",
     "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Schedule Tasks (Cron).md",
+    "Wiki/SSL & certificate's/SSL&TLS.md",
     "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Kodecloud/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud/Engineer/Linux/Linux.Level 2.md",
@@ -268,7 +268,6 @@
     "Wiki/Linux/BASH/BASH.md",
     "Wiki/Windows/Scripts/LogOutAllUsers.ps.md",
     "Wiki/Windows/Отчистка диска.md",
-    "Wiki/Windows/Активация винды.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
