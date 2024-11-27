@@ -22,3 +22,11 @@
 # Anacron
 
 `/etc/anacrontab`
+
+##### Команды
+`anacron`
+	`-T` - протестировать anacrontab 
+
+
+# AT
+
