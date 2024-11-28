@@ -30,16 +30,17 @@
             }
           },
           {
-            "id": "b5fa6f061c95385c",
+            "id": "798f6e102d06445d",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Wiki/devops/Ansible/Команды.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "Команды"
             }
           }
         ],
@@ -99,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "051c62f99d5c2d8b",
@@ -197,8 +197,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b5fa6f061c95385c",
+  "active": "798f6e102d06445d",
   "lastOpenFiles": [
+    "Wiki/devops/Ansible/Условия.md",
+    "Wiki/devops/Ansible/Ansible.md",
+    "Wiki/devops/Ansible/ansible.cfg.md",
+    "Wiki/devops/Ansible/inventory.md",
+    "Wiki/devops/Ansible/Roles.md",
+    "Wiki/devops/Ansible/Playbook.md",
+    "Wiki/devops/Ansible/Modules.md",
+    "Wiki/devops/Ansible/Команды.md",
+    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
     "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/Пакетные менеджеры.md",
     "Wiki/Linux/Пакетные менеджеры/APT.md",
@@ -216,16 +225,6 @@
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Linux/Сигналы.md",
     "Wiki/Network/Network.md",
-    "Wiki/Linux/Load Average.md",
-    "Wiki/Linux/Монтирование/Монтирование.md",
-    "Wiki/Linux/SystemD/SystemD.md",
-    "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
-    "Wiki/Linux/SystemD/Targets SystemD.md",
-    "Wiki/Linux/Порождение процессов Linux.md",
-    "Wiki/Linux/Vi.Vim.md",
-    "Wiki/Linux/SUID, GUID, Sticky Bit.md",
-    "Wiki/Linux/Namespaces.md",
-    "Wiki/Linux/OOM Killer.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
