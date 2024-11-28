@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/Ansible/Команды.md",
+                "file": "Wiki/devops/Ansible/inventory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "inventory"
             }
           }
         ],
@@ -220,10 +220,10 @@
   },
   "active": "798f6e102d06445d",
   "lastOpenFiles": [
+    "Wiki/devops/Ansible/Команды.md",
     "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
     "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
     "Wiki/Kodecloud/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/devops/Ansible/Команды.md",
     "Wiki/devops/Ansible/Условия.md",
     "Wiki/devops/Ansible/Ansible.md",
     "Wiki/devops/Ansible/ansible.cfg.md",
