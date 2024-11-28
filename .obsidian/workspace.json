@@ -6,7 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
-        "dimension": 50.12738853503185,
+        "dimension": 50.955414012738856,
         "children": [
           {
             "id": "acab372040174fd1",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Лимиты для пользователей.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лимиты для пользователей"
+              "title": "Linux Команды"
             }
           }
         ],
@@ -50,7 +50,7 @@
       {
         "id": "fc6c4cfbaa3386b9",
         "type": "tabs",
-        "dimension": 49.87261146496815,
+        "dimension": 49.044585987261144,
         "children": [
           {
             "id": "bf2ece0dde28e906",
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ASL ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,8 +118,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,9 +220,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "336cb05006216236",
+  "active": "798f6e102d06445d",
   "lastOpenFiles": [
+    "Wiki/Linux/Команды/Подробнее о командах/top.md",
+    "Wiki/Linux/Команды/Подробнее о командах/ps.md",
+    "Wiki/Linux/Команды/Подробнее о командах/sed.md",
     "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Security/ACL.md",
+    "Wiki/Linux/Security/Linux Security.md",
+    "Wiki/Linux/Лимиты для пользователей.md",
     "Wiki/devops/Ansible/inventory.md",
     "Wiki/devops/Ansible/ansible.cfg.md",
     "Wiki/devops/Ansible/Ansible.md",
@@ -241,15 +246,9 @@
     "Wiki/Linux/Пакетные менеджеры/APT.md",
     "Wiki/Linux/Пакетные менеджеры",
     "Wiki/Linux/Переменная среды.md",
-    "Wiki/Linux/Лимиты для пользователей.md",
     "Wiki/Linux/Системные вызовы.md",
     "Wiki/Linux/Системы инициализации Linux.md",
     "Wiki/Linux/Schedule Tasks (Cron).md",
-    "Wiki/Linux/rsyslog.md",
-    "Wiki/SSL & certificate's/SSL&TLS.md",
-    "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
-    "Wiki/Kodecloud/Engineer/Linux/Linux.Level 1.md",
-    "Wiki/Kodecloud/Engineer/Linux/Linux.Level 2.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
