@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "fc6c4cfbaa3386b9",
@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
+                "file": "Wiki/Kodecloud/Engineer/Straros DC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ansible.Level 2"
+              "title": "Straros DC"
             }
           }
         ]
@@ -218,8 +218,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "798f6e102d06445d",
+  "active": "c9c7a60249b38cf4",
   "lastOpenFiles": [
+    "Wiki/devops/Ansible/inventory.md",
     "Wiki/devops/Ansible/Команды.md",
     "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
     "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
@@ -227,7 +228,6 @@
     "Wiki/devops/Ansible/Условия.md",
     "Wiki/devops/Ansible/Ansible.md",
     "Wiki/devops/Ansible/ansible.cfg.md",
-    "Wiki/devops/Ansible/inventory.md",
     "Wiki/devops/Ansible/Roles.md",
     "Wiki/devops/Ansible/Playbook.md",
     "Wiki/devops/Ansible/Modules.md",
