@@ -6,6 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
+        "dimension": 50.12738853503185,
         "children": [
           {
             "id": "acab372040174fd1",
@@ -35,20 +36,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/devops/Ansible/inventory.md",
+                "file": "Wiki/Linux/Лимиты для пользователей.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "inventory"
+              "title": "Лимиты для пользователей"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "fc6c4cfbaa3386b9",
         "type": "tabs",
+        "dimension": 49.87261146496815,
         "children": [
           {
             "id": "bf2ece0dde28e906",
@@ -95,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ASL ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +118,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,21 +221,22 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c9c7a60249b38cf4",
+  "active": "336cb05006216236",
   "lastOpenFiles": [
+    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/devops/Ansible/inventory.md",
-    "Wiki/devops/Ansible/Команды.md",
-    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
-    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
-    "Wiki/Kodecloud/Engineer/Kubernetes/Kubernetes.Level 1.md",
-    "Wiki/devops/Ansible/Условия.md",
-    "Wiki/devops/Ansible/Ansible.md",
     "Wiki/devops/Ansible/ansible.cfg.md",
+    "Wiki/devops/Ansible/Ansible.md",
+    "Wiki/devops/Ansible/Команды.md",
+    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
+    "Wiki/devops/Ansible/Условия.md",
     "Wiki/devops/Ansible/Roles.md",
     "Wiki/devops/Ansible/Playbook.md",
     "Wiki/devops/Ansible/Modules.md",
-    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Kodecloud/Engineer/Straros DC.md",
+    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
+    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Kodecloud/Engineer/Kubernetes/Kubernetes.Level 1.md",
     "Wiki/Linux/Пакетные менеджеры.md",
     "Wiki/Linux/Пакетные менеджеры/APT.md",
     "Wiki/Linux/Пакетные менеджеры",
@@ -246,7 +250,6 @@
     "Wiki/Веб-ресурсы, ссылки на задания/Задание для начинающих Linux (скопированно с сайта).md",
     "Wiki/Kodecloud/Engineer/Linux/Linux.Level 1.md",
     "Wiki/Kodecloud/Engineer/Linux/Linux.Level 2.md",
-    "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
