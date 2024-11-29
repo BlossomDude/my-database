@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb60db97109d830f",
+        "id": "0da0b5fda1933d2c",
         "type": "tabs",
         "children": [
           {
-            "id": "acab372040174fd1",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          }
-        ]
-      },
-      {
-        "id": "eccc2299a0c5d1b5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e5662a07966940b4",
+            "id": "f3bbf95b832ccd8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Лимиты для пользователей.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лимиты для пользователей"
+              "title": "Linux Команды"
             }
           }
         ]
@@ -68,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"2>\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,8 +175,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "336cb05006216236",
+  "active": "f3bbf95b832ccd8a",
   "lastOpenFiles": [
+    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Что такое args и kwargs и как их использовать в python.md",
+    "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Лимиты для пользователей.md",
     "Wiki/Linux/Компиляция исходного кода.md",
     "Wiki/Linux/Пакетные менеджеры.md",
     "Wiki/Linux/Переменная среды.md",
@@ -202,14 +190,12 @@
     "Wiki/Linux/Системные вызовы.md",
     "Wiki/Linux/МУдятина.md",
     "Wiki/Linux/Какаято хуйня.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
     "README.md",
     "Wiki/Linux/Команды/Подробнее о командах/sed.md",
     "Wiki/Linux/Команды/Подробнее о командах/top.md",
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Linux/Security/ACL.md",
     "Wiki/Linux/Security/Linux Security.md",
-    "Wiki/Linux/Лимиты для пользователей.md",
     "Wiki/devops/Ansible/inventory.md",
     "Wiki/devops/Ansible/ansible.cfg.md",
     "Wiki/devops/Ansible/Ansible.md",
@@ -217,8 +203,6 @@
     "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
     "Wiki/devops/Ansible/Условия.md",
     "Wiki/devops/Ansible/Roles.md",
-    "Wiki/devops/Ansible/Playbook.md",
-    "Wiki/devops/Ansible/Modules.md",
     "Wiki/Linux/Пакетные менеджеры",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
