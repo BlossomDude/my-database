@@ -20,15 +20,24 @@
           {
             "id": "13db68845b58a485",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Linux/Компиляция.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Компиляция"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "646d87b20bc3cfa5",
+        "type": "tabs",
+        "children": [
           {
             "id": "798f6e102d06445d",
             "type": "leaf",
@@ -43,8 +52,7 @@
               "title": "Linux Команды"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +205,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "798f6e102d06445d",
+  "active": "13db68845b58a485",
   "lastOpenFiles": [
-    "Wiki/Linux/Команды/Подробнее о командах/sed.md",
+    "Wiki/Linux/Компиляция.md",
     "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Команды/Подробнее о командах/sed.md",
     "Wiki/Linux/Команды/Подробнее о командах/top.md",
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Linux/Security/ACL.md",
@@ -225,7 +234,6 @@
     "Wiki/Linux/Переменная среды.md",
     "Wiki/Linux/Системные вызовы.md",
     "Wiki/Linux/Системы инициализации Linux.md",
-    "Wiki/Linux/Schedule Tasks (Cron).md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
