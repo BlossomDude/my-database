@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Компиляция.md",
+                "file": "Wiki/Linux/Компиляция исходного кода.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Компиляция"
+              "title": "Компиляция исходного кода"
             }
           }
         ],
@@ -207,7 +207,7 @@
   },
   "active": "13db68845b58a485",
   "lastOpenFiles": [
-    "Wiki/Linux/Компиляция.md",
+    "Wiki/Linux/Компиляция исходного кода.md",
     "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/Команды/Подробнее о командах/sed.md",
     "Wiki/Linux/Команды/Подробнее о командах/top.md",
