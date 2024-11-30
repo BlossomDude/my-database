@@ -282,7 +282,20 @@ b. Once done, you can access the website using `StaticApp` button on the top b
 
 ### Solution
 ```bash
+yum install haproxy
+vi /etc/haproxy/haproxy.cfg
+#
+#frontend main
+#   bind *:80
+#...
+#backend app
+#   balance     roundrobin
+#   server  stapp01 172.16.238.10:3003 check
+#   server  stapp02 172.16.238.11:3003 check
+#   server  stapp03 172.16.238.12:3003 check
 
+haproxy -f /etc/haproxy/haproxy.cfg
+syst
 ```
 
 
