@@ -123,7 +123,11 @@ Install `ansible` version `4.7.0` on `Jump host` using `pip3` only. Make
 
 ### Solution
 ```bash
-python3 -m pip install --user ansible-core==2.12.3
+# Обновляем pip3
+python3 -m pip install --upgrade pip 
+
+# Устанавливаем ansible
+python3 -m pip install --user ansible==4.7.0
 ```
 
 
