@@ -128,6 +128,8 @@ python3 -m pip install --upgrade pip
 
 # Устанавливаем ansible
 python3 -m pip install --user ansible==4.7.0
+
+sudo mv ~/.local/bin/ansible /usr/bin/
 ```
 
 
