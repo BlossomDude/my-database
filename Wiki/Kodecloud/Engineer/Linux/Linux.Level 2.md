@@ -227,7 +227,7 @@ e. If Apache or Nginx services aren't running already, please make sure to start
 
 ### Solution
 ```bash
-
+sudo yum install firewalld
 ```
 
 
