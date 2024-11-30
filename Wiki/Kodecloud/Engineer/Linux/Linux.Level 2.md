@@ -127,7 +127,7 @@ Install `ansible` version `4.7.0` on `Jump host` using `pip3` only. Make
 python3 -m pip install --upgrade pip 
 
 # Устанавливаем ansible
-sudo pip3 install -v "ansible==4.7.0"
+python3 -m pip install --user ansible==4.7.0
 
 sudo mv ~/.local/bin/ansible /usr/bin/
 ```
