@@ -129,12 +129,12 @@ python3 -m pip install --upgrade pip
 # Устанавливаем ansible
 python3 -m pip install --user ansible==4.7.0
 
-sudo mv ~/.local/bin/ansible /usr/bin/
+sudo mv /home/thor/.local/bin/ansible /usr/bin/
 ```
 
 
 
-# 9: 
+# 9: Configure Local Yum repos
 ### Problem
 ```text
 The `Nautilus` production support team and security team had a meeting last month in which they decided to use local yum repositories for maintaing packages needed for their servers. For now they have decided to configure a local yum repo on `Nautilus Backup Server`. This is one of the pending items from last month, so please configure a local yum repository on `Nautilus Backup Server` as per details given below.  
@@ -161,7 +161,7 @@ yum install -y wget
 
 
 
-# 10: 
+# 10: Linux Services
 ### Problem
 ```text
 As per details shared by the development team, the new application release has some dependencies on the back end. There are some packages/services that need to be installed on all app servers under `Stratos Datacenter`. As per requirements please perform the following steps:  
@@ -180,7 +180,7 @@ sudo systemctl enable cups
 
 
 
-# 11: String Replacement
+# 11: Linux Configure sudo
 ### Problem
 ```text
 We have some users on all app servers in `Stratos Datacenter`. Some of them have been assigned some new roles and responsibilities, therefore their users need to be upgraded with sudo access so that they can perform admin level tasks.  
@@ -194,28 +194,20 @@ b. Make sure you have set up password-less sudo for the user.
 ```bash
 sudo usermod -aG kareem root
 sudo vi /etc/sudoers
-#ikareem  ALL=(ALL) NOPASSWD: ALL
+# kareem  ALL=(ALL) NOPASSWD: ALL
 ```
 
 
-# 12: Secure Data Transfer
+# 12: DNS Troubleshooting
 ### Problem
 ```text
-A `Nautilus` developer has stored confidential data on the jump host within `Stratos DC`. To ensure security and compliance, this data must be transferred to one of the app servers. Given developers lack direct access to these servers, the system admin team has been enlisted for assistance.  
-  
-Copy `/tmp/nautilus.txt.gpg` file from jump server to `App Server 2` placing it in the directory `/home/appdata`.
 
----
-
-Разработчик Nautilus сохранил конфиденциальные данные на сервере jump в Stratos DC. Для обеспечения безопасности и соответствия требованиям эти данные необходимо перенести на один из серверов приложений. Поскольку разработчики не имеют прямого доступа к этим серверам, была привлечена команда системных администраторов для оказания помощи.  
-  
-Скопируйте файл /tmp/nautilus.txt.gpg с jump server на App Server 2, поместив его в каталог /home/appdata.
 
 ```
 
 ### Solution
 ```bash
-sudo scp /tmp/nautilus.txt.gpg steve@stapp02:/home/appdata
+
 ```
 
 
