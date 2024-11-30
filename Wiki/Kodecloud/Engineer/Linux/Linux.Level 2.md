@@ -175,7 +175,7 @@ b. Once installed, make sure it is enabled to start during boot.
 ```bash
 ssh user@stapp
 sudo yum install -y cups
-
+sudo systemctl enable cups
 ```
 
 
