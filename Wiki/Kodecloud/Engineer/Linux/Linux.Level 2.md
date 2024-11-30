@@ -146,9 +146,17 @@ b. Create a yum repo named `epel_local` and make sure to set `Repository ID`�
 c. Install package `wget` from this newly created repo.
 ```
 
-### Solution9
+### Solution
 ```bash
+createrepo --distro='epel_local,epel_local' /packages/downloaded_rpms/
+sudo vi /etc/yum.repos.d/epel_local
 
+#[epel_local]
+#name=epel_local
+#baseurl=file:///packages/downloaded_rpms/
+#enabled=1
+
+yum install -y wget
 ```
 
 
@@ -156,7 +164,15 @@ c. Install package `wget` from this newly created repo.
 # 10: 
 ### Problem
 ```text
+As per details shared by the development team, the new application release has some dependencies on the back end. There are some packages/services that need to be installed on all app servers under `Stratos Datacenter`. As per requirements please perform the following steps:  
+  
 
+  
+
+a. Install `cups` package on all the application servers.  
+  
+
+b. Once installed, make sure it is enabled to start during boot.
 ```
 
 ### Solution
