@@ -113,26 +113,17 @@ sudo systemctl start sshd
 sudo systemctl status sshd
 ```
 
-# 8: Data Backup for Developer
-### Problem8
+# 8: Install Ansible
+### Problem
 ```text
-Within the Stratos DC, the Nautilus storage server hosts a directory named `/data`, serving as a repository for various developers non-confidential data. Developer `john` has requested a copy of their data stored in `/data/john`. The System Admin team has provided the following steps to fulfill this request:  
+During the weekly meeting, the Nautilus DevOps team discussed about the automation and configuration management solutions that they want to implement. While considering several options, the team has decided to go with `Ansible` for now due to its simple setup and minimal pre-requisites. The team wanted to start testing using Ansible, so they have decided to use `jump host` as an Ansible controller to test different kind of tasks on rest of the servers.  
   
-a. Create a compressed archive named `john.tar.gz` of the `/data/john` directory.
-b. Transfer the archive to the `/home` directory on the Storage Server.```
-
----
-
-В Stratos DC на сервере Nautilus storage server размещен каталог с именем /data, который служит хранилищем различных неконфиденциальных данных разработчиков. Разработчик john запросил копию своих данных, хранящихся в /data/john. Команда системных администраторов выполнила следующие действия для выполнения этого запроса:  
-  
-a. Создайте сжатый архив с именем john.tar.gz из каталога /data/john.  
-b. Перенесите архив в каталог /home на сервере хранения.
+Install `ansible` version `4.7.0` on `Jump host` using `pip3` only. Make sure Ansible binary is available globally on this system, i.e all users on this system are able to run Ansible commands.
 ```
 
-### Solution8
+### Solution
 ```bash
-tar -czf john.tar.gz ./john
-mv john.tar.gz /home
+
 ```
 
 
