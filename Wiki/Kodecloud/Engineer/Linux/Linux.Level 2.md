@@ -134,45 +134,23 @@ sudo mv ~/.local/bin/ansible /usr/bin/
 
 
 
-# 9: Script Execution Permissions
-### Problem9
+# 9: 
+### Problem
 ```text
-In a bid to automate backup processes, the `xFusionCorp Industries` sysadmin team has developed a new bash script named `xfusioncorp.sh`. While the script has been distributed to all necessary servers, it lacks executable permissions on `App Server 1` within the Stratos Datacenter.  
-  
-Your task is to grant executable permissions to the `/tmp/xfusioncorp.sh` script on `App Server 1`. Additionally, ensure that all users have the capability to execute it.
 
----
-
-В попытке автоматизировать процессы резервного копирования команда системных администраторов xFusionCorp Industries разработала новый скрипт bash под названием xfusioncorp.sh. Хотя этот скрипт был распространен на все необходимые серверы, ему не хватает разрешений на выполнение на сервере приложений 1 в центре обработки данных Stratos.  
-  
-Ваша задача - предоставить разрешения на выполнение скрипту /tmp/xfusioncorp.sh на сервере приложений 1. Кроме того, убедитесь, что все пользователи имеют возможность его выполнить.
 ```
 
 ### Solution9
 ```bash
-chmod 777 xfusioncorp.sh
+
 ```
 
 
 
-# 10: File Permission Correction
+# 10: 
 ### Problem
 ```text
-After conducting a security audit within the `Stratos DC`, the Nautilus security team discovered misconfigured permissions on critical files. To address this, corrective actions are being taken by the production support team. Specifically, the file named `/etc/resolv.conf` on `Nautilus App 1` server requires adjustments to its Access Control Lists (ACLs) as follows:  
-  
-1. The file's user owner and group owner should be set to `root`.  
-2. `Others` should possess `read only` permissions on the file.  
-3. User `yousuf` must not have any permissions on the file.  
-4. User `jerome` should be granted `read only` permission on the file.
 
----
-
-После проведения аудита безопасности в Stratos DC команда безопасности Nautilus обнаружила неправильно настроенные права доступа к критически важным файлам. Для устранения этой проблемы команда технической поддержки предпринимает корректирующие действия. В частности, для файла с именем /etc/resolv.conf на сервере Nautilus App 1 требуется внести изменения в списки контроля доступа (ACL) следующим образом: 
-
-1. Пользователь-владелец файла и владелец группы должны иметь права root. 
-2. Другие пользователи должны обладать правами доступа к файлу только для чтения. 
-3. Пользователь yousuf не должен иметь никаких прав доступа к файлу. 
-4. Пользователю jerome должно быть предоставлено разрешение на доступ к файлу только для чтения.
 ```
 
 ### Solution
