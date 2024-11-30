@@ -227,7 +227,7 @@ e. If Apache or Nginx services aren't running already, please make sure to start
 
 ### Solution
 ```bash
-sudo yum install firewalld
+sudo yum install -y firewalld
 sudo systemctl start firewalld
 sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
