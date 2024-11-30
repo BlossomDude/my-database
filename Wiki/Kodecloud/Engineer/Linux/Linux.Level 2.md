@@ -253,25 +253,17 @@ sudo systemctl get-default
 ```
 
 
-# 15: Timezone Alignment
+# 15: Linux Postfix Troubleshooting
 ### Problem
 ```text
 
-In the daily standup, it was noted that the timezone settings across the `Nautilus Application Servers` in the `Stratos Datacenter` are inconsistent with the local datacenter's timezone, currently set to `Asia/Hovd`.  
-  
-Synchronize the timezone settings to match the local datacenter's timezone (`Asia/Hovd`).
-
---
-
-В ежедневном обзоре было отмечено, что настройки часового пояса на серверах приложений Nautilus в Центре обработки данных Stratos не соответствуют часовому поясу местного центра обработки данных, который в настоящее время установлен на Asia / Hovd.
-
-Синхронизируйте настройки часового пояса в соответствии с часовым поясом локального центра обработки данных (Asia / Hovd).
+Some users of the monitoring app have reported issues with `xFusionCorp Industries` mail server. They have a mail server in `Stork DC` where they are using `postfix` mail transfer agent. `Postfix` service seems to fail. Try to identify the root cause and fix it.
 
 ```
 
 ### Solution
 ```bash
-sudo ln -sf /usr/share/zoneinfo/Asia/Hovd /etc/localtime
+
 ```
 
 
