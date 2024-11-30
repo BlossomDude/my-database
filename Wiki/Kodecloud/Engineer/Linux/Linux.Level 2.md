@@ -194,7 +194,7 @@ b. Make sure you have set up password-less sudo for the user.
 ```bash
 sudo usermod -aG kareem root
 sudo vi /etc/sudoers
-#karrem  ALL=(ALL) NOPASSWD: ALL
+#kareem  ALL=(ALL) NOPASSWD: ALL
 ```
 
 
