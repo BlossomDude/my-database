@@ -183,20 +183,16 @@ sudo systemctl enable cups
 # 11: String Replacement
 ### Problem
 ```text
-Within the Stratos DC, the backup server holds template XML files crucial for the Nautilus application. Before utilization, these files require valid data insertion. As part of routine maintenance, system admins at `xFusionCorp Industries` employ string and file manipulation commands.  
+We have some users on all app servers in `Stratos Datacenter`. Some of them have been assigned some new roles and responsibilities, therefore their users need to be upgraded with sudo access so that they can perform admin level tasks.  
   
-Your task is to substitute all occurrences of the string `About` with `Echo-Location` within the XML file located at `/root/nautilus.xml` on the backup server.
-
----
-
-На сервере резервного копирования Stratos DC хранятся XML-файлы шаблонов, необходимые для работы приложения Nautilus. Перед использованием в эти файлы необходимо вставить корректные данные. В рамках планового технического обслуживания системные администраторы xFusionCorp Industries используют команды управления строками и файлами.  
+a. Provide sudo access to user `kareem` on all app servers.  
   
-Ваша задача - заменить все вхождения строки About на Echo-Location в XML-файле, расположенном по адресу /root/nautilus.xml на сервере резервного копирования.
+b. Make sure you have set up password-less sudo for the user.
 ```
 
 ### Solution
 ```bash
-sudo sed -i 's/About/Echo-Location/g' /root/nautilus.xml
+
 ```
 
 
