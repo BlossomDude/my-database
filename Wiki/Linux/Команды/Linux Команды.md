@@ -304,6 +304,7 @@ tee
 
 `firewall-cmd --permanent --zone=public --add-port=3000/tcp`
 	`firewall-cmd --permanent --add-service=http` - разрешить http
+			`--remove-port=80` - заблокировать порт
 `ip route add 1.1.1.1 via 2.2.2.2` - Прописать маршрут до 1 через 2 
 `ip route add default via 1.1.1.1` - Добавить шлюз со значением 1   
 `nethogs` - выводит программы по списку, от наиболее затратных до наименее.
