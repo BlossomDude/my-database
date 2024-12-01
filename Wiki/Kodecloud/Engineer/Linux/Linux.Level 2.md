@@ -337,7 +337,7 @@ Look into the issue and fix the same.
 systemctl status mariadb
 journalctl -xeu mariadb
 mv /var/lib/mysqld/ /var/lib/mysql/
-
+systemctl start mariadb
 ```
 
 
