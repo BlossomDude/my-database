@@ -337,4 +337,16 @@ mv /var/lib/mysqld/ /var/lib/mysql/
 systemctl start mariadb
 ```
 
+# 19: Linux Bash Scripts
+### Problem
+```text
+
+
+
+```
+
+### Solution
+```bash
+
+```
 
