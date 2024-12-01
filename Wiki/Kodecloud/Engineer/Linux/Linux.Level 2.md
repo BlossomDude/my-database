@@ -284,15 +284,14 @@ b. Once done, you can access the website using `StaticApp` button on the top b
 ```bash
 yum install haproxy
 vi /etc/haproxy/haproxy.cfg
-#
-#frontend main
-#   bind *:80
-#...
-#backend app
-#   balance     roundrobin
-#   server  stapp01 172.16.238.10:3003 check
-#   server  stapp02 172.16.238.11:3003 check
-#   server  stapp03 172.16.238.12:3003 check
+	#frontend main
+	#   bind *:80
+	#...
+	#backend app
+	#   balance     roundrobin
+	#   server  stapp01 172.16.238.10:3003 check
+	#   server  stapp02 172.16.238.11:3003 check
+	#   server  stapp03 172.16.238.12:3003 check
 
 haproxy -f /etc/haproxy/haproxy.cfg
 syst
@@ -310,31 +309,26 @@ Troubleshoot and fix the issue, and make sure `haproxy` service is running on�
 
 ### Solution
 ```bash
-# Добавил две строки в /etc/security/limits.conf
-nfsuser soft nproc 1026
-nfsuser hard nproc 2024
+vi /etc/haproxy/haproxy.cfg
+# Fix error 1:
+# frontend main
+#	bind *:80
+# Fix error 2: 
+# backend app
+#   balance     roundrobin
+
+haproxy -f /etc/haproxy/haproxy.cfg
+
 ```
 
 
-# 18: SElinux Installation and Configuration
+# 18: Maria DB Troubleshooting
 ### Problem
 ```text
 
-Following a security audit, the xFusionCorp Industries security team has opted to enhance application and server security with SELinux. To initiate testing, the following requirements have been established for `App server 2` in the `Stratos Datacenter:`
+There is a critical issue going on with the `Nautilus` application in `Stratos DC`. The production support team identified that the application is unable to connect to the database. After digging into the issue, the team found that mariadb service is down on the database server.  
 
-1. Install the required `SELinux` packages.
-2. Permanently disable SELinux for the time being; it will be re-enabled after necessary configuration changes.
-3. No need to reboot the server, as a scheduled maintenance reboot is already planned for tonight.
-4. Disregard the current status of SELinux via the command line; the final status after the reboot should be `disabled`.
-
----
-
-После аудита безопасности команда безопасности x Fusion Corp Industries приняла решение повысить безопасность приложений и серверов с помощью SELinux. Чтобы начать тестирование, для сервера приложений App server 2 в центре обработки данных Stratos были установлены следующие требования:
-
-1.Установите необходимые пакеты SELinux. 
-2.Временно отключите SELinux окончательно; он будет снова включен после внесения необходимых изменений в конфигурацию. 
-3.Перезагружать сервер не нужно, так как на сегодняшний вечер уже запланирована плановая перезагрузка для обслуживания. 
-4.Не обращайте внимания на текущее состояние SELinux через командную строку; окончательное состояние после перезагрузки должно быть отключено.
+Look into the issue and fix the same.
 
 ```
 
