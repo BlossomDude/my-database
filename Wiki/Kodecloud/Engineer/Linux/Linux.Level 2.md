@@ -381,8 +381,16 @@ We are working on hardening Apache web server on all app servers. As a part of t
 
 ### Solution
 ```bash
+vi /etc/httpd/conf/httpd.conf
+
+echo "Welcome to the xFusionCorp Industries!" > /ver/www/html/index.html
 
 
+
+#Add to httpd.conf
+#Header always set X-XSS-Protection "1; mode=block"
+#Header always set X-Frame-Options "SAMEORIGIN"
+#Header always set X-Content-Type-Options nosniff
 ```
 
 # 20: Linux Bash Scripts
