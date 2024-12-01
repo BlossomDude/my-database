@@ -364,7 +364,7 @@ sshpass -p "H@wk3y3" scp /backup/xfusioncorp_ecommerce.zip
 
 ```
 
-# 20: 
+# 20: Add Response Headers in Apache
 ### Problem
 ```text
 We are working on hardening Apache web server on all app servers. As a part of this process we want to add some of the Apache response headers for security purpose. We are testing the settings one by one on all app servers. As per details mentioned below enable these headers for Apache:
@@ -381,19 +381,22 @@ We are working on hardening Apache web server on all app servers. As a part of t
 
 ### Solution
 ```bash
+sudo yum install httpd
+
 vi /etc/httpd/conf/httpd.conf
-
-echo "Welcome to the xFusionCorp Industries!" > /var/www/html/index.html
-
-
-
 #Add to httpd.conf
+#Listen 5004
+#...
 #Header always set X-XSS-Protection "1; mode=block"
 #Header always set X-Frame-Options "SAMEORIGIN"
 #Header always set X-Content-Type-Options nosniff
+
+echo "Welcome to the xFusionCorp Industries!" > /var/www/html/index.html
+
+systemctl start httpd
 ```
 
-# 20: Linux Bash Scripts
+# 20: 
 ### Problem
 ```text
 

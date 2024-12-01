@@ -31,3 +31,10 @@ ServerName www.dnsname.com:80
 </VirtualHost>
 
 ```
+
+
+##### Добавление заголовков (headers)
+`httpd.conf:`
+Header always set X-XSS-Protection "1; mode=block"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Content-Type-Options nosniff
