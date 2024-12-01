@@ -383,7 +383,7 @@ We are working on hardening Apache web server on all app servers. As a part of t
 ```bash
 vi /etc/httpd/conf/httpd.conf
 
-echo "Welcome to the xFusionCorp Industries!" > /ver/www/html/index.html
+echo "Welcome to the xFusionCorp Industries!" > /var/www/html/index.html
 
 
 
