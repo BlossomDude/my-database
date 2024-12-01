@@ -391,6 +391,9 @@ We are working on hardening Apache web server on all app servers. As a part of t
 ```bash
 sudo yum install sshpass
 
+touch xfusioncorp_ecommerce.zip
+chmod 777 xfusioncorp_ecommerce.zip
+
 # write script:
 zip /backup/xfusioncorp_ecommerce.zip /var/www/html/ecommerce
 sshpass -p "H@wk3y3" scp /backup/xfusioncorp_ecommerce.zip
