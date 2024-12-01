@@ -334,11 +334,10 @@ Look into the issue and fix the same.
 
 ### Solution
 ```bash
-sudo -s
-dnf install policycoreutils-python-utils setools setools-console setroubleshoot
-yum install selinux-policy-devel policycoreutils
-yum install selinux-policy-targeted
-vi /etc/selinux/config # add SELINUX: disabled
+systemctl status mariadb
+journalctl -xeu mariadb
+mv /var/lib/mysqld/ /var/lib/mysql/
+
 ```
 
 
