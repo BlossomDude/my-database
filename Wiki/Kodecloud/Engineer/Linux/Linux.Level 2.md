@@ -263,10 +263,7 @@ Some users of the monitoring app have reported issues with `xFusionCorp Industr
 
 ### Solution
 ```bash
-journalctl -xeu postfix.service
-sudo nano -l /etc/postfix/main.cf
-#inet_interfaces = localhost <- be commented
-sudo systemctl restart postfix
+https://sachins-kodekloud-tasks.hashnode.dev/task-linux-postfix-mail-server
 ```
 
 
