@@ -367,17 +367,23 @@ sshpass -p "H@wk3y3" scp /backup/xfusioncorp_ecommerce.zip
 # 20: Linux Bash Scripts
 ### Problem
 ```text
+We are working on hardening Apache web server on all app servers. As a part of this process we want to add some of the Apache response headers for security purpose. We are testing the settings one by one on all app servers. As per details mentioned below enable these headers for Apache:
 
-The production support team of `xFusionCorp Industries` is working on developing some bash scripts to automate different day to day tasks. One is to create a bash script for taking websites backup. They have a static website running on `App Server 3` in `Stratos Datacenter`, and they need to create a bash script named `ecommerce_backup.sh` which should accomplish the following tasks. (Also remember to place the script under `/scripts` directory on `App Server 3`).  
+1. Install `httpd` package on `App Server 3` using yum and configure it to run on `5004` port, make sure to start its service.  
+
+2. Create an `index.html` file under Apache's default document root i.e `/var/www/html` and add below given content in it.   
+    `Welcome to the xFusionCorp Industries!`  
+ 
+3. Configure Apache to enable below mentioned headers:  
+
+    `X-XSS-Protection` header with value `1; mode=block`  
+
+    `X-Frame-Options` header with value `SAMEORIGIN`  
+  
+    `X-Content-Type-Options` header with value `nosniff`  
   
 
-a. Create a zip archive named `xfusioncorp_ecommerce.zip` of `/var/www/html/ecommerce` directory.    
-
-b. Save the archive in `/backup/` on `App Server 3`. This is a temporary storage, as backups from this location will be clean on weekly basis. Therefore, we also need to save this backup archive on `Nautilus Backup Server`.  
-
-c. Copy the created archive to `Nautilus Backup Server` server in `/backup/` location.  
-
-d. Please make sure script won't ask for password while copying the archive file. Additionally, the respective server user (for example, `tony` in case of `App Server 1`) must be able to run it.
+`Note:` You can test using curl on the given app server as LBR URL will not work for this task.
 
 ```
 
