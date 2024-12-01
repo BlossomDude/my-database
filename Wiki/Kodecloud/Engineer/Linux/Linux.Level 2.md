@@ -270,7 +270,7 @@ sudo systemctl restart postfix
 ```
 
 
-# 16: Firewall Configuration
+# 16: Install and Configure Ha Proxy LBR
 ### Problem
 ```text
 There is a static website running in `Stratos Datacenter`. They have already configured the app servers and code is already deployed there. To make it work properly, they need to configure `LBR` server. There are number of options for that, but team has decided to go with `HAproxy`. FYI, apache is running on port `3003` on all app servers. Complete this task as per below details.  
@@ -299,22 +299,13 @@ syst
 ```
 
 
-# 17: Process Limit Adjustment
+# 17: Haproxy LBR Troubleshooting
 ### Problem
 ```text
 
-In the `Stratos Datacenter`, our `Storage server` is encountering performance degradation due to excessive processes held by the `nfsuser` user. To mitigate this issue, we need to enforce limitations on its maximum processes. Please set the maximum process limits as specified below:   
+`xFusionCorp Industries` has an application running on `Nautlitus` infrastructure in `Stratos Datacenter`. The monitoring tool recognised that there is an issue with the `haproxy` service on `LBR` server. That needs to fixed to make the application work properly.    
 
-a. Set the soft limit to `1026`  
-b. Set the hard limit to `2024`
-
----
-
-В центре обработки данных Stratos на нашем сервере хранения данных наблюдается снижение производительности из-за чрезмерного количества процессов, выполняемых пользователем nfsuser. Чтобы устранить эту проблему, нам необходимо ввести ограничения на максимальное количество процессов. Пожалуйста, установите максимальные ограничения на процессы, как указано ниже:  
-    
-a. Установите мягкое ограничение на 1026    
-b. Установите жесткое ограничение на 2024
-
+Troubleshoot and fix the issue, and make sure `haproxy` service is running on `Nautilus LBR` server. Once fixed, make sure you are able to access the website using `StaticApp` button on the top bar.
 ```
 
 ### Solution
