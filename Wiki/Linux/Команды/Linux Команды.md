@@ -28,6 +28,13 @@ Created time: 2023-07-04T14:13
 
 `id username` - Посмотреть имя пользователя, его группы , UID, GID
 
+`xfs_repair <options> </dev/sda1>` - команда для работы с файловой системой xfs
+	`-v` - verbose
+
+`fsck.ext4 <options> </dev/sda1>` - команда для работы с файловой системой ext4
+	`-v` - verbose
+	`-f` - Провести проверку, даже если ФС сообщает что она исправна
+	`-p` - включает режим предварительной очистки. Авто-исправление мелких проблем. 
 
 `shutdown` 
 	`15:00` - выключит систему в определенное время. 24-часовой формат
@@ -263,9 +270,12 @@ tee
 | `systemctl enable` `_*demon*_`         | Включить автозагрузку сервиса (disable-выключить)                     |
 | `systemctl daemon-reload`              | Прикажет systemd прочитать заново unit-файлы и определить новые       |
 
+
 `systemctl list-units --all` - Показывает весь список юнитов systemd
 	`--type service` - выводит список сервисов. 
 		Список типов сервисов: `automount/device/mount/path/scope/service/slice/socket/swap/target/timer`
+
+`systemctl list-dependencies` - вывод важных системных единиц systemd и их состояние.
 
 `systemctl mask <service>` - маскировать сервис. После этого он не сможет быть запущен никаким образом.
 `systemctl unmask <service>` - размаскировать сервис.
