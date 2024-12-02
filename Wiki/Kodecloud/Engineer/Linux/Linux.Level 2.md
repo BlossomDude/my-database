@@ -396,7 +396,7 @@ echo "Welcome to the xFusionCorp Industries!" > /var/www/html/index.html
 systemctl start httpd
 ```
 
-# 21: 
+# 21: Apache Troubleshooting
 ### Problem
 ```text
 `xFusionCorp Industries` uses some monitoring tools to check the status of every service, application, etc running on the systems. Recently, the monitoring system identified that Apache service is not running on some of the `Nautilus Application Servers` in `Stratos Datacenter`.  
