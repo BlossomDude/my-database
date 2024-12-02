@@ -417,8 +417,11 @@ sudo systemctl start httpd
 sudo systemctl start httpd
 
 #stapp03
-vi 
+sudo vi /etc/httpd/conf/httpd.conf
 #ServerRoot "/etc/httpd"
+#Listen 5000
+#DocumentRoot /var/www/html
+
 ```
 
 # 20:
