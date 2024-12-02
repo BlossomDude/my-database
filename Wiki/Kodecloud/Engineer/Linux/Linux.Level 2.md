@@ -410,8 +410,15 @@ systemctl start httpd
 
 ### Solution
 ```bash
+#stapp01
+sudo systemctl start httpd
 
+#stapp02
+sudo systemctl start httpd
 
+#stapp03
+vi 
+#ServerRoot "/etc/httpd"
 ```
 
 # 20:
