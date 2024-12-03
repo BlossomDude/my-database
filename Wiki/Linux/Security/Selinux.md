@@ -11,3 +11,4 @@ Selinux придерживается следующей логике:
 `ps auxZ`
 `ls -laZ`
 
+`apt install selinux-basics auditd`
