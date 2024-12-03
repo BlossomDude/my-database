@@ -1,5 +1,6 @@
-Selinux - 
-`user_u:role_r:type_t:level`
+Selinux - Система безопасности для Linux
+
+Как пишутся права: `user_u:role_r:type_t:level`
 
 Selinux придерживается следующей логике:
 - Проверяет соответствие. Каждый пользователь который входит в систему Linux сопоставляется с пользователем SELinux в рамках текущей конфигурации.
@@ -11,4 +12,5 @@ Selinux придерживается следующей логике:
 `ps auxZ`
 `ls -laZ`
 
+Установить пакеты для SELinux:
 `apt install selinux-basics auditd`
