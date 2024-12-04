@@ -55,6 +55,8 @@ Created time: 2023-07-04T14:13
 	`reset <vm>` - принудительно перезагрузить
 	`autostart <vm>` - включить автозагрузку ВМ
 		`--disable` - отключить автозагрузку
+	`setvcpus <vm> <cpu_num> --config` - назначить ядра ВМ 
+	`setmem <vm> <2048M> --config` - назначить память для ВМ
 ##### SELinux
 > [!important]
 > [[Selinux]] 
