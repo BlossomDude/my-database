@@ -45,6 +45,7 @@ Created time: 2023-07-04T14:13
 	`define <xml_file>` -  создать ВМ
 	`list` - вывести список активных доменов
 		`--all` - вывести все домены
+	`start <vm>` - запустить ВМ
 
 ##### SELinux
 > [!important]
