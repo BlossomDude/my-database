@@ -290,7 +290,6 @@ echo $3
     
 
   
-
 ```Bash
 cd /var/log/apps/
 
