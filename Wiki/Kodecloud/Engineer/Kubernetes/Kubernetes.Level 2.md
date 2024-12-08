@@ -170,15 +170,15 @@ c. `GROUP` and its value should be `Datacenter`
 ### Solution
 ```yaml
 apiVersion: v1
-kund: Pod
+kind: Pod
 metadata:
   name: print-envars-greeting
 spec:
   containers:
+  restartPolicy: Never
   - name: print-env-container
     image: bash:latest
     command: ["/bin/sh", "-c", 'echo "$(GREETING) $(COMPANY) $(GROUP)"']
-    restartPolicy: Never
     env:
     - name: GREETING
       value: "Welcome to"
