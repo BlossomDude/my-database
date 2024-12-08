@@ -22,16 +22,35 @@ We are working on an application that will be deployed on multiple containers wi
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-nginx
-  labels:
-    app: nginx_app
+  name: volume-share-devops
 spec:
   containers:
-    - name: nginx-container
-      image: nginx:latest
+  - name: volume-container-devops-1
+    image: centos:latest
+    command: ["sleep", "1000"]
+    volumeMounts:
+    - mountPath: /tmp/media
+      name: volume-share
+  - name: volume-container-devops-2
+    image: centos:latest
+    command: ["sleep", "1000"]
+    volumeMounts:
+    - mountPath: /tmp/cluster
+      name: volume-share
+  volumes:
+    - name: volume-share
+      emptyDir:
 ```
 
+``` bash
+kubectl apply -f values.yaml
+kubectl exec -it volume-share-devops -c volume-container-devops-1 sh
+	echo "hello" > /tmp/media/media.txt
+kubectl exec -it volume-share-devops -c volume-container-devops-2 sh
+	cat /tmp/cluster/media.txt
 
+
+```
 
 # 2: Deploy Applications with Kubernetes Deployments
 
