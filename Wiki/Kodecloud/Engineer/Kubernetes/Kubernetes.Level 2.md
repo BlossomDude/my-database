@@ -110,20 +110,20 @@ Some of the Nautilus team developers are developing a static website and they wa
 
 ### Solution
 ```bash
-# create namespace
-kubectl create namespace dev
-
-# Crate pod yaml
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: dev-nginx-pod
-  labels:
-    app: nginx
+  name: nginx-deployment
 spec:
-  containers:
-    - name: nginx-container
-      image: nginx:latest
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:latest
+  replicas: 3
 ```
 
 
