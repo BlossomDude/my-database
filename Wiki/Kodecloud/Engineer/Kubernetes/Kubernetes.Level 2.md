@@ -190,32 +190,22 @@ spec:
 
 
 
-# 5: Execute Rolling Updates in Kubernetes
+# 5: Rolling Updates And Rolling Back Deployments in Kubernetes
 
 ### Problem
 ```
-An application currently running on the Kubernetes cluster employs the nginx web server. The Nautilus application development team has introduced some recent changes that need deployment. They've crafted an image `nginx:1.17` with the latest updates.
-
-Execute a rolling update for this application, integrating the `nginx:1.17` image. The deployment is named `nginx-deployment`.
-
-Ensure all pods are operational post-update.
-
-`Note:` The `kubectl` utility on `jump_host` is set up to operate with the Kubernetes cluster
-
----
-
-Приложение, которое в настоящее время выполняется в кластере Kubernetes, использует веб-сервер nginx. Команда разработчиков приложений Nautilus внесла некоторые изменения, которые требуют развертывания. Они создали образ nginx:1.17 с последними обновлениями.  
+There is a production deployment planned for next week. The Nautilus DevOps team wants to test the deployment update and rollback on Dev environment first so that they can identify the risks in advance. Below you can find more details about the plan they want to execute.  
   
-Выполните текущее обновление для этого приложения, интегрируя образ nginx:1.17. Развертывание называется nginx-deployment.  
-  
-Убедитесь, что все модули работают после обновления.  
-  
-Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes
+1. Create a namespace `devops`. Create a deployment called `httpd-deploy` under this new namespace, It should have one container called `httpd`, use `httpd:2.4.25` image and `2` replicas. The deployment should use `RollingUpdate` strategy with `maxSurge=1`, and `maxUnavailable=2`. Also create a `NodePort` type service named `httpd-service` and expose the deployment on `nodePort: 30008`.  
+        
+2. Now upgrade the deployment to version `httpd:2.4.43` using a rolling update.  
+        
+3. Finally, once all pods are updated undo the recent update and roll back to the previous/original version.
 ```
 
 ### Solution
 ```bash
-kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
+
 ```
 
 
