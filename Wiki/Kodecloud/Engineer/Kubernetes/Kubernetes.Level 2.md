@@ -205,7 +205,51 @@ There is a production deployment planned for next week. The Nautilus DevOps team
 
 ### Solution
 ```bash
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpd-deploy
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 2
+  selector:
+    matchLabels:
+      app: httpd
+  template:
+    metadata:
+      name: httpd-template
+      labels:
+        app: httpd
+    spec:
+      containers:
+      - name: httpd
+        image: httpd:2.4.25
 
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: httpd-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    nodePort: 30008
+  selector:
+    app: httpd
+```
+
+```bash 
+vi values.yaml
+kubectl create ns devops
+kubectl config set-context --current --namespace=devops
+kubectl set image deployment httpd-deploy httpd=httpd:2.4.43 --record=true
+kubectl rollout undo deployment/httpd-deploy
 ```
 
 
