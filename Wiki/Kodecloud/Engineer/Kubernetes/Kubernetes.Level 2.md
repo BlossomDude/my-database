@@ -71,24 +71,28 @@ We have a web server container running the nginx image. The access and error log
 
 ### Solution
 ```yaml
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: httpd
+  name: webserver
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: httpd
-  template:
-    metadata:
-      name: httpd
-      labels:
-        app: httpd
-    spec:
-      containers:
-        - name: front-end
-          image: httpd:latest
+  containers:
+  - name: nginx-container
+    image: nginx:latest
+    volumeMounts:
+    - mountPath: /var/log/nginx
+      name: shared-logs
+
+  - name: sidecar-container
+    image: ubuntu:latest
+    command: ["sh","-c","while true; do cat /var/log/nginx/access.log /var/log/nginx/error.log; sleep 30; done"]
+    volumeMounts:
+    - mountPath: /var/log/nginx
+      name: shared-logs
+
+  volumes:
+  - name: shared-logs
+    emptyDir:
 ```
 
 
