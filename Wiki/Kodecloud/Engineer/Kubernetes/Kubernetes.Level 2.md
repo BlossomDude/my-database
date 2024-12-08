@@ -130,7 +130,7 @@ spec:
         image: nginx:latest
 
 ---
-:
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -138,55 +138,38 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 30011
+  - port: 80
+    nodePort: 30011
   selector:
     app: nginx
 ```
 
 
 
-# 4: Set Resource Limits in Kubernetes Pods
+# 4: Print Environment Variables
 
 ### Problem
 ```
-The Nautilus DevOps team has noticed performance issues in some Kubernetes-hosted applications due to resource constraints. To address this, they plan to set limits on resource utilization. Here are the details:
+The Nautilus DevOps team is working on to setup some pre-requisites for an application that will send the greetings to different users. There is a sample deployment, that needs to be tested. Below is a scenario which needs to be configured on Kubernetes cluster. Please find below more details about it.
 
-Create a pod named `httpd-pod` with a container named `httpd-container`. Use the `httpd` image with the `latest` tag (specify as `httpd:latest`). Set the following resource limits:
+1. Create a `pod` named `print-envars-greeting`.
+    
+2. Configure spec as, the container name should be `print-env-container` and use `bash` image.
+    
+3. Create three environment variables:
+    
+a. `GREETING` and its value should be `Welcome to`
+b. `COMPANY` and its value should be `DevOps`
+c. `GROUP` and its value should be `Datacenter`
 
-Requests: Memory: `15Mi`, CPU: `100m`
-Limits: Memory: `20Mi`, CPU: `100m`
-
-`Note:` The `kubectl` utility on `jump_host` is configured to operate with the Kubernetes cluster.
-
----
-
-Команда Nautilus DevOps заметила проблемы с производительностью в некоторых приложениях, размещенных на Kubernetes, из-за нехватки ресурсов. Чтобы решить эту проблему, они планируют установить ограничения на использование ресурсов. Вот подробности:  
-  
-Создайте модуль с именем httpd-pod и контейнером с именем httpd-container. Используйте httpd-образ с тегом latest (укажите как httpd:latest). Установите следующие ограничения на ресурсы:  
-  
-Запросы: Память: 15 мб, процессор: 100 мб   
-Ограничения: Память: 20 мб, процессор: 100 мб  
-
-Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes.
+4. Use command `["/bin/sh", "-c", 'echo "$(GREETING) $(COMPANY) $(GROUP)"']` (please use this exact command), also set its `restartPolicy` policy to `Never` to avoid crash loop back.
+5. 
+6. You can check the output using `kubectl logs -f print-envars-greeting` command. 
 ```
 
 ### Solution
 ```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: httpd-pod
-spec:
-  containers:
-    - name: httpd-container
-      image: httpd:latest
-      resources:
-        requests:
-          cpu: 100m
-          memory: 15Mi
-        limits:
-          cpu: 100m
-          memory: 20Mi
+
 ```
 
 
