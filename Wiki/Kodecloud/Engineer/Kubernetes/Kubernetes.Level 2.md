@@ -115,15 +115,32 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
   template:
+    metadata:
+      name: nginx-deployment
+      labels:
+        app: nginx
     spec:
       containers:
       - name: nginx-container
         image: nginx:latest
-  replicas: 3
+
+---
+:
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  type: NodePort
+  ports:
+  - port: 30011
+  selector:
+    app: nginx
 ```
 
 
