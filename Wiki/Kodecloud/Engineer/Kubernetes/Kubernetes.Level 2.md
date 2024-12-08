@@ -101,19 +101,11 @@ spec:
 
 ### Problem
 ```
-The Nautilus DevOps team is planning to deploy some micro services on Kubernetes platform. The team has already set up a Kubernetes cluster and now they want to set up some namespaces, deployments etc. Based on the current requirements, the team has shared some details as below:  
-
-Create a namespace named `dev` and deploy a POD within it. Name the pod `dev-nginx-pod` and use the `nginx` image with the `latest` tag. Ensure to specify the tag as `nginx:latest`.
-
-`Note:` The `kubectl` utility on `jump_host` is configured to operate with the Kubernetes cluster.
-
----
-
-Команда Nautilus DevOps планирует развернуть некоторые микросервисы на платформе Kubernetes. Команда уже настроила кластер Kubernetes и теперь хочет настроить некоторые пространства имен, развертывания и т.д. Основываясь на текущих требованиях, команда поделилась некоторыми подробностями, приведенными ниже:  
-  
-Создайте пространство имен с именем dev и разверните в нем модуль. Назовите модуль dev-nginx-pod и используйте образ nginx с тегом latest. Убедитесь, что в качестве тега указан nginx:latest.  
-  
-Примечание: Утилита kubectl на jump_host настроена для работы с кластером Kubernetes.
+Some of the Nautilus team developers are developing a static website and they want to deploy it on Kubernetes cluster. They want it to be highly available and scalable. Therefore, based on the requirements, the DevOps team has decided to create a deployment for it with multiple replicas. Below you can find more details about it:
+ 
+1. Create a deployment using `nginx` image with `latest` tag only and remember to mention the tag i.e `nginx:latest`. Name it as `nginx-deployment`. The container should be named as `nginx-container`, also make sure replica counts are `3`.
+    
+2. Create a `NodePort` type service named `nginx-service`. The nodePort should be `30011`.
 ```
 
 ### Solution
