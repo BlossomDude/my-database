@@ -4,11 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "0da0b5fda1933d2c",
+        "id": "eb60db97109d830f",
         "type": "tabs",
         "children": [
           {
-            "id": "f3bbf95b832ccd8a",
+            "id": "acab372040174fd1",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "13db68845b58a485",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Kodecloud ☁️/Engineer/Straros DC.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Straros DC"
+            }
+          },
+          {
+            "id": "47df47049fefc8cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +47,8 @@
               "title": "Linux Команды"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -43,7 +70,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -60,7 +87,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -73,12 +100,11 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
+    "width": 305.5,
     "collapsed": true
   },
   "right": {
@@ -114,11 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": true,
+                "file": "Wiki/Linux 🐧/BASH/BASH.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из BASH"
             }
           },
           {
@@ -161,50 +188,50 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f3bbf95b832ccd8a",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
-    "Wiki/devops/Вопросы с собесов/Собеседование у Антона Павленко. Часть III/Что такое args и kwargs и как их использовать в python.md",
-    "Wiki/devops/Вопросы для изучения/Вопросы для изучения.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
-    "Wiki/Linux/Лимиты для пользователей.md",
-    "Wiki/Linux/Компиляция исходного кода.md",
-    "Wiki/Linux/Пакетные менеджеры.md",
-    "Wiki/Linux/Переменная среды.md",
-    "Wiki/Linux/Порождение процессов Linux.md",
-    "Wiki/Linux/Проблемы и решения.md",
-    "Wiki/Linux/Сигналы.md",
-    "Wiki/Linux/Системные вызовы.md",
-    "Wiki/Linux/МУдятина.md",
-    "Wiki/Linux/Какаято хуйня.md",
-    "README.md",
-    "Wiki/Linux/Команды/Подробнее о командах/sed.md",
-    "Wiki/Linux/Команды/Подробнее о командах/top.md",
+    "Wiki/Linux/rsyslog.md",
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
-    "Wiki/Linux/Security/ACL.md",
-    "Wiki/Linux/Security/Linux Security.md",
-    "Wiki/devops/Ansible/inventory.md",
-    "Wiki/devops/Ansible/ansible.cfg.md",
-    "Wiki/devops/Ansible/Ansible.md",
-    "Wiki/devops/Ansible/Команды.md",
-    "Wiki/devops/Ansible/Встроенные переменные Ansible.md",
-    "Wiki/devops/Ansible/Условия.md",
-    "Wiki/devops/Ansible/Roles.md",
-    "Wiki/Linux/Пакетные менеджеры",
+    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/Schedule Tasks (Cron).md",
+    "Wiki/Kodecloud/Engineer/Kubernetes/Kubernetes.Level 2.md",
+    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
+    "Wiki/Linux/Сигналы.md",
+    "Wiki/Network/Network.md",
+    "Wiki/Linux/Load Average.md",
+    "Wiki/Linux/Монтирование/Монтирование.md",
+    "Wiki/Linux/SystemD/SystemD.md",
+    "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
+    "Wiki/Linux/SystemD/Targets SystemD.md",
+    "Wiki/Linux/Порождение процессов Linux.md",
+    "Wiki/Linux/Vi.Vim.md",
+    "Wiki/Linux/SUID, GUID, Sticky Bit.md",
+    "Wiki/Linux/Namespaces.md",
+    "Wiki/Linux/OOM Killer.md",
+    "Wiki/Linux/regex.md",
+    "Wiki/Linux/Rosa проблема с репой.md",
+    "Wiki/exircism/bash/Tasks.md",
+    "Wiki/Linux/BASH/BASH.md",
+    "Wiki/SSL & certificate's/SSL&TLS.md",
+    "Wiki/Windows/Scripts/LogOutAllUsers.ps.md",
+    "Wiki/Windows/Отчистка диска.md",
+    "Wiki/Windows/Активация винды.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
@@ -214,6 +241,7 @@
     "Wiki/Network/c/TCP-UDP",
     "Wiki/Network/c/STP -spanning tree",
     "Wiki/Network/c/AD=administrative distance",
+    "Wiki/Network/Динамическая маршрутизация",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
