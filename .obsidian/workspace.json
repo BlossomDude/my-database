@@ -24,16 +24,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Команды/Linux Команды.md",
+                "file": "Wiki/Linux/Компиляция исходного кода.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Команды"
+              "title": "Компиляция исходного кода"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8d29f67ac539a8c6",
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lsof",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,8 +105,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,8 +207,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "13db68845b58a485",
+  "active": "47df47049fefc8cb",
   "lastOpenFiles": [
+    "Wiki/Linux/Компиляция исходного кода.md",
+    "Wiki/Linux/Порождение процессов Linux.md",
+    "Wiki/Linux/Проблемы и решения.md",
+    "Wiki/Linux/Сигналы.md",
+    "Wiki/Linux/Системы инициализации Linux.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Linux/ebalA.md",
     "Personal/Работа.md",
     "Wiki/Ссылки на статьи.md",
     "Personal",
@@ -219,9 +223,7 @@
     "Wiki/Docker/Compose Docker/docker-compose.yml.md",
     "Wiki/Docker/Compose Docker/Compose Docker.md",
     "Wiki/Docker/Compose Docker/Команды.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Linux/Переменная среды.md",
-    "Wiki/Linux/Проблемы и решения.md",
     "Wiki/Linux/Системные вызовы.md",
     "Wiki/Linux/Load Average.md",
     "Wiki/Linux/Schedule Tasks (Cron).md",
@@ -229,17 +231,12 @@
     "Wiki/Linux/rsyslog.md",
     "Wiki/Linux/Команды/Подробнее о командах/ps.md",
     "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
-    "Wiki/Linux/Сигналы.md",
     "Wiki/Network/Network.md",
     "Wiki/Linux/Монтирование/Монтирование.md",
     "Wiki/Linux/SystemD/SystemD.md",
     "Wiki/Linux/SystemD/Unit-файлы SystemD.md",
     "Wiki/Linux/SystemD/Targets SystemD.md",
-    "Wiki/Linux/Порождение процессов Linux.md",
     "Wiki/Linux/Vi.Vim.md",
-    "Wiki/Linux/SUID, GUID, Sticky Bit.md",
-    "Wiki/Linux/Namespaces.md",
-    "Wiki/Linux/OOM Killer.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
