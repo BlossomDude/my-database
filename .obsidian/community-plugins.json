@@ -1,9 +1,6 @@
 [
-  "obsidian-git",
-  "obsidian-plugin-toc",
-  "obsidian-emoji-toolbar",
   "omnisearch",
   "text-extractor",
-  "obsidian-full-calendar",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "file-diff"
 ]
