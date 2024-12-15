@@ -254,74 +254,112 @@ kubectl rollout undo deployment/httpd-deploy
 
 
 
-# 6: Revert Deployment to Previous Version in Kubernetes
+# 6: Deploy Jenkins on Kubernetes
 
 ### Problem
 ```
-Earlier today, the Nautilus DevOps team deployed a new release for an application. However, a customer has reported a bug related to this recent release. Consequently, the team aims to revert to the previous version.
+The Nautilus DevOps team is planning to set up a Jenkins CI server to create/manage some deployment pipelines for some of the projects. They want to set up the Jenkins server on Kubernetes cluster. Below you can find more details about the task:
 
-There exists a deployment named `nginx-deployment`; initiate a rollback to the previous revision.
+1) Create a namespace `jenkins`
 
-`Note:` The `kubectl` utility on `jump_host` is configured to interact with the Kubernetes cluster.
+2) Create a Service for jenkins deployment. Service name should be `jenkins-service` under `jenkins` namespace, type should be `NodePort`, nodePort should be `30008`
 
----
-
-Ранее сегодня команда разработчиков Nautilus выпустила новую версию приложения. Однако клиент сообщил об ошибке, связанной с этим недавним выпуском. Следовательно, команда намерена вернуться к предыдущей версии.  
+3) Create a Jenkins Deployment under `jenkins` namespace, It should be name as `jenkins-deployment` , labels `app` should be `jenkins` , container name should be `jenkins-container` , use `jenkins/jenkins` image , containerPort should be `8080` and replicas count should be `1`.  
   
-Существует развертывание с именем nginx-deployment; инициируйте откат к предыдущей версии.  
-
-Примечание: Утилита kubectl на jump_host настроена для взаимодействия с кластером Kubernetes.
+Make sure to wait for the pods to be in running state and make sure you are able to access the Jenkins login screen in the browser before hitting the `Check` button.
 ```
 
 ### Solution
 ```bash
-kubectl get deployment
-kubectl rollout undo deployment/nginx-deployment
-```
-
-
-
-# 7: Deploy Replica Set in Kubernetes Cluster
-
-### Problem
-```
-The Nautilus DevOps team is gearing up to deploy applications on a Kubernetes cluster for migration purposes. A team member has been tasked with creating a ReplicaSet outlined below:  
-  
-1. Create a ReplicaSet using `httpd` image with `latest` tag (ensure to specify as `httpd:latest`) and name it `httpd-replicaset`.          
-2. Apply labels: `app` as `httpd_app`, `type` as `front-end`.    
-3. Name the container `httpd-container`. Ensure the replica count is `4`.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-deployment
+  labels:
+    app: jenkins
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins
+  template:
+    metadata:
+      name: jenkins-tpl
+      labels:
+        app: jenkins
+    spec:
+      containers:
+      - name: jenkins-container
+        image: jenkins/jenkins
 
 ---
 
-Команда Nautilus DevOps готовится к развертыванию приложений в кластере Kubernetes для целей миграции. Перед членом команды была поставлена задача создать набор реплик, описанный ниже:  
-   
-1)Создайте набор реплик, используя httpd image с тегом latest (обязательно укажите как httpd:latest) и назовите его httpd-replicaset.    
-2)Примените ярлыки: app - как httpd_app, введите как front-end.   
-3)Назовите контейнер httpd-container. Убедитесь, что количество реплик равно 4.
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkins-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    nodePort: 30008
+    targetPort: 8080
+  selector:
+    app: jenkins
+```
+
+
+
+# 7: Deploy Grafana on Kubernetes Cluster
+
+### Problem
+```
+The Nautilus DevOps teams is planning to set up a Grafana tool to collect and analyze analytics from some applications. They are planning to deploy it on Kubernetes cluster. Below you can find more details.   
+
+1.) Create a deployment named `grafana-deployment-devops` using any grafana image for Grafana app. Set other parameters as per your choice.  
+  
+2.) Create `NodePort` type service with nodePort `32000` to expose the app.  
+  
+`You need not to make any configuration changes inside the Grafana app once deployed, just make sure you are able to access the Grafana login page.`
 ```
 
 ### Solution
 ```yaml
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata:
-  name: httpd-replicaset
-  labels:
-    app: httpd_app
-    type: front-end
+  name: grafana-deployment-devops
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
-      rsget: yos
+      app: grafana
   template:
     metadata:
+      name: tpl-grafana
       labels:
-        rsget: yos
+        app: grafana
     spec:
       containers:
-        - name: httpd-container
-          image: httpd:latest
+      - name: grafana-container
+        image: grafana/grafana:latest
+        ports:
+          - containerPort: 3000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    nodePort: 32000
+    targetPort: 3000
+  selector:
+    app: grafana
 ```
 
 
@@ -330,92 +368,112 @@ spec:
 
 ### Problem
 ```
-The Nautilus DevOps team is setting up recurring tasks on different schedules. Currently, they're developing scripts to be executed periodically. To kickstart the process, they're creating cron jobs in the Kubernetes cluster with placeholder commands. Follow the instructions below:  
+A new java-based application is ready to be deployed on a Kubernetes cluster. The development team had a meeting with the DevOps team to share the requirements and application scope. The team is ready to setup an application stack for it under their existing cluster. Below you can find the details for this:
+
+1. Create a namespace named `tomcat-namespace-nautilus`.
+    
+2. Create a `deployment` for tomcat app which should be named as `tomcat-deployment-nautilus` under the same namespace you created. Replica count should be `1`, the container should be named as `tomcat-container-nautilus`, its image should be `gcr.io/kodekloud/centos-ssh-enabled:tomcat` and its container port should be `8080`.
+    
+3. Create a `service` for tomcat app which should be named as `tomcat-service-nautilus` under the same namespace you created. Service type should be `NodePort` and nodePort should be `32227`.  
+      
+Before clicking on `Check` button please make sure the application is up and running.  
   
-1. Create a cronjob named `nautilus`.        
-2. Set Its schedule to something like `*/2 * * * *`. You can set any schedule for now.            
-3. Name the container `cron-nautilus`.        
-4. Utilize the `nginx` image with `latest tag` (specify as `nginx:latest`).        
-5. Execute the dummy command `echo Welcome to xfusioncorp!`.           
-6. Ensure the restart policy is `OnFailure`.
-
----
-
-Команда разработчиков Nautilus настраивает повторяющиеся задачи по разным расписаниям. В настоящее время они разрабатывают сценарии для периодического выполнения. Чтобы запустить процесс, они создают cron-задания в кластере Kubernetes с помощью команд-заполнителей. Следуйте приведенным ниже инструкциям.:
-
-1)Создайте cronjob с именем nautilus.
-2)Установите для него расписание примерно на */2 * * * *. На данный момент вы можете установить любое расписание.
-3)Назовите контейнер cron-nautilus .
-4)Используйте образ nginx с тегом latest (укажите как nginx: latest).
-5)Выполните фиктивную команду echo Добро пожаловать в xfusioncorp!.
-6)Убедитесь, что политика перезапуска выполнена по ошибке.
+`You can use any labels as per your choice.`
 
 ```
 
 ### Solution
 ```yaml
-apiVersion: batch/v1
-kind: CronJob
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: nautilus
+  name: tomcat-deployment-nautilus
 spec:
-  schedule: "*/2 * * * *"
-  jobTemplate:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tomcat
+  template:
+    metadata:
+      labels:
+        app: tomcat
     spec:
-      template:
-        spec:
-          containers:
-            - name: cron-nautilus
-              image: nginx:latest
-              args:
-                - /bin/sh
-                - -c
-                - echo "Welcome to xfusioncorp!"
-          restartPolicy: OnFailure
+      containers:
+      - name: tomcat-container-nautilus
+        image: gcr.io/kodekloud/centos-ssh-enabled:tomcat
+        ports:
+          - containerPort: 8080
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: tomcat-service-nautilus
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    nodePort: 32227
+    targetPort: 8080
+  selector:
+    app: tomcat
 ```
 
 
 
-# 9: Create Countdown Job in Kubernetes
+# 9: Deploy Node App on Kubernetes
 
 ### Problem
 ```
-The Nautilus DevOps team is crafting jobs in the Kubernetes cluster. While they're developing actual scripts/commands, they're currently setting up templates and testing jobs with dummy commands. Please create a job template as per details given below:
+The Nautilus development team has completed development of one of the node applications, which they are planning to deploy on a Kubernetes cluster. They recently had a meeting with the DevOps team to share their requirements. Based on that, the DevOps team has listed out the exact requirements to deploy the app. Find below more details:
 
-1. Create a job named `countdown-datacenter`. 
-2. The spec template should be named `countdown-datacenter` (under metadata), and the container should be named `container-countdown-datacenter`  
-3. Utilize image `centos` with `latest` tag (ensure to specify as `centos:latest`), and set the restart policy to `Never`.   
-4. Execute the command `sleep 5`
-
----
-Команда Nautilus DevOps разрабатывает задания в кластере Kubernetes. Разрабатывая реальные сценарии/команды, они в настоящее время настраивают шаблоны и тестируют задания с фиктивными командами. Пожалуйста, создайте шаблон задания в соответствии с приведенными ниже подробностями: 
-
-- Создайте задание с именем countdown-data center. 
-- Шаблон спецификации должен называться countdown-datacenter (в разделе "метаданные"), а контейнер должен называться container-countdown-datacenter 
-- Используйте centos-образ с тегом latest (обязательно укажите как centos:latest) и установите для политики перезапуска значение Never. 
-- Выполните команду sleep 5
+1. Create a deployment using `gcr.io/kodekloud/centos-ssh-enabled:node` image, replica count must be `2`.
+    
+2. Create a service to expose this app, the service type must be `NodePort`, targetPort must be `8080` and nodePort should be `30012`.
+    
+3. Make sure all the pods are in `Running` state after the deployment.
+    
+4. You can check the application by clicking on `NodeApp` button on top bar.
 
 ```
 
 ### Solution
 ```bash
-apiVersion: batch/v1
-kind: Job
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: nautilus
+  name: centos-deployment
 spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: centos
   template:
     metadata:
-      name: spec-name
+      labels:
+        app: centos
     spec:
-	  containers:
-		- name: cron-nautilus
-		  image: centos:latest
-		  args:
-			- /bin/sh
-			- -c
-			- sleep 5
-	  restartPolicy: Never
+      containers:
+      - name: centos-container
+        image: gcr.io/kodekloud/centos-ssh-enabled:node
+        ports:
+          - containerPort: 8080
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: tomcat-service-nautilus
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    nodePort: 30012
+    targetPort: 8080
+  selector:
+    app: centos
 ```
 
 
@@ -424,193 +482,36 @@ spec:
 
 ### Problem
 ``` txt
-The Nautilus DevOps team needs a time check pod created in a specific Kubernetes namespace for logging purposes. Initially, it's for testing, but it may be integrated into an existing cluster later. Here's what's required:
+Last week, the Nautilus DevOps team deployed a redis app on Kubernetes cluster, which was working fine so far. This morning one of the team members was making some changes in this existing setup, but he made some mistakes and the app went down. We need to fix this as soon as possible. Please take a look.  
 
-1. Create a pod called `time-check` in the `nautilus` namespace. The pod should contain a container named `time-check`, utilizing the `busybox` image with the `latest` tag (specify as `busybox:latest`).   
-2. Create a config map named `time-config` with the data `TIME_FREQ=10` in the same namespace.   
-3. Configure the `time-check` container to execute the command: `while true; do date; sleep $TIME_FREQ;done`. Ensure the result is written `/opt/data/time/time-check.log`. Also, add an environmental variable `TIME_FREQ` in the container, fetching its value from the config map `TIME_FREQ` key.    
-4. Create a volume `log-volume` and mount it at `/opt/data/time` within the container.
+The deployment name is `redis-deployment`. The pods are not in running state right now, so please look into the issue and fix the same.  
 
----
-
-Команде разработчиков Nautilus нужен модуль проверки времени, созданный в определенном пространстве имен Kubernetes для ведения журнала. Изначально он предназначен для тестирования, но позже может быть интегрирован в существующий кластер. Вот что требуется для этого.:
-
-1. Создайте модуль с именем time-check в пространстве имен nautilus. Модуль должен содержать контейнер с именем time-check, использующий изображение busybox с тегом latest (укажите как busybox:latest).
-2. Создайте карту конфигурации с именем time-config с данными TIME_FREQ= 10 в том же пространстве имен.
-3. Настройте контейнер проверки времени для выполнения команды: while true; do date; sleep $TIME_FREQ;готово. Убедитесь, что результат записан /opt/data/time/time-check.log. Также добавьте переменную среды TIME_FREQ в контейнер, извлекая ее значение из ключа TIME_FREQ конфигурационной карты.
-4. Создайте журнал тома-volume и смонтируйте его в /opt/data / time внутри контейнера.
+`Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
 ```
 
 ### Solution
 ```bash
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: time-config
-  namespace: devops
-data:
-  TIME_FREQ: "3"
-
----
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: time-check
-  namespace: devops
-spec:
-  volumes:
-    - name: log-volume
-      emptyDir: {}
-  containers:
-    - name: time-check
-      image: busybox:latest
-      volumeMounts:
-        - mountPath: /opt/devops/time
-          name: log-volume
-      envFrom:
-        - configMapRef:
-            name: time-config
-      command: ["/bin/sh", "-c"]
-      args:
-        [
-        "while true; do date; sleep $TIME_FREQ;done > /opt/devops/time/time-check.log",
-        ]
-
-
-
+# Fix syntax mistakes 
+image: redis:alpine
+...
+volume:
+...
+  redis-config
 ```
 
 
-# 11: Resolve Pod Deployment Issue
+# 11: 
 
 ### Problem
 ```
-A junior DevOps team member encountered difficulties deploying a stack on the Kubernetes cluster. The pod fails to start, presenting errors. Let's troubleshoot and rectify the issue promptly.
+We deployed an Nginx and PHPFPM based application on Kubernetes cluster last week and it had been working fine. This morning one of the team members was troubleshooting an issue with this stack and he was supposed to run Nginx welcome page for now on this stack till issue with phpfpm is fixed but he made a change somewhere which caused some issue and the application stopped working. Please look into the issue and fix the same:
 
-  
-1. There is a pod named `webserver`, and the container within it is named `httpd-container`, its utilizing the `httpd:latest` image.
-    
-2. Additionally, there's a sidecar container named `sidecar-container` using the `ubuntu:latest` image.
-    
+The deployment name is nginx-phpfpm-dp and service name is nginx-service. Figure out the issues and fix them. FYI Nginx is configured to use default http port, node port is 30008 and copy index.php under /tmp/index.php to deployment under /var/www/html. Please do not try to delete/modify any other existing components like deployment name, service name etc.
 
-Identify and address the issue to ensure the pod is in the `running` state and the application is accessible.
-
-`Note:` The `kubectl` utility on `ju`
-
----
-
-Младший сотрудник команды DevOps столкнулся с трудностями при развертывании стека в кластере Kubernetes. Модуль не запускается, что приводит к появлению ошибок. Давайте быстро разберемся с неполадками и устраним проблему.  
-  
-Существует модуль с именем webserver, а контейнер внутри него называется httpd-container, в котором используется образ httpd:latest.  
-  
-Кроме того, есть контейнер sidecar с именем sidecar-container, использующий ubuntu:latest image.  
-  
-Определите и устраните проблему, чтобы убедиться, что модуль находится в запущенном состоянии и приложение доступно.
+Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 ```
 
 ### Solution
 ```bash
-kubectl get pods -o yaml > pod.yaml
-```
-
-
-
-# 12: Update Deployment and Service in Kubernetes
-
-### Problem
-```
-An application deployed on the Kubernetes cluster requires an update with new features developed by the Nautilus application development team. The existing setup includes a deployment named `nginx-deployment` and a service named `nginx-service`. Below are the necessary changes to be implemented without deleting the deployment and service:
-
-1.) Modify the service nodeport from `30008` to `32165`
-2.) Change the replicas count from `1` to `5`
-3.) Update the image from `nginx:1.18` to `nginx:latest`
-
----
-
-Приложению, развернутому в кластере Kubernetes, требуется обновление с новыми функциями, разработанными командой разработчиков приложений Nautilus. Существующая установка включает в себя развертывание с именем nginx-deployment и службу с именем nginx-service. Ниже приведены необходимые изменения, которые необходимо внести без удаления развертывания и службы.:  
-    
-1.) Измените порт служебного узла с 30008 на 32165   
-2.) Измените количество реплик с 1 на 5
-3.) Обновите изображение с nginx:1.18 на nginx:latest
-```
-
-### Solution
-```bash
-#1
-kubectl edit svc nginx-service
-#2
-kubectl edit deploy nginx-deployment
-#3
-kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
-```
-
-
-
-# 13: Deploy Highly Available Pods with Replication Controller
-
-### Problem
-```
-The Nautilus DevOps team is establishing a `ReplicationController` to deploy multiple pods for hosting applications that require a highly available infrastructure. Follow the specifications below to create the `ReplicationController`:
-
-1. Create a `ReplicationController` using the `httpd` image, preferably with `latest` tag, and name it `httpd-replicationcontroller`.
-    
-2. Assign labels `app` as `httpd_app`, and `type` as `front-end`. Ensure the container is named `httpd-container` and set the replica count to `3`.  
-
-All `pods` should be running state post-deployment.  
-
----
-
-Команда разработчиков Nautilus разрабатывает ReplicationController для развертывания нескольких модулей для размещения приложений, которым требуется высокодоступная инфраструктура. Чтобы создать ReplicationController, следуйте приведенным ниже спецификациям:  
-  
-Создайте ReplicationController, используя httpd-образ, желательно с тегом latest, и назовите его httpd-replicationcontroller.  
-  
-Присвойте приложению labels имя httpd_app и введите как front-end. Убедитесь, что контейнер называется httpd-container, и установите число реплик равным 3.  
-  
-Все модули должны быть запущены после развертывания.
-```
-
-### Solution
-```bash
-apiVersion: v1
-kind: ReplicationController
-metadata:
-  name: httpd-replicationcontroller
-spec:
-  replicas: 3
-  template:
-    metadata:
-      labels:
-        app: httpd_app
-        type: front-end
-    spec:
-      containers:
-        - name: httpd-container
-          image: httpd:latest
-```
-
-
-
-# 14: Resolve Volume Mounts Issue in Kubernetes
-
-### Problem
-```
-We encountered an issue with our Nginx and PHP-FPM setup on the Kubernetes cluster this morning, which halted its functionality. Investigate and rectify the issue:  
-
-The pod name is `nginx-phpfpm` and configmap name is `nginx-config`. Identify and fix the problem.  
-
-Once resolved, copy `/home/thor/index.php` file from the `jump host` to the `nginx-container` within the nginx document root. After this, you should be able to access the website using `Website` button on the top bar.
-
----
-
-Сегодня утром мы столкнулись с проблемой при настройке Nginx и PHP-FPM в кластере Kubernetes, которая привела к остановке его работы. Изучите и устраните проблему:  
-  
-Имя модуля - nginx-phpfpm, а имя configmap - nginx-config. Определите и устраните проблему.  
-  
-После устранения скопируйте файл /home/thor/index.php с хоста jump в nginx-контейнер в корневом каталоге документов nginx. После этого вы сможете получить доступ к веб-сайту, используя кнопку "Веб-сайт" на верхней панели.
-```
-
-### Solution
-```bash
-
+https://github.com/joseeden/KodeKloud_Engineer_Labs/blob/main/Tasks_Kubernetes/Level_2/Lab_011_Fix_issue_with_LAMP_Environment_in_Kubernetes.md
 ```
