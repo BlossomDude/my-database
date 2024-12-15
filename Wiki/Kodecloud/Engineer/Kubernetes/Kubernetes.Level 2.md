@@ -109,7 +109,7 @@ Some of the Nautilus team developers are developing a static website and they wa
 ```
 
 ### Solution
-```bash
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -204,7 +204,7 @@ There is a production deployment planned for next week. The Nautilus DevOps team
 ```
 
 ### Solution
-```bash
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -270,7 +270,7 @@ Make sure to wait for the pods to be in running state and make sure you are able
 ```
 
 ### Solution
-```bash
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -439,7 +439,8 @@ The Nautilus development team has completed development of one of the node appli
 ```
 
 ### Solution
-```bash
+```yaml
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -490,7 +491,7 @@ The deployment name is `redis-deployment`. The pods are not in running state ri
 ```
 
 ### Solution
-```bash
+```yaml
 # Fix syntax mistakes 
 image: redis:alpine
 ...

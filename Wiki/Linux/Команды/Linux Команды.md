@@ -423,9 +423,20 @@ tee
 	`--add-port=3000/tcp` - открыть порт
 	`--add-service=http` - разрешить сервис
 	`--remove-port=80` - заблокировать порт
-`ip route add 1.1.1.1 via 2.2.2.2` - Прописать маршрут до 1 через 2 
-`ip route add default via 1.1.1.1` - Добавить шлюз со значением 1   
+`ip`
+	`ip route add 1.1.1.1 via 2.2.2.2` - Прописать маршрут до 1 через 2 
+	`ip route add default via 1.1.1.1` - Добавить шлюз со значением 1   
+	`ip addr <add/delete> <10.0.0.40/24> dev <enp0s1>` - добавить или удалить ip адрес у интерфейса 
+	`ip kink set dev <enp0s1> <up/down>` - вкл. или выкл. интерфейс
 `nethogs` - выводит программы по списку, от наиболее затратных до наименее.
+
+`ss`
+	`-l` - listen
+	`-t` - tcp
+	`-u` - udp
+	`-n` - numeric values
+	`-p` - port
+	`-tulpn` - посмотреть открытые порты
 
 `iptables`
 	`-L` - Список текущих правил
