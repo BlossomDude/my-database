@@ -9,10 +9,6 @@ Created time: 2023-07-04T14:13
 - [[#Железо, аппаратная часть, ядро]]
 - [[#Пакетные менеджеры]]
 - [[#SystemD]]
-	- [[#Systemctl|Systemctl]]
-	- [[#Target|Target]]
-	- [[#Unit|Unit]]
-	- [[#Journalctl|Journalctl]]
 - [[#Сеть]]
 - [[#SSH]]
 - [[#Backup]]
@@ -43,6 +39,8 @@ Created time: 2023-07-04T14:13
 	`-dport 22` - dectination port
 	`-j ACCEPT` - какое выполнить действие
 `id username` - Посмотреть имя пользователя, его группы , UID, GID
+
+
 
 `useradd username` - Создание пользователя
 	`-с` - Добавить комментарий
@@ -293,8 +291,8 @@ tee
 > [[sysctl]]
 
 `sysctl` - команда для управления отдельными параметрами ядра linux . `1=true 0=false`
-	`<fs.ext4...>` - запуск команды в с параметром просто выведет его значение
-	`-a` - all
+	`<fs.ext4...>` - запуск команды с параметром просто выведет его значение
+	`-a` - вывод параметров
 	`-w <net.ipv6...=1>` - временно (до перезагрузки) установить значение к параметру
 
 
@@ -415,7 +413,7 @@ tee
 ---
 # Сеть
 > [!important] 
-> [[Network]]
+> [[Wiki/Network/Network]]
 
 `firewall-cmd --permanent --zone=public --add-port=3000/tcp`
 	`firewall-cmd --permanent --add-service=http` - разрешить http
@@ -448,6 +446,15 @@ tee
 	`-d` - destination
 	`-dport 22` - dectination port
 	`-j ACCEPT` - какое выполнить действие
+
+`ufw`
+	`allow <22/tcp>` - Разрешить порт по протоколу tcp
+	`allow from <ip> to any port <20>` - разрешить одному ip подключение к порту
+		В данном случае вместо слова `any` может стоять любой ip вашей системы. Т.е. `any` указывает что подключаться можно к любому ip вашего ПК.
+	`enable` - включить ufw 
+	`status` - посмотреть статус ufw
+		`verbose` - статус подробнее.
+	
 
 ---
 # SSH

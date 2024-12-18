@@ -6,6 +6,7 @@
       {
         "id": "eb60db97109d830f",
         "type": "tabs",
+        "dimension": 87.8345498783455,
         "children": [
           {
             "id": "13db68845b58a485",
@@ -13,12 +14,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Scripts/check_system.sh.md",
+                "file": "Wiki/Linux/Команды/Linux Команды.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Команды"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b6477c147b4dfbb0",
+        "type": "tabs",
+        "dimension": 12.165450121654501,
+        "children": [
+          {
+            "id": "c8067c202be62545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Linux/Security/Linux Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "check_system.sh"
+              "title": "Linux Security"
             }
           }
         ]
@@ -139,10 +162,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux/Scripts/check_system.sh.md"
+                "file": "Wiki/Linux/Команды/Linux Команды.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of check_system.sh"
+              "title": "Outline of Linux Команды"
             }
           }
         ],
@@ -150,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,11 +189,18 @@
   },
   "active": "13db68845b58a485",
   "lastOpenFiles": [
-    "Wiki/Linux/Scripts/auto_deploy_routes.md",
-    "Wiki/Linux/Network/Netplan.md",
+    "Wiki/Linux/Команды/Подробнее о командах/sysctl.md",
     "Wiki/Linux/Команды/Linux Команды.md",
-    "Wiki/Linux/Команды/Без названия.md",
     "Wiki/Linux/Команды/Подробнее о командах/top.md",
+    "Wiki/Web сервера/Nginx/nginx.md",
+    "Wiki/Web сервера/Web сервера.md",
+    "Wiki/Linux/Network/Network.md",
+    "Wiki/Linux/Network/Netplan.md",
+    "Wiki/Linux/Scripts/check_system.sh.md",
+    "Wiki/Linux/Security/Linux Security.md",
+    "Wiki/Linux/Security/Selinux.md",
+    "Wiki/Linux/Scripts/auto_deploy_routes.md",
+    "Wiki/Linux/Команды/Без названия.md",
     "Wiki/Linux/Компиляция исходного кода.md",
     "Wiki/Docker/Compose Docker/Compose Docker.md",
     "Wiki/Linux/Порождение процессов Linux.md",
@@ -186,13 +217,6 @@
     "Wiki/Linux/Переменная среды.md",
     "Wiki/Linux/Системные вызовы.md",
     "Wiki/Linux/Load Average.md",
-    "Wiki/Linux/Schedule Tasks (Cron).md",
-    "Wiki/Kodecloud/Engineer/Kubernetes/Kubernetes.Level 2.md",
-    "Wiki/Linux/rsyslog.md",
-    "Wiki/Linux/Команды/Подробнее о командах/ps.md",
-    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 2.md",
-    "Wiki/Network/Network.md",
-    "Wiki/Linux/Монтирование/Монтирование.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
