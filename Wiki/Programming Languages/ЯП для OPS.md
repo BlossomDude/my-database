@@ -14,4 +14,4 @@ Created time: 2023-12-14T17:13
 
 [[Python]]
 
-[[Go]]
+[[Basic Go]]

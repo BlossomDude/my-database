@@ -4,44 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb60db97109d830f",
+        "id": "8b4a19e2f4fc1269",
         "type": "tabs",
-        "dimension": 87.8345498783455,
         "children": [
           {
-            "id": "13db68845b58a485",
+            "id": "4379a16c63f4fff1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Команды/Linux Команды.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux Команды"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b6477c147b4dfbb0",
-        "type": "tabs",
-        "dimension": 12.165450121654501,
-        "children": [
-          {
-            "id": "c8067c202be62545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/Linux/Security/Linux Security.md",
+                "file": "Wiki/Programming Languages/Golang/Basic Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Security"
+              "title": "Basic Go"
             }
           }
         ]
@@ -83,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -162,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Linux/Команды/Linux Команды.md"
+                "file": "Wiki/Programming Languages/Golang/Go.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Команды"
+              "title": "Outline of Go"
             }
           }
         ],
@@ -187,36 +164,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "13db68845b58a485",
+  "active": "4379a16c63f4fff1",
   "lastOpenFiles": [
-    "Wiki/Linux/Команды/Подробнее о командах/sysctl.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Programming Languages/Golang",
+    "Wiki/Linux/SSH/SSH.md",
+    "Wiki/DataBase/MongoDB/Replica Set.md",
+    "Wiki/Linux/SSH",
+    "Wiki/DataBase/MongoDB/MongoDB.md",
+    "Wiki/Kubernetes/Команды.md",
+    "Wiki/Docker/Dockerfile guide/Инструкции Dockerfile.md",
+    "Wiki/Linux/BASH/BASH.md",
     "Wiki/Linux/Команды/Подробнее о командах/top.md",
+    "Personal/Tasks.md",
+    "README.md",
+    "Wiki/Linux/Security/Linux Security.md",
+    "Personal",
+    "Новая папка",
+    "backlog.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Linux/Команды/Подробнее о командах/sysctl.md",
     "Wiki/Web сервера/Nginx/nginx.md",
     "Wiki/Web сервера/Web сервера.md",
     "Wiki/Linux/Network/Network.md",
     "Wiki/Linux/Network/Netplan.md",
     "Wiki/Linux/Scripts/check_system.sh.md",
-    "Wiki/Linux/Security/Linux Security.md",
     "Wiki/Linux/Security/Selinux.md",
     "Wiki/Linux/Scripts/auto_deploy_routes.md",
     "Wiki/Linux/Команды/Без названия.md",
     "Wiki/Linux/Компиляция исходного кода.md",
     "Wiki/Docker/Compose Docker/Compose Docker.md",
     "Wiki/Linux/Порождение процессов Linux.md",
-    "Wiki/Linux/Проблемы и решения.md",
-    "Wiki/Linux/Сигналы.md",
-    "Wiki/Linux/Системы инициализации Linux.md",
-    "Wiki/Linux/ebalA.md",
-    "Personal/Работа.md",
-    "Wiki/Ссылки на статьи.md",
-    "Personal",
-    "Новая папка",
-    "Wiki/Docker/Compose Docker/docker-compose.yml.md",
-    "Wiki/Docker/Compose Docker/Команды.md",
-    "Wiki/Linux/Переменная среды.md",
-    "Wiki/Linux/Системные вызовы.md",
-    "Wiki/Linux/Load Average.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
@@ -224,7 +202,6 @@
     "Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-",
     "Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-",
     "Wiki/Network/c/TCP-UDP",
-    "Wiki/Network/c/STP -spanning tree",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
