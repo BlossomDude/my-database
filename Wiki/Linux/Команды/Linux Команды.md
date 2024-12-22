@@ -31,6 +31,22 @@ Created time: 2023-07-04T14:13
 `mount` - команда для монтирования
 `umount` - отмонтировать
 
+`lvcreate <VG_name>` - команда для создания LVM
+	`--size 0.5G` - указать размер
+	`--name <name>` - указать имя LVM
+`lvresize --size 752M <VG_name>/<LVM_name>`  - поменять размер LVM 
+`lvremove <VG_name>/<LVM_name>` - Удалить LVM
+
+`vgdisplay` - вывести список LVM
+`vgcreate <my_vg_group> <pv1> <pv2>...` - Создать группу томов (Volume Group)
+`vgextend <my_vg_group> <pv1> <pv2>...` - Добавить Pv в группу томов (Volume Group)
+`vgreduce <my_vg_group> <pv1>` - удалить из vg pv
+
+`pvdisplay` - вывести список pv
+`pvcreate </dev/sda1>` - создать pv
+`pvremove </dev/vdc>` - удалить pv
+
+
 `dd` - команда для копирования блоков данных указанного размера.
 - `dd if=</dev/zero> of=</dev/sda> bs=1m count=128` - переместит 128 блоков по 1Мб нулей в /dev/sda
 
