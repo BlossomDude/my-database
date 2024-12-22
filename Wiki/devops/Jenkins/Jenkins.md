@@ -10,12 +10,12 @@ Created time: 2023-08-07T20:11
 `/lib/systemd/system/jenkins.service` - файл конфигурации
 
 Jenkins CLI
-    
-    ```Bash
-    java -jar jenkins-cli.jar -auth admin:*token* -s *URL* help
-    # Подключение к Jenkins CLI через jar-ник, токен и запуск команды help
-    ```
-  
+
+```Bash
+java -jar jenkins-cli.jar -auth admin:*token* -s *URL* help
+# Подключение к Jenkins CLI через jar-ник, токен и запуск команды help
+```
+
 
 ### Jenkinsfile
 
@@ -275,17 +275,10 @@ pipeline → stages → stage → steps
         }
     }
     ```
-    
+
 - Options
-    
-    [https://www.jenkins.io/doc/book/pipeline/syntax/#available-options](https://www.jenkins.io/doc/book/pipeline/syntax/#available-options)
-    
 
-  
-
-  
-
-  
+[https://www.jenkins.io/doc/book/pipeline/syntax/#available-options](https://www.jenkins.io/doc/book/pipeline/syntax/#available-options)
 
 ### Agent
 
@@ -302,10 +295,10 @@ pipeline → stages → stage → steps
     - `sudo adduser jenkins` - создаем пользователя jenkins
     - `sudo usermod -aG sudo jenkins` - выдаем права админа
     
-    > [!important]  
-    > Рекомендуется ставить одну и ту же версию JDK на все инстансы - агенты и контроллер. Так как возможны ошибки.  
+> [!important]  
+> Рекомендуется ставить одну и ту же версию JDK на все инстансы - агенты и контроллер. Так как возможны ошибки.  
     
-    ```Bash
+```Bash
     
     agent none         # Без агента. Нужно определить в Stage
     
@@ -326,24 +319,19 @@ pipeline → stages → stage → steps
                 image 'golang:1.19-alpine' 
                 args '-u root:root'
             }
-    ```
-    
-      
-    
-      
-    
+```
+
+
+
 ### Триггеры
-    
-      
-    
-    Без плагинов доступно четыре типа:
-    
-    - `builds remotely` - позволяющий создать эндпоинт, по вызову которого будет запущен job. URL примерно такого вида **JENKINS_URL/job/fs/build?token=TOKEN_NAME**.
-    - `Build after other projects are built` - Этот механизм позволяет одной job запуститься в зависимости от того, как закончилась другая.
-    - `Build periodically` - Это про запуск заданий по времени. Можно сравнить с **cron**.
-    - `Poll SCM` - Происходит периодический опрос репозитория, и, если в нем произошли изменения, запускается сборка.
-    
-    ```Bash
+Без плагинов доступно четыре типа:
+
+- `builds remotely` - позволяющий создать эндпоинт, по вызову которого будет запущен job. URL примерно такого вида **JENKINS_URL/job/fs/build?token=TOKEN_NAME**.
+- `Build after other projects are built` - Этот механизм позволяет одной job запуститься в зависимости от того, как закончилась другая.
+- `Build periodically` - Это про запуск заданий по времени. Можно сравнить с **cron**.
+- `Poll SCM` - Происходит периодический опрос репозитория, и, если в нем произошли изменения, запускается сборка.
+
+```Bash
     pipeline {
         stages{
             stage('Build Dev') {
@@ -427,4 +415,4 @@ pipeline → stages → stage → steps
             }
         }
     }
-    ```
+```

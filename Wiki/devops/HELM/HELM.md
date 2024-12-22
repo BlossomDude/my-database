@@ -34,47 +34,29 @@ Created time: 2024-06-10T16:05
 
 ### Шаблонизация
 
-  
-
 `{{ .Release.Name }}` - подставит имя релиза
-
 `{{ .Release.NameSpace }}`
-
 `{{ .Release.IsUpgarde }}`
-
 `{{ .Release.IsInstall }}`
-
 `{{ .Release.Revision }}`
-
 `{{ .Release.Service }}`
 
-  
-
-Обращение к ==**Chart.yaml**==  
-  
+  Обращение к Chart.yaml  
 `{{ .Chart.APIVersion }}`
-
 `{{ .Chart.Name }}`
-
 `{{ .Chart.KubeVersion }}`
-
 `{{ .Chart.Desciption }}`
-
 `{{ .Chart.Type }}`
-
 `{{ .Chart.Keywords }}`
-
 `{{ .Chart.Home }}`  
   
 
 Обращение к Template  
-  
-`{{ .Template.Name }}` -
-
-`{{ .Template.BasePath }}` -  
+`{{ .Template.Name }}` 
+`{{ .Template.BasePath }}` 
   
 
-Обращение к свойствам values.yaml ==**(Значения чувствительны к регистру)**==
+Обращение к свойствам values.yaml (Значения чувствительны к регистру)
 
 `{{ .Values.replicaCount }}` -
 

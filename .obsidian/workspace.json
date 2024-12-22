@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes/Kubernetes.md",
+                "file": "Wiki/Kubernetes/1.Kubernetes Основы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubernetes"
+              "title": "1.Kubernetes Основы"
+            }
+          },
+          {
+            "id": "e286f812caa05c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Docker/Основные команды.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Основные команды"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CRI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,38 +193,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ef4c6d473511876f",
+  "active": "e286f812caa05c65",
   "lastOpenFiles": [
-    "Wiki/Kubernetes/K8s Практические занятия.md",
+    "Wiki/Docker/Docker vs ContainerD.md",
+    "Wiki/Docker/Основные команды.md",
+    "Wiki/Docker/Containerd.md",
+    "Wiki/Kubernetes/1.Kubernetes Основы.md",
     "Wiki/Linux/Команды/Linux Команды.md",
-    "Wiki/Kubernetes/K8s изнутри конспект.md",
+    "Wiki/Docker/Buildx cache.md",
+    "Wiki/Docker/Логи.md",
+    "Wiki/Docker/Docker.md",
     "Wiki/Kubernetes/Выбор нод при развертывании.md",
+    "Wiki/Kubernetes/Services.md",
+    "Wiki/Kubernetes/Probe’s.md",
+    "Wiki/Kubernetes/manifest.md",
+    "Wiki/Kubernetes/K8s Практические занятия.md",
+    "Wiki/Kubernetes/Ingress Controller.md",
+    "Wiki/Kubernetes/HPA - Autoscaler.md",
+    "Wiki/Kubernetes/Сети в K8s.md",
+    "Wiki/Kubernetes/Основные объекты и компоненты K8s.md",
     "Wiki/Kubernetes/Команды.md",
-    "Wiki/Programming Languages/Golang/Basic Go.md",
-    "Wiki/Linux/Монтирование/Опции для всех файловых систем FSTAB.md",
-    "Wiki/Linux/Монтирование/Монтирование.md",
-    "Wiki/Linux/Проблемы и решения.md",
-    "Wiki/Kodecloud/Engineer/Ansible/Ansible.Level 1.md",
+    "Wiki/Docker/Multi-stage build.md",
+    "Wiki/Docker/Security Docker.md",
+    "Wiki/Docker/Основные компоненты Docker/Основные компоненты Docker.md",
+    "Wiki/devops/Devops.md",
+    "Wiki/devops/YAML/YAML.md",
+    "Wiki/devops/Vagrant/Vagrant.md",
+    "Wiki/devops/Terraform/Terraform.md",
+    "Wiki/devops/Jenkins/Jenkins.md",
     "Wiki/Programming Languages/Golang",
-    "Wiki/Linux/SSH/SSH.md",
-    "Wiki/DataBase/MongoDB/Replica Set.md",
     "Wiki/Linux/SSH",
-    "Wiki/DataBase/MongoDB/MongoDB.md",
-    "Wiki/Docker/Dockerfile guide/Инструкции Dockerfile.md",
-    "Wiki/Linux/BASH/BASH.md",
-    "Wiki/Linux/Команды/Подробнее о командах/top.md",
-    "Personal/Tasks.md",
-    "README.md",
-    "Wiki/Linux/Security/Linux Security.md",
     "Personal",
     "Новая папка",
-    "backlog.md",
-    "Wiki/Linux/Команды/Подробнее о командах/sysctl.md",
-    "Wiki/Web сервера/Nginx/nginx.md",
-    "Wiki/Web сервера/Web сервера.md",
-    "Wiki/Linux/Network/Network.md",
-    "Wiki/Linux/Network/Netplan.md",
-    "Wiki/Linux/Scripts/check_system.sh.md",
     "Wiki/Windows/Scripts",
     "Wiki/Windows",
     "Wiki/Web сервера/Nginx",
