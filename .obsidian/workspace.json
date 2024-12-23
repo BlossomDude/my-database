@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Kubernetes/1.Kubernetes Основы.md",
+                "file": "Wiki/Kubernetes/kube-apiserver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Kubernetes Основы"
+              "title": "kube-apiserver"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Docker/Основные команды.md",
+                "file": "Wiki/Kubernetes/1.Kubernetes Основы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные команды"
+              "title": "1.Kubernetes Основы"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,12 +193,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e286f812caa05c65",
+  "active": "ef4c6d473511876f",
   "lastOpenFiles": [
-    "Wiki/Docker/Docker vs ContainerD.md",
-    "Wiki/Docker/Основные команды.md",
-    "Wiki/Docker/Containerd.md",
     "Wiki/Kubernetes/1.Kubernetes Основы.md",
+    "Wiki/Kubernetes/kube-apiserver.md",
+    "Wiki/Docker/Основные команды.md",
+    "Wiki/Kubernetes/etcd.md",
+    "Wiki/Docker/Docker vs ContainerD.md",
+    "Wiki/Docker/Containerd.md",
     "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Docker/Buildx cache.md",
     "Wiki/Docker/Логи.md",
@@ -219,8 +221,6 @@
     "Wiki/devops/Devops.md",
     "Wiki/devops/YAML/YAML.md",
     "Wiki/devops/Vagrant/Vagrant.md",
-    "Wiki/devops/Terraform/Terraform.md",
-    "Wiki/devops/Jenkins/Jenkins.md",
     "Wiki/Programming Languages/Golang",
     "Wiki/Linux/SSH",
     "Personal",
