@@ -9,9 +9,10 @@ Created time: 2023-12-15T15:31
 - [[#Comment]]
 - [[#Data types]]
 - [[# Declaring Variables]]
-- [[#Memory]]
+- [[#Variables Memory]]
+- [[#Converting Types]]
 - [[#Input Output]]
-
+- [[#Operators]]
 
 
 ---
@@ -181,6 +182,7 @@ count, err := fmt.Scanf("%s %d", &s, &d)
 
 ---
 
+
 #### Operators
 
 Comparison operators:
@@ -243,3 +245,44 @@ Bitwise operators
   212 >> 2
   110101(00) -> (00)1101010 - добавляется два ноля слева 212 стало 53
 ```
+
+
+#### If-else, switch-case statements
+
+##### `if-elif-else`
+
+```go
+if condition {
+//  do any
+} else if condition {
+// do any
+} else {
+// do any
+}
+```
+
+##### `switch-case`
+
+Ключевое слово  `falltrough` означает перейти к следующему блоку даже если условие `case` не выполняется. 
+
+```go
+switch(var) {
+  case "value":
+    // do any
+  case "other_value", "other":
+    //do any
+    falltrough    
+  case "value_1"
+    //do any
+  default:
+    //do any
+}
+
+// Так же не обязательно указывать переменную в switch
+// Можно просто в каждом case указывать новое условие
+switch {
+  case a+b == 10:
+    // do any
+}
+```
+
