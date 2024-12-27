@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Linux/Команды/Linux Команды.md",
+                "file": "Wiki/Kubernetes/Команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Команды"
+              "title": "Команды"
             }
           },
           {
-            "id": "ef4c6d473511876f",
+            "id": "fabd8758bb23c061",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Programming Languages/Golang/Basic Go.md",
+                "file": "Wiki/Kubernetes/Object yaml's.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Go"
+              "title": "Object yaml's"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,34 +178,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ef4c6d473511876f",
+  "active": "66c11c12d2c65eaa",
   "lastOpenFiles": [
-    "Wiki/Kubernetes/kube-apiserver.md",
+    "Wiki/Kubernetes/manifest.md",
+    "Wiki/Kubernetes/Object yaml's.md",
+    "Wiki/Linux/Команды/Linux Команды.md",
+    "Wiki/Kubernetes/Команды.md",
     "Wiki/Kubernetes/1.Kubernetes Основы.md",
+    "Wiki/Web сервера/Nginx/nginx.md",
+    "Wiki/Kubernetes/Компоненты k8s/kube-proxy.md",
+    "Wiki/Kubernetes/Компоненты k8s/kubelet.md",
+    "Wiki/Kubernetes/Компоненты k8s/kube-scheduler.md",
+    "Wiki/Kubernetes/Компоненты k8s/kube-controlller.md",
+    "Wiki/Kubernetes/Выбор нод при развертывании.md",
+    "Wiki/Kubernetes/Компоненты k8s",
+    "Wiki/Kubernetes/Основные объекты и компоненты K8s.md",
+    "Wiki/Kubernetes/Компоненты k8s/kube-apiserver.md",
+    "Wiki/Kubernetes/Ingress Controller.md",
+    "Wiki/Kubernetes/HPA - Autoscaler.md",
+    "Personal/Kaspersky. DevOps (MDR).md",
+    "Personal/Tasks.md",
+    "README.md",
+    "Wiki/Programming Languages/Golang/Basic Go.md",
     "Wiki/Docker/Основные команды.md",
-    "Wiki/Kubernetes/etcd.md",
+    "Wiki/Kubernetes/Компоненты k8s/etcd.md",
     "Wiki/Docker/Docker vs ContainerD.md",
     "Wiki/Docker/Containerd.md",
-    "Wiki/Linux/Команды/Linux Команды.md",
     "Wiki/Docker/Buildx cache.md",
     "Wiki/Docker/Логи.md",
     "Wiki/Docker/Docker.md",
-    "Wiki/Kubernetes/Выбор нод при развертывании.md",
-    "Wiki/Kubernetes/Services.md",
-    "Wiki/Kubernetes/Probe’s.md",
-    "Wiki/Kubernetes/manifest.md",
-    "Wiki/Kubernetes/K8s Практические занятия.md",
-    "Wiki/Kubernetes/Ingress Controller.md",
-    "Wiki/Kubernetes/HPA - Autoscaler.md",
-    "Wiki/Kubernetes/Сети в K8s.md",
-    "Wiki/Kubernetes/Основные объекты и компоненты K8s.md",
-    "Wiki/Kubernetes/Команды.md",
-    "Wiki/Docker/Multi-stage build.md",
-    "Wiki/Docker/Security Docker.md",
-    "Wiki/Docker/Основные компоненты Docker/Основные компоненты Docker.md",
-    "Wiki/devops/Devops.md",
-    "Wiki/devops/YAML/YAML.md",
-    "Wiki/devops/Vagrant/Vagrant.md",
     "Wiki/Programming Languages/Golang",
     "Wiki/Linux/SSH",
     "Personal",
@@ -216,7 +216,6 @@
     "Wiki/Web сервера/Nginx",
     "Wiki/Web сервера",
     "Wiki/Network/Динамическая маршрутизация/IGP — Interior Gateway Protocol - Доменная маршрутизация-",
-    "Wiki/Network/Динамическая маршрутизация/EGP — Exterior Gateway Protocol - Междоменная маршрутизация-",
     "Без названия.canvas",
     "ooTKTJlEM6YuD1ViQnM0_g.jpeg",
     "Untitled 1 7.png",
