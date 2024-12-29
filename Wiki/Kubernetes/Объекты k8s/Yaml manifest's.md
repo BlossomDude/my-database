@@ -3,7 +3,7 @@
 - [[#Replica Set]]
 - [[#Deployment]]
 - [[#Service]]
-
+- [[#Namespace]]
 
 У всех манифестов должны быть определены четыре блока:
 ```yaml
@@ -148,3 +148,29 @@ spec:
 Load Balancer:
 - Манифест файл сервиса типа LoadBalancer аналогичен NodePort. 
 - Если вы не работаете с облачным провайдером то LoadBalncer будет иметь такой же эффект как и NodePort
+
+## [[Namespace]]
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+```
+
+Манифест ResourceQuota для namespace:
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-rq
+  namespace: dev
+spec:
+  hard:
+    pods: "10"
+    requests.cpu: "4"
+    requests.memory: 5Gi
+    limits.cpu: "10"
+    limits.memoty: 10Gi
+    
+  
+```
