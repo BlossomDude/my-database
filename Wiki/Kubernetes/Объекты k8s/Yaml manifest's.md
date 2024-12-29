@@ -1,3 +1,10 @@
+
+- [[#Pod ]]
+- [[#Replica Set]]
+- [[#Deployment]]
+- [[#Service]]
+
+
 У всех манифестов должны быть определены четыре блока:
 ```yaml
 apiVersion:  # Версия Api для данного ресурса. ПОмогает правильно его обработать
@@ -7,7 +14,7 @@ spec:        # Основной блок. Спецификация нашего 
 ```
 
 
-## Pod
+## [[Pod]]
 
 ```yaml
  apiVersion: v1
@@ -27,16 +34,7 @@ spec:        # Основной блок. Спецификация нашего 
 		    - containerPort: 80 
 ```
 
-## Replication Controller & Replica Set
-
-Данные объекты нужны для автоматического создания и поддержания требуемого количество реплик подов в кластере, что обеспечивает высокую доступность и отказоустойчивость.
-
-- Replication Controller на данный момент считается старой версией Replica Set.
-
-- Главное отличие в них, это то что Replica Set требует наличие блока selector. В то время как в RC вы можете указывать, а можете не указывать этот блок. 
-
-- Selector позволяет благодаря сопоставлению меток создавать не только реплики пода который указан в блоке spec, но и уже существующих и будущих подов.   
-
+## [[Replica Set]]
 
 ##### Replication Controller:
 ```
@@ -55,6 +53,7 @@ spec:
   replicas: 2  
 ```
 ##### Replica Set:
+
 ```yaml
 apiVersion: apps/v1
 kind: ReplicaSet
@@ -70,7 +69,7 @@ spec:
           image: nginx
   replicas: 2  
   selector:
-    MatchLabels:
+    matchLabels:
       type: back-end
 ```
 
@@ -84,3 +83,68 @@ metadata:
     type: back-end
 ...
 ```
+
+
+## [[Deployment]]
+
+
+Файл конфигурации выглядит аналогично как и у RS:
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deploy
+spec:
+  template:
+    metadata:
+      name: my-pod
+    spec:
+      containers:
+        - name: container
+          image: nginx
+  replicas: 2  
+  selector:
+    matchLabels:
+      type: back-end
+```
+
+## [[Service]]
+
+NodePort:
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-svc
+spec:
+  type: NodePort
+  ports:
+  - targetPort: 80
+    port: 80
+    nodePort: 30080
+  selector:
+    matchLabels:
+      app: backend
+```
+
+ClusterIP:
+```
+apiVersion: v1
+kind Service
+metadata:
+  name: my-svc
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    matchLabels:
+      app: backend
+```
+Не обязательно явно указывать type: ClusterIP, тк это тип является по умолчанию.
+
+
+Load Balancer:
+- Манифест файл сервиса типа LoadBalancer аналогичен NodePort. 
+- Если вы не работаете с облачным провайдером то LoadBalncer будет иметь такой же эффект как и NodePort
