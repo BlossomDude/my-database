@@ -21,17 +21,12 @@ spec:        # Основной блок. Спецификация нашего 
   kind: Pod
     metadata:
       name: my-web
-        labels:          
-          env  : prod                
-          app  : main
-    	  tier : frontend
-    	  owner: NikitaNikolaev
     spec:
       containers:
-	    - name: container-web
-		  image: httpd:latest
-		  ports:
-		    - containerPort: 80 
+	  - name: container-web
+	    image: httpd:latest
+        ports:
+		- containerPort: 80 
 ```
 
 ## [[Replica Set]]
@@ -124,8 +119,7 @@ spec:
     port: 80
     nodePort: 30080
   selector:
-    matchLabels:
-      app: backend
+    app: backend
 ```
 
 ClusterIP:

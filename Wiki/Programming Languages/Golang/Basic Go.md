@@ -15,7 +15,7 @@ Created time: 2023-12-15T15:31
 - [[#Operators]]
 - [[#If-else, switch-case statements]]
 - [[#For loop]]
-- [[#Arrays]] | 
+- [[#Arrays]] | [[#Slices]] | [[#Map]]
 
 
 ---
@@ -53,8 +53,7 @@ comment
 | Arrays  | `[1, 2, 3, 4] ["foo", "bar"] [1.1, 9.03, 543.5]` | Array will be only one type, for example only string or only integer |
 | Slices  |                                                  |                                                                      |
 | Maps    | `"key" -> "value" 1 -> 100 "x" -> "87"`          | key-value type                                                       |
-|         |                                                  |                                                                      |
-|         |                                                  |                                                                      |
+
 
 ---
 
