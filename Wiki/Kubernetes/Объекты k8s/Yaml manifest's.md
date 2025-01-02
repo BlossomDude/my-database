@@ -1,9 +1,12 @@
-
+- [[#Binding]]
+- [[#Deployment]]
+- [[#LimitRange]]
+- [[#Namespace]]
 - [[#Pod ]]
 - [[#Replica Set]]
-- [[#Deployment]]
 - [[#Service]]
-- [[#Namespace]]
+
+
 
 У всех манифестов должны быть определены четыре блока:
 ```yaml
@@ -13,6 +16,115 @@ metadata:    # Метаданные. Указывать name нужно обяз
 spec:        # Основной блок. Спецификация нашего объекта.
 ```
 
+
+
+## Binding
+```
+apiVersion: v1
+kind: Binding
+metadata:
+  name: some-name
+target:
+  apiVersion: v1
+  kind: Node
+  name: node_name
+```
+
+
+## [[Daemon Set]]
+
+```yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: my-ds
+spec:
+  selector:
+    matchLabels:
+      agent: prometheus
+  template:
+    metadata:
+      labels:
+        agent: prometheus
+    spec:
+      containers:
+        - name: agent
+          image: prometheus-agent:latest
+```
+
+## [[Deployment]]
+
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deploy
+spec:
+  template:
+    metadata:
+      name: my-pod
+    spec:
+      containers:
+        - name: container
+          image: nginx
+  replicas: 2  
+  selector:
+    matchLabels:
+      type: back-end
+```
+
+## LimitRange
+Для назначения дефолтных настроек requests & limits создается специальный объект k8s - Limit Range:
+
+```
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: example-limitrange
+  namespace: default  # Указываем namespace, в котором будет применяться LimitRange
+spec:
+  limits:
+  - max:
+      cpu: "2"        # Максимум 2 ядра CPU для контейнера
+      memory: "1Gi"    # Максимум 1 ГБ памяти для контейнера
+    min:
+      cpu: "0.1"      # Минимум 0.1 ядра CPU для контейнера
+      memory: "128Mi"  # Минимум 128 MiB памяти для контейнера
+    default:
+      cpu: "0.5"       # По умолчанию контейнер получает 0.5 ядра CPU
+      memory: "256Mi"  # По умолчанию контейнер получает 256 MiB памяти
+    defaultRequest:
+      cpu: "0.2"       # Если контейнер не указывает requests, по ум. будет 0.2 CPU
+      memory: "200Mi"  # По умолчанию контейнер получит 200 MiB памяти
+    type: Container    # Тип ресурса: контейнер
+```
+
+## [[Namespace]]
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+```
+
+Манифест ResourceQuota для namespace:
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-rq
+  namespace: dev
+spec:
+  hard:
+    pods: "10"
+    requests.cpu: "4"
+    requests.memory: 5Gi
+    limits.cpu: "10"
+    limits.memoty: 10Gi
+    
+  
+```
 
 ## [[Pod]]
 
@@ -28,6 +140,7 @@ spec:        # Основной блок. Спецификация нашего 
         ports:
 		- containerPort: 80 
 ```
+
 
 ## [[Replica Set]]
 
@@ -79,29 +192,21 @@ metadata:
 ...
 ```
 
+## ResourceQuota
 
-## [[Deployment]]
-
-
-Файл конфигурации выглядит аналогично как и у RS:
-
-```
-apiVersion: apps/v1
-kind: Deployment
+```yaml
+apiVersion: v1
+kind: ResourceQuota
 metadata:
-  name: my-deploy
+  name: my-rq
 spec:
-  template:
-    metadata:
-      name: my-pod
-    spec:
-      containers:
-        - name: container
-          image: nginx
-  replicas: 2  
-  selector:
-    matchLabels:
-      type: back-end
+  hard:
+    requests.cpu: 4
+    requests.memory: 4Gi
+    limits.cpu: 10
+    limits.memory. 10Gi
+    pods: "10"
+    services: "10"
 ```
 
 ## [[Service]]
@@ -143,30 +248,3 @@ Load Balancer:
 - Манифест файл сервиса типа LoadBalancer аналогичен NodePort. 
 - Если вы не работаете с облачным провайдером то LoadBalncer будет иметь такой же эффект как и NodePort
 
-## [[Namespace]]
-```
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: dev
-```
-
-Манифест ResourceQuota для namespace:
-```
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: my-rq
-  namespace: dev
-spec:
-  hard:
-    pods: "10"
-    requests.cpu: "4"
-    requests.memory: 5Gi
-    limits.cpu: "10"
-    limits.memoty: 10Gi
-    
-  
-```
-
-## Binding
