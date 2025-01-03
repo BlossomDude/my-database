@@ -1,4 +1,5 @@
 - [[#Binding]]
+- [[#ConfigMap]]
 - [[#Deployment]]
 - [[#LimitRange]]
 - [[#Namespace]]
@@ -28,6 +29,19 @@ target:
   apiVersion: v1
   kind: Node
   name: node_name
+```
+
+## [[ConfigMap]]
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-cm
+data:
+  APP_COLOR: blue
+  KEY: value
+  ...
 ```
 
 
@@ -137,8 +151,26 @@ spec:
       containers:
 	  - name: container-web
 	    image: httpd:latest
+        command: ["sleep"]     # Переопределяет команду в ENTRYPOINT
+        args: ["100"]          # Переопределяет параметр в CMD
+	    env:
+	      - name: polygon      # Пример использования переменной окружения
+	        value: prod
+	      - name: polygon      # Использование переменной из configMap 
+	        valueFrom:
+	          configMapKeyRef:
+	            key: APP_COLOR
+	            name: app_config
+	      - name: polygon      # ИСпользование секрета как переменной
+	        valueFrom:
+	          secretKeyRef:
+	    envFrom:               # Прикручивание CM в под
+	      - configMapRef:
+	        name: my-cmap       
+        
         ports:
 		- containerPort: 80 
+		
 ```
 
 

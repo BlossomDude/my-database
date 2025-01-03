@@ -30,16 +30,16 @@ RUN apk add -U --no-cache ...Так же, для оптимизации разм
 - Использование многоступенчатой сборки.
     
     Сначала собирается образ с необходимыми инструментами для сборки, а затем копируются только необходимые файлы в новый, чистый образ.
-    
-    ```Docker
-    # Стадия сборки
-    FROM golang:1.13 AS build
-    WORKDIR /src
-    COPY . .
-    RUN go build -o /bin/myapp
-    
-    # Финальный образ
-    FROM alpine
-    COPY --from=build /bin/myapp /bin/myapp
-    ENTRYPOINT ["/bin/myapp"]
-    ```
+
+```Docker
+# Стадия сборки
+FROM golang:1.13 AS build
+WORKDIR /src
+COPY . .
+RUN go build -o /bin/myapp
+
+# Финальный образ
+FROM alpine
+COPY --from=build /bin/myapp /bin/myapp
+ENTRYPOINT ["/bin/myapp"]
+```
