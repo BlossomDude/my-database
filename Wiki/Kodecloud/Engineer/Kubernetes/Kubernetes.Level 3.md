@@ -56,7 +56,7 @@ kubectl apply -f values.yaml -n httpd-namespace-nautilus
 ### Problem
 
 ### Solution
-```bash
+```yaml
 kubectl create secret generic database \
 --from-literal=MYSQL_ROOT_PASSWORD=nbtech \
 --from-literal=MYSQL_DATABASE=kodekloud \
@@ -65,7 +65,7 @@ kubectl create secret generic database \
 --from-literal=MYSQL_HOST=mysql-service
 ```
 
-```bash
+```yaml
 apiVersion: v1
 kind: Secret
 metadata:
@@ -207,7 +207,7 @@ spec:
 
 ```
 
-``` 
+``` php
 <?php
 $dbname = getenv('MYSQL_DATABASE');
 $dbuser = getenv('MYSQL_USER');
