@@ -1,5 +1,5 @@
 - [[#Binding]]
-- [[#ConfigMap]]
+- [[#ConfigMap & Secret]]
 - [[#Deployment]]
 - [[#LimitRange]]
 - [[#Namespace]]
@@ -31,7 +31,7 @@ target:
   name: node_name
 ```
 
-## [[ConfigMap]]
+## [[ConfigMap & Secret]]
 
 ```yaml
 apiVersion: v1
@@ -42,6 +42,16 @@ data:
   APP_COLOR: blue
   KEY: value
   ...
+```
+
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-secret
+data:
+  DB_PASS: pa$$word
+  TOKEN: HU&*%GY#(SJA
 ```
 
 
