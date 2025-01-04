@@ -6,7 +6,7 @@ Config Map можно использовать в поде по разному:
 
 Как volume:
 ```yaml
-volume:
+volumes:
   - name: my-cmap-volume
     configMap:
       name: my-cmap
