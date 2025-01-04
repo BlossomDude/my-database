@@ -225,7 +225,9 @@ if ($result->connect_error) {
   echo "Connected successfully";
 ```
 
-
+```bash
+kubectl cp /tmp/index.php lamp-wp-4jndi88h:/app -c httpd-php-container
+```
 
 
 ----
