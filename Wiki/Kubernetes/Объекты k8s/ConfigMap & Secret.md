@@ -32,6 +32,23 @@ envFrom:
 >[!important]
 >ConfigMap указывается в `spec`'e пода
 
+Для того чтобы взять из ConfigMap файл, необходимо указать блок volume так:
+```yaml
+volume:
+  - name: volume_name
+    configMap:
+      name: cm_name
+      items:
+        - key: index.php      # Имя файла из CM 
+          path: index.php     # Путь в который будет скопированы данные
+
+---
+
+volumeMount:
+  - mountPath: /app/index.php # Указываем полный путь
+    name: volume_name 
+    subPath: index.php        # Указываем файл который передаем
+```
 
 ## Secret
 
@@ -95,3 +112,4 @@ volume:
 
 > [! important]
 > Для шифрования секретов etcd можно настроить создать и настроить объект `EncryptionConfiguration`
+

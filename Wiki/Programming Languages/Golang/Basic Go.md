@@ -462,3 +462,37 @@ func getSum(numbers ...int) (sum int) {
 }
 
 ```
+
+Анонимная функция:
+```go
+x := func(a int, b int) int {
+	return a * b
+}
+fmt.Println(x(2, 2))
+// Output: 4
+
+x := func(a int, b int) int {
+	return a * b
+}(10, 10)
+fmt.Println(x)
+// Output: 100
+```
+
+Рекурсивная функция:
+```go
+func factorial(n int) (fac int) {
+    if n == 1 {
+        return 1
+    }
+    return n * factorial(n-1)
+}
+```
+
+High-order функция:
+Функция которая либо принимает в качестве параметра функцию, либо возвращает функцию:
+```go
+func printResult(radius float64, calcFunction func (r float64) float64) {
+	result := calcFuntion(radius)
+	fmt.Println("Result:", result)
+}
+```
