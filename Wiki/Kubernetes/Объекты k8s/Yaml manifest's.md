@@ -55,6 +55,33 @@ data:
 ```
 
 
+## [[kubeconfig | Config]]
+
+```yaml
+apiVersion: v1
+kind: Config
+
+clusters:
+- cluster:
+    certificate-authority-data: DATA+OMITTED
+    server: https://controlplane:6443
+  name: kubernetes
+
+contexts:
+- context:
+    cluster: kubernetes
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
+
+users:
+- name: kubernetes-admin
+  user:
+    client-certificate-data: DATA+OMITTED
+    client-key-data: DATA+OMITTED
+
+```
+
 ## [[Daemon Set]]
 
 ```yaml
