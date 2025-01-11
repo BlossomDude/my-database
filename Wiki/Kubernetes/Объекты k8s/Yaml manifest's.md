@@ -1,24 +1,22 @@
-- [[#Binding]]
-- [[#ConfigMap & Secret]]
-- [[#Deployment]]
-- [[#LimitRange]]
-- [[#Namespace]]
-- [[#Pod ]]
-- [[#Replica Set]]
-- [[#Service]]
 
-
-
-У всех манифестов должны быть определены четыре блока:
+У всех манифестов должны быть определены обязательно три блока:
 ```yaml
 apiVersion:  # Версия Api для данного ресурса. ПОмогает правильно его обработать
 kind:        # Тип объекта 
 metadata:    # Метаданные. Указывать name нужно обязательно
-spec:        # Основной блок. Спецификация нашего объекта.
 ```
 
+Все ресурсы кластера классифицируются как:
+- Namespace - ресурсы принадлежащие кластеру.
+	Pods, Deployment, Services, ConfigMaps, Secrets и остальные ресурсы которые создаются в определенном неймспейсе.
+	Посмотреть весь список:
+		`kubectl api-resources --namespaced=true`
+- Cluster scoped - ресурсы области кластера.
+	Nodes, PV, ClusterRoles, Namespaces и другие при создании которых мы не указываем namespace, потому-что они работают на уровне выше.
+	Посмотреть весь список:
+		`kubectl api-resources --namespaced=true`
 
-
+---
 ## Binding
 ```
 apiVersion: v1
@@ -30,7 +28,7 @@ target:
   kind: Node
   name: node_name
 ```
-
+---
 ## [[ConfigMap & Secret]]
 
 ```yaml
@@ -54,7 +52,7 @@ data:
   TOKEN: HU&*%GY#(SJA
 ```
 
-
+---
 ## [[kubeconfig | Config]]
 
 ```yaml
@@ -81,7 +79,7 @@ users:
     client-key-data: DATA+OMITTED
 
 ```
-
+----
 ## [[Daemon Set]]
 
 ```yaml
@@ -102,7 +100,7 @@ spec:
         - name: agent
           image: prometheus-agent:latest
 ```
-
+---
 ## [[Deployment]]
 
 
@@ -124,7 +122,7 @@ spec:
     matchLabels:
       type: back-end
 ```
-
+---
 ## LimitRange
 Для назначения дефолтных настроек requests & limits создается специальный объект k8s - Limit Range:
 
@@ -150,7 +148,7 @@ spec:
       memory: "200Mi"  # По умолчанию контейнер получит 200 MiB памяти
     type: Container    # Тип ресурса: контейнер
 ```
-
+---
 ## [[Namespace]]
 ```
 apiVersion: v1
@@ -174,9 +172,49 @@ spec:
     limits.cpu: "10"
     limits.memoty: 10Gi
     
-  
+
 ```
 
+---
+## [[Безопасность|NetworkPolicy]]
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app-policy
+spec:
+  podSelector:                     # Для какого пода политика
+    matchLabels:
+      role: app
+  policyTypes:
+    - Ingress                      # Тип трафика
+    - Egress
+  ingress:
+  - from:
+    - podSelector:                 # От какого пода трафик будет идти
+        matchLabels:
+          name: api-pod
+      nameSpaceSelector:           # Указать неймспейс где будет работать политика
+        matchLabels:
+          name: prod
+    - ipBlock:
+        cidr: 192.168.1.20/32      # Указать подсеть с которого может поступать
+    ports:                         # трафик
+    - protocol: TCP
+      port: 3306
+  
+  egress:
+  - to:
+    - ipBlock:
+        cidr: 192.168.1.20/32
+    ports:
+    - protocol: TCP
+      port: 80
+
+```
+
+---
 ## [[Pod]]
 
 ```yaml
@@ -210,7 +248,7 @@ spec:
 		
 ```
 
-
+---
 ## [[Replica Set]]
 
 ##### Replication Controller:
@@ -261,6 +299,7 @@ metadata:
 ...
 ```
 
+---
 ## ResourceQuota
 
 ```yaml
@@ -278,6 +317,84 @@ spec:
     services: "10"
 ```
 
+---
+## [[Безопасность | Role & RoleBinding ]]
+
+##### Role
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: developer
+rules:
+    // Для core группы можно оставить эту строку пустой
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["list", "get", "create", "update", "delete"]
+  - apiGroups: [""]
+    resources: ["development"]
+    verbs: ["list", "get", "update"]
+    //Можно ограничинить доступ к определенным объектам с определенным названием
+    resourceNames: ["blue", "orange"]
+  - apiGroup: [""]
+    resources: ["ConfigMap"]
+    verbs: ["create"]
+```
+
+##### RoleBinding
+```yaml
+apiVersion:
+kind:
+metadata:
+  name: devusers-developer-binding
+  namespace: some_space
+roleRef:
+    kind: Role
+    name: developer
+    apiGroup: rbac.authorization.k8s.io
+subjects:
+  - kind: User
+    name: john
+    apiGroup: rbac.authorization.k8s.io
+  - kind: Group
+    name: testers
+    apiGroup: rbac.authorization.k8s.io
+
+```
+
+---
+##### ClusterRole
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: cluster-admin
+rules:
+    // Для core группы можно оставить эту строку пустой
+  - apiGroups: [""]
+    resources: ["nodes"]
+    verbs: ["list", "get", "create", "delete"]
+  - apiGroups: [""]
+    resources: ["development"]
+    verbs: ["list", "get", "update"]
+```
+
+##### ClusterRoleBinding
+```yaml
+apiVersion:
+kind:
+metadata:
+  name: cluster-admin-binding
+roleRef:
+    kind: Role
+    name: cluster-admin
+    apiGroup: rbac.authorization.k8s.io
+subjects:
+  - kind: User
+    name: john
+    apiGroup: rbac.authorization.k8s.io
+```
+---
 ## [[Service]]
 
 NodePort:
@@ -317,3 +434,4 @@ Load Balancer:
 - Манифест файл сервиса типа LoadBalancer аналогичен NodePort. 
 - Если вы не работаете с облачным провайдером то LoadBalncer будет иметь такой же эффект как и NodePort
 
+---

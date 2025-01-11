@@ -26,7 +26,8 @@ C его помощью обеспечивается работа API класт
 - `/api` - core группа 
 	- Хранит в себе `/v1/pods`, `/v1/namespaces`, `rc`, `pv`, `pvc`, `services` и тд 
 - `/apis` - named группа, дальнейшие новые функции будут реализованы через него
-	- `/apps/v1/deployments(rs,statefulset)`, `/extensions`, `/certificates.k8s.io` и тд
+	- `/apps/`, `/extensions`, `/certificates.k8s.io` и тд
+		Они в себе хранят объекты k8s. После них указываются глаголы - `verbs` - например `create`, `list`, `delete`, `update` которые указывают на действие которое мы хотим сделать.
 - `/logs`
 - `/version`
 - `/metrics`
