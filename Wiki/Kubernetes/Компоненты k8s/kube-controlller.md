@@ -11,9 +11,9 @@ kube-controller-manager - процесс, который непрерывно с
 ```
 --node-monitor-grace-period=40s
 --node-monitor-period=5s
---pod-eviction-timeout=30s
+--pod-eviction-timeout=300s
 ```
-Данные параметры можно настроить в systemd файле.
+Данные параметры можно настроить в systemd файле или в манифесте контроллера.
 
 ###### Replication Controller.
 - Следит за состоянием Replica Sets.
@@ -24,6 +24,34 @@ kube-controller-manager - процесс, который непрерывно с
 >namespace-controller, deployment-controller, daemon-set-controller и тд
 >Многие объекты имеют собственные контроллеры
 
-Вот список некоторых контроллеров:
-- CSR-SIGNING - отвечает за сертификаты
-- CSR-APPROVING - отвечает за подписание сертификатов
+Вот список стандартных встроенных контроллеров:
+- CSR-SIGNING - отвечает за сертификаты.
+- CSR-APPROVING - отвечает за подписание сертификатов.
+- Node Controller
+- Replication Controller
+- ReplicaSet Controller
+- Deployment Controller
+- StatefulSet Controller
+- DaemonSet Controller
+- Job Controller
+- CronJob Controller
+- Service Controller
+- Endpoint Controller
+- Namespace Controller
+- Service Account Controller
+- ResourceQuota Controller
+- LimitRange Controller
+- PersistentVolume Controller
+- PersistentVolumeBinder Controller
+- Horizontal Pod Autoscaler Controller
+- TTL Controller
+- Garbage Collector Controller
+- Token Controller
+- CertificateSigningRequest Controller
+- Lease Controller
+- Cloud Route Controller
+- Cloud Node Controller
+- Cloud Service Controller
+- IngressClass Controller
+- Volume Expansion Controller
+- Volume Attachment Controller

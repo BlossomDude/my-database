@@ -213,6 +213,36 @@ spec:
       port: 80
 
 ```
+---
+## [[PersistantVolume & PVClaim]]
+
+```yaml
+apiVersion: v1
+kind: PersistantVolume
+metadata:
+  name: my-pv
+spec:
+  accessMode:
+    - ReadWriteOnce
+  capacity:
+    storage: 1G
+  hostPath:
+    path: /tmp/data
+```
+--- 
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: standard
+```
 
 ---
 ## [[Pod]]
@@ -318,7 +348,7 @@ spec:
 ```
 
 ---
-## [[Безопасность | Role & RoleBinding ]]
+## [[Безопасность|Role & RoleBinding ]]
 
 ##### Role
 ```yaml
@@ -434,4 +464,17 @@ Load Balancer:
 - Манифест файл сервиса типа LoadBalancer аналогичен NodePort. 
 - Если вы не работаете с облачным провайдером то LoadBalncer будет иметь такой же эффект как и NodePort
 
+---
+## [[StorageClass]]
+```yaml
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast-ssd
+provisioner: kubernetes.io/gce-pd  # Использует Google Cloud Persistent Disk
+parameters:
+  type: pd-ssd  # Тип хранилища (SSD)
+reclaimPolicy: Retain  # Оставить данные при удалении PVC
+volumeBindingMode: WaitForFirstConsumer  # Ожидать потребителя перед выделением
+```
 ---

@@ -33,5 +33,11 @@ ETCD - В нем хранится состояние всего кластера
 Итого для работы `etcdctl` с версией API 3 необходимо ввести данную команду
 ``` bash
 kubectl exec etcd-controlplane -n kube-system \ 
-     -- sh -c "ETCDCTL_API=3 etcdctl get / --prefix --keys-only --limit=10 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key"
+     -- sh -c "ETCDCTL_API=3 etcdctl get / \
+     --prefix \
+     --keys-only \
+     --limit=10 \
+     --cacert /etc/kubernetes/pki/etcd/ca.crt \
+     --cert /etc/kubernetes/pki/etcd/server.crt \
+     --key /etc/kubernetes/pki/etcd/server.key"
 ```

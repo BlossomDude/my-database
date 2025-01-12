@@ -411,10 +411,7 @@ spec:
         - configMapRef:
             name: time-config
       command: ["/bin/sh", "-c"]
-      args:
-        [
-        "while true; do date; sleep $TIME_FREQ;done > /opt/devops/time/time-check.log",
-        ]
+      args:["while true; do date; sleep $TIME_FREQ;done > /opt/devops/time/time-check.log"]
 
 
 
