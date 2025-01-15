@@ -22,28 +22,19 @@ Created time: 2023-08-17T15:14
 **Очень важно ставить отступы, **строго 2 пробела.**
 
 - Списки - используются “-”
-    
     ```YAML
-    fruits:
-      - banana
-      - apple
-      - orange
+fruits:
+  - banana
+  - apple
+  - orange
     ```
-    
+
 - Словарь 
-    
-    ```YAML
-    pen:
-      color: yellow
-      model:
-        type: pen
-        material: plastic
-      price: 2
-    ```
-    
-      
-    
-
-Пример `docker compose.yml`:
-
-![[/Untitled 9.png|Untitled 9.png]]
+```YAML
+pen:
+  color: yellow
+  model:
+	type: pen
+	material: plastic
+  price: 2
+```

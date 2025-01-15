@@ -457,12 +457,23 @@ tee
 	`--add-port=3000/tcp` - открыть порт
 	`--add-service=http` - разрешить сервис
 	`--remove-port=80` - заблокировать порт
+
 `ip`
-	`ip route add 1.1.1.1 via 2.2.2.2` - Прописать маршрут до 1 через 2 
-	`ip route add default via 1.1.1.1` - Добавить шлюз со значением 1   
-	`ip addr <add/delete> <10.0.0.40/24> dev <enp0s1>` - добавить или удалить ip адрес у интерфейса 
-	`ip link set dev <enp0s1> <up/down>` - вкл. или выкл. интерфейс
+	`addr <add/delete> <ip> dev <enp0s1>` - добавить или удалить ip адрес у интерфейса
+	`link add <veth1> type veth peer name <veth2>` - создать вирт. кабель с двумя интерфейсами на концах.
+		`link set <veth1> netns <ns1>` - привязать один конец кабеля к namespace
+	`link add <eth> type bridge` - Создать виртуальный интерфейс типа bridge (switch)
+	`link set dev <enp0s1> <up/down>` - вкл. или выкл. интерфейс
+	`netns` - Вывести список network namespaces
+		`add <ns_name>` - Создать network namespace 
+		`exec <ns_name> <command>` - выполнить команду в network namespace ns_name
+			`ip -n <ns_name> <command>` - аналогичная команда
+	`route add 1.1.1.1 via 2.2.2.2` - Прописать маршрут до 1 через 2 
+	`route add default via 1.1.1.1` - Добавить шлюз со значением 1   
+
 `nethogs` - выводит программы по списку, от наиболее затратных до наименее.
+
+
 
 `ss`
 	`-l` - listen
@@ -473,15 +484,21 @@ tee
 	`-tulpn` - посмотреть открытые порты
 
 `iptables`
-	`-L` - Список текущих правил
 	`-A INPUT` - Добавить правило
-	`-I OUTPUT` - Добавить правило в начало списка правил
+	`-d` - destination
 	`-D OUTPUT 5` - Удалить (пятое output) правило
+	`-I OUTPUT` - Добавить правило в начало списка правил
+	`-L` - Список текущих правил
 	`-p tcp` - Протокол
 	`-s` - source
-	`-d` - destination
+	`-t <nat>` - Тип 
+	Examples:
+		Включить NAT на интерфейсе:
+		`iptables -t nat -A POSTROUTING -s <ip/mask> -j MASQUERADE`
+		
+
 	`-dport 22` - dectination port
-	`-j ACCEPT` - какое выполнить действие
+	`-j <ACCEPT/MASQUERADE>` - какое выполнить действие
 
 `ufw`
 	`allow <22/tcp>` - Разрешить порт по протоколу tcp
