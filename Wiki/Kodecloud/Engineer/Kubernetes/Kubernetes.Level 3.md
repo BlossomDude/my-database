@@ -236,19 +236,64 @@ kubectl cp /tmp/index.php lamp-wp-4jndi88h:/app -c httpd-php-container
 
 ### Problem
 ```
+There are some applications that need to be deployed on Kubernetes cluster and these apps have some pre-requisites where some configurations need to be changed before deploying the app container. Some of these changes cannot be made inside the images so the DevOps team has come up with a solution to use init containers to perform these tasks during deployment. Below is a sample scenario that the team is going to test first.   
 
-
----
-
-
+1. Create a `Deployment` named as `ic-deploy-datacenter`.           
+2. Configure `spec` as replicas should be `1`, labels `app` should be `ic-datacenter`, template's metadata lables `app` should be the same `ic-datacenter`.
+3. The `initContainers` should be named as `ic-msg-datacenter`, use image `debian`, preferably with `latest` tag and use command `'/bin/bash'`, `'-c'` and `'echo Init Done - Welcome to xFusionCorp Industries > /ic/beta'`. The volume mount should be named as `ic-volume-datacenter` and mount path should be `/ic`.      
+4. Main container should be named as `ic-main-datacenter`, use image `debian`, preferably with `latest` tag and use command `'/bin/bash'`, `'-c'` and `'while true; do cat /ic/beta; sleep 5; done'`. The volume mount should be named as `ic-volume-datacenter` and mount path should be `/ic`.  
+5. Volume to be named as `ic-volume-datacenter` and it should be an emptyDir type.
 ```
 
 ### Solution
 ```bash
+k create deployment --image debian ic-deploy-datacenter --dry-run=client -o yaml
+vi deploy.yaml
+# Edit deploy.yaml
+k aplly -f deploy.yaml
 
+k logs <container> -f
 ```
 
-
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: ic-datacenter
+  name: ic-deploy-datacenter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ic-datacenter
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ic-datacenter
+    spec:
+      containers:
+      - image: debian
+        name: main-volume-datacenter
+        volumeMounts:
+        - name: ic-volume-datacenter
+          mountPath: /ic
+        command: ["/bin/bash", "-c"]
+        args: ["while true; do cat /ic/beta; sleep 5; done"]
+      initContainers:
+      - name: ic-msg-datacenter
+        image: debian
+        volumeMounts:
+        - name: ic-volume-datacenter
+          mountPath: /ic
+        command: ["/bin/bash", "-c"]
+        args: ["echo Init Done - Welcome to xFusionCorp Industries > /ic/beta"]
+      volumes:
+        - name: ic-volume-datacenter
+          emptyDir: {}
+```
 
 
 ----
@@ -257,18 +302,81 @@ kubectl cp /tmp/index.php lamp-wp-4jndi88h:/app -c httpd-php-container
 
 ### Problem
 ```
+The Nautilus DevOps team is working on a Kubernetes template to deploy a web application on the cluster. There are some requirements to create/use persistent volumes to store the application code, and the template needs to be designed accordingly. Please find more details below:
 
-
----
-
-
+  
+1. Create a `PersistentVolume` named as `pv-xfusion`. Configure the `spec` as storage class should be `manual`, set capacity to `3Gi`, set access mode to `ReadWriteOnce`, volume type should be `hostPath` and set path to `/mnt/dba` (this directory is already created, you might not be able to access it directly, so you need not to worry about it).
+    
+2. Create a `PersistentVolumeClaim` named as `pvc-xfusion`. Configure the `spec` as storage class should be `manual`, request `3Gi` of the storage, set access mode to `ReadWriteOnce`.
+    
+3. Create a `pod` named as `pod-xfusion`, mount the persistent volume you created with claim name `pvc-xfusion` at document root of the web server, the container within the pod should be named as `container-xfusion` using image `httpd` with `latest` tag only (remember to mention the tag i.e `httpd:latest`).
+    
+4. Create a node port type service named `web-xfusion` using node port `30008` to expose the web server running within the pod.
 ```
 
 ### Solution
-```bash
-
+```yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-xfusion
+spec:
+  storageClassName: manual
+  capacity: 
+    storage: 3Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /mnt/dba
 ```
 
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-xfusion
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 3Gi
+```
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-xfusion
+  labels:
+    app: httpd
+spec:
+  containers:
+  - image: httpd:latest
+    name: container-xfusion
+    volumeMounts:
+    - mountPath: /var/www/html
+      name: pvc
+  volumes:
+    - name: pvc
+      persistentVolumeClaim:
+        claimName: pvc-xfusion
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-xfusion
+spec:
+  type: NodePort
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+  selector:
+    app: httpd
+```
 
 
 

@@ -7,3 +7,12 @@ kube-proxy - Служба, которая управляет правилами 
 >[!important]
 >kube-proxy это один контейнер в DaemonSet. Он работает на каждом узле.
 
+У kube-proxy есть три `proxy-mode` - режимы работы:
+- IPVS правила
+- Userspace - слушает порт для каждого сервиса 
+- IPTables (по умолчанию)
+
+Для назначения режима работы укажите его во время конфигурации kube-proxy:
+`kube-proxy --proxy-mode <proxy-mode>` 
+
+При создании объекта Service, kube-proxy создает правило iptables для этого сервиса.
