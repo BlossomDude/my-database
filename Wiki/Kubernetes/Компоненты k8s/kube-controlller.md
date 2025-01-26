@@ -24,7 +24,7 @@ kube-controller-manager - процесс, который непрерывно с
 >namespace-controller, deployment-controller, daemon-set-controller и тд
 >Многие объекты имеют собственные контроллеры
 
-Вот список стандартных встроенных контроллеров:
+###### Cписок стандартных встроенных контроллеров:
 - CSR-SIGNING - отвечает за сертификаты.
 - CSR-APPROVING - отвечает за подписание сертификатов.
 - Node Controller
