@@ -279,7 +279,7 @@ spec:
 ```
 
 ---
-## [[Replica Set]]
+## [[Wiki/devops/Kubernetes/Объекты k8s/Replica Set]]
 
 ##### Replication Controller:
 ```

@@ -329,7 +329,7 @@ var fruits [3] string
 var numbers [5] int = [5]int{0, 1, 2, 3, 4}
 
 // Простое определение:
-vegetables := [2]string{}"tomato", "cucumber"}
+vegetables := [2]string{"tomato", "cucumber"}
 
 // Не указываем кол-во элементов. Компилятор сам определит.
 grades := [...]int{5, 4, 5, 3, 5}

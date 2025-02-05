@@ -5,7 +5,7 @@ Created time: 2023-08-17T15:14
 ---
   
 
-[[Wiki/Docker/Compose Docker/Команды|Команды]]
+[[Wiki/devops/Docker/Compose Docker/Команды|Команды]]
 
 [[docker-compose.yml]]
 
