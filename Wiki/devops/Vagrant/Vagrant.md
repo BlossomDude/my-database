@@ -26,7 +26,7 @@ Created time: 2023-12-13T20:38
 
 `vagrant resume` - возобновить
 
-`vagrant hult` - приостановить вм без сохранения
+`vagrant halt` - приостановить вм без сохранения
 
 `vagrant destroy` - полное удаление
 

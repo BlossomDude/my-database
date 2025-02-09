@@ -451,6 +451,8 @@ tee
 > [!important] 
 > [[Wiki/Network/Network]]
 
+`dig` - команда для работы с DNS
+
 `firewall-cmd --permanent --zone=public --add-port=3000/tcp`
 	`firewall-cmd --permanent --add-service=http` - разрешить http
 	`--zone=public` -
