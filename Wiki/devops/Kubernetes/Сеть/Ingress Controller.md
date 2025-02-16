@@ -88,7 +88,7 @@ spec:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: ngin-controller-service-account
+  name: nginx-controller-service-account
 ```
 
 ---
@@ -96,7 +96,7 @@ metadata:
 
 Набор правил которые вы настраиваете на Ingress Controller'е называется `Ingress Resources`
 
-Для этого создается файл с типом `Ingress`:
+Для этого создается объект с типом `Ingress`:
 
 - С одним путем/хостом: 
 ```yaml

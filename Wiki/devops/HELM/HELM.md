@@ -35,7 +35,7 @@ Created time: 2024-06-10T16:05
 ### Шаблонизация
 
 `{{ .Release.Name }}` - подставит имя релиза
-`{{ .Release.NameSpace }}`
+`{{ .Release.Namespace }}`
 `{{ .Release.IsUpgarde }}`
 `{{ .Release.IsInstall }}`
 `{{ .Release.Revision }}`
@@ -49,7 +49,6 @@ Created time: 2024-06-10T16:05
 `{{ .Chart.Type }}`
 `{{ .Chart.Keywords }}`
 `{{ .Chart.Home }}`  
-  
 
 Обращение к Template  
 `{{ .Template.Name }}` 
@@ -59,17 +58,16 @@ Created time: 2024-06-10T16:05
 Обращение к свойствам values.yaml (Значения чувствительны к регистру)
 
 `{{ .Values.replicaCount }}` -
-
 `{{ .Values.image }}` -
 
 Сведения о кластере k8s
 
 `{{ .Capabilities.HelmVersion }}`
-
 `{{ .Capabilities.KubeVersion }}`
-
-`{{ .Capabilities.APIVeresions }}`
-
+`{{ .Capabilities.ApiVersions }}`
+`{{ .Capabilities.GitCommit }}`
+`{{ .Capabilities.GitTreeState }}`
+`{{ .Capabilities.GoVersion }}`
   
 
 ### Проверка чарта
