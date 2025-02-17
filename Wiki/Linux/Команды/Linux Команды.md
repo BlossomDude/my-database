@@ -37,6 +37,10 @@ Created time: 2023-07-04T14:13
 `lvresize --size 752M <VG_name>/<LVM_name>`  - поменять размер LVM 
 `lvremove <VG_name>/<LVM_name>` - Удалить LVM
 
+`ldd /путь/к/бинарнику` - Проверка зависимостей бинаря
+
+`strings /путь/к/бинарнику` - преобразует бинарный код в текст, позволяет посмотреть код бинарника.
+
 `vgdisplay` - вывести список LVM
 `vgcreate <my_vg_group> <pv1> <pv2>...` - Создать группу томов (Volume Group)
 `vgextend <my_vg_group> <pv1> <pv2>...` - Добавить Pv в группу томов (Volume Group)
